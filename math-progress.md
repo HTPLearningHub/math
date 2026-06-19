@@ -7,15 +7,22 @@
 - **Real numbers (intro)** — taught (awaiting student's exercises). Covers: the number
   systems ℕ⊂ℤ⊂ℚ⊂ℝ, decimal test for rationality, field axioms, order + absolute value +
   triangle inequality + intervals, proof that √2 is irrational, completeness (least upper
-  bound) and density of ℚ in ℝ.
+  bound) and density of ℚ in ℝ. Student asked for clarification on the ⇐ direction of the
+  decimal test (repeating decimal → fraction); re-explained with the 10^k-shift trick.
+- **Algebra essentials** — taught (awaiting student's exercises). Covers: expressions /
+  like terms (= distributive law backwards), laws of exponents (with proofs) + negative
+  exponents, scientific notation, solving linear equations (properties of equality,
+  uniqueness of -b/a), linear inequalities + the flip-the-sign rule (proved),
+  absolute-value equations & inequalities.
 
 ## Current Focus
-Topic 1 of `math-topic.md`: **Real Numbers**. Notebook delivered; student to study it and
-complete the 20 exercises. Next topic in queue: **2. Algebra Essentials**.
+Topic 2 of `math-topic.md`: **Algebra Essentials**. Notebook delivered; student to study
+it and complete the 20 exercises. Next topic in queue: **3. Geometry Essentials**.
 
 ## Known Weak Spots (auto-revisit these)
-- _none recorded yet — first lesson just delivered; assess from the student's exercise
-  answers (especially the proof exercises 16–20)._
+- **Repeating-decimal → fraction** (decimal test, ⇐ direction): needed a second
+  explanation. Re-quiz next session (e.g. "convert 0.\overline{27} to a fraction").
+- Otherwise assess from the student's exercise answers (especially proofs).
 
 ## Session Log
 <!-- Most recent first. Template:
@@ -26,6 +33,21 @@ complete the 20 exercises. Next topic in queue: **2. Algebra Essentials**.
 - Homework given:
 - Next session plan:
 -->
+
+### Session 2 — 2026-06-19
+- **Topic taught:** Algebra Essentials (topic 2 of `math-topic.md`).
+- **Notebook created:** `notebooks/02-algebra-essentials.ipynb` (20 cells; verified it
+  runs end-to-end with nbconvert --execute).
+- **Content:** like terms via distributive law, laws of exponents (proved) + negative
+  exponents, scientific notation, linear equations (properties of equality, unique -b/a),
+  linear inequalities + flip-the-sign rule (proved), absolute-value eqns/inequalities
+  with a matplotlib picture.
+- **What went well:** Student engaged with lesson 1 — asked a good question about the
+  repeating-decimal proof, which I re-explained.
+- **Mistakes / misconceptions to revisit:** repeating-decimal → fraction (see Weak Spots).
+- **Homework given:** 20 exercises (simplify, sci-notation, solve, proofs #16–20).
+- **Next session plan:** Quiz on exponent laws + repeating-decimal conversion. Then start
+  **Geometry Essentials** (topic 3): notebook `03-geometry-essentials.ipynb`.
 
 ### Session 1 — 2026-06-19
 - **Topic taught:** Real Numbers (topic 1 of `math-topic.md`). First real lesson.
