@@ -19,10 +19,15 @@
   angles, triangle angle sum = 180° (proved), Pythagorean theorem (rearrangement proof),
   perimeter/area/circles + π, coordinate geometry (distance/midpoint/slope) with the link
   distance = Pythagoras = Euclidean distance/norm (AI hook).
+- **Polynomials** — taught (awaiting student's exercises). Covers: definition / degree /
+  leading coeff / standard form / type names, add-subtract (combine like terms),
+  multiply (distributive + FOIL), special products (a±b)² and (a+b)(a−b)=a²−b² (proved),
+  degree rules deg(pq)=deg p+deg q (proved) & deg(p+q)≤max, evaluation + graph shape
+  (turns, end behaviour). sympy Poly + numpy.polyval + matplotlib.
 
 ## Current Focus
-Topic 3 of `math-topic.md`: **Geometry Essentials**. Notebook delivered; student to study
-it and complete the 20 exercises. Next topic in queue: **4. Polynomials**.
+Topic 4 of `math-topic.md`: **Polynomials**. Notebook delivered; student to study it and
+complete the 20 exercises. Next topic in queue: **5. Factoring Polynomials**.
 
 ## Known Weak Spots (auto-revisit these)
 - **Repeating-decimal → fraction** (decimal test, ⇐ direction): needed a second
@@ -38,6 +43,24 @@ it and complete the 20 exercises. Next topic in queue: **4. Polynomials**.
 - Homework given:
 - Next session plan:
 -->
+
+### Session 4 — 2026-06-19
+- **Topic taught:** Polynomials (topic 4 of `math-topic.md`).
+- **Notebook created:** `notebooks/04-polynomials.ipynb` (20 cells; verified it runs
+  end-to-end with nbconvert --execute).
+- **Content:** definition/degree/leading coeff/standard form/type names, add-subtract,
+  multiply (FOIL), special products (proved), degree rules (product rule proved), eval +
+  graph shape. Difference of squares flagged as the seed of next topic (factoring).
+- **Recall quiz given:** distance (2,3)-(7,15)=13, legs 6,8 → 10. Student again said
+  "continue" without showing answers.
+- **What went well:** good pace through foundations; concepts build cleanly.
+- **Mistakes / misconceptions to revisit:** still no student-produced work seen — cannot
+  assess real understanding yet. Keep nudging for exercise answers. Repeating-decimal
+  conversion still unconfirmed.
+- **Homework given:** 20 exercises (identify, operations, special products, proofs
+  #16–20 incl. (a+b)³ and the deg(pq)=m+n proof).
+- **Next session plan:** Recall on special products (esp. difference of squares), then
+  start **Factoring Polynomials** (topic 5): notebook `05-factoring-polynomials.ipynb`.
 
 ### Session 3 — 2026-06-19
 - **Topic taught:** Geometry Essentials (topic 3 of `math-topic.md`).
