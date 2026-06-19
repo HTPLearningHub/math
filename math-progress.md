@@ -14,10 +14,15 @@
   exponents, scientific notation, solving linear equations (properties of equality,
   uniqueness of -b/a), linear inequalities + the flip-the-sign rule (proved),
   absolute-value equations & inequalities.
+- **Geometry essentials** — taught (awaiting student's exercises). Covers: points/lines/
+  rays/angles + angle types, vertical angles (proved equal), parallel-line/transversal
+  angles, triangle angle sum = 180° (proved), Pythagorean theorem (rearrangement proof),
+  perimeter/area/circles + π, coordinate geometry (distance/midpoint/slope) with the link
+  distance = Pythagoras = Euclidean distance/norm (AI hook).
 
 ## Current Focus
-Topic 2 of `math-topic.md`: **Algebra Essentials**. Notebook delivered; student to study
-it and complete the 20 exercises. Next topic in queue: **3. Geometry Essentials**.
+Topic 3 of `math-topic.md`: **Geometry Essentials**. Notebook delivered; student to study
+it and complete the 20 exercises. Next topic in queue: **4. Polynomials**.
 
 ## Known Weak Spots (auto-revisit these)
 - **Repeating-decimal → fraction** (decimal test, ⇐ direction): needed a second
@@ -33,6 +38,24 @@ it and complete the 20 exercises. Next topic in queue: **3. Geometry Essentials*
 - Homework given:
 - Next session plan:
 -->
+
+### Session 3 — 2026-06-19
+- **Topic taught:** Geometry Essentials (topic 3 of `math-topic.md`).
+- **Notebook created:** `notebooks/03-geometry-essentials.ipynb` (21 cells; verified it
+  runs end-to-end with nbconvert --execute).
+- **Content:** basic objects + angle types, vertical angles (proved), parallel-line
+  angles, triangle angle sum 180° (proved), Pythagoras (rearrangement proof),
+  perimeter/area/circle, coordinate geometry (distance/midpoint/slope) with matplotlib
+  pictures; flagged Euclidean distance/norm as the AI connection.
+- **Recall quiz given:** 0.\overline{27}→3/11 and exponent laws — student said "continue"
+  (did not show answers), so recall not yet confirmed; keep both on the watch list.
+- **What went well:** steady progress through foundations.
+- **Mistakes / misconceptions to revisit:** repeating-decimal conversion still unconfirmed
+  by the student; re-check once they share exercise answers.
+- **Homework given:** 20 exercises (angles, triangles/Pythagoras, area/coordinates,
+  proofs #16–20 incl. exterior-angle theorem and the distance formula).
+- **Next session plan:** Quick recall on Pythagoras + distance formula, then start
+  **Polynomials** (topic 4): notebook `04-polynomials.ipynb`.
 
 ### Session 2 — 2026-06-19
 - **Topic taught:** Algebra Essentials (topic 2 of `math-topic.md`).
