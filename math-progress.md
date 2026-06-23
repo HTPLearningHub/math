@@ -24,14 +24,49 @@
   multiply (distributive + FOIL), special products (a±b)² and (a+b)(a−b)=a²−b² (proved),
   degree rules deg(pq)=deg p+deg q (proved) & deg(p+q)≤max, evaluation + graph shape
   (turns, end behaviour). sympy Poly + numpy.polyval + matplotlib.
+- **Factoring Polynomials** — taught (awaiting student's exercises). Covers: GCF (distributive
+  law backwards), factoring by grouping, trinomials x²+bx+c (add/multiply trick) and the
+  AC method for ax²+bx+c (proved via a·(ax²+bx+c)=(ax+m)(ax+n)), special formulas — difference
+  of squares, perfect-square trinomials, sum/difference of cubes (all proved; "SOAP" sign aid),
+  general factoring strategy, Zero Product Property (proved from field axioms), Remainder
+  Theorem & Factor Theorem (proved via division algorithm) as the bridge to synthetic division.
+- **Synthetic Division** — taught (awaiting student's exercises). Covers: polynomial long
+  division, the Division Algorithm (existence + uniqueness, both proved), synthetic division
+  for divisor x−c with a "why it works" argument, Horner's method / fast evaluation linked to
+  the Remainder Theorem, and the Rational Root Theorem (proved) + peel-off strategy for full
+  factorisation. Hand-coded synthetic_division() and horner_eval() in pure Python, cross-checked
+  with sympy.div / numpy.polyval.
+
+- **Rational Expressions** — taught (awaiting student's exercises). Covers: definition P/Q with
+  Q≠0 as the polynomial twin of ℚ, domain / excluded values, equality by cross-multiplication,
+  lowest terms, Cancellation Law (proved), multiply/divide/add/subtract rules (all proved via
+  common denominator BD), complex fractions, the difference quotient as a calculus seed, holes
+  vs vertical asymptotes (matplotlib), partial-fractions teaser (sympy.apart). Key callback:
+  proved F[x] has no zero divisors (so B,D≠0 ⇒ BD≠0) using the degree rule from topic 4, framing
+  rational expressions as the field of fractions F(x) (twin of ℚ from ℤ). sympy factor/cancel/
+  together/apart/simplify.
+
+- **nth Roots; Rational Exponents** — taught (awaiting student's exercises). Covers: nth root
+  definition, principal root (odd vs even index), radical notation; rational exponents
+  a^(1/n)=ⁿ√a and a^(m/n). Proofs: Lemma A (x↦xⁿ strictly increasing on [0,∞) via the
+  yⁿ−xⁿ factorisation), Theorem 1 existence+uniqueness of the principal root (completeness +
+  binomial squeeze — callback to topic 1 sup), Theorem 2 laws of radicals (product/quotient/
+  root-of-root/aᵐ via "raise to the n" + uniqueness), Theorem 3 √(a²)=|a| sign trap, Theorem 4
+  rational exponents well-defined (m/n=p/q ⇒ same value), Theorem 5 exponent laws survive for
+  rationals (common-denominator reduction to topic-2 integer laws). Simplest radical form,
+  rationalizing (conjugates). Newton's method for ⁿ√A as the numerics/AI hook; norms/L^p/RMS/
+  1/√t schedules. sympy root/radsimp/real_root, numpy, matplotlib.
 
 ## Current Focus
-Topic 4 of `math-topic.md`: **Polynomials**. Notebook delivered; student to study it and
-complete the 20 exercises. Next topic in queue: **5. Factoring Polynomials**.
+Topic 8 of `math-topic.md`: **nth Roots; Rational Exponents**. Notebook delivered; student to
+study it and complete the 20 exercises. This finishes the **Review** block of `math-topic.md`.
+Next topic in queue: **Equations and Inequalities ▸ 1. Linear Functions**.
 
 ## Known Weak Spots (auto-revisit these)
 - **Repeating-decimal → fraction** (decimal test, ⇐ direction): needed a second
   explanation. Re-quiz next session (e.g. "convert 0.\overline{27} to a fraction").
+- **√(a²)=|a| sign trap** (topic 8): likeliest new error. Watch for the student writing
+  √(a²)=a or √((x−4)²)=x−4 without absolute value; re-quiz next session.
 - Otherwise assess from the student's exercise answers (especially proofs).
 
 ## Session Log
@@ -43,6 +78,98 @@ complete the 20 exercises. Next topic in queue: **5. Factoring Polynomials**.
 - Homework given:
 - Next session plan:
 -->
+
+### Session 8 — 2026-06-23
+- **Topic taught:** nth Roots; Rational Exponents (topic 8 of `math-topic.md`) — last item of
+  the Review block.
+- **Notebook created:** `notebooks/08-nth-roots-rational-exponents.ipynb` (64 cells; verified it
+  runs end-to-end with `uv run jupyter nbconvert --execute`).
+- **Content:** nth root + principal root (odd/even index), radicals, rational exponents.
+  Full proofs: Lemma A (strict monotonicity of xⁿ), Theorem 1 existence+uniqueness of the
+  principal root (completeness + binomial squeeze, callback to topic 1 sup), Theorem 2 laws of
+  radicals, Theorem 3 √(a²)=|a|, Theorem 4 well-definedness of a^(m/n), Theorem 5 exponent laws
+  for rationals (reduced to integer laws via common denominator). Simplest radical form,
+  rationalizing with conjugates. Python: sympy root/radsimp/real_root, numpy law checks, a
+  matplotlib plot of x^(1/n), and a hand-coded Newton iteration for the nth root (AI/numerics
+  hook → norms, L^p, RMS, 1/√t schedules, Adam).
+- **Recall given:** 3-item spaced-repetition warm-up at the top — topic 7 simplify+hole/asymptote
+  for (x²−9)/(x²−x−6), topic 5 factor x³−8, and the weak spot 0.\overline{27}→3/11; full
+  solutions placed at the end of §3.
+- **What went well:** strong closure of the Review block — Theorem 1 reuses completeness/sup from
+  topic 1, Theorem 5 reuses the integer exponent laws from topic 2, rationalizing reuses
+  difference of squares from topic 4. Roots unified with powers (a^(1/n)).
+- **Mistakes / misconceptions to revisit:** STILL no student-produced work seen (8 sessions).
+  Repeating-decimal → fraction re-quizzed again in-notebook but not yet confirmed by the student.
+  The √(a²)=|a| sign trap is the likeliest new error spot — check it in their answers.
+- **Homework given:** 20 exercises (evaluate, rational-exponent form, simplest radical form,
+  combine/rationalize incl. conjugates, the sign trap, solving, nested radical 3+2√2; proofs
+  #18–20: product rule via uniqueness, √(a²)=|a| / parity of ⁿ√(aⁿ), and aʳaˢ=a^(r+s) for rationals).
+- **Next session plan:** Quick recall on √(a²)=|a| and a^(m/n) evaluation, then begin the new
+  block **Equations and Inequalities ▸ 1. Linear Functions**: notebook `09-linear-functions.ipynb`.
+
+### Session 7 — 2026-06-23
+- **Topic taught:** Rational Expressions (topic 7 of `math-topic.md`).
+- **Notebook created:** `notebooks/07-rational-expressions.ipynb` (55 cells; verified it runs
+  end-to-end with `uv run jupyter nbconvert --execute`).
+- **Content:** rational expression P/Q as the polynomial analogue of a fraction, domain /
+  excluded values, equality by cross-multiplication, lowest terms; Cancellation Law,
+  multiply/divide/add/subtract rules — all proved; complex fractions; the difference quotient
+  (calculus seed); holes vs vertical asymptotes plotted in matplotlib; partial-fractions teaser
+  via sympy.apart. Proved F[x] has no zero divisors using the degree rule (callback to topic 4),
+  framing F(x) as the field of fractions (twin of ℚ from ℤ).
+- **Recall given:** opened with a 3-item spaced-repetition quiz — synthetic division/Remainder
+  Theorem (p(2) for x³−2x²+3), factoring x²−x−6 & x²−9, and the lingering weak spot
+  0.\overline{27}→3/11; all answers shown at the bottom of the worked examples.
+- **What went well:** strong continuity — factoring (topic 5) feeds simplification, and the
+  no-zero-divisors proof reuses the degree rule from topic 4. Good forward hooks (difference
+  quotient → calculus; apart → partial fractions; F(x) → abstract algebra).
+- **Mistakes / misconceptions to revisit:** STILL no student-produced work seen (7 sessions).
+  Repeating-decimal → fraction re-quizzed in-notebook but not yet confirmed by the student.
+  Keep nudging for written attempts before moving on.
+- **Homework given:** 20 exercises (domains, simplify, multiply/divide, add/subtract, complex
+  fractions, difference quotient, cubes; proofs #18–20: Cancellation Law, addition rule, and
+  F[x] has no zero divisors + why BD is safe).
+- **Next session plan:** Quick recall on the cancellation law + holes vs asymptotes, then start
+  **nth Roots; Rational Exponents** (topic 8): notebook `08-nth-roots-rational-exponents.ipynb`.
+
+### Session 6 — 2026-06-23
+- **Topic taught:** Synthetic Division (topic 6 of `math-topic.md`).
+- **Notebook created:** `notebooks/06-synthetic-division.ipynb` (verified it runs end-to-end
+  with `uv run jupyter nbconvert --execute`).
+- **Content:** long division, Division Algorithm (existence + uniqueness proved), synthetic
+  division (algorithm + why it works), Horner's method / fast evaluation tied to the Remainder
+  Theorem, Rational Root Theorem (proved) and repeated peel-off for full factorisation. Pure
+  Python synthetic_division() + horner_eval(), cross-checked with sympy/numpy.
+- **Recall given:** restated Factor Theorem, Remainder Theorem, and difference of cubes at top.
+- **What went well:** tight continuity — Factor Theorem from topic 5 motivates the whole topic;
+  Horner's method introduced as the real-world / AI-numerics hook.
+- **Mistakes / misconceptions to revisit:** STILL no student work seen (6 sessions). Repeating-
+  decimal → fraction conversion remains unconfirmed. Keep nudging for written attempts.
+- **Homework given:** 20 exercises (long division, synthetic division, Horner evaluation,
+  Rational Root Theorem full factoring, proofs #18–20: Remainder Theorem, RRT for monic cubic,
+  and why a degree-1 divisor forces a constant remainder).
+- **Next session plan:** Quick recall on synthetic division + Remainder Theorem, then start
+  **Rational Expressions** (topic 7): notebook `07-rational-expressions.ipynb`.
+
+### Session 5 — 2026-06-23
+- **Topic taught:** Factoring Polynomials (topic 5 of `math-topic.md`).
+- **Notebook created:** `notebooks/05-factoring-polynomials.ipynb` (verified it runs
+  end-to-end with `uv run jupyter nbconvert --execute`).
+- **Content:** GCF, grouping, trinomials + AC method (proved), special formulas (diff of
+  squares, perfect squares, sum/diff of cubes — all proved), general strategy, Zero Product
+  Property (proved), Remainder + Factor Theorem (proved) as bridge to synthetic division.
+- **Recall given:** restated the three special products at the top as the seeds of factoring
+  (multiplication run in reverse).
+- **What went well:** clean continuity — factoring is literally lesson 4 read backwards, and
+  the Factor Theorem sets up topic 6.
+- **Mistakes / misconceptions to revisit:** STILL no student-produced work seen across 5
+  sessions — cannot assess real understanding. Keep nudging for exercise answers; the
+  repeating-decimal → fraction conversion remains unconfirmed.
+- **Homework given:** 20 exercises (GCF/grouping, trinomials, special formulas, proofs
+  #18–20 incl. difference-of-cubes, Factor-Theorem use, and the AC-method proof).
+- **Next session plan:** Quick recall on difference of squares + sum/diff of cubes and the
+  Factor Theorem, then start **Synthetic Division** (topic 6): notebook
+  `06-synthetic-division.ipynb`.
 
 ### Session 4 — 2026-06-19
 - **Topic taught:** Polynomials (topic 4 of `math-topic.md`).
