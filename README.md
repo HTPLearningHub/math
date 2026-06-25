@@ -1,5 +1,5 @@
 
-# Review
+## Review
 
 1. [Real Numbers](./notebooks/01-real-numbers.ipynb)
 2. [Algebra Essentials](./notebooks/02-algebra-essentials.ipynb)
@@ -10,10 +10,10 @@
 7. [Rational Expressions](./notebooks/07-rational-expressions.ipynb)
 8. [nth Roots; Rational Exponents](./notebooks/08-nth-roots-rational-exponents.ipynb)
 
-# Equations and Inequalities
+## Equations and Inequalities
 
 1. [Linear Functions](./notebooks/09-linear-functions.ipynb)
-2. [Quadratic Equations]
+2. [Quadratic Equations](./notebooks/10-quadratic-equations.ipynb)
 3. [Complex Numbers; Quadratic Equations in the Complex Number System]
 4. [Radical Equations; Equations Quadratic in Form; Factorable Equations]
 5. [Solving Inequalities]

@@ -46,6 +46,16 @@
   rational expressions as the field of fractions F(x) (twin of ℚ from ℤ). sympy factor/cancel/
   together/apart/simplify.
 
+- **Quadratic Equations** — taught (awaiting student's exercises). Covers: standard form ax²+bx+c=0,
+  parabola, roots/zeros. Solving by factoring (Zero Product Property recall, topic 5) + the
+  "don't divide by x" trap. Proofs: Theorem 1 square-root method (cases on sign of k), Theorem 2
+  the Quadratic Formula derived by completing the square on the general equation, Theorem 3
+  discriminant test Δ=b²−4ac (two/one/none real roots), Theorem 4 Vieta r₁+r₂=−b/a & r₁r₂=c/a
+  (via factored form coefficient matching), Theorem 5 vertex form a(x−h)²+k with h=−b/2a, k=c−b²/4a
+  + min/max + axis of symmetry. Worked Δ>0/=0/<0 examples. AI hook: parabola = simplest convex
+  loss, vertex = minimum, and a hand-coded 1-D gradient descent rolling to the vertex (x:−4→3).
+  numpy.roots, sympy.solve, matplotlib parabola/vertex/roots plots.
+
 - **Linear Functions** — taught (awaiting student's exercises). Covers: function (domain/range/
   vertical-line test), linear function f(x)=mx+b, slope as rise/run = Δy/Δx, average rate of
   change. Proofs: Theorem 1 constant-ARC characterizes linearity (both directions, ⇐ via anchor
@@ -69,10 +79,10 @@
   1/√t schedules. sympy root/radsimp/real_root, numpy, matplotlib.
 
 ## Current Focus
-**Equations and Inequalities ▸ 1. Linear Functions** (first topic of the new block).
-Notebook `09-linear-functions.ipynb` delivered and verified; student to study it and
-complete the 20 exercises. Next topic in queue: **Equations and Inequalities ▸ 2.
-Quadratic Equations** → notebook `10-quadratic-equations.ipynb`.
+**Equations and Inequalities ▸ 2. Quadratic Equations**. Notebook
+`10-quadratic-equations.ipynb` delivered and verified; student to study it and complete
+the 20 exercises. Next topic in queue: **Equations and Inequalities ▸ 3. Complex Numbers;
+Quadratic Equations in the Complex Number System** → notebook `11-complex-numbers.ipynb`.
 
 ## Known Weak Spots (auto-revisit these)
 - **Repeating-decimal → fraction** (decimal test, ⇐ direction): needed a second
@@ -90,6 +100,33 @@ Quadratic Equations** → notebook `10-quadratic-equations.ipynb`.
 - Homework given:
 - Next session plan:
 -->
+
+### Session 10 — 2026-06-25
+- **Topic taught:** Quadratic Equations (Equations & Inequalities ▸ 2).
+- **Notebook created:** `notebooks/10-quadratic-equations.ipynb` (29 cells; verified end-to-end
+  with `uv run jupyter nbconvert --execute`). Discriminant solver classifies Δ>0/=0/<0 correctly,
+  Vieta sum/product match −b/a & c/a, and gradient descent rolls from x=−4 to x≈3.0 (the vertex).
+- **Content:** standard form + parabola + roots; factoring via Zero Product Property (recall topic
+  5) and the don't-divide-by-x trap. Full proofs: Theorem 1 square-root method, Theorem 2 quadratic
+  formula by completing the square on ax²+bx+c=0, Theorem 3 discriminant test, Theorem 4 Vieta's
+  formulas, Theorem 5 vertex form a(x−h)²+k (h=−b/2a, k=c−b²/4a) + min/max + symmetry. Worked
+  examples for all three Δ cases + vertex/optimisation.
+- **Recall given:** 3-item warm-up — slope through (−1,4),(3,−4) = −2; perpendicular slope = −2
+  (negative reciprocal, Theorem 6 session 9); √((2−x)²)=|x−2| sign trap; solutions at end of §1.
+- **What went well:** strong continuity — factoring reuses ZPP (topic 5), square-root method reuses
+  principal-root existence (topic 8) and difference of squares (topic 4), vertex/symmetry leads
+  straight into the AI hook (parabola = convex loss, vertex = minimum, gradient descent demo).
+- **Mistakes / misconceptions to revisit:** STILL no student-produced work seen (10 sessions).
+  The √(a²)=|a| sign trap was re-quizzed again and remains unconfirmed by the student. Watch for
+  (1) dividing by x and losing the x=0 root, (2) sign errors in completing the square / −b/2a,
+  (3) forgetting the ± in the square-root step.
+- **Homework given:** 20 exercises (factoring/square-root, completing the square + formula,
+  discriminant + Vieta incl. r₁²+r₂², vertex/optimisation word problems, proofs #17–20: derive the
+  quadratic formula, prove Vieta directly from the roots, sign of ax²+bx+c when Δ<0, and parabola
+  symmetry f(h+t)=f(h−t)).
+- **Next session plan:** Quick recall on the discriminant cases + the quadratic formula, then start
+  **Complex Numbers; Quadratic Equations in the Complex Number System** (topic 3): notebook
+  `11-complex-numbers.ipynb` — finally solving the Δ<0 case.
 
 ### Session 9 — 2026-06-25
 - **Topic taught:** Linear Functions (Equations & Inequalities ▸ 1) — first topic of the new
