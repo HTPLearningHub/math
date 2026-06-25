@@ -46,6 +46,17 @@
   rational expressions as the field of fractions F(x) (twin of ℚ from ℤ). sympy factor/cancel/
   together/apart/simplify.
 
+- **Linear Functions** — taught (awaiting student's exercises). Covers: function (domain/range/
+  vertical-line test), linear function f(x)=mx+b, slope as rise/run = Δy/Δx, average rate of
+  change. Proofs: Theorem 1 constant-ARC characterizes linearity (both directions, ⇐ via anchor
+  x=0), Theorem 2 slope well-defined, Theorem 3 two points → unique line (existence + uniqueness),
+  Theorem 4 sign of m ⇒ increasing/decreasing/constant, Theorem 5 parallel ⟺ equal slopes,
+  Theorem 6 perpendicular ⟺ m₁m₂=−1 (proved via Pythagoras, callback to topic 3). Slope-intercept/
+  point-slope/general forms, intercepts, parallel/perp through a point, word problems. AI hook:
+  linear regression as a single neuron (weight m, bias b) — numpy.polyfit cross-checked against
+  the closed-form Cov/Var least-squares formula. sympy solve/subs, matplotlib line families +
+  equal-aspect perpendicularity plot.
+
 - **nth Roots; Rational Exponents** — taught (awaiting student's exercises). Covers: nth root
   definition, principal root (odd vs even index), radical notation; rational exponents
   a^(1/n)=ⁿ√a and a^(m/n). Proofs: Lemma A (x↦xⁿ strictly increasing on [0,∞) via the
@@ -58,9 +69,10 @@
   1/√t schedules. sympy root/radsimp/real_root, numpy, matplotlib.
 
 ## Current Focus
-Topic 8 of `math-topic.md`: **nth Roots; Rational Exponents**. Notebook delivered; student to
-study it and complete the 20 exercises. This finishes the **Review** block of `math-topic.md`.
-Next topic in queue: **Equations and Inequalities ▸ 1. Linear Functions**.
+**Equations and Inequalities ▸ 1. Linear Functions** (first topic of the new block).
+Notebook `09-linear-functions.ipynb` delivered and verified; student to study it and
+complete the 20 exercises. Next topic in queue: **Equations and Inequalities ▸ 2.
+Quadratic Equations** → notebook `10-quadratic-equations.ipynb`.
 
 ## Known Weak Spots (auto-revisit these)
 - **Repeating-decimal → fraction** (decimal test, ⇐ direction): needed a second
@@ -78,6 +90,32 @@ Next topic in queue: **Equations and Inequalities ▸ 1. Linear Functions**.
 - Homework given:
 - Next session plan:
 -->
+
+### Session 9 — 2026-06-25
+- **Topic taught:** Linear Functions (Equations & Inequalities ▸ 1) — first topic of the new
+  block after the Review block.
+- **Notebook created:** `notebooks/09-linear-functions.ipynb` (31 cells; verified it runs
+  end-to-end with `uv run jupyter nbconvert --execute`). Regression demo recovers y≈2.046x−1.323
+  from noisy data, and the by-hand Cov/Var formula matches numpy.polyfit exactly.
+- **Content:** function + domain/range + vertical-line test, f(x)=mx+b, slope = Δy/Δx, average
+  rate of change. Full proofs: Theorem 1 (constant ARC ⟺ linear, both directions), Theorem 2
+  (slope well-defined), Theorem 3 (two points → unique line: existence + uniqueness), Theorem 4
+  (sign of m ⇒ increasing/decreasing/constant), Theorem 5 (parallel ⟺ equal slopes), Theorem 6
+  (perpendicular ⟺ m₁m₂=−1, proved with Pythagoras — callback to topic 3 distance formula).
+  Three forms of a line, intercepts, parallel/perp through a point, taxi/gym/tank word problems.
+  AI hook: linear regression = a single neuron (m=weight, b=bias), numpy.polyfit vs closed-form.
+- **Recall given:** 3-item warm-up at the top — √(a²)=|a| sign trap (topic 8), evaluate 8^(2/3) &
+  16^(−3/4) (topic 8), and the weak spot 0.\overline{27}→3/11; full solutions at end of §1.
+- **What went well:** clean transition into functions; Theorem 6 reuses the topic-3 distance
+  formula, Theorem 4 reuses topic-2 order rules. Strong forward/AI hook (regression → ML neuron).
+- **Mistakes / misconceptions to revisit:** STILL no student-produced work seen (9 sessions).
+  Re-quizzed the √(a²)=|a| sign trap and 0.\overline{27}→3/11 in-notebook; neither yet confirmed
+  by the student. Keep nudging for written attempts — especially proofs.
+- **Homework given:** 20 exercises (slope/eval, building equations, parallel/perpendicular,
+  modeling, proofs #17–20: unique x-intercept when m≠0, decreasing case of Theorem 4, midpoint
+  stays on the line, and re-prove perpendicularity + why non-vertical is required).
+- **Next session plan:** Quick recall on slope from two points + perpendicular slopes (negative
+  reciprocal), then start **Quadratic Equations** (topic 2): notebook `10-quadratic-equations.ipynb`.
 
 ### Session 8 — 2026-06-23
 - **Topic taught:** nth Roots; Rational Exponents (topic 8 of `math-topic.md`) — last item of
