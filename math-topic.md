@@ -36,3 +36,11 @@
 6. Mathematical Models:Building Functions
 
 # Linear and Quadratic Functions
+
+1. Linear Functions and Their Properties
+2. Linear Models: Building Linear Functions from Data
+3. Quadratic Functions and Their Properties
+4. Build Quadratic Models from Verbal Descriptions and from Data
+5. Inequalities Involving Quadratic Functions
+
+# Polynomial and Rational Functions

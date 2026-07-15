@@ -119,12 +119,40 @@
   solve_univariate_inequality / reduce_inequalities / solveset+Union, a hand-built sign_chart()
   using together/fraction, shaded-parabola and 2-D feasible-region plots.
 
+- **Absolute Value Equations & Inequalities** — taught (awaiting student's exercises). Covers:
+  |x| as distance from 0, piecewise def, and the |x|=√(x²) link (closes the topic-8 sign trap);
+  |a−b| distance. Proofs: Theorem 1 basics (|x|≥0, |x|=0⟺x=0, |−x|=|x|, −|x|≤x≤|x|, |x|=a⟺x=±a via
+  ZPP), Theorem 2 |xy|=|x||y| & quotient (via √(t²), 1-D shadow of topic-11 |zw|=|z||w|), Theorem 3
+  the two master rules |x|≤a⟺−a≤x≤a and |x|≥a⟺x≤−a or x≥a (> is the negation of <), Theorem 4
+  triangle inequality (add −|x|≤x≤|x| chains) + reverse triangle inequality ||x|−|y||≤|x−y|.
+  Equations |f|=a / |f|=|g|⟺f=±g; inequalities as one interval (<) vs two rays (>); distance
+  reading |x−c|<r = (c−r,c+r); isolate-first; square-both-sides for |A|≤|B|. AI hook: |x|=1-D L¹
+  norm, MAE vs MSE loss curves, corner-at-0 = ReLU/subgradient, L¹ ball → Lasso sparsity. Python:
+  sympy Abs / solve / solveset, numpy abs vs sqrt(x²), V-shape + shifted graph, MAE/MSE plot.
+
+- **Problem-Solving Applications (Interest/Mixture/Motion/Work)** — taught (awaiting student's
+  exercises). Covers: the five-step translation routine (name+units → express others → balancing
+  sentence → solve → CHECK in words, reject impossible answers). Four model families: simple
+  interest I=Prt (+ split-investment), mixture/concentration (pure amount conserved), uniform
+  motion d=rt (opposite/same direction, upstream/downstream), constant-rate work (rates add,
+  1/t₁+1/t₂=1/t). Proofs: Theorem 1 combined work rate t=t₁t₂/(t₁+t₂) with t<min sanity checks,
+  Theorem 2 mixture concentration = weighted average lying between c₁,c₂ (convex combination).
+  Worked A–F incl. a rational (upstream/downstream) and a quadratic (garden area, reject w=−8).
+  AI hook: modelling/formalization; rates add = linearity; mixture = convex combination
+  (expectation/ensembles/attention); check-in-words = model validation. Python: sympy.solve on the
+  balancing equation for each type, reject-negative-root idiom, matplotlib "rates add" plot.
+
 ## Current Focus
-**Equations and Inequalities ▸ 5. Solving Inequalities**. Notebook `13-solving-inequalities.ipynb`
-delivered and verified (33 cells, runs end-to-end with 0 error outputs; sympy confirms D →
-(−∞,−2)∪(3,∞), G → (−∞,−2)∪[1,∞), H → (−∞,3)∪(7,∞)). Student to study it and complete the 20
-exercises. Next topic in queue: **Equations and Inequalities ▸ 6. Equations and Inequalities
-Involving Absolute Value** → notebook `14-absolute-value-equations-inequalities.ipynb`.
+**Equations and Inequalities ▸ 7. Problem-Solving: Interest, Mixture, Uniform Motion, Constant-Rate
+Job Applications** — the LAST topic of the Equations & Inequalities block. Notebook
+`15-problem-solving-applications.ipynb` delivered and verified (33 cells, runs end-to-end with 0
+error outputs; sympy gives split-investment \$3000/\$7000 and combined work time 12/5=2.4 h matching
+t₁t₂/(t₁+t₂)). Student to study it and complete the 20 exercises. This CLOSES the Equations &
+Inequalities block. Next block: **Graphs** (now filled in `math-topic.md`) — start with
+**Graphs ▸ 1. The Distance and Midpoint Formulas** → notebook `16-distance-midpoint-formulas.ipynb`
+(note: distance/midpoint/slope were already introduced in topic 3 Geometry Essentials — treat this
+as a deeper revisit + the graphing lead-in, not brand-new). Later blocks: Functions and Their
+Graphs, then Linear and Quadratic Functions.
 
 ## Known Weak Spots (auto-revisit these)
 - **Repeating-decimal → fraction** (decimal test, ⇐ direction): needed a second
@@ -136,10 +164,16 @@ Involving Absolute Value** → notebook `14-absolute-value-equations-inequalitie
 - **Forgetting to check for extraneous roots** (topic 12): watch for the student keeping a
   squared-equation root that fails the original (e.g. keeping x=−1 for √(x+2)=x), or dividing
   by x and losing x=0. Rule: solve, then substitute back into the ORIGINAL. Re-quiz.
-- **Not flipping the inequality sign / cross-multiplying rationals** (topic 13, NEW likely error):
-  watch for (1) dividing an inequality by a negative without flipping <→>, and (2) multiplying a
-  rational inequality by a denominator of unknown sign. Rule: flip on negative; for rationals move
-  to one side and use a sign chart. Re-quiz next session.
+- **Not flipping the inequality sign / cross-multiplying rationals** (topic 13): watch for (1)
+  dividing an inequality by a negative without flipping <→>, and (2) multiplying a rational
+  inequality by a denominator of unknown sign. Re-quizzed in-notebook 14; still unconfirmed.
+- **Absolute-value inequality direction** (topic 14): watch for turning |x|>a into −a<x<a
+  (wrong — that's the < rule). < ⇒ one interval, > ⇒ two rays. Also isolate |·| first; reject
+  |·|=negative. Re-quiz.
+- **Word-problem set-up & rejecting impossible roots** (topic 15, NEW likely error): watch for
+  (1) mis-stating the balancing equation (esp. mixture: use pure amount c·V, not concentrations
+  added; work: rates 1/t add, not times), and (2) keeping a negative length/speed/time root.
+  Rule: name with units, one balancing sentence, check in words. Re-quiz.
 - Otherwise assess from the student's exercise answers (especially proofs).
 
 ## Session Log
@@ -151,6 +185,74 @@ Involving Absolute Value** → notebook `14-absolute-value-equations-inequalitie
 - Homework given:
 - Next session plan:
 -->
+
+### Session 15 — 2026-07-15
+- **Topic taught:** Problem-Solving: Interest, Mixture, Uniform Motion, Constant-Rate Job
+  Applications (Equations & Inequalities ▸ 7) — the topic I had skipped; it is the TRUE last topic
+  of the block. (Student flagged that `math-topic.md` still had topic 7 + the now-filled Graphs
+  subtopics; corrected the plan and taught topic 7 before moving to Graphs.)
+- **Notebook created:** `notebooks/15-problem-solving-applications.ipynb` (33 cells; verified
+  end-to-end with `uv run jupyter nbconvert --execute` — 0 error outputs). sympy gives split
+  investment \$3000/\$7000, mixture add 10 L, meeting time 2 h, boat speed 10 mph, combined work
+  time 12/5 = 2.4 h (matches t₁t₂/(t₁+t₂)), garden 5×8 (rejecting w=−8).
+- **Content:** the five-step translation routine; four model families (I=Prt, mixture pure-amount
+  conservation, d=rt with combining speeds, work rates add → 1/t₁+1/t₂=1/t). Proofs: Theorem 1
+  combined work rate + sanity checks, Theorem 2 mixture = weighted average between the parts (convex
+  combination). Worked A–F incl. rational (upstream/downstream) and quadratic (area, reject negative
+  root). AI hook: modelling/formalization, rates-add = linearity, mixture = convex combination
+  (expectation/ensembles/attention), check-in-words = validation.
+- **Recall given:** 3-item warm-up — |2x−1|<5 → (−2,3) (topic 14), |x−2|≥3 → two rays (topic 14),
+  √(x+2)=x with extraneous x=−1 (topic 12). Solutions at end of §2.
+- **What went well:** strong applied capstone — pulls together linear (topic 2/9), rational (topic 7),
+  and quadratic (topic 10) solving inside word problems; the reject-impossible-root habit reuses the
+  extraneous-check discipline from topic 12; the "rates add / weighted average" framing plants convex
+  combinations for later ML.
+- **Mistakes / misconceptions to revisit:** STILL no student-produced work seen (15 sessions). New
+  likely errors: mis-setting the balancing equation (mixture/work especially) and keeping a negative
+  length/speed/time root. All earlier traps remain unconfirmed by written work.
+- **Homework given:** 20 exercises (interest incl. split accounts, mixture incl. price blends and
+  3-way, motion incl. tail/headwind and round-trip average, work incl. a negative-rate drain and a
+  find-the-other-worker, mixed quadratic/rational; proofs #17–20: derive t=t₁t₂/(t₁+t₂) & t<min,
+  mixture is a weighted average between parts, same-direction gap rate r₁−r₂, and why a negative-time
+  root is rejected).
+- **Next session plan:** Equations & Inequalities block COMPLETE. Open session 16 with a quick recall
+  on the five-step routine + one work-rate set-up, then start the **Graphs** block: topic 1 **The
+  Distance and Midpoint Formulas** → notebook `16-distance-midpoint-formulas.ipynb` (revisit/deepen
+  from topic 3, leading into graphing). Graphs order after: 2. Graphs of Equations/Intercepts/
+  Symmetry, 3. Lines, 4. Circles, 5. Variation.
+
+### Session 14 — 2026-07-15
+- **Topic taught:** Equations and Inequalities Involving Absolute Value (Equations & Inequalities
+  ▸ 6). [Correction: at the time I wrongly called this the last topic of the block; topic 7
+  (Problem-Solving applications) was still remaining and was taught in session 15.]
+- **Notebook created:** `notebooks/14-absolute-value-equations-inequalities.ipynb` (33 cells;
+  verified end-to-end with `uv run jupyter nbconvert --execute` — 0 error outputs). sympy confirms
+  every worked example: D→(−2,3), E→(−∞,−1]∪[5,∞), G→[−5,3], H→[−4,2/3]; numpy shows abs(x)=√(x²).
+- **Content:** |x| as distance / piecewise / √(x²); distance |a−b|. Full proofs: Theorem 1 basics
+  (incl. |x|=a⟺x=±a via ZPP and −|x|≤x≤|x|), Theorem 2 |xy|=|x||y|, Theorem 3 the two master
+  inequality rules (< one interval, > two rays; > proved as the negation of <), Theorem 4 triangle
+  + reverse triangle inequality. Equations |f|=a and |f|=|g|; isolate-first; square-both-sides for
+  |A|≤|B|; distance reading |x−c|<r=(c−r,c+r). AI hook: |x|=1-D L¹ norm, MAE vs MSE loss curves,
+  the corner-at-0 = ReLU/subgradient, L¹ ball → Lasso sparsity.
+- **Recall given:** 3-item warm-up — x²−x−6>0 sign chart → (−∞,−2)∪(3,∞) (topic 13); −2x+1≥7 with
+  the flip → (−∞,−3] (topic 13); √((x−5)²)=|x−5| sign trap (topic 8, = today's definition).
+  Solutions at end of §2.
+- **What went well:** clean capstone for the block — the definition |x|=√(x²) directly resolves the
+  long-standing topic-8 sign trap; Theorem 4 reuses the topic-13 add-inequalities result and unifies
+  with the topic-1 and topic-11 triangle inequalities; the master rules reuse the topic-13 flip rule;
+  strong AI hook (norms/MAE/L¹/ReLU) closing toward the Graphs block.
+- **Mistakes / misconceptions to revisit:** STILL no student-produced work seen (14 sessions). New
+  likely error: reversing the |x|>a rule into an interval, and not isolating |·| first. Earlier
+  traps (flip rule, cross-multiplying, √(a²)=|a|) still unconfirmed by written work.
+- **Homework given:** 20 exercises (equations incl. |·|=0 and |·|=negative and |f|=|g|; inequalities
+  < vs ≥ with isolate-first and a flip case; distance/tolerance modelling; harder: square-both-sides
+  |2x−1|≤|x+3|, case-split |x−1|+|x+2|=5; proofs #18–20: |xy|=|x||y|, the triangle inequality with
+  equality/strict examples, and the reverse triangle inequality as a stability statement).
+- **Next session plan:** This finishes the Equations & Inequalities block. BEFORE session 15, fill in
+  the **Graphs** subtopics in `math-topic.md` (currently just a heading). Likely order: the
+  coordinate/Cartesian plane, graphs of equations (intercepts/symmetry), lines revisited, and circles
+  (general form via completing the square). Open session 15 with a quick recall on the |x|<a vs |x|>a
+  master rules + the distance reading, then start the first Graphs topic → notebook `15-...ipynb`.
 
 ### Session 13 — 2026-07-15
 - **Topic taught:** Solving Inequalities (Equations & Inequalities ▸ 5).

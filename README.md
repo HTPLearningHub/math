@@ -17,8 +17,8 @@
 3. [Complex Numbers; Quadratic Equations in the Complex Number System](./notebooks/11-complex-numbers.ipynb)
 4. [Radical Equations; Equations Quadratic in Form; Factorable Equations](./notebooks/12-radical-and-quadratic-form-equations.ipynb)
 5. [Solving Inequalities](./notebooks/13-solving-inequalities.ipynb)
-6. [Equations and Inequalities Involving Absolute Value]
-7. [Problem-Solving: Interest, Mixture, Uniform Motion, Constant Rate Job Applications]
+6. [Equations and Inequalities Involving Absolute Value](./notebooks/14-absolute-value-equations-inequalities.ipynb)
+7. [Problem-Solving: Interest, Mixture, Uniform Motion, Constant Rate Job Applications](./notebooks/15-problem-solving-applications.ipynb)
 
 ## Graphs
 
