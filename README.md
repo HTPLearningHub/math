@@ -14,8 +14,8 @@
 
 1. [Linear Functions](./notebooks/09-linear-functions.ipynb)
 2. [Quadratic Equations](./notebooks/10-quadratic-equations.ipynb)
-3. [Complex Numbers; Quadratic Equations in the Complex Number System]
-4. [Radical Equations; Equations Quadratic in Form; Factorable Equations]
+3. [Complex Numbers; Quadratic Equations in the Complex Number System](./notebooks/11-complex-numbers.ipynb)
+4. [Radical Equations; Equations Quadratic in Form; Factorable Equations](./notebooks/12-radical-and-quadratic-form-equations.ipynb)
 5. [Solving Inequalities]
 6. [Equations and Inequalities Involving Absolute Value]
 7. [Problem-Solving: Interest, Mixture, Uniform Motion, Constant Rate Job Applications]

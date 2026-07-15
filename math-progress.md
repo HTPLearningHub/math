@@ -78,17 +78,50 @@
   rationalizing (conjugates). Newton's method for ⁿ√A as the numerics/AI hook; norms/L^p/RMS/
   1/√t schedules. sympy root/radsimp/real_root, numpy, matplotlib.
 
+- **Complex Numbers; Quadratics in ℂ** — taught (awaiting student's exercises). Covers: imaginary
+  unit i (i²=−1), complex number a+bi, real/imag parts, equality = two real equations, Argand
+  plane, conjugate z̄, modulus |z|=√(a²+b²). Arithmetic: add/subtract/multiply (FOIL + i²→−1),
+  divide by multiplying by the conjugate; ℂ is a field but has NO order. Proofs: Theorem 1 powers
+  of i cycle mod 4, Theorem 2 conjugate is a homomorphism (bar of sum/product/double) + real/pure-
+  imaginary tests, Theorem 3 z·z̄=|z|² & Re/Im via conjugate, Theorem 4 |zw|=|z||w| (via squaring),
+  Theorem 5 triangle inequality |z+w|≤|z|+|w| (Re u≤|u| lemma), Theorem 6 √(−p)=i√p with the
+  don't-merge-negative-radicals trap, Theorem 7 quadratic formula in ℂ (Δ<0 → conjugate-pair roots,
+  callback completing the square topic 10), Theorem 8 Conjugate Root Theorem (real poly → complex
+  roots in pairs; corollary odd degree has a real root). Fundamental Theorem of Algebra stated
+  (ℂ algebraically closed). AI hook: ×i = 90° rotation (length preserved by Thm 4) → FFT/rotations/
+  eigenvalues. Python: built-in 1j, sympy I / solve / conjugate, numpy.roots, cmath trap demo,
+  Argand diagram + rotation plot.
+
+- **Radical / Quadratic-in-Form / Factorable Equations** — taught (awaiting student's exercises).
+  Covers: radical equations (unknown under a root), the key idea of the EXTRANEOUS solution and the
+  mandatory check-in-original step; two-radical equations (isolate–square–isolate–square); equations
+  quadratic in form via substitution u=g(x) (u=x², √x, x^(1/3), 1/x, or an inner expression);
+  factorable higher-degree equations via grouping + ZPP; the don't-divide-by-x trap again. Proofs:
+  Theorem 1 raising to power n — forward always valid, odd n reversible (t↦tⁿ one-to-one, callback
+  topic 8), even n only gives A=±B so extraneous roots appear; Theorem 2 substitution principle (x
+  solves iff g(x)∈{u₁,u₂}, with domain/nonneg caveats); Theorem 3 factor⇒solve (ZPP, FTA for the
+  complex closure). Worked: √(x+2)=x (−1 extraneous), two radicals, x⁴−13x²+36, x−5√x+6, grouping,
+  x³=9x. AI hook: change of variables (u=x² turns a quartic into a parabola) → u-substitution/kernel
+  trick. Python: sympy.solve (auto-drops extraneous) + a hand-written keep_valid() checker that
+  shows −1 rejected, plus crossing/coordinate-change plots.
+
 ## Current Focus
-**Equations and Inequalities ▸ 2. Quadratic Equations**. Notebook
-`10-quadratic-equations.ipynb` delivered and verified; student to study it and complete
-the 20 exercises. Next topic in queue: **Equations and Inequalities ▸ 3. Complex Numbers;
-Quadratic Equations in the Complex Number System** → notebook `11-complex-numbers.ipynb`.
+**Equations and Inequalities ▸ 4. Radical Equations; Equations Quadratic in Form; Factorable
+Equations**. Notebook `12-radical-and-quadratic-form-equations.ipynb` delivered and verified
+(35 cells, runs end-to-end with 0 error outputs; the keep_valid() checker rejects the extraneous
+x=−1 and keeps x=2 for √(x+2)=x). Student to study it and complete the 20 exercises. Next topic in
+queue: **Equations and Inequalities ▸ 5. Solving Inequalities** → notebook `13-solving-inequalities.ipynb`.
 
 ## Known Weak Spots (auto-revisit these)
 - **Repeating-decimal → fraction** (decimal test, ⇐ direction): needed a second
   explanation. Re-quiz next session (e.g. "convert 0.\overline{27} to a fraction").
 - **√(a²)=|a| sign trap** (topic 8): likeliest new error. Watch for the student writing
-  √(a²)=a or √((x−4)²)=x−4 without absolute value; re-quiz next session.
+  √(a²)=a or √((x−4)²)=x−4 without absolute value; re-quizzed in-notebook 11 (√((3−x)²)=|x−3|).
+- **Merging negative radicals** (topic 11): watch for √(−4)·√(−9)=√36=6 instead of (2i)(3i)=−6.
+  Rule: convert to i FIRST, then multiply. Re-quizzed in-notebook 12; still unconfirmed.
+- **Forgetting to check for extraneous roots** (topic 12, NEW likely error): watch for the student
+  keeping a squared-equation root that fails the original (e.g. keeping x=−1 for √(x+2)=x), or
+  dividing by x and losing x=0. Rule: solve, then substitute back into the ORIGINAL. Re-quiz.
 - Otherwise assess from the student's exercise answers (especially proofs).
 
 ## Session Log
@@ -100,6 +133,68 @@ Quadratic Equations in the Complex Number System** → notebook `11-complex-numb
 - Homework given:
 - Next session plan:
 -->
+
+### Session 12 — 2026-07-15
+- **Topic taught:** Radical Equations; Equations Quadratic in Form; Factorable Equations
+  (Equations & Inequalities ▸ 4).
+- **Notebook created:** `notebooks/12-radical-and-quadratic-form-equations.ipynb` (35 cells;
+  verified end-to-end with `uv run jupyter nbconvert --execute` — 0 error outputs). The hand-written
+  keep_valid() checker demonstrates the extraneous root: for √(x+2)=x it rejects x=−1 and keeps x=2.
+- **Content:** radical equations + the extraneous-solution concept + the mandatory check step; two-
+  radical equations; equations quadratic in form via substitution (u=x², √x, x^(1/3), 1/x, inner
+  expr); factorable higher-degree via grouping + ZPP; don't-divide-by-x recall. Full proofs:
+  Theorem 1 (raise to power n: forward safe; odd n reversible via one-to-one t↦tⁿ from topic 8; even
+  n gives A=±B ⇒ extraneous), Theorem 2 (substitution principle), Theorem 3 (factor ⇒ solve via ZPP,
+  FTA closure). Worked A–F incl. √(x+2)=x, √(2x+3)−√(x+1)=1, x⁴−13x²+36, x−5√x+6, grouping, x³=9x.
+  AI hook: change of variables (u=x² turns a quartic into a parabola) → u-substitution / kernel trick.
+- **Recall given:** 3-item warm-up — solve x²+2x+5=0 → −1±2i (topic 11); √(−4)·√(−9)=−6 (merge trap);
+  i²³=−i. Solutions at end of §1.
+- **What went well:** strong continuity — Theorem 1 reuses monotonicity/one-to-one of tⁿ (topic 8),
+  ZPP + FTA (topics 5, 11), the don't-divide-by-x trap (topic 10), and the u=x² quartic→parabola plot
+  ties change-of-variables straight to the substitution method. The extraneous root is the topic's
+  spine and is demonstrated live by the checker.
+- **Mistakes / misconceptions to revisit:** STILL no student-produced work seen (12 sessions).
+  New likely error: forgetting the extraneous-root check (keeping a fake squared-equation root).
+  Merge-negative-radicals trap re-quizzed again; both unconfirmed until the student submits work.
+- **Homework given:** 20 exercises (single/two-radical with checks, quadratic-in-form with stated
+  substitutions incl. x^(2/3), 1/x, inner-expression, and a complex-root branch, factorable/grouping,
+  x⁴−16 over ℂ; proofs #18–20: odd-index needs no check, √f=g ⇒ g≥0 is why the check works, and prove
+  the substitution principle for x⁴+bx²+c=0).
+- **Next session plan:** Quick recall on the extraneous-root check + one quadratic-in-form
+  substitution, then start **Solving Inequalities** (topic 5 of the Equations block): notebook
+  `13-solving-inequalities.ipynb`.
+
+### Session 11 — 2026-07-15
+- **Topic taught:** Complex Numbers; Quadratic Equations in the Complex Number System
+  (Equations & Inequalities ▸ 3). Finally solves the Δ<0 case left open in session 10.
+- **Notebook created:** `notebooks/11-complex-numbers.ipynb` (41 cells; verified end-to-end
+  with `uv run jupyter nbconvert --execute` — 0 error outputs). sympy returns the conjugate pair
+  −3/4 ± (√31/4)i for 2x²+3x+5=0; numpy.roots agrees numerically; the ×i-rotation demo keeps all
+  moduli equal.
+- **Content:** imaginary unit i (i²=−1), a+bi, real/imag parts, equality = two real equations,
+  Argand plane, conjugate, modulus. Arithmetic incl. division by the conjugate; ℂ is a field with
+  NO order. Full proofs: Theorem 1 powers of i (mod 4), Theorem 2 conjugate homomorphism + real/
+  pure-imaginary tests, Theorem 3 z·z̄=|z|², Theorem 4 |zw|=|z||w|, Theorem 5 triangle inequality,
+  Theorem 6 √(−p)=i√p + the merge-radicals trap, Theorem 7 quadratic formula in ℂ (Δ<0 → conjugate
+  pair, callback completing the square), Theorem 8 Conjugate Root Theorem + odd-degree corollary.
+  Fundamental Theorem of Algebra stated (ℂ algebraically closed — the payoff of the whole solve-the-
+  equation arc). AI hook: ×i = 90° rotation → FFT/rotations/eigenvalues.
+- **Recall given:** 3-item warm-up — Δ of 2x²+3x+5 = −31 (no real roots, now solvable!); quadratic
+  formula; √((3−x)²)=|x−3| sign trap; solutions at end of §3.
+- **What went well:** strong continuity and closure — completes the Δ<0 gap from topic 10, reuses
+  difference of squares (topic 4), ZPP (topic 5), conjugate-rationalising (topic 8), Pythagoras/
+  distance for the modulus (topic 3), and Vieta (topic 10) to check the roots. FTA frames ℂ as the
+  end of the "invent a new number" story.
+- **Mistakes / misconceptions to revisit:** STILL no student-produced work seen (11 sessions).
+  New likely error: merging negative radicals √(−4)·√(−9)=6 instead of −6 (Theorem 6 warning).
+  The √(a²)=|a| trap re-quizzed again. Both unconfirmed until the student submits work.
+- **Homework given:** 20 exercises (arithmetic/powers of i/conjugate-modulus/division, √ of
+  negatives + the merge trap, solving Δ<0 quadratics, build-from-roots via Theorem 8, Vieta check,
+  |z|=5 & Re=3 locus, 4th roots of unity + Argand plot; proofs #18–20: conjugate of a quotient,
+  |z|=0⟺z=0 and |z̄|=|z|, and the Conjugate Root Theorem + odd-degree-has-a-real-root corollary).
+- **Next session plan:** Quick recall on solving a Δ<0 quadratic + the negative-radical trap, then
+  start **Radical Equations; Equations Quadratic in Form; Factorable Equations** (topic 4 of the
+  Equations block): notebook `12-radical-and-quadratic-form-equations.ipynb`.
 
 ### Session 10 — 2026-06-25
 - **Topic taught:** Quadratic Equations (Equations & Inequalities ▸ 2).
