@@ -105,12 +105,26 @@
   trick. Python: sympy.solve (auto-drops extraneous) + a hand-written keep_valid() checker that
   shows −1 rejected, plus crossing/coordinate-change plots.
 
+- **Solving Inequalities** — taught (awaiting student's exercises). Covers: inequalities /
+  solution sets / interval notation (open/closed/half-open, ∪/∩, ∞ always excluded); boundary
+  (critical) points = zeros of numerator OR denominator. Order rules re-proved FROM the order
+  axioms (positives set P, trichotomy): Theorem 1 transitivity/add/multiply-by-positive/
+  multiply-by-negative-FLIP, Theorem 2 reciprocal rule 0<a<b ⇒ 1/b<1/a (why you must NOT
+  cross-multiply), Theorem 3 sign of a product (same/opposite signs; corollary count of negative
+  factors), Theorem 4 constant sign between consecutive boundary points (test-point method
+  justified; IVT flagged as the deep reason for calculus). Linear + compound (and=intersection,
+  or=union), quadratic/polynomial by SIGN CHART, always-true/never (Δ<0 parabola), rational
+  inequalities with the move-to-one-side rule. AI hook: feasible region = intersection of
+  inequalities (budget triangle), ReLU=max(0,x), SVM margin, L² ball. Python: sympy
+  solve_univariate_inequality / reduce_inequalities / solveset+Union, a hand-built sign_chart()
+  using together/fraction, shaded-parabola and 2-D feasible-region plots.
+
 ## Current Focus
-**Equations and Inequalities ▸ 4. Radical Equations; Equations Quadratic in Form; Factorable
-Equations**. Notebook `12-radical-and-quadratic-form-equations.ipynb` delivered and verified
-(35 cells, runs end-to-end with 0 error outputs; the keep_valid() checker rejects the extraneous
-x=−1 and keeps x=2 for √(x+2)=x). Student to study it and complete the 20 exercises. Next topic in
-queue: **Equations and Inequalities ▸ 5. Solving Inequalities** → notebook `13-solving-inequalities.ipynb`.
+**Equations and Inequalities ▸ 5. Solving Inequalities**. Notebook `13-solving-inequalities.ipynb`
+delivered and verified (33 cells, runs end-to-end with 0 error outputs; sympy confirms D →
+(−∞,−2)∪(3,∞), G → (−∞,−2)∪[1,∞), H → (−∞,3)∪(7,∞)). Student to study it and complete the 20
+exercises. Next topic in queue: **Equations and Inequalities ▸ 6. Equations and Inequalities
+Involving Absolute Value** → notebook `14-absolute-value-equations-inequalities.ipynb`.
 
 ## Known Weak Spots (auto-revisit these)
 - **Repeating-decimal → fraction** (decimal test, ⇐ direction): needed a second
@@ -119,9 +133,13 @@ queue: **Equations and Inequalities ▸ 5. Solving Inequalities** → notebook `
   √(a²)=a or √((x−4)²)=x−4 without absolute value; re-quizzed in-notebook 11 (√((3−x)²)=|x−3|).
 - **Merging negative radicals** (topic 11): watch for √(−4)·√(−9)=√36=6 instead of (2i)(3i)=−6.
   Rule: convert to i FIRST, then multiply. Re-quizzed in-notebook 12; still unconfirmed.
-- **Forgetting to check for extraneous roots** (topic 12, NEW likely error): watch for the student
-  keeping a squared-equation root that fails the original (e.g. keeping x=−1 for √(x+2)=x), or
-  dividing by x and losing x=0. Rule: solve, then substitute back into the ORIGINAL. Re-quiz.
+- **Forgetting to check for extraneous roots** (topic 12): watch for the student keeping a
+  squared-equation root that fails the original (e.g. keeping x=−1 for √(x+2)=x), or dividing
+  by x and losing x=0. Rule: solve, then substitute back into the ORIGINAL. Re-quiz.
+- **Not flipping the inequality sign / cross-multiplying rationals** (topic 13, NEW likely error):
+  watch for (1) dividing an inequality by a negative without flipping <→>, and (2) multiplying a
+  rational inequality by a denominator of unknown sign. Rule: flip on negative; for rationals move
+  to one side and use a sign chart. Re-quiz next session.
 - Otherwise assess from the student's exercise answers (especially proofs).
 
 ## Session Log
@@ -133,6 +151,35 @@ queue: **Equations and Inequalities ▸ 5. Solving Inequalities** → notebook `
 - Homework given:
 - Next session plan:
 -->
+
+### Session 13 — 2026-07-15
+- **Topic taught:** Solving Inequalities (Equations & Inequalities ▸ 5).
+- **Notebook created:** `notebooks/13-solving-inequalities.ipynb` (33 cells; verified end-to-end
+  with `uv run jupyter nbconvert --execute` — 0 error outputs). sympy confirms every worked
+  example: A→[−3,∞), D→(−∞,−2)∪(3,∞), E→ℝ, F→(−∞,−2]∪[1,4], G→(−∞,−2)∪[1,∞), H→(−∞,3)∪(7,∞).
+- **Content:** inequalities/solution sets/interval notation; order rules re-proved FROM the order
+  axioms (Theorem 1 add/mult incl. the flip on negative, Theorem 2 reciprocal rule, Theorem 3 sign
+  of a product, Theorem 4 constant sign between boundary points = the sign-chart justification, IVT
+  flagged for calculus). Linear + compound (and/or), quadratic/polynomial by sign chart, always-
+  true/never via Δ<0, rational inequalities with the move-to-one-side rule (never cross-multiply).
+  Worked A–H. AI hook: feasible region = intersection of inequalities (budget triangle plot),
+  ReLU=max(0,x), SVM margin, L² ball.
+- **Recall given:** 3-item warm-up — √(x+2)=x with the extraneous x=−1 (topic 12), x⁴−5x²+4=0 via
+  u=x² (topic 12), x²+2x+5=0 → −1±2i (topic 11). Solutions at end of §2.
+- **What went well:** strong continuity — order rules trace back to the topic-1 order axioms and the
+  topic-2 flip rule; the sign chart reuses factoring (topic 5) and Δ<0 constant sign (topics 10/11);
+  hand-built sign_chart() makes Theorem 4 concrete; feasible-region plot ties inequalities to
+  constrained optimisation.
+- **Mistakes / misconceptions to revisit:** STILL no student-produced work seen (13 sessions). New
+  likely errors: forgetting to flip on a negative multiply/divide, and cross-multiplying a rational
+  inequality (unknown denominator sign). Earlier traps (extraneous check, merge-negative-radicals)
+  still unconfirmed.
+- **Homework given:** 20 exercises (linear/compound incl. flip, quadratic/polynomial sign charts,
+  always-true via Δ, x³≤4x don't-divide, four rationals incl. 1/x<3 and 2x/(x−1)≥1; proofs #17–20:
+  add two inequalities, a<b ⇒ −b<−a, x²≥0 ⇒ x²+1>0 on ℝ, and a counterexample for cross-multiplying).
+- **Next session plan:** Quick recall on the sign chart + the flip rule, then start **Equations and
+  Inequalities Involving Absolute Value** (topic 6): notebook
+  `14-absolute-value-equations-inequalities.ipynb`.
 
 ### Session 12 — 2026-07-15
 - **Topic taught:** Radical Equations; Equations Quadratic in Form; Factorable Equations
