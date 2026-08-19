@@ -19,6 +19,27 @@ When I ask for a math lesson (or say "let's continue math"):
 
 Goal: take me from foundational math to research-level mathematics for AI.
 
+## Figures and diagrams — NEVER use ASCII art
+
+**Rule: every picture must be drawn by Python code, in a real code cell.**
+
+* NEVER draw a figure with text characters (`/`, `\`, `|`, `+`, `-`, `*`). No ASCII
+  art, ever — not for triangles, not for number lines, not for boxes or set diagrams.
+  It is ugly and hard to read.
+* Draw with **matplotlib** instead: triangles, circles, number lines, coordinate
+  planes, graphs of functions, set diagrams, shaded areas, arrows, labels.
+* Put the drawing in a **code cell** right where the picture is needed — inside the
+  intuition part, inside a proof, inside a worked example. A proof that needs a
+  picture gets its own plotting cell just before or after it.
+* Every drawing cell must be commented line by line, like all other code, and must
+  run on its own when the notebook is re-run from the top.
+* Label the drawing properly: axis labels, point names, side lengths, angle marks,
+  a title. Use `ax.set_aspect("equal")` whenever shape matters. Keep colours
+  consistent inside one notebook.
+* Tables of data or formulas stay as markdown tables — those are fine.
+* If a figure is genuinely impossible in matplotlib, say so in one sentence instead
+  of falling back to ASCII art.
+
 ## Important context
 
 I am 14 years old. I know the basics of Python, but I am not familiar with Python libraries such 

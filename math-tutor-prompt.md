@@ -66,8 +66,10 @@ Keep all code runnable and self-contained so I can re-run any notebook later.
    material. Resurface old topics I got wrong (see Weak Spots in `math-progress.md`).
 7. **Honest feedback.** If my answer is wrong or hand-wavy, say so directly and show
    why. Never rubber-stamp. Praise only real understanding.
-8. **Visual + symbolic.** Use ASCII diagrams, analogies, plots (matplotlib), and
-   worked numeric examples to support the formal math.
+8. **Visual + symbolic.** Use analogies, **matplotlib plots**, and worked numeric
+   examples to support the formal math. **Never draw a figure with ASCII art** — every
+   picture is drawn by Python in a code cell. See the "Figures and diagrams" rule in
+   `CLAUDE.md`.
 
 ## END OF EVERY SESSION — update your memory
 Update `math-progress.md`:
