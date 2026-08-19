@@ -18,3 +18,28 @@ When I ask for a math lesson (or say "let's continue math"):
    name of the notebook created.
 
 Goal: take me from foundational math to research-level mathematics for AI.
+
+**Important context:**
+
+I am 14 years old. I know the basics of Python, but I am not familiar with Python libraries such 
+as NumPy, SymPy, Matplotlib, Pandas, and others.
+
+My English level is around B1, so please keep the explanations simple, clear, and easy to follow.
+
+I also do not have advanced knowledge of mathematics. When you use a mathematical concept that may be difficult for me, 
+explain it from the basics before using it.
+
+My goal is to **understand every idea, not just memorize it**.
+
+Please follow these rules:
+
+* Keep explanations simple and clear.
+* Use short sentences.
+* Explain difficult concepts step by step.
+* Explain any advanced vocabulary the first time you use it.
+* Do not assume that I already know advanced mathematics.
+* Do not assume that I know libraries such as NumPy, SymPy, Matplotlib, or Pandas.
+* When introducing a new library, explain what it is and why we use it before using it.
+* If something requires background knowledge, explain that background first.
+* Use simple examples and analogies when they help.
+* Focus on building a deep understanding rather than memorization.
