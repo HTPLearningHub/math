@@ -19,7 +19,7 @@ When I ask for a math lesson (or say "let's continue math"):
 
 Goal: take me from foundational math to research-level mathematics for AI.
 
-**Important context:**
+## Important context
 
 I am 14 years old. I know the basics of Python, but I am not familiar with Python libraries such 
 as NumPy, SymPy, Matplotlib, Pandas, and others.
@@ -43,3 +43,9 @@ Please follow these rules:
 * If something requires background knowledge, explain that background first.
 * Use simple examples and analogies when they help.
 * Focus on building a deep understanding rather than memorization.
+
+## Don't forget
+
+5. At the END of every session, UPDATE `math-progress.md`: skill ledger,
+   current focus, weak spots, a new Session Log entry (newest first), and the
+   name of the notebook created.
