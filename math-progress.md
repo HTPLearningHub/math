@@ -32,15 +32,43 @@
 - SymPy basics: `symbols`, `subs`, `expand`, `simplify`, `sqrt`, `solve`, `denom`,
   and why symbol assumptions (`positive=True`) change what SymPy is allowed to do
 
+**Pending confirmation — taught in session 3, waiting for the 20 exercises of
+`notebooks/03-geometry-essentials.ipynb`:**
+
+- Name and use the basic objects: point, segment, ray, angle, and the degree
+- Classify angles (acute / right / obtuse / straight, complementary, supplementary) and
+  triangles (by sides and by angles)
+- State the small axiom list of Euclidean geometry (G1–G5 + the area assumption) and say
+  which axiom or theorem a step uses
+- Prove and use the angle sum of a triangle, and the area $\tfrac12 bh$
+- State, prove and apply the **Pythagorean theorem** (two area-rearrangement proofs)
+- State, prove and apply its **converse**, including the acute / obtuse refinement
+- Recognise Pythagorean triples
+- Prove and use **Thales' basic proportionality theorem** and the **AA similarity test**
+- Use the scaling rule: lengths $\times k$, areas $\times k^2$, volumes $\times k^3$
+- Explain what $\pi$ *is* — a ratio that similarity proves is the same for every circle —
+  and why the area of a disk is $\pi r^2$
+- The $45$-$45$-$90$ and $30$-$60$-$90$ triangles, derived and not memorised
+- The **distance formula**, and that it is Pythagoras in disguise
+- Volume and surface formulas for box, cylinder, sphere, cone — and which of them we have
+  actually proved
+- New habit: telling a proved statement from an assumed one, and spotting where a **limit**
+  is hiding (the first calculus-shaped reasoning in the course)
+- Numerical lesson: two algebraically identical formulas can behave very differently in
+  floating point (catastrophic cancellation)
+
 ## Current Focus
 
-**Review § 2 — Algebra Essentials.** Notebook `notebooks/02-algebra-essentials.ipynb` is
-built and runs top to bottom. Waiting for its 20 exercises.
+**Review § 3 — Geometry Essentials.** Notebook `notebooks/03-geometry-essentials.ipynb` is
+built and verified: it runs top to bottom with no errors. Waiting for its 20 exercises.
 
-Notebook 01's 20 exercises are **also still unmarked** — mark those first next session.
+**The exercises of notebooks 01 and 02 are still unmarked too** — three sets of homework are
+now outstanding. Next session, mark them oldest first. Do not teach a fourth topic before at
+least notebooks 01 and 02 are marked, otherwise the weak-spot list stays empty and the
+teaching is blind.
 
-Next topic once he says "continue": **Review § 3 — Geometry Essentials**
-(→ `notebooks/03-geometry-essentials.ipynb`).
+Next topic once he says "continue": **Review § 4 — Polynomials**
+(→ `notebooks/04-polynomials.ipynb`).
 
 ## Known Weak Spots
 
@@ -64,7 +92,84 @@ From notebook 02:
   clearly, and the step actually using the hypothesis — or just a re-statement?
 - Ex 20: does he see that he must ALSO prove $\sqrt6$ is irrational, not just assume it?
 
+From notebook 03:
+- Ex 4: does he test the **longest** side as the hypotenuse, or just the last number given?
+- Ex 8: the classic $k$ vs $k^2$ vs $k^3$ confusion (pizza, map area, model weight).
+- Ex 10(b): does he compare with the *longest* side squared, and does he keep values exact
+  instead of rounding first?
+- Ex 16 (rope round the Earth): does he trust the algebra when the answer feels impossible?
+- Ex 17–20: real proofs — naming the axiom or theorem for every step — or just descriptions?
+  Ex 19 is the first proof where he must *choose* which similar triangles to compare, and
+  Ex 20 asks him to compare two proofs of one theorem, which is new.
+- Watch for the congruent (same size) vs similar (same shape) mix-up.
+- Watch whether he treats "assumed" and "proved" as the same thing.
+
 ## Session Log
+
+### Session 3 — 2026-08-19 — Geometry Essentials
+
+- **Topic taught:** Review § 3, Geometry Essentials (third topic in `math-topic.md`).
+- **Notebook created:** `notebooks/03-geometry-essentials.ipynb` — 105 cells, 30 code cells,
+  21 matplotlib figures, no ASCII art. Verified: executes top to bottom with no errors
+  (`uv run jupyter nbconvert --to notebook --execute`). No new dependency needed — numpy,
+  sympy and matplotlib only.
+- **What is inside:**
+  - Intuition: geometry = measuring shapes (how long / how much flat space / how much room
+    inside); an angle is *turning*, not a corner; the length of the rays does not change it.
+  - Definitions 1–14: segment / ray / length with the $\overline{AB}$ vs $AB$ vs $m\angle$
+    notation, angle names, perpendicular and parallel, the triangle families, the parts of a
+    right triangle, polygon and perimeter, **area given as three rules** (unit / adding /
+    moving) instead of hand-waving, volume, circle vocabulary, similar triangles,
+    parallelogram.
+  - The axiom list is stated **explicitly** (G1–G5 + Assumption A) so he can always answer
+    "what am I allowed to use here?".
+  - Theorems, all fully proved: warm-up (vertical angles); Thm 1 (angle sum, via the parallel
+    line through the apex); Thm 2 ($\tfrac12 bh$, all three cases including the obtuse one)
+    with Corollaries 2a and 2b; Thm 3 (**Pythagoras**, by rearranging areas, plus a second
+    rearrangement in the same figure); Thm 4 (**converse**, by building a right triangle and
+    using SSS together with the uniqueness of the non-negative square root from notebook 02);
+    Lemma 5 (parallelogram); Thm 5 (**Thales**, proved with areas); Thm 6 (**AA similarity**,
+    with the full construction); Thm 7 (scaling: $k$, $k^2$, $k^3$); Lemma 6 (isosceles base
+    angles); Thm 8 ($\pi$ is the same number for every circle — proved with similar
+    polygons); Thm 9 (disk area, by rearranging sectors); Thm 10 (the $45$-$45$-$90$ and
+    $30$-$60$-$90$ triangles); Thm 11 (**distance formula**).
+  - Honesty notes wherever a **limit** is used (Thm 8, Thm 9, cylinder volume), plus an
+    explicit list of what is still owed: sphere and cone volume, and that $\pi$ is
+    irrational. The notebook ends with a table of every result and what it depends on.
+  - Worked examples 1–7: the ladder; converse tests including the acute / obtuse refinement;
+    a 16:9 television; the height of a tree from its shadow; a composite window area with the
+    "the cut line is not part of the frame" trap; coordinates — where **Example 6 contains a
+    deliberately false claim** ("show that these three points form a right triangle") so he
+    sees that the honest answer is sometimes "no, and here is why"; and a drink can, ending
+    with an optimisation teaser for calculus.
+  - Python: exact roots with SymPy; a triangle classifier built on the converse; a
+    Pythagorean-triple hunt; SymPy re-deriving Pythagoras from the area equation;
+    **Archimedes' method for $\pi$ using only square roots**, with the doubling formula
+    derived from Pythagoras; the unstable vs stable version of that formula (catastrophic
+    cancellation, shown on a log-scale error plot — his first numerical-analysis lesson);
+    Monte Carlo $\pi$; the shoelace formula confirming the $k^2$ scaling rule; and the
+    distance formula.
+  - 21 figures: the four basic objects; kinds of angle; kinds of triangle; the parts of a
+    circle; alternate angles; the angle-sum proof; the three cases of the area proof; the
+    Pythagoras rearrangement (both packings side by side); the classic 3–4–5 squares picture;
+    the converse construction; similar triangles; the Thales areas; the AA construction with
+    its parallelogram; the pizza-slice limit at $n=6,12,24,60$; the two special triangles;
+    the distance formula on a grid; the three solids in 3D; the ladder and the window; and
+    the three Python plots.
+- **What went well:** nothing to judge yet — still no answers from him for notebooks 01, 02
+  or 03.
+- **Mistakes to revisit:** none recorded yet (still no answers).
+- **Homework given:** the 20 exercises in notebook 03. Exercises 11–13 are Python (an exact
+  triangle classifier that also handles $\sqrt2$, primitive triples up to 100, and a Monte
+  Carlo estimate of the window's area). Exercises 17–20 are proofs: the hypotenuse is the
+  longest side; the diagonals of a rhombus are perpendicular; the altitude to the hypotenuse
+  creates three similar triangles, giving $h^2=pq$, $b^2=cp$, $a^2=cq$; and finally
+  **proving Pythagoras a second time from similarity**, then comparing what the two proofs
+  each depend on.
+- **Next session plan:** (1) mark notebook 01, then 02, then 03 — three sets are outstanding;
+  (2) quiz him out loud on: why the angles of a triangle add to $180^\circ$, what a *converse*
+  is and why it needs its own proof, the difference between congruent and similar, and what
+  $\pi$ actually *is*; (3) only then teach **Polynomials**.
 
 ### Session 2 — 2026-08-19 — Algebra Essentials
 
