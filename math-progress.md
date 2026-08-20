@@ -80,22 +80,61 @@
 - SymPy: `expand`, `factor`, `degree`, `Poly.all_coeffs`, `div`, `rem`, `solve`, `binomial`
 - Second numerical-analysis lesson: catastrophic cancellation in $(x-1)^7$ expanded
 
+**Pending confirmation — taught in session 5, waiting for the 20 exercises of
+`notebooks/05-factoring-polynomials.ipynb`:**
+
+- Say what factoring *is* (un-multiplying) and why the factored form is the useful form
+- Use the five-step factoring checklist: GCF → count the terms → pattern → rational roots →
+  check every bracket again → multiply back
+- The vocabulary of factoring: unit, trivial factorisation, **irreducible**, completely
+  factored, content/GCF, monic, **multiplicity**, quadratic in form
+- Understand that irreducibility depends on the number system ($\mathbb{Q}$ vs $\mathbb{R}$
+  vs $\mathbb{C}$), and name it out loud before answering
+- Factor by GCF, by grouping, by the special products backwards, by the trinomial rule, and
+  by the **$ac$ method** — each one proved, not memorised
+- **Completing the square** and the **discriminant** $D=b^2-4ac$; prove that a real
+  quadratic is irreducible exactly when $D<0$
+- **Rational root theorem**, with a full proof — including **Bézout's identity** proved from
+  the well-ordering principle, and the coprime-powers lemma proved with the binomial theorem
+- Corollary: a rational root of a *monic* integer polynomial is an integer — an irrationality
+  machine ($\sqrt[3]{2}$, $\sqrt7$)
+- The general factoring algorithm: find a rational root, peel it off, repeat, stop at degree 2
+- **Unique factorisation for polynomials** (the summit), via polynomial Bézout and Euclid's
+  lemma — and the big analogy: degree plays the role of size, irreducibles play the role of
+  primes
+- Sign charts: solve a polynomial inequality by factoring and checking each bracket
+- New habit: the "multiply back" check, and the "put $x=1$" fast check
+- SymPy: `factor`, `factor_list`, `expand`, `extension=`, `gaussian=`, and comparing two
+  expressions by **subtracting and simplifying to zero**
+- Third numerical-analysis lesson: **ill-conditioning** — Wilkinson's polynomial, where a
+  $10^{-9}$ change in one coefficient throws roots off the real line
+
 ## Current Focus
 
-**Review § 4 — Polynomials.** Notebook `notebooks/04-polynomials.ipynb` is built and
-verified: it runs top to bottom with no errors (90 cells, 38 code cells, 12 figures).
-Waiting for its 20 exercises.
+**Review § 5 — Factoring Polynomials.** Notebook `notebooks/05-factoring-polynomials.ipynb`
+is built and verified: it runs top to bottom with no errors (82 cells, 42 code cells,
+11 figures). Waiting for its 20 exercises.
 
-**FOUR sets of homework are now outstanding (notebooks 01, 02, 03, 04).** He asked to
-continue rather than to be marked, so I taught the next topic — but the weak-spot list below
-is still all guesswork, and it will stay guesswork until answers arrive. Next session:
-**ask for answers first**, and mark oldest first (01, then 02, 03, 04). Teaching blind is
-already costing us — for example I still do not know whether he can write a real induction
-proof, and this notebook leaned on induction twice.
+**FIVE sets of homework are now outstanding (notebooks 01, 02, 03, 04, 05).** He again asked
+to continue rather than to be marked, so I taught the next topic — but the weak-spot list
+below is still 100% guesswork, and it will stay guesswork until answers arrive.
 
-Next topic once he says "continue": **Review § 5 — Factoring Polynomials**
-(→ `notebooks/05-factoring-polynomials.ipynb`). It rests directly on the factor theorem
-(Thm 7) and the special products (Thm 3) of notebook 04.
+This is now the main risk in the course, and it is growing. I have taught five topics
+without a single piece of evidence about what he actually understands. Notebook 05 leaned
+hard on notebook 04 (factor theorem, identity theorem, degree rule, binomial theorem) and on
+notebook 01 (zero-product, irrationality of $\sqrt2$) — if any of those did not land, most of
+this notebook is standing on sand and neither of us knows it.
+
+**Next session: do not teach first.** Open with "send me your answers", and mark oldest
+first (01, then 02, 03, 04, 05). If he wants to continue anyway, at minimum do the oral quiz
+below before opening a new notebook — five minutes of talking is worth more than another
+90 cells of unread proof.
+
+Next topic once the marking is done (or once he insists again): **Review § 6 — Synthetic
+Division** (→ `notebooks/06-synthetic-division.ipynb`). It is nearly free: the `horner`
+function in §6.3 of notebook 05 already returns the quotient as well as the remainder, so
+synthetic division is that function drawn as a table. Good place to finally make him *write*
+code rather than read it.
 
 ## Known Weak Spots
 
@@ -152,7 +191,134 @@ From notebook 04:
 - Watch whether he can state both halves of an induction proof cleanly — the binomial
   theorem proof depends on it, and this is the second time induction has appeared.
 
+From notebook 05:
+- Ex 1(c) and Ex 3(c): does he pull the **minus sign** out with the GCF, and does he spot
+  the GCF at all before hunting for a pattern? (Trap 1 — the most common cause of a wrong
+  answer in this whole topic.)
+- Ex 4(d) and Ex 6(c): does he try to force a factorisation that does not exist, or does he
+  reach for the discriminant and *prove* it is irreducible? Watch for "$x^2+9=(x+3)^2$".
+- Ex 8(a),(c),(d): does he **stop too early**? $x^4-16=(x^2-4)(x^2+4)$ is the classic
+  half-finished answer.
+- Ex 8(e): the two-routes-one-answer question. This is the first exercise where the point is
+  not the answer but **why the answer had to be the same** (Theorem 16). If he just does one
+  route, he has missed it.
+- Ex 14(b): does he divide $x^3=4x$ by $x$ and lose the root $x=0$? Almost everyone does.
+- Ex 14(c): Trap 2 — does he set the brackets equal to $5$? Note that the wrong method gives
+  one right answer by luck here, so he may not notice.
+- Ex 16(c): the deep one — does he believe "no rational root" means "irreducible over
+  $\mathbb{Q}$"? $x^4-4$ is the counterexample. Same misconception as Ex 20.
+- Ex 9 / Ex 10: does he use the factor theorem sign correctly ($r$ a root $\Rightarrow$
+  factor $x-r$)? This is the third notebook in a row with a sign trap of this shape — if he
+  misses it again it goes on the permanent review list.
+- Ex 11–12: does he use exact `Fraction` arithmetic, or floats? Ex 12 explicitly asks him to
+  break it with floats — see whether he can explain *why* it breaks.
+- Ex 17(b): completing the square in $a$ while treating $b$ as a constant. First time he has
+  had to choose *which letter* to complete the square in.
+- Ex 18: the parity argument (both even or both odd). This is a genuinely hard number-theory
+  step and I expect him to need help; that is fine, but see whether he *notices* that the
+  step is needed at all, or silently assumes $p,q$ are integers.
+- Ex 19: can he build the right monic polynomial from an irrational number? That move
+  ($\sqrt[3]2$ is a root of $x^3-2$) is the whole trick.
+- Ex 20(d): the capstone. Does he reason about *which degrees the two pieces could have*?
+- Big question to settle when answers arrive: **can he write a proof at all?** Five
+  notebooks, twenty proof exercises set, zero seen.
+
 ## Session Log
+
+### Session 5 — 2026-08-20 — Factoring Polynomials
+
+- **Topic taught:** Review § 5, Factoring Polynomials (fifth topic in `math-topic.md`). He
+  said "continue next topic" again, so I taught rather than marked — see Current Focus for
+  why this is now a problem.
+- **Notebook created:** `notebooks/05-factoring-polynomials.ipynb` — 82 cells, 42 code
+  cells, 11 matplotlib figures, no ASCII art. Verified: executes top to bottom with no
+  errors (`uv run jupyter nbconvert --to notebook --execute`). No new dependency — numpy,
+  sympy, matplotlib only.
+- **What is inside:**
+  - Intuition: factoring is **un-multiplying**; easy forwards, hard backwards, and that
+    asymmetry is what cryptography is built on. The rectangle picture: multiplying = you
+    know the sides and want the area, factoring = you know the area and want the sides.
+    A table showing what each form (expanded vs factored) tells you at a glance. The
+    number-system warning ($\mathbb{Q}$ vs $\mathbb{R}$) given early and repeated. Ends with
+    the five-step **checklist** that the rest of the notebook proves.
+  - Definitions 1–9: divides/factor, factorisation, **unit** and trivial factorisation,
+    **irreducible** (over a stated $F$), completely factored, GCF/content, monic,
+    **multiplicity**, quadratic in form. Also introduces the notation $\mathbb{Z}[x]$,
+    $\mathbb{Q}[x]$, $\mathbb{R}[x]$.
+  - Theorems, all fully proved: Thm 1 (zero-product for polynomials — the reason we factor
+    at all, with the "$(x+1)(x-3)=5$ is not allowed" warning); Thm 2 (GCF extraction, with
+    the **uniqueness** half proved so that "divide each term by the GCF" is legal);
+    Thm 3 (grouping); Thm 4 (the six factoring identities, each proved, with the sum of
+    cubes *derived from* the difference of cubes rather than re-proved); Thm 5 (monic
+    trinomial, both directions, using the identity theorem of nb 04); Thm 6 (the **$ac$
+    method**, proved via $a(ax^2+bx+c)=(ax+m)(ax+n)$); Thm 7 (**completing the square**);
+    Thm 8 (**a real quadratic is reducible iff $D\ge0$** — both directions, the $D<0$ case
+    by contradiction on degrees); Thm 9 (peel a root off, which re-proves nb 04 Thm 8 in a
+    line).
+  - **The rational root theorem done properly.** Fact (integer division with remainder, from
+    well-ordering); **Lemma 10 = Bézout's identity**, proved by taking the smallest positive
+    combination; Lemma 11 (coprimality survives powers) proved with the **binomial theorem**
+    from nb 04; **Thm 12 (rational root theorem)** with both halves; Cor 13 (monic ⇒ integer
+    roots) presented as an **irrationality machine**. Explicit note that the theorem finds
+    only *rational* roots, and that finding none is a real answer.
+  - **§3.9, the summit (marked as the hardest section, nothing depends on it):** the table
+    "whole numbers vs polynomials" (size ↔ degree, primes ↔ irreducibles, division with
+    remainder in both), then Lemma 14 (**Bézout for polynomials**), Lemma 15 (**Euclid's
+    lemma for polynomials**), Thm 16 (**unique factorisation**, existence by strong
+    induction, uniqueness via Lemma 15). The point made explicitly: it is the *same proof
+    twice*, and the reusable move is "Bézout turns coprimality into an equation $=1$, then
+    multiply that equation by whatever you want to divide". Ends with a dependency table.
+  - Traps section (9 of them): forgetting the GCF; using zero-product when the side is not
+    zero; "a sum of squares must factor"; stopping too early; **cancelling a term instead of
+    a factor** (planted deliberately as the bridge to notebook 07); the sign of $(x-r)$;
+    **"no real root" ≠ "irreducible"** with $x^4+4$; counting roots without multiplicity;
+    factoring vs solving.
+  - Worked examples 1–12: GCF with a negative leading term; grouping; difference of squares
+    applied twice; monic trinomial with the pair table; the $ac$ method with the *reason* the
+    grouping works; perfect square **and a near miss**; cubes with a hidden GCF; the **full
+    algorithm** on $2x^3-3x^2-11x+6$ (checklist → rational roots → peel → quadratic, with
+    both the multiply-back and the $x=1$ check); quadratic in form; solving with Trap 2 shown
+    failing *and giving one right answer by luck*; the open-box volume from nb 04 factored as
+    $4x(x-10)(x-15)$ so that the domain $0<x<10$ is now **proved** rather than argued; and a
+    full **sign chart**.
+  - Python: a SymPy tour (`factor`, `factor_list` read as multiplicity data, `expand`,
+    multi-letter identities); the number system demo (`extension=sqrt(2)`, `gaussian=True`,
+    and $x^4+4$ vs $x^4+1$); then **our own tools from scratch** on coefficient lists —
+    `poly_str`, `content_and_primitive`, `divisors`, `rational_root_candidates`, `horner`
+    (which already returns the quotient — deliberate seed for notebook 06), and
+    `factor_rational_roots`, all checked against SymPy; the Theorem 4 identities verified by
+    *subtracting and simplifying to zero*; a discriminant verdict function; and finally
+    **Wilkinson's polynomial** — roots $1..15$, one coefficient changed by 1 part in $10^9$,
+    and the roots fly off the real line (largest imaginary part ≈ 0.42). Named as
+    **ill-conditioning** and linked forward to condition numbers in machine learning.
+  - 11 figures: the rectangle factorisation; roots as crossings; $x^2-2$ vs $x^2+1$;
+    completing the square as a literal square with the missing corner; the three
+    discriminant cases; the rational-root candidate ticks with the real roots marked; the
+    twin factor trees ($60$ and $x^4-16$); simple root crossing vs double root touching;
+    $x^4-5x^2+4$ with all four roots; the two-panel sign chart; and the Wilkinson root
+    scatter in the complex plane.
+  - Ends with an honest "still owed" list: the fundamental theorem of algebra (needs complex
+    numbers), Abel's theorem (no formula for degree $\ge5$), and how a computer really
+    factors.
+- **What went well:** nothing to judge — still no answers from him for any of the five
+  notebooks.
+- **Mistakes to revisit:** none recorded (still no answers).
+- **Homework given:** the 20 exercises in notebook 05. Ex 11–13 are Python (write a GCF
+  extractor; write an exact rational-root finder and show what floats do to it; plot a
+  quartic, mark the double root from the picture alone, and build its sign chart).
+  Ex 17–20 are proofs: the sum of cubes plus $a^2-ab+b^2>0$; **$x^2+bx+c$ factors over
+  $\mathbb{Z}$ iff $b^2-4c$ is a perfect square** (includes a parity argument, the hardest
+  step of the set); the rational root theorem as an irrationality machine ($\sqrt[3]2$,
+  $\sqrt7$, and the general statement); and the capstone **$x^4+4=(x^2-2x+2)(x^2+2x+2)$**
+  with both factors proved irreducible, ending with "why does no-real-root prove
+  irreducibility for degree $\le3$ but not for degree 4?".
+- **Next session plan:** (1) **ask for his answers before teaching anything.** Five sets are
+  outstanding; mark 01 first. (2) Oral quiz, five minutes, before any new notebook: why does
+  factoring help us solve equations, and why only when one side is $0$; what does
+  "irreducible" depend on; state the rational root theorem and say why the search is finite;
+  what is the difference between "no real root" and "cannot be factored"; and the two halves
+  of an induction proof (still unverified after two induction proofs).
+  (3) Only then teach **Synthetic Division**, and make him write the code himself this time.
 
 ### Session 4 — 2026-08-20 — Polynomials
 
