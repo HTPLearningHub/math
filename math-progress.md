@@ -57,18 +57,45 @@
 - Numerical lesson: two algebraically identical formulas can behave very differently in
   floating point (catastrophic cancellation)
 
+**Pending confirmation — taught in session 4, waiting for the 20 exercises of
+`notebooks/04-polynomials.ipynb`:**
+
+- Say what a polynomial is (only $+,-,\times$) and give the exact reason why $1/x$,
+  $\sqrt{x}$, $x^{-2}$ and $2^{x}$ are not polynomials
+- Degree, leading coefficient, constant term, standard form; why the zero polynomial gets
+  no degree
+- Add, subtract and multiply polynomials; the coefficient formula
+  $c_{k}=\sum_i a_i b_{k-i}$ (and that it is called a *convolution*)
+- $\deg(pq)=\deg p+\deg q$ and $\deg(p+q)\le\max$ — and why the second is only $\le$
+- The special products (i)–(vii), each proved, plus the general
+  $a^{n}-b^{n}$ telescoping identity
+- **Polynomial long division** by hand, and the division algorithm with its *uniqueness*
+- **Remainder theorem** and **factor theorem**, and using them instead of dividing
+- "Degree $n$ $\Rightarrow$ at most $n$ real roots", proved by induction
+- **Identity theorem**: equal as functions $\iff$ equal as coefficient lists — so
+  "comparing coefficients" is now a proved move, not a habit
+- Factorials, binomial coefficients, Pascal's rule, and the **binomial theorem** proved by
+  induction (second induction proof of the course)
+- Horner's method for evaluation (and that it is next topic's "synthetic division")
+- SymPy: `expand`, `factor`, `degree`, `Poly.all_coeffs`, `div`, `rem`, `solve`, `binomial`
+- Second numerical-analysis lesson: catastrophic cancellation in $(x-1)^7$ expanded
+
 ## Current Focus
 
-**Review § 3 — Geometry Essentials.** Notebook `notebooks/03-geometry-essentials.ipynb` is
-built and verified: it runs top to bottom with no errors. Waiting for its 20 exercises.
+**Review § 4 — Polynomials.** Notebook `notebooks/04-polynomials.ipynb` is built and
+verified: it runs top to bottom with no errors (90 cells, 38 code cells, 12 figures).
+Waiting for its 20 exercises.
 
-**The exercises of notebooks 01 and 02 are still unmarked too** — three sets of homework are
-now outstanding. Next session, mark them oldest first. Do not teach a fourth topic before at
-least notebooks 01 and 02 are marked, otherwise the weak-spot list stays empty and the
-teaching is blind.
+**FOUR sets of homework are now outstanding (notebooks 01, 02, 03, 04).** He asked to
+continue rather than to be marked, so I taught the next topic — but the weak-spot list below
+is still all guesswork, and it will stay guesswork until answers arrive. Next session:
+**ask for answers first**, and mark oldest first (01, then 02, 03, 04). Teaching blind is
+already costing us — for example I still do not know whether he can write a real induction
+proof, and this notebook leaned on induction twice.
 
-Next topic once he says "continue": **Review § 4 — Polynomials**
-(→ `notebooks/04-polynomials.ipynb`).
+Next topic once he says "continue": **Review § 5 — Factoring Polynomials**
+(→ `notebooks/05-factoring-polynomials.ipynb`). It rests directly on the factor theorem
+(Thm 7) and the special products (Thm 3) of notebook 04.
 
 ## Known Weak Spots
 
@@ -104,7 +131,95 @@ From notebook 03:
 - Watch for the congruent (same size) vs similar (same shape) mix-up.
 - Watch whether he treats "assumed" and "proved" as the same thing.
 
+From notebook 04:
+- Ex 1: does he say $\frac{x^{2}-1}{4}$ is not a polynomial? (Dividing by a *number* is
+  fine; dividing by the *letter* is not.) And does he handle $0$ and $\sqrt5\,x^{3}$?
+- Ex 3(a) and Ex 8(c): does he accept that the degree of a sum can *drop*?
+- Ex 7(c): the sign trap $-x^{2}$ against $(-x)^{2}$ — the same trap as notebook 02 Ex 6.
+  If he misses it twice, it goes on the permanent review list.
+- Ex 9: does he insert the missing $0x^{2}$ before dividing? This is the single most common
+  cause of a wrong long division.
+- Ex 10(c): does he test $c=+2$ for the factor $x-2$, and $c=-1$ for $x+1$ (Example 6b)?
+  Sign of $c$ is the classic factor-theorem slip.
+- Ex 14(c): does he see that the binomial theorem still applies to $(x+1/x)^6$ even though
+  that is not a polynomial?
+- Ex 16(b): can he turn "divisible by" into equations using the factor theorem, instead of
+  trying to divide?
+- Ex 17–20: real proofs, naming the theorem at each step. Ex 18 is the first proof by
+  *contradiction on degrees*; Ex 19 needs him to notice that the long bracket in Theorem 4
+  is a whole number; Ex 20 is the first proof that uses the identity theorem as a *tool*
+  rather than quoting it.
+- Watch whether he can state both halves of an induction proof cleanly — the binomial
+  theorem proof depends on it, and this is the second time induction has appeared.
+
 ## Session Log
+
+### Session 4 — 2026-08-20 — Polynomials
+
+- **Topic taught:** Review § 4, Polynomials (fourth topic in `math-topic.md`). He said
+  "continue next topic", so I taught rather than marked — see Current Focus.
+- **Notebook created:** `notebooks/04-polynomials.ipynb` — 90 cells, 38 code cells,
+  12 matplotlib figures, no ASCII art. Verified: executes top to bottom with no errors
+  (`uv run jupyter nbconvert --to notebook --execute`). No new dependency — numpy, sympy,
+  matplotlib only.
+- **What is inside:**
+  - Intuition: a polynomial is a recipe made only of $+,-,\times$ — and the reason that
+    matters is that *a computer can only add, subtract and multiply*. A table of
+    non-examples with the exact rule each one breaks. Bricks ($1,x,x^{2},\dots$), a
+    polynomial as a weighted sum of bricks, and a coefficient list as its true identity.
+  - The degree presented as "the number that wins far from zero", with a three-window
+    zoom-out figure showing $2x^{3}-5x+7$ becoming indistinguishable from $2x^{3}$.
+  - Definitions 1–12: monomial, polynomial, the $\sum$ notation explained as a Python `for`
+    loop, degree / leading coefficient / standard form, names by degree and by term count,
+    equality of polynomials, sum / difference / **product via the convolution formula**,
+    polynomial function, root, divides, several variables, factorial, binomial coefficient.
+  - Theorems, all fully proved: Thm 1 (closure, and the product formula *derived* rather
+    than assumed); Thm 2 (degree rules, including why the zero polynomial gets no degree);
+    Thm 3 (the seven special products, each proved); Thm 4 ($a^{n}-b^{n}$ by telescoping);
+    **Thm 5 (division algorithm — existence by strong induction, and uniqueness)**;
+    Thm 6 (remainder theorem); Thm 7 (factor theorem, both directions); Thm 8 (at most $n$
+    roots, by induction); **Thm 9 (identity theorem)** with an explicit note that it can
+    fail over a finite number system; Lemma 10 (Pascal's rule); **Thm 11 (binomial theorem,
+    by induction)** with the index-renaming step written out in full.
+  - Traps section (8 of them), including $\deg(p+q)=\max$, "degree 5 means 5 real roots",
+    and $x^{3}$ versus $3^{x}$ with a log-scale growth-race figure.
+  - Worked examples 1–9: reading a polynomial; add/subtract with a deliberate degree drop;
+    multiply with the "put $x=1$" self-check; special products including mental arithmetic
+    ($103\times97$); **long division with every step shown** and checked by multiplying
+    back; remainder/factor theorem shortcuts; $(2x-3)^{5}$ by the binomial theorem as a
+    table; comparing coefficients to rewrite $x^{2}$ in powers of $(x-1)$ — announced as
+    the first case of a **Taylor expansion**; and the open-box volume $V(x)=4x^{3}-100x^{2}
+    +600x$ with a real discussion of its domain and a calculus teaser for the maximum.
+  - Python: hand-written `poly_add` / `poly_sub` / `poly_mul` / `degree` on coefficient
+    lists, checked against SymPy; **Horner's method** with a multiplication count against
+    the naive method; **long division implemented from the proof of Thm 5** and checked
+    against `sp.div`; a SymPy command tour; the binomial theorem checked for $n\le6$ (with
+    an explicit note that checking is not proving); `np.polyfit` finding the unique cubic
+    through 4 points; and the $(x-1)^{7}$ cancellation experiment — the expanded form's
+    error is ~200x larger than the true value.
+  - 12 figures: the bricks; a polynomial as a sum of pieces; the three-window zoom-out;
+    roots of degree 1/2/3; the cut-and-turn proof of $a^{2}-b^{2}$; the $f=qg+r$ degree-bar
+    diagram; two cubics agreeing at exactly 3 points; Pascal's triangle with the rule shown
+    by arrows; $x^{3}$ vs $3^{x}$; the card-and-box pair; the 4-point cubic fit; and the
+    catastrophic-cancellation pair.
+  - Ends with a dependency table (which theorem rests on which) and an honest "still owed"
+    list: the box maximum needs calculus, and "exactly $n$ roots" needs complex numbers and
+    the fundamental theorem of algebra.
+- **What went well:** nothing to judge — still no answers from him for any notebook.
+- **Mistakes to revisit:** none recorded (still no answers).
+- **Homework given:** the 20 exercises in notebook 04. Exercises 11–13 are Python (write
+  Horner yourself and check against SymPy; `poly_pow` compared with Pascal's row 10; plot a
+  cubic and count its roots against Theorem 8). Exercises 17–20 are proofs: $x-1$ divides
+  $f$ iff the coefficients sum to zero; **there is no polynomial $p$ with $x\,p(x)=1$** (the
+  honest reason $1/x$ is not a polynomial); $(a-b)\mid(f(a)-f(b))$ for integer coefficients,
+  with an application; and even polynomials have only even-power terms, plus stating the odd
+  case.
+- **Next session plan:** (1) **ask for his answers before teaching anything** — four sets
+  are outstanding and the weak-spot list is still pure guesswork; mark 01, then 02, 03, 04;
+  (2) quiz him out loud on: why $1/x$ is not a polynomial, what the remainder theorem says
+  and why the remainder is a *number*, why "equal for all $x$ $\Rightarrow$ equal
+  coefficients" is a theorem and not a definition, and the two halves of an induction proof;
+  (3) only then teach **Factoring Polynomials**.
 
 ### Session 3 — 2026-08-19 — Geometry Essentials
 
