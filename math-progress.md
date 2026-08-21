@@ -109,32 +109,67 @@
 - Third numerical-analysis lesson: **ill-conditioning** — Wilkinson's polynomial, where a
   $10^{-9}$ change in one coefficient throws roots off the real line
 
+**Pending confirmation — taught in session 6, waiting for the 20 exercises of
+`notebooks/06-synthetic-division.ipynb`:**
+
+- Run a synthetic division table by hand: bring down, multiply by $c$, add — and read the
+  quotient and the remainder out of the bottom row
+- Say *why* it works: it is long division with the letters deleted, and the recurrence
+  $b_{k-1}=a_k+c\,b_k$ is **forced** by "compare coefficients", not chosen
+- The two habits that stop most wrong answers: write a $0$ for every missing power, and read
+  the divisor as "$x$ **minus** something" to get the sign of $c$
+- Use the table as a fast evaluator (remainder theorem) and as a fast factor test (factor
+  theorem)
+- Know that synthetic division and **Horner's method are the same loop** — Horner throws the
+  quotient away
+- Cost: exactly $n$ multiplications against about $n^2/2$ for the naive method (linear vs
+  quadratic)
+- **Deflation**: peel a root off and repeat; count how many zero remainders in a row to get
+  the **multiplicity**
+- Divide by a non-monic linear $ax-b$: use $c=b/a$, then divide the *quotient* (never the
+  remainder) by $a$
+- Rewrite a polynomial in **powers of $(x-c)$** by repeated synthetic division — the
+  remainders are the coefficients (the algebraic skeleton of a Taylor expansion)
+- **Upper and lower bound theorems**: one table with all-non-negative row, or one with an
+  alternating row, fences all real roots into a finite interval
+- Python: writing the algorithm from the definition, testing it against SymPy on 200 random
+  cases, exact `Fraction` arithmetic, and a full rational-root factoriser built from
+  deflation
+- Fourth numerical-analysis lesson: **deflation order matters** — peeling the largest root
+  first amplifies rounding error by $|c|$ per step ($10^{12}$ worse in the demo); peel the
+  smallest first, and polish roots against the original polynomial
+
 ## Current Focus
 
-**Review § 5 — Factoring Polynomials.** Notebook `notebooks/05-factoring-polynomials.ipynb`
-is built and verified: it runs top to bottom with no errors (82 cells, 42 code cells,
-11 figures). Waiting for its 20 exercises.
+**Review § 6 — Synthetic Division.** Notebook `notebooks/06-synthetic-division.ipynb` is built
+and verified: it runs top to bottom with no errors (77 cells, 36 code cells, 9 figures, no
+ASCII art). Waiting for its 20 exercises.
 
-**FIVE sets of homework are now outstanding (notebooks 01, 02, 03, 04, 05).** He again asked
-to continue rather than to be marked, so I taught the next topic — but the weak-spot list
-below is still 100% guesswork, and it will stay guesswork until answers arrive.
+**SIX sets of homework are now outstanding (notebooks 01–06).** He asked to continue again. I
+told him plainly, in one line, that the marking backlog is the real risk, and taught anyway —
+that is his call to make, and he has now made it six times.
 
-This is now the main risk in the course, and it is growing. I have taught five topics
-without a single piece of evidence about what he actually understands. Notebook 05 leaned
-hard on notebook 04 (factor theorem, identity theorem, degree rule, binomial theorem) and on
-notebook 01 (zero-product, irrationality of $\sqrt2$) — if any of those did not land, most of
-this notebook is standing on sand and neither of us knows it.
+The consequence has not changed, only grown: **every weak spot below is still guesswork.**
+Notebook 06 rests almost entirely on notebook 04 (division algorithm + its *uniqueness*,
+remainder and factor theorems, identity theorem, Horner) and on notebook 05 (rational root
+theorem, multiplicity, irreducibility). If notebook 04 did not land, notebook 06 is standing
+on sand.
 
-**Next session: do not teach first.** Open with "send me your answers", and mark oldest
-first (01, then 02, 03, 04, 05). If he wants to continue anyway, at minimum do the oral quiz
-below before opening a new notebook — five minutes of talking is worth more than another
-90 cells of unread proof.
+One thing did change this session: **notebook 06 is the first one that makes him write real
+code.** Exercises 12–16 are five programming tasks (write the algorithm from the definition in
+the *opposite* coefficient order; one-pass divide-and-evaluate; a multiplicity counter; the
+$(x-c)$ expansion plus a figure; and a repeat of the deflation-order experiment). Those are
+much easier to mark than proofs and much harder to fake. **If he sends nothing else, ask for
+Exercises 12–16.** That is the cheapest possible evidence of what he actually understands.
 
-Next topic once the marking is done (or once he insists again): **Review § 6 — Synthetic
-Division** (→ `notebooks/06-synthetic-division.ipynb`). It is nearly free: the `horner`
-function in §6.3 of notebook 05 already returns the quotient as well as the remainder, so
-synthetic division is that function drawn as a table. Good place to finally make him *write*
-code rather than read it.
+**Next session: do not open a new notebook first.** Ask for answers — Ex 12–16 of notebook 06
+if he wants the smallest possible task, otherwise notebook 01 and work forwards. If he insists
+on continuing, run the six oral questions at the end of notebook 06 (§ 7) before teaching.
+
+Next topic once that is done (or once he insists again): **Review § 7 — Rational Expressions**
+(→ `notebooks/07-rational-expressions.ipynb`). It is the natural payoff: factoring (nb 05) to
+cancel, division (nb 04 + 06) to split. Trap 5 of notebook 05 — cancelling a *term* instead of
+a *factor* — was planted for exactly this notebook, so resurface it early.
 
 ## Known Weak Spots
 
@@ -223,7 +258,137 @@ From notebook 05:
 - Big question to settle when answers arrive: **can he write a proof at all?** Five
   notebooks, twenty proof exercises set, zero seen.
 
+From notebook 06:
+- Ex 1(c) and Ex 2(b): the sign of $c$ for a divisor written with a **plus** ($x+3 \Rightarrow
+  c=-3$). This is now the FOURTH notebook in a row with this trap. If he misses it again it
+  goes on the permanent review list, no exceptions.
+- Ex 2(a),(b): does he insert a $0$ for every missing power? Same trap as nb 04 Ex 9. Watch
+  especially $2x^5+x^2-7$, which needs three zeros.
+- Ex 3: does he say $c=2$ for the divisor $3x-6$ (correct, after factoring out the 3) or
+  $c=6$? And does he remember the extra Theorem 9 step at all?
+- Ex 5(c): $x^{100}-1$ — does he *think* (use $p(1)=0$) or does he try to build the table?
+  The exercise is a test of whether he reaches for the theorem instead of the algorithm.
+- Ex 6(b): does he divide the **remainder** by $a$? This is the classic Theorem 9 mistake and
+  the exercise is built so that the wrong answer looks tidy.
+- Ex 7(c): does he find **both** values of $k$ ($k=1$ and $k=-2$), or stop at the first? He
+  has not yet been asked for "all solutions" of a quadratic condition in this course.
+- Ex 8(c): $x^4-1$ — does he stop at $(x^2-1)(x^2+1)$? Same "stopping too early" trap as
+  nb 05 Ex 8(a). Second appearance.
+- Ex 9: does he keep deflating the **quotient**, or does he re-divide the original $p$ every
+  time? Re-dividing $p$ gives remainder $0$ forever and is the classic multiplicity error.
+- Ex 10(c): does he notice that a two-term approximation is *not* exact, and can he say how
+  big the error is instead of writing "about the same"?
+- Ex 11: does he use the bound theorems to *shrink the candidate list*, or does he just find
+  the bounds and then ignore them?
+- Ex 12: the coefficient-order bug. He must write the algorithm with the coefficients
+  **reversed** relative to the notebook. If he silently reverses the list and calls the
+  notebook function, he has dodged the exercise — the point is to feel the bug.
+- Ex 16(d): does he see that `Fraction` gives remainders of exactly $0$, and can he say why
+  (no rounding) rather than "because it is more accurate"?
+- Ex 17: this is the third induction proof of the course and the first with a **sum** as the
+  claim. Watch whether the inductive step actually *uses* the hypothesis, and whether he can
+  handle the index shift. This is still an unverified skill after three attempts.
+- Ex 18: does he prove (a) by induction (each row entry is an integer combination of integers)
+  rather than by checking one example?
+- Ex 19: does he use the **uniqueness** half of Theorem 8? Without it the proof is only half
+  done. Uniqueness has now been the load-bearing step in Theorems 1, 5 and 8 of this notebook,
+  and he has never been tested on whether he sees that.
+- Ex 20(b): deliberately beyond him. The exercise asks him to do $n=1$ honestly and then say
+  precisely where he is stuck. **Watch whether he can admit being stuck in a precise way** —
+  that skill matters more than the answer, and I have no evidence about it yet.
+- General: does he *check* every table against $p(c)$, as the notebook demands? If the checks
+  are missing, the answers are worth much less.
+
 ## Session Log
+
+### Session 6 — 2026-08-21 — Synthetic Division
+
+- **Topic taught:** Review § 6, Synthetic Division (sixth topic in `math-topic.md`). He said
+  "please continue next topic". I flagged the six-notebook marking backlog in one line and
+  taught anyway, as agreed with myself last session.
+- **Notebook created:** `notebooks/06-synthetic-division.ipynb` — 77 cells, 36 code cells,
+  9 matplotlib figures, no ASCII art. Verified: executes top to bottom with no errors
+  (`uv run jupyter nbconvert --to notebook --execute`). No new dependency — numpy, sympy,
+  matplotlib only. Every cell carries an `id`, so nbformat gives no warning.
+- **What is inside:**
+  - Intuition: the letters $x^3,x^2,x$ in a long division never influence a decision, they
+    only say *which column* — and position already says that. Delete them and three rows of
+    numbers remain. Second idea: divide by $x-c$ and **add** instead of subtracting, which
+    removes the sign mistakes. Opening figure draws the long division and the synthetic table
+    side by side with the same numbers highlighted.
+  - Two warnings given before anything else: **write a $0$ for every missing power**, and the
+    corner number is $c$, from "$x$ **minus** something" (table of divisor → $c$).
+  - Definitions 1–4: monic linear divisor; **the synthetic recurrence** $b_{n-1}=a_n$,
+    $b_{k-1}=a_k+cb_k$, $r=a_0+cb_0$ (stated as a boxed recipe *and* in words); divides;
+    multiplicity. Explicit note that this notebook uses **highest power first**, the opposite
+    of the Horner function in nb 04 — the order mismatch is named as a classic bug.
+  - Theorems 1–11, all fully proved: Thm 1 (division by $x-c$: the remainder is a *number*,
+    $\deg q=n-1$, existence **and uniqueness**, from nb 04 Thm 5); **Thm 2 (synthetic
+    division is correct)** — multiply $(x-c)q+r$ out, collect powers, and show the three
+    lines of Definition 2 are exactly the coefficient equations, with a paragraph afterwards
+    hammering that the recurrence is *forced*, not invented; Thm 3 (remainder theorem, one
+    line, plus a figure showing $r$ as the height of the graph); **Thm 4 (Horner = synthetic
+    division)**, by induction, so the course's two algorithms become one; Thm 5 (factor
+    theorem in table form, where the *uniqueness* of Thm 1 does the real work); Thm 6 (cost:
+    exactly $n$ multiplications vs $\sim n^2/2$); **Thm 7 (deflation detects multiplicity)**,
+    by induction, using the zero-product/degree rule of nb 04; **Thm 8 (expansion in powers
+    of $(x-c)$)** — existence by strong induction, uniqueness by substituting $x=c$ and
+    dividing, plus the $y=x-c$ change-of-variable view and an explicit forward pointer to
+    Taylor; Thm 9 (divisor $ax-b$: quotient $\div a$, **remainder unchanged**); Thm 10
+    (upper bound for real roots); Thm 11 (lower bound, alternating signs) — proved directly
+    with the $(-1)^{n-1-k}b_k\ge0$ bookkeeping rather than hand-waved through $p(-x)$.
+  - Worked examples 1–9: the basic table; missing powers with $x^4-16$ and the "what goes
+    wrong without the zeros" note; a fractional $c$ **and** a non-monic divisor $2x-1$ via
+    Thm 9; evaluation only (Horner by hand); finding an unknown coefficient $k$ without
+    dividing; **factoring completely by repeated deflation** with both the multiply-back and
+    the $x=1$ check; **measuring multiplicity** (a triple root, four runs shown as a table);
+    the $(x-2)$ expansion done by hand and expanded back; and fencing the roots of a cubic
+    into $[-3,4]$ with two tables.
+  - Python: `synthetic_division` written straight from Definition 2 (six lines) with exact
+    `Fraction` support; a reusable **`draw_synthetic` matplotlib table-drawer**; a
+    **200-random-case check against `sp.div`** (all agree) with the habit named out loud —
+    always test your mathematics against an independent implementation; remainder theorem by
+    three routes; `peel_all_rational_roots` = rational root theorem + deflation, checked
+    against `sp.factor`; `expand_about` (Thm 8) checked against SymPy including a
+    fractional $c=1/3$; and `root_bounds` implementing Thms 10–11 against `np.roots`.
+  - **Fourth numerical-analysis lesson (§ 5.8): deflation order.** With
+    $p=(x-0.001)(x-0.5)(x-1)(x-3)(x-7)(x-1000)$, peeling the largest root first gives a first
+    remainder of $24.2$ instead of $0$ and a quotient with relative error $6.6\times10^{-4}$;
+    peeling the smallest first stays at $2\times10^{-16}$. Explained by the error-amplification
+    factor $|c|$ per step in $b_{k-1}=a_k+cb_k$, drawn as a log-scale bar chart, and closed
+    with the three lessons — peel smallest first, a correct theorem plus correct code is still
+    not enough, and real root-finders polish against the *original* polynomial. Links back to
+    the cancellation lessons of nb 03/04 and the ill-conditioning lesson of nb 05.
+  - 9 figures: long division vs the table; the remainder as a graph height; the cost curves
+    plus the speed-up ratio; deflation before/after; the $(x-c)$ partial sums rebuilding $p$;
+    the upper-bound "forbidden zone"; two drawn synthetic tables from `draw_synthetic`; and
+    the deflation-order bar chart.
+- **What went well:** nothing to judge — still no answers from him for any of the six
+  notebooks.
+- **Mistakes to revisit:** none recorded (still no answers).
+- **Homework given:** the 20 exercises in notebook 06. Ex 1–11 are by hand (tables, missing
+  powers, the sign of $c$, evaluation, factor tests, a non-monic divisor with the
+  divide-the-remainder trap, unknown coefficients, complete factoring, multiplicity, the
+  $(x-c)$ expansion, root bounds). **Ex 12–16 are Python** — and this is the first notebook
+  that makes him write real code: implement the algorithm from the definition with the
+  coefficient order *reversed*, a one-pass divide-and-evaluate, a multiplicity counter with
+  `Fraction`, `expand_about` plus a partial-sum figure, and a repeat of the deflation-order
+  experiment including a `Fraction` run. Ex 17–20 are proofs: the closed formula
+  $h_i=\sum_j a_{n-j}c^{i-j}$ by induction; integer rows stay integer, and deducing "an
+  integer root divides $a_0$" (half of the rational root theorem, by a second route);
+  **the two multiplicity tests agree** (Thm 7 $\iff$ Thm 8, needs the uniqueness half); and
+  a two-part uniqueness capstone — any correct method must produce our $q$ and $r$, plus an
+  honest attempt at the lower bound on the number of additions, where he is explicitly asked
+  to say precisely where he gets stuck.
+- **Next session plan:** (1) **ask for answers first.** If six notebooks feel too big, ask
+  only for **Ex 12–16 of notebook 06** — code is quick to mark and impossible to fake. Then
+  mark notebook 01 forwards. (2) If he insists on continuing, run the six oral questions at
+  the end of notebook 06 (§ 7) first: why only $x-c$; where the recurrence came from; why the
+  remainder is a number; what Horner throws away; which theorem proves two different
+  quotients cannot both be right; and why peeling order can destroy a correct theorem.
+  (3) Only then teach **Rational Expressions**, opening with the cancel-a-factor-not-a-term
+  trap planted in notebook 05.
+
 
 ### Session 5 — 2026-08-20 — Factoring Polynomials
 
