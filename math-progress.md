@@ -139,37 +139,69 @@
   first amplifies rounding error by $|c|$ per step ($10^{12}$ worse in the demo); peel the
   smallest first, and polish roots against the original polynomial
 
+**Pending confirmation — taught in session 7, waiting for the 20 exercises of
+`notebooks/07-rational-expressions.ipynb`:**
+
+- Say what a rational expression is, and see the big analogy: $\mathbb{Z}\to\mathbb{Q}$ is the
+  same step as $\mathbb{R}[x]\to\mathbb{R}(x)$ (square brackets vs round brackets)
+- **Domain**: find the forbidden values from the ORIGINAL expression, before cancelling, and
+  carry the restrictions on every line of the answer
+- Cancel a **factor**, never a **term** — and say exactly which hypothesis of the cancellation
+  theorem fails in $\frac{x+3}{x}$
+- The two meanings of "equal" (cross-multiplying vs agreeing as functions) and the theorem that
+  they are the same
+- Multiply, divide, add and subtract rational expressions; the reversed-bracket rule
+  $a-b=-(b-a)$; the minus-sign-over-the-whole-numerator rule
+- **LCD** by taking the highest power of each irreducible factor, and why that is the *least*
+  common multiple
+- Complex (compound) fractions, by both methods
+- Split improper $\to$ polynomial part + proper part, using synthetic division from nb 06
+- **Hole vs vertical asymptote (wall)**: reduce first, then look at the reduced bottom
+- $\mathbb{R}(x)$ is a **field**; $\mathbb{R}[x]$ is not — the single axiom that differs is the
+  reciprocal, and the price paid is the domain
+- **Lowest terms exist and are unique up to a constant** (via Bezout + unique factorisation)
+- **Lagrange interpolation**: exactly one polynomial of degree $\le n-1$ through $n$ points
+- **Partial fractions** for distinct linear factors, with the **cover-up formula** proved (no
+  system of equations needed)
+- The **difference quotient** $\frac{f(x+h)-f(x)}{h}$, and why the $h$ cancelling is the trick
+  that calculus is built on
+- SymPy: `cancel`, `together`, `apart`, `factor_list`, `fraction`, `lcm`, `lambdify` — and the
+  warning that `together` silently cancels and so silently changes the domain
+- Plotting rational functions honestly with `np.nan` instead of letting matplotlib draw a fake
+  vertical line
+- Fifth numerical-analysis lesson: **simplifying the algebra makes the computation stable** —
+  the raw difference quotient loses every digit as $h\to0$; the simplified form is exact
+
 ## Current Focus
 
-**Review § 6 — Synthetic Division.** Notebook `notebooks/06-synthetic-division.ipynb` is built
-and verified: it runs top to bottom with no errors (77 cells, 36 code cells, 9 figures, no
-ASCII art). Waiting for its 20 exercises.
+**Review § 7 — Rational Expressions.** Notebook `notebooks/07-rational-expressions.ipynb` is
+built and verified: it runs top to bottom with no errors (78 cells, 36 code cells, 10 figures,
+no ASCII art). Waiting for its 20 exercises.
 
-**SIX sets of homework are now outstanding (notebooks 01–06).** He asked to continue again. I
-told him plainly, in one line, that the marking backlog is the real risk, and taught anyway —
-that is his call to make, and he has now made it six times.
+**SEVEN sets of homework are now outstanding (notebooks 01–07).** He asked to continue again; I
+flagged the backlog in one line and taught. That is his call and he has now made it seven times.
 
-The consequence has not changed, only grown: **every weak spot below is still guesswork.**
-Notebook 06 rests almost entirely on notebook 04 (division algorithm + its *uniqueness*,
-remainder and factor theorems, identity theorem, Horner) and on notebook 05 (rational root
-theorem, multiplicity, irreducibility). If notebook 04 did not land, notebook 06 is standing
-on sand.
+Everything below the line "Known Weak Spots" is still **guesswork**. No exercise answer has ever
+arrived. Notebook 07 leans on nb 05 (factoring, Bezout, unique factorisation), nb 04 (division
+algorithm, at-most-$n$-roots, identity theorem) and nb 06 (synthetic division, used inside
+Example 9 and Exercise 8). The dependency chain is now four notebooks deep and completely
+unverified.
 
-One thing did change this session: **notebook 06 is the first one that makes him write real
-code.** Exercises 12–16 are five programming tasks (write the algorithm from the definition in
-the *opposite* coefficient order; one-pass divide-and-evaluate; a multiplicity counter; the
-$(x-c)$ expansion plus a figure; and a repeat of the deflation-order experiment). Those are
-much easier to mark than proofs and much harder to fake. **If he sends nothing else, ask for
-Exercises 12–16.** That is the cheapest possible evidence of what he actually understands.
+**The single cheapest test remains: ask for Ex 12–16 of notebook 06 or Ex 13–16 of notebook 07.**
+Both sets are Python. Code either runs or does not, so marking is fast and faking is impossible.
 
-**Next session: do not open a new notebook first.** Ask for answers — Ex 12–16 of notebook 06
-if he wants the smallest possible task, otherwise notebook 01 and work forwards. If he insists
-on continuing, run the six oral questions at the end of notebook 06 (§ 7) before teaching.
+**Next session: do not open a new notebook first.** Ask for answers. If he insists on
+continuing, run the six oral questions at the end of notebook 07 (§ 9) first — especially
+question 1 (why the domain comes from the original expression) and question 4 (which axiom
+separates $\mathbb{R}[x]$ from $\mathbb{R}(x)$).
 
-Next topic once that is done (or once he insists again): **Review § 7 — Rational Expressions**
-(→ `notebooks/07-rational-expressions.ipynb`). It is the natural payoff: factoring (nb 05) to
-cancel, division (nb 04 + 06) to split. Trap 5 of notebook 05 — cancelling a *term* instead of
-a *factor* — was planted for exactly this notebook, so resurface it early.
+Next topic once that is done (or once he insists again): **Review § 8 — nth Roots; Rational
+Exponents** (→ `notebooks/08-nth-roots-rational-exponents.ipynb`). The door is already open:
+Exercise 20 of notebook 07 asks him to prove that $\sqrt x$ is **not** a rational expression, by
+a degree argument that mirrors the irrationality of $\sqrt2$ from notebook 01. So topic 8 starts
+with a hole he has proved exists — the best possible motivation. Notebook 02 (exponent laws,
+$\sqrt{a^2}=|a|$) is the other main dependency; resurface the $|a|$ trap early, it is the single
+most common mistake in the whole course.
 
 ## Known Weak Spots
 
@@ -299,7 +331,139 @@ From notebook 06:
 - General: does he *check* every table against $p(c)$, as the notebook demands? If the checks
   are missing, the answers are worth much less.
 
+From notebook 07:
+- Ex 1(d) and Ex 2: does he factor the bottom **before** reading off the domain? Ex 1(d) has a
+  hidden common factor of $x$, so a careless answer misses two of the three forbidden points.
+- Ex 2, Ex 3, Ex 4: does he write the **restrictions** on every answer, including the ones that
+  vanish from the simplified form (Ex 4(b) has four)? If the restrictions are missing, the
+  answer is not finished — this is the single thing I will be strictest about in this topic.
+- Ex 3: the reversed bracket. $\frac{4-x}{x-4}=-1$, not $+1$. Watch Ex 3(c), where the sign flip
+  is buried inside a product and easy to miss.
+- Ex 5(b): does he use the LCD $(x-2)(x+2)$, or does he multiply the two bottoms and get a
+  degree-3 mess he then cannot cancel? (Trap 6.)
+- Ex 6: the minus sign. The exercise plants the wrong answer explicitly, so if he agrees with the
+  student he has walked straight in.
+- Ex 7(a): both methods must give the same thing. If only one method is shown, he has skipped the
+  point of the exercise.
+- Ex 8(c): does he notice that synthetic division needs a divisor $x-c$ and $x^2+1$ is not of
+  that shape? This tests whether he learned nb 06's *hypothesis*, not just its algorithm.
+- Ex 9: the difference quotient — first real contact with calculus. Watch whether he can get the
+  $h$ to cancel in (b) and (c); (b) needs a common denominator inside the top first.
+- Ex 10(c): $\frac{x^3-x}{x^2-2x+1}$ has a hole AND a wall at the *same* factor $(x-1)$ appearing
+  with different powers. This is the hardest classification of the set and I expect a slip.
+- Ex 11(c): three terms, so three cover-up computations. Does he trust the formula, or does he
+  fall back on solving a system?
+- Ex 12(c),(d): the harmonic-mean surprise. Does he accept that the average speed is not the
+  average of the speeds? (d) needs him to spot the $(u-v)^2$ after subtracting — a move from
+  nb 05.
+- Ex 13–16 (Python): the fastest evidence available. Ex 13 asks for hole-vs-wall classification
+  in code; Ex 15(b),(c) deliberately break the cover-up formula on a repeated factor and ask
+  **which hypothesis failed** — that is the real test of whether he reads theorems as objects
+  with conditions. Ex 16(d) asks *why* the raw difference quotient returns exactly $0$.
+- Ex 17: the discriminant argument. Does he reach for $D<0$ (nb 05 Thm 8) or does he just try
+  numbers and give up?
+- Ex 18: needs Lemma 6b. First time he has to use a lemma proved *in the same notebook* as a
+  tool rather than as a step in the theorem it was made for.
+- Ex 19(c): "what did the Lagrange proof give us that this one does not?" — I am looking for
+  "it works for any number of factors, not just two". This tests whether he can see the *reach*
+  of a proof, not only its correctness.
+- Ex 20 (capstone): the degree-parity argument. Watch for (i) whether he actually uses the
+  lowest-terms assumption, (ii) whether he sees that "even = odd" is the contradiction, and
+  (iii) part (c), comparing this with the $\sqrt2$ proof of notebook 01. If he can draw that
+  analogy himself, the whole nb 01 / nb 05 / nb 07 thread has landed.
+- General: this is the third notebook where a **hypothesis** of a theorem is the real lesson
+  (nb 06: divisor must be $x-c$; nb 07: distinct linear factors, and $d\neq0$ in cancelling).
+  If he keeps applying rules outside their conditions, that becomes the top permanent weak spot.
+
 ## Session Log
+
+### Session 7 — 2026-08-21 — Rational Expressions
+
+- **Topic taught:** Review § 7, Rational Expressions (seventh topic in `math-topic.md`). He said
+  "please continue next topic" again, in the same session as notebook 06. I noted the backlog in
+  one line and taught.
+- **Notebook created:** `notebooks/07-rational-expressions.ipynb` — 78 cells, 36 code cells,
+  10 matplotlib figures, no ASCII art, every cell carries an `id`. Verified: executes top to
+  bottom with no errors (`uv run jupyter nbconvert --to notebook --execute`). No new dependency —
+  numpy, sympy, matplotlib only.
+- **What is inside:**
+  - **§0 "What we need from before"** — new this session: a recall table of the nine results from
+    nb 01/04/05/06 that the notebook uses, plus two warm-up questions. Spaced repetition, since I
+    still have no evidence any of them landed.
+  - Intuition: the $\mathbb{Z}\to\mathbb{Q}$ / $\mathbb{R}[x]\to\mathbb{R}(x)$ table (same
+    step, twice); the square-bracket vs round-bracket notation; the new danger (forbidden
+    points); and the famous trap drawn as a **hole** in the line $y=x+1$.
+  - Definitions 1–9: rational expression, domain, the rational function, **two meanings of
+    equality**, lowest terms, proper/improper, LCD, complex fraction, and **field**.
+  - Theorems 1–11 with full proofs: Thm 1 (at most $\deg q$ forbidden points, so the domain is
+    infinite — the fact that makes everything else work); **Thm 2 (cross-multiplying is legal)**,
+    proved with nb 04 Thm 8, which is what lets us move between the two meanings of "equal";
+    Thm 3 (cancelling, plus a formal explanation of why "cancel a term" is not a special case —
+    it needs $x\mid x+3$, which the factor theorem refutes); Thm 4 (the four operations, proved by
+    *transporting* the number rules through Thm 2 — the proof technique is named and reused);
+    **Thm 5 ($\mathbb{R}(x)$ is a field)** with the price of the extension made explicit;
+    Lemma 6a (Bezout with constant gcd), Lemma 6b (cancellation lemma), **Thm 6 (lowest terms:
+    existence and uniqueness up to a constant)**; Thm 7 (polynomial part + proper part, unique);
+    Lemma 8a (divisibility in factored form) and **Thm 8 (LCD)**; **Thm 9 (hole vs wall)** — and
+    here I stopped and said out loud that "runs off to infinity" is a **limit** statement we have
+    not earned yet, exactly like the circle-area gap in nb 03; **Thm 10 (Lagrange
+    interpolation)** with the switch-polynomial trick; **Thm 11 (partial fractions for distinct
+    linear factors)** with the **cover-up formula**, proved *through* Lagrange rather than by
+    solving a system.
+  - Traps section (9): cancel a term; domain after simplifying; reversed bracket; the invented
+    addition rule $\frac1a+\frac1b=\frac1{a+b}$; the lost minus sign; multiplying the LCD out
+    too early; treating an expression like an equation; half-multiplying a complex fraction; and
+    calling every forbidden point a wall.
+  - Worked examples 1–12: domains (including one with an empty forbidden set); simplify;
+    reversed bracket; multiply; divide; add with the LCD; subtract with the minus-sign trap live;
+    a complex fraction **both ways**; improper split **using the nb 06 synthetic table**; the
+    **difference quotient of $1/x$** (calculus teaser); partial fractions by cover-up; and a full
+    analysis of $\frac{x^2-x-6}{x^2-9}$ (domain, reduce, classify each forbidden point, find the
+    zero) drawn in one figure.
+  - Python: a five-command SymPy tour (`factor`, `cancel`, `together`, `apart`, `simplify`) with a
+    table of what each one *promises*; a `forbidden_values` function that reads the denominator
+    **as written** — and a deliberate demonstration that calling `sp.together` first silently
+    cancels and hands back the wrong domain (Trap 2, but committed by the library); an honest
+    plotter using `np.nan` shown against the naive plot with its fake vertical line; the
+    subtract-and-simplify-to-zero habit used as a **trap detector**; `my_lcd` built from
+    `factor_list` (Thm 8) checked against `sp.lcm`; `cover_up` (Thm 11) checked against
+    `sp.apart`; and `lagrange` (Thm 10) with a two-panel figure showing the unique cubic and the
+    four switch polynomials.
+  - **Fifth numerical-analysis lesson (§ 6.6):** the difference quotient of $1/x$ at $x=2$,
+    computed raw and simplified, with an exact `Fraction` judge. The raw form loses accuracy as
+    $h$ shrinks ($2.7\times10^{-16}$ at $h=10^{-1}$, $2.5\times10^{-1}$ at $h=10^{-16}$, where it
+    returns exactly $0$); the simplified form stays at $10^{-17}$ throughout. Log-log figure. The
+    lesson is the friendliest of the five: for once **doing the algebra fixes the numerics**, and
+    it explains why calculus cancels the $h$ by hand before letting it go to zero.
+  - **§8 "Still owed"** — limits; asymptotes properly; partial fractions with repeated factors
+    and irreducible quadratics; and why `sp.cancel` uses the Euclidean algorithm rather than full
+    factorisation.
+  - 10 figures: the hole in $y=x+1$; factor-vs-term cancelling side by side; the polynomial part
+    as what the curve hugs far away; the LCD exponent bars; hole vs wall; the partial-fraction
+    overlay; the full analysis of one expression; naive plot vs `np.nan` plot; Lagrange plus the
+    four basis polynomials; and the difference-quotient error curve.
+- **What went well:** nothing to judge — still no answers from him for any of the seven
+  notebooks.
+- **Mistakes to revisit:** none recorded (still no answers).
+- **Homework given:** the 20 exercises in notebook 07. Ex 1–12 by hand (domains, lowest terms,
+  reversed brackets, multiply/divide, LCD sums, the minus-sign trap, complex fractions both ways,
+  the improper split with a part that synthetic division **cannot** do, three difference
+  quotients, hole-or-wall classification, cover-up partial fractions, and the average-speed
+  problem ending in an AM-HM inequality). Ex 13–16 Python (a `describe` function that classifies
+  every forbidden point; write your own `cancel` from `factor_list`; write `cover_up` and then
+  **break it on a repeated factor and name the hypothesis that failed**; and repeat the
+  difference-quotient experiment for $1/x^2$ with a `Fraction` judge). Ex 17–20 proofs:
+  $\frac1a+\frac1b=\frac1{a+b}$ has no real solutions (discriminant); the reduced denominator
+  divides the original (Lemma 6b); partial fractions the slow way and why Lagrange reaches
+  further; and the capstone **$\sqrt x\notin\mathbb{R}(x)$** by a degree-parity argument,
+  explicitly compared with the $\sqrt2$ proof of notebook 01 — which is also the doorway to
+  topic 8.
+- **Next session plan:** (1) **ask for answers first** — the Python sets (nb 06 Ex 12–16 or nb 07
+  Ex 13–16) if he wants the smallest possible task. (2) If he insists on continuing, the six oral
+  questions at the end of notebook 07 first. (3) Only then teach **nth Roots; Rational
+  Exponents**, opening with his own Exercise 20: he will have proved the hole exists, so the new
+  numbers have a reason to be built.
+
 
 ### Session 6 — 2026-08-21 — Synthetic Division
 
