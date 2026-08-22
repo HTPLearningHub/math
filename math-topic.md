@@ -44,3 +44,12 @@
 5. Inequalities Involving Quadratic Functions
 
 # Polynomial and Rational Functions
+
+1. Polynomial Functions and Models
+2. Properties of Rational Functions
+3. The Graph of a Rational Function
+4. Polynomial and Rational Inequalities
+5. The Real Zeros of a Polynomial Function
+6. Complex Zeros; Fundamental Theorem of Algebra
+
+# Exponential and Logarithmic Functions 

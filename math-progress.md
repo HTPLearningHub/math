@@ -172,36 +172,86 @@
 - Fifth numerical-analysis lesson: **simplifying the algebra makes the computation stable** —
   the raw difference quotient loses every digit as $h\to0$; the simplified form is exact
 
+**Pending confirmation — taught in session 8, waiting for the 20 exercises of
+`notebooks/08-nth-roots-rational-exponents.ipynb`:**
+
+- Say what an $n$th root *is* (Def 1: any $t$ with $t^n=a$) and how the **principal** root
+  (Def 2) picks one of them — and that the pick is a convention with a reason (keeps the root a
+  function, keeps it increasing)
+- The even/odd split: even index $\Rightarrow$ two roots or none; odd index $\Rightarrow$ exactly
+  one, for every real number
+- $\sqrt[n]{a^n}=|a|$ for even $n$, $=a$ for odd $n$ (nb 02 Thm 8, now general) — the bars trap,
+  fifth appearance in the course
+- Existence of $\sqrt[n]{a}$ proved from the **completeness axiom** by $\sup$, generalising nb 02
+  Thm 7 from $n=2$ to every $n$; Lemma 1 (powers keep the order) and Lemma 2 (a power cannot
+  jump) both proved from the nb 04 telescoping identity
+- The **uniqueness pattern**: to prove two non-negative things are equal, raise both to the $n$th
+  power and quote Corollary 1a — the same three lines prove Theorems 3–6 and 10–11
+- Product, quotient, root-of-a-root and order laws for radicals, each with the hypothesis that
+  makes it legal, and the exact place each one dies without it
+- $\sqrt[n]{a+b}<\sqrt[n]a+\sqrt[n]b$ proved from the binomial theorem — not just "you cannot
+  split over a plus", but *which way* the inequality goes
+- AM–GM for two numbers, proved twice: by the semicircle picture (nb 03 similar triangles) and by
+  $(\sqrt a-\sqrt b)^2\ge0$
+- Simplest radical form; combining like radicals; rationalising a **denominator** (conjugate, and
+  the cube-root version built from $u^3-v^3$) and a **numerator** (the difference quotient of
+  $\sqrt x$ — second calculus teaser of the course)
+- **Rational exponents**: the definition is *forced* by $(a^r)^s=a^{rs}$, not chosen;
+  **Theorem 10 (well defined)** — why $a^{2/6}=a^{1/3}$ needs a proof, and why it is exactly the
+  theorem that fails for $a<0$; Theorem 11 (all four exponent laws for rationals)
+- Comparing roots with no calculator by raising to the lcm of the indices
+- Un-nesting $\sqrt{7+4\sqrt3}=2+\sqrt3$, and why matching the rational and irrational parts is
+  legal (irrationality of $\sqrt3$, nb 01)
+- Domains of radical expressions: even root $\ge0$, and the extra strictness when the same
+  expression is also a denominator
+- The honest gap flagged out loud: $2^{\sqrt2}$ needs limits, so rational exponents are as far as
+  we can go — the same kind of gap as the circle area (nb 03) and the asymptote (nb 07)
+- Python: `**(1/n)` returning a **complex** number for a negative base, `np.cbrt` vs `np.sqrt`,
+  `sp.root` vs **`sp.real_root`**, `sp.radsimp`, `sp.sqrtdenest`, `sp.refine(..., Q.real(x))` to
+  get `Abs(x)` out of `sqrt(x**2)`, and the laws tested on 200 000 random cases before being
+  proved symbolically
+- Theorem 1's proof executed as **bisection**, then measured against **Newton's method**
+  (41 steps vs 8 to reach $10^{-12}$) — the proof and the algorithm are the same idea
+- Sixth numerical-analysis lesson: **catastrophic cancellation** in $\sqrt{x+1}-\sqrt x$ —
+  100% relative error at $x=10^{16}$, cured completely by rationalising the numerator
+
 ## Current Focus
 
-**Review § 7 — Rational Expressions.** Notebook `notebooks/07-rational-expressions.ipynb` is
-built and verified: it runs top to bottom with no errors (78 cells, 36 code cells, 10 figures,
-no ASCII art). Waiting for its 20 exercises.
+**Review § 8 — nth Roots; Rational Exponents.** Notebook
+`notebooks/08-nth-roots-rational-exponents.ipynb` is built and verified: it runs top to bottom
+with no errors (77 cells, 39 code cells, 11 figures, no ASCII art, every cell has an `id`).
+Waiting for its 20 exercises.
 
-**SEVEN sets of homework are now outstanding (notebooks 01–07).** He asked to continue again; I
-flagged the backlog in one line and taught. That is his call and he has now made it seven times.
+**This finishes the Review chapter — notebooks 01–08 cover all eight topics of `math-topic.md`
+§ Review.** The next chapter is *Equations and Inequalities*, starting with § 1 Linear Functions.
 
-Everything below the line "Known Weak Spots" is still **guesswork**. No exercise answer has ever
-arrived. Notebook 07 leans on nb 05 (factoring, Bezout, unique factorisation), nb 04 (division
-algorithm, at-most-$n$-roots, identity theorem) and nb 06 (synthetic division, used inside
-Example 9 and Exercise 8). The dependency chain is now four notebooks deep and completely
-unverified.
+**EIGHT sets of homework are now outstanding (notebooks 01–08).** He said "please continue next
+topic" with no answers attached, for the eighth time. I taught, as he asked. It is his call and
+he has now made it eight times, so I have stopped writing a paragraph about it — one line in the
+next-session plan is enough.
 
-**The single cheapest test remains: ask for Ex 12–16 of notebook 06 or Ex 13–16 of notebook 07.**
-Both sets are Python. Code either runs or does not, so marking is fast and faking is impossible.
+Everything below "Known Weak Spots" is still **guesswork**. No exercise answer has ever arrived.
+Notebook 08 leans on nb 02 (exponent laws, the $\sup$ proof, $\sqrt{a^2}=|a|$), nb 04
+(telescoping identity, binomial theorem), nb 05 (monic rational-root corollary), nb 01
+(completeness, irrationality of $\sqrt2$) and nb 07 (difference quotient, domain discipline).
+The dependency chain is now five notebooks deep and completely unverified.
 
-**Next session: do not open a new notebook first.** Ask for answers. If he insists on
-continuing, run the six oral questions at the end of notebook 07 (§ 9) first — especially
-question 1 (why the domain comes from the original expression) and question 4 (which axiom
-separates $\mathbb{R}[x]$ from $\mathbb{R}(x)$).
+**The cheapest test is still a Python exercise.** Best single ask: **Ex 14–16 of notebook 08**
+(bisection root, Newton vs bisection, catastrophic cancellation). Code either runs or does not,
+so marking is fast and faking is impossible. Ex 16(c) also needs a *sentence of reasoning*, so it
+tests understanding, not typing.
 
-Next topic once that is done (or once he insists again): **Review § 8 — nth Roots; Rational
-Exponents** (→ `notebooks/08-nth-roots-rational-exponents.ipynb`). The door is already open:
-Exercise 20 of notebook 07 asks him to prove that $\sqrt x$ is **not** a rational expression, by
-a degree argument that mirrors the irrationality of $\sqrt2$ from notebook 01. So topic 8 starts
-with a hole he has proved exists — the best possible motivation. Notebook 02 (exponent laws,
-$\sqrt{a^2}=|a|$) is the other main dependency; resurface the $|a|$ trap early, it is the single
-most common mistake in the whole course.
+**Next session: ask for answers before opening anything new.** If he insists on continuing, run
+the six oral questions at the end of notebook 08 (§ 10) first — especially question 2 (why bars
+appear only for even indices, argued from the definition) and question 4 (what "well defined"
+means, and why Theorem 10 had to be proved). Question 5 is the sharpest: it asks him to tell
+apart "the theorem is wrong" from "the theorem does not apply here", which is a distinction he
+has never been tested on.
+
+Next topic when we move on: **Equations and Inequalities § 1 — Linear Functions**
+(→ `notebooks/09-linear-functions.ipynb`). Two doors from notebook 08 open into that chapter:
+Trap 7 (extraneous solutions after squaring) is the whole of § 4 *Radical Equations*, and the
+repeated line "no real number squares to $-1$" is answered in § 3 *Complex Numbers*.
 
 ## Known Weak Spots
 
@@ -375,7 +425,122 @@ From notebook 07:
   (nb 06: divisor must be $x-c$; nb 07: distinct linear factors, and $d\neq0$ in cancelling).
   If he keeps applying rules outside their conditions, that becomes the top permanent weak spot.
 
+From notebook 08:
+- Ex 1(d),(f),(g): does he see that $-\sqrt{49}=-7$ (the minus is *outside*) but
+  $\sqrt{(-7)^2}=+7$? Same family as the $-3^2$ vs $(-3)^2$ trap of nb 02 Ex 6 and nb 04 Ex 7(c).
+- Ex 2: the bars. This is the FIFTH notebook in which the $\sqrt{x^2}=|x|$ trap appears. Watch
+  2(d) $\sqrt[6]{(x-2)^6}=|x-2|$ and especially 2(f) $\sqrt{x^6}=|x|^3$ — the one where you may
+  *not* drop the bars even though the exponent under the root is even.
+- Ex 4(c): $\sqrt8+\sqrt[3]8$ — does he try to "combine" radicals with different indices?
+- Ex 6(d): does he reach for the conjugate (which fails for a cube root) or for the
+  $u^3-v^3$ identity? The exercise asks him to *say why* the conjugate cannot work.
+- Ex 7: does he answer "$\frac{1}{2\sqrt5}$" and explain that putting $x=0$ is legal only in the
+  simplified form? This is the calculus door; if he only simplifies and stops, he missed it.
+- Ex 9: does he factor out the **negative** power (the smallest one), or the positive one? Same
+  shape as the GCF trap of nb 05 Ex 1(c).
+- Ex 10(d): does he write $x^2-4>0$ (strict) rather than $\ge0$? Two rules on one expression.
+  Ex 10(f) is harder: a fraction is $\ge0$ in two ways, so the answer is a union.
+- Ex 11: does he use one common power ($\mathrm{lcm}=12$) for all three, or compare them in
+  pairs with decimals? Decimals here would be a small failure of nerve.
+- Ex 12: three fake proofs. (a) and (b) are the ones from §5; (c) is the bars again. The point is
+  to name the **first** wrong step and the hypothesis it breaks — not to say "you can't do that".
+- Ex 13(b),(c): does he check the **sign** of his answer against the definition of the principal
+  root, or does he stop as soon as the squares match?
+- Ex 14: does he actually obey the "no library root inside the function" rule? And does he notice
+  that $M=a+1$ still works for $a=0.001$ *because* the bound only has to be an upper bound?
+- Ex 15(d): the honest question — bisection is proved, Newton is not. Watch whether he can say
+  what was gained and what was given up, instead of just "Newton is faster".
+- Ex 16(c): the "why $10^8$" question. He needs to connect 16 float digits with 8 shared digits.
+  This is the first time he has had to *predict* where a computation breaks rather than observe it.
+- Ex 17: the first proof asked for by name of a lemma from this notebook. Does he use the
+  telescoping identity, or does he silently switch to induction (which the exercise forbids)?
+  And does he find the counterexample showing $s\ge0$ is needed ($s=-2,t=1,n=2$)?
+- Ex 18(b): the sharp one — he must point at the **sentence** in his own proof that fails, not
+  say "because they are negative". This tests whether he reads his own proofs.
+- Ex 19: the irrationality machine. Does he build the monic polynomial $x^n-a$ himself? Ex 19(c)
+  checks whether he can recognise nb 01 Thm E as a special case of his own new result.
+- Ex 20(a): needs Theorem 10 *by name* at the common-denominator step. If he does not mention it,
+  he has not seen why it matters.
+- Ex 20(b): deliberately beyond him, in the tradition of nb 06 Ex 20. **Watch whether he can say
+  precisely where he is stuck** — still the one skill I have no evidence about.
+- General: does he state the assumption on the letters ("assume $x>0$") before simplifying, or
+  does he simplify first and hope? Notebook 07 asked for the same discipline about domains.
+
 ## Session Log
+
+### Session 8 — 2026-08-22 — nth Roots; Rational Exponents
+
+- **Topic taught:** Review § 8, *nth Roots; Rational Exponents* (eighth and last topic of the
+  Review chapter). He wrote "please continue next topic", with no exercise answers again. Eighth
+  time; noted in one line and taught.
+- **Notebook created:** `notebooks/08-nth-roots-rational-exponents.ipynb` — 77 cells, 39 code
+  cells, 11 matplotlib figures, no ASCII art, every cell carries an `id`. Verified: executes top
+  to bottom with no errors (`uv run jupyter nbconvert --to notebook --execute`). No new
+  dependency — numpy, sympy, matplotlib, plus `fractions` from the standard library.
+- **What is inside:**
+  - **§0 recall table** (kept from nb 07): the ten earlier results this notebook stands on, plus
+    three warm-up questions. Spaced repetition, since none of them is confirmed.
+  - Intuition: the root as a broken "undo" button; the even/odd split drawn with horizontal
+    lines; the root as the **mirror image of a power in the line $y=x$**; the fifth telling of
+    the "we had a system, something was missing, we built a bigger one" table, with $\sqrt x
+    \notin\mathbb{R}(x)$ (nb 07 Ex 20) as the new bottom row; the family $y=x^{1/n}$; and
+    $\sqrt{ab}$ **constructed with a semicircle** (nb 03 similar triangles), which hands AM–GM
+    over for free.
+  - Definitions 1–4: an $n$th root, the principal root (with the even/odd/negative table), a
+    radical expression and its domain, simplest radical form.
+  - Theorems, all fully proved: Lemma 1 (powers keep the order, from the nb 04 telescoping
+    identity — no induction), **Corollary 1a (uniqueness)** which becomes the engine of the whole
+    notebook, Lemma 2 (a power cannot jump), **Theorem 1 (existence by $\sup$)** generalising
+    nb 02 Thm 7 from $n=2$ to every $n$ with both cases killed explicitly, Theorem 2 (odd index:
+    always exactly one root; even index and negative radicand: none), **Theorem 3 ($\sqrt[n]{a^n}
+    =|a|$ or $a$)**, Theorems 4–6 (product, quotient, root of a root), Theorem 7 (roots keep the
+    order — sold as a *calculator-free comparison machine*), **Theorem 8 (no sum law, with the
+    direction proved from the binomial theorem)**, Theorem 9 (AM–GM, proved algebraically to
+    match the picture), **Theorem 10 (rational exponents are well defined)** and **Theorem 11
+    (the four exponent laws for rationals)**.
+  - Named the **three-line uniqueness pattern** out loud and then reused it in six proofs, so the
+    technique is visible as a technique, not as six tricks.
+  - Traps section (7): dropping the bars; splitting over a $+$; the $1=-1$ fake proof and exactly
+    which hypothesis of Thm 4 it breaks; **simplifying that quietly changes the domain**
+    ($\sqrt{x-1}\sqrt{x+1}$ vs $\sqrt{x^2-1}$, drawn); the invented rule for $\sqrt{x^2+9}$;
+    a negative base with a fractional exponent ($(-8)^{1/3}$ vs $(-8)^{2/6}$); and extraneous
+    solutions, flagged and postponed to the Equations chapter.
+  - The honest gap stated plainly: $2^{\sqrt2}$ needs limits. Drawn as rational exponents filling
+    in the curve — same treatment as the circle area (nb 03) and the asymptote (nb 07).
+  - Worked examples 1–12: two simplifications (odd index, then the even one with the bars live);
+    like radicals; multiplying out; **three rationalised denominators** including the cube-root
+    conjugate from $u^3-v^3$; **rationalising the numerator of the difference quotient of
+    $\sqrt x$** (second calculus teaser, after nb 07's $1/x$); two exponent simplifications;
+    factoring out the smallest (negative) power; a domain table; comparing $\sqrt[3]5$ with
+    $\sqrt[4]{11}$ by 12th powers; and un-nesting $\sqrt{7+4\sqrt3}$.
+  - Python: the four ways to ask for a root and when each lies (`**(1/n)` returning a **complex**
+    number, `np.sqrt` giving `nan`, `np.cbrt`, `sp.root` vs **`sp.real_root`**); exact vs float
+    with `radsimp` and `sqrtdenest`; **`sp.refine(sqrt(x**2), Q.real(x)) -> Abs(x)`** to show
+    SymPy refusing to drop the bars until it is allowed to; the four exponent laws tested on
+    200 000 random cases *and then* proved symbolically; Trap 6 measured; **Theorem 1's proof run
+    as bisection and raced against Newton's method** (41 steps vs 8 for $10^{-12}$).
+  - **Numerical-analysis lesson 6:** catastrophic cancellation in $\sqrt{x+1}-\sqrt x$ — the
+    naive form reaches 100% relative error at $x=10^{16}$, the rationalised form stays at machine
+    precision everywhere. The point made explicitly: "rationalise the numerator" is not an
+    old-fashioned habit, it is the difference between an answer and noise.
+  - 11 figures: even vs odd powers; the mirror in $y=x$; the family $x^{1/n}$; the semicircle
+    construction of $\sqrt{ab}$; the bisection brackets closing in (inside the proof, plus a log
+    plot of the width); $\sqrt{x^2}$ vs $x$ against $\sqrt[3]{x^3}$ vs $x$; $\sqrt{a+b}$ vs
+    $\sqrt a+\sqrt b$; the domain mismatch of Trap 4; $2^{k/n}$ filling in $2^x$; bisection vs
+    Newton error curves; and the cancellation error on log–log axes.
+- **What went well:** nothing to judge — still no answers from him, in any notebook.
+- **Mistakes to revisit:** none recorded (see "Known Weak Spots" for what to look for).
+- **Homework given:** the 20 exercises of notebook 08. 14–16 are Python (bisection root written
+  from the proof; Newton vs bisection; breaking $\sqrt{x+1}-\sqrt x$ on purpose). 17–20 are
+  proofs, ending with the deliberately-too-hard "$\sqrt[n]{x}$ is not a rational expression, or
+  say exactly where you are stuck".
+- **Next session plan:** (1) **ask for answers first** — cheapest ask is Ex 14–16 of this
+  notebook; (2) if he insists on continuing, run the six oral questions of § 10, especially Q2
+  (bars, argued from the definition), Q4 ("well defined") and Q5 ("the theorem is wrong" vs "the
+  theorem does not apply"); (3) then open the new chapter, **Equations and Inequalities § 1 —
+  Linear Functions**, in `notebooks/09-linear-functions.ipynb`.
+
+
 
 ### Session 7 — 2026-08-21 — Rational Expressions
 
