@@ -2,6 +2,7 @@
 
 1. [Numpy Basics](./numpy/1_numpy-basics.ipynb)
 2. [Creating NumPy Arrays](./numpy/2_Creating_NumPy_Arrays.ipynb)
+3. [Dimensions, Shapes, and Array Attributes](./numpy/3_Dimensions_Shapes_and_Array_Attributes.ipynb)
 
 ## Review
 
