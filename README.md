@@ -19,6 +19,7 @@
 17. [Titles, Labels, Ticks, and Gridlines](./numpy/17_Titles_Labels_Ticks_and_Gridlines.ipynb)
 18. [Bar Charts (Comparing Categories)](./numpy/18_Bar_Charts_Comparing_Categories.ipynb)
 19. [Pie Charts (Visualizing Parts of a Whole)](./numpy/19_Pie_Charts_Visualizing_Parts_of_a_Whole.ipynb)
+20. [Scatter Plots (Finding Correlations)](./numpy/20_Scatter_Plots_Finding_Correlations.ipynb)
 
 
 ## Review
