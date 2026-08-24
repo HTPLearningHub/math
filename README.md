@@ -29,6 +29,8 @@
 27. [Integrating Pandas with Matplotlib](./numpy/27_Integrating_Pandas_with_Matplotlib.ipynb)
 28. [Advanced Annotations and Legends](./numpy/28_Advanced_Annotations_and_Legends.ipynb)
 29. [Logarithmic Scales and Twin Axes](numpy/29_Logarithmic_Scales_and_Twin_Axes.ipynb)
+30. [Loading and Cleaning Real-World Data](./numpy/30_Loading_and_Cleaning_Real_World_Data.ipynb)
+31. [Sorting, Filtering, and Counting Categories](./numpy/31_Sorting_Filtering_and_Counting_Categories.ipynb)
 
 
 ## Review
