@@ -11,6 +11,7 @@
 9. [Modern Random Number Generation (Simulations and Choices)](./numpy/9_Modern_Random_Number_Generation_Simulations_and_Choices.ipynb)
 10. [Joining and Splitting Arrays (Combining and Breaking Data)](./numpy/10_Joining_and_Splitting_Arrays_Combining_and_Breaking_Data.ipynb)
 11. [Saving and Loading Data (Keeping Your Work Safe)](./numpy/11_Saving_and_Loading_Data_Keeping_Your_Work_Safe.ipynb)
+12. [Fancy Indexing (Selecting Custom Elements)](./numpy/12_Fancy_Indexing_Selecting_Custom_Elements.ipynb)
 
 ## Review
 
