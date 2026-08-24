@@ -215,43 +215,131 @@
 - Sixth numerical-analysis lesson: **catastrophic cancellation** in $\sqrt{x+1}-\sqrt x$ —
   100% relative error at $x=10^{16}$, cured completely by rationalising the numerator
 
+**Pending confirmation — taught in session 9, waiting for the 20 exercises of
+`notebooks/09-linear-equations.ipynb`:**
+
+- The change of *kind*: notebooks 01–08 rewrote **objects**, this one answers a **question**.
+  An expression is a recipe; an equation is a question; the answer is a **set**, never a number
+- Definitions: equation in one variable, the **domain of the equation** ($D_L\cap D_R$),
+  solution/root, solution set, identity vs contradiction vs conditional equation,
+  **equivalent equations** (same solution set — not "looks alike"), linear equation $ax+b=0$
+  with $a\neq0$ as a *definition*, and "an equation that leads to a linear equation"
+- Solving as a **chain of equivalent equations**, each $\Longleftrightarrow$ a promise that the
+  answer set did not change — not as "computing the answer"
+- The two safe moves, proved by double inclusion from the nb 01 field axioms: **Theorem 1**
+  (add any expression defined on all of $D$) and **Theorem 2** (multiply by a non-zero *number*),
+  plus exactly where each hypothesis is used and what breaks without it
+- **Theorem 3** (if $a\neq0$ then $ax+b=0$ has exactly one solution) proved as existence +
+  uniqueness, uniqueness by the nb 08 three-line pattern and the zero-product property
+- **Theorem 4** ($a=0$: nothing or everything) and **Theorem 5** (the trichotomy for
+  $px+q=rx+s$) — so "one, none, or all" is a *theorem*, not an observation about pictures
+- The two dangerous moves, both proved: **Theorem 6** ($S'=S\cup Z$ — multiplying by $E(x)$
+  never loses a solution and adds exactly the zeros of $E$) and **Theorem 7** (dividing by
+  $E(x)$ deletes them). **Corollary 6a**: "check your answer" is the second half of the proof
+- **Corollary 6b**: squaring merges $L=R$ with $L=-R$ — the nb 08 Trap 7 debt, now paid
+- Nine traps, including: cancelling a bracket containing $x$; deciding the domain *after* seeing
+  the answer; checking in the wrong (already-cleared) equation; and reading $0=5$ as a mistake
+  instead of as the answer $S=\varnothing$
+- Worked technique: brackets, LCD with numeric denominators, decimals by $\times100$, rational
+  equations with and without an extraneous root, an equation that only *looks* quadratic,
+  **literal equations** (solve for a letter), a **parameter** equation whose three cases are
+  exactly Theorem 5, and a first word problem with its hidden domain
+- Python: `sp.Eq` vs `==`; **`sp.solveset` vs `sp.solve`** (a list cannot tell "no solution"
+  from "every number"; a set can); `.subs` + `sp.simplify` as an exact checker; `sp.zoo` as
+  "outside the domain"; `sp.cancel` to clear denominators by hand and watch the fake solution
+  appear; Theorems 3–5 written out as his own `solve_linear`
+- **Numerical-analysis lesson 7:** `(0.1+0.2)-0.3 = 5.55e-17`, fed in as the coefficient $a$,
+  turns "no solution" into $x\approx1.8\times10^{16}$. Never test `a == 0` on floats; test
+  against a tolerance. First meeting with **ill-conditioning** (nearly parallel lines), named
+  as the thing that matters later for systems and for training networks
+
+**Pending confirmation — taught in session 10, waiting for the 20 exercises of
+`notebooks/10-quadratic-equations.ipynb`:**
+
+- The step from $x^1$ to $x^2$: one side of the equation **bends**, so "exactly two solutions"
+  — which nb 09 Theorem 5 forbade — becomes the normal case, and "every real number" disappears
+- Definitions: quadratic equation $ax^2+bx+c=0$ with $a\neq0$ (again $a\neq0$ is *part of the
+  definition*), the **discriminant** $D=b^2-4ac$, **double root / multiplicity 2**, parabola
+- **Four methods, each proved, each a special case of the next:** factoring (Thm 1, straight from
+  the nb 01 zero-product property), the **square-root property** (Thm 2, proved by difference of
+  squares, with all three cases $p>0$, $p=0$, $p<0$), **completing the square** (Thm 3, proved as
+  an identity and drawn as a literal square with a missing corner), and the **quadratic formula**
+  (Thm 4, derived by the multiply-by-$4a$ route so no fractions appear until the last line)
+- The formula understood as *what it is*: completing the square carried out once, with letters,
+  so it never has to be done again
+- **Theorem 5 (the discriminant theorem)** — two / one / none, fully proved, including *why* the
+  two roots are distinct when $D>0$ and why $D=0$ gives a genuine double root
+- **Theorem 6 (Vieta)** and **Theorem 7 (factorisation)** — so "factoring by inspection" is
+  revealed as guessing the formula's answer quickly, and factoring is not a separate method
+- **Theorem 8**: for integer coefficients, the roots are rational **iff** $D$ is a perfect square
+  — proved via the nb 05 rational root theorem applied to $t^2-D$. Used as a *test*: do not hunt
+  for a factorisation the theorem says cannot exist
+- **Theorem 9** (the vertex identity, and $D<0\Rightarrow$ the quadratic keeps the sign of $a$)
+  and **Theorem 10** (vertex / axis of symmetry, flagged as a preview but fully proved), plus the
+  observation that the roots sit symmetrically about $x=-b/(2a)$
+- Ten traps, including: zero-product used without a zero; dividing by $x$ (nb 09 Thm 7 again);
+  the missing $\pm$; $-b$ when $b<0$; dividing only part of the numerator by $2a$; and reading
+  $D<0$ or $D=0$ as "I made a mistake"
+- 14 worked examples: the four methods; a double root; a $D<0$ case argued with Thm 9; building
+  an equation from given roots two ways; a rational equation that becomes quadratic (two
+  candidates, two checks, nb 09 Cor 6a); a **parameter** example whose trap is the forgotten
+  $k=0$ case; and two word problems — one with a rejected negative width, one using the
+  Pythagorean theorem from nb 03
+- The difference, stated explicitly, between a **fake** solution (invented by a dangerous move,
+  nb 09 Thm 6) and a **real** solution the *problem* rejects (a negative length)
+- Python: `sp.discriminant`, `sp.factor` over $\mathbb{Q}$ versus `extension=sqrt(5)`, Vieta and
+  Thm 7 re-proved symbolically with letters, his own `solve_quadratic` branching on $D$, and a
+  one-line labelled preview of `domain=sp.S.Complexes`
+- **Numerical-analysis lesson 8 (two halves):** (a) **catastrophic cancellation in the quadratic
+  formula** — with $a=c=1$ the naive small root is 25% wrong at $b=10^8$ and exactly $0.0$ from
+  $b=10^9$ on, cured completely by *rationalising the numerator* (nb 08 lesson 6) into
+  $2c/(-b-\sqrt D)$; (b) **the $D$ test itself fails** — for roots $1$ and $1+\varepsilon$ the
+  computer reports a double root once $\varepsilon\le10^{-8}$, although Theorem 5 proves there
+  are two. A proof and a computation are not the same thing
+
 ## Current Focus
 
-**Review § 8 — nth Roots; Rational Exponents.** Notebook
-`notebooks/08-nth-roots-rational-exponents.ipynb` is built and verified: it runs top to bottom
-with no errors (77 cells, 39 code cells, 11 figures, no ASCII art, every cell has an `id`).
-Waiting for its 20 exercises.
+**Equations and Inequalities § 2 — Quadratic Equations.** Notebook
+`notebooks/10-quadratic-equations.ipynb` is built and verified: it runs top to bottom with no
+errors (76 cells, 36 code cells, 9 matplotlib figures, no ASCII art, every cell has an `id`,
+`nbformat.validate` passes). No new dependency. Waiting for its 20 exercises.
 
-**This finishes the Review chapter — notebooks 01–08 cover all eight topics of `math-topic.md`
-§ Review.** The next chapter is *Equations and Inequalities*, starting with § 1 Linear Functions.
+**TEN sets of homework are now outstanding (notebooks 01–10).** He said "continue next topic"
+with no answers attached, for the tenth time. I taught, as he asked.
 
-**EIGHT sets of homework are now outstanding (notebooks 01–08).** He said "please continue next
-topic" with no answers attached, for the eighth time. I taught, as he asked. It is his call and
-he has now made it eight times, so I have stopped writing a paragraph about it — one line in the
-next-session plan is enough.
+**He maintains `README.md` himself** and had already written the filename
+`notebooks/10-quadratic-equations.ipynb` into it before this session, together with the names
+for topics 3–7 of this chapter. So the file naming for the rest of the chapter is *his*
+decision, already made, and I should follow it: `11-complex-numbers`,
+`12-radical-and-quadratic-form-equations`, `13-solving-inequalities`,
+`14-absolute-value-equations-inequalities`, `15-problem-solving-applications`. That also
+retroactively confirms the `09-linear-equations` naming choice from session 9.
 
-Everything below "Known Weak Spots" is still **guesswork**. No exercise answer has ever arrived.
-Notebook 08 leans on nb 02 (exponent laws, the $\sup$ proof, $\sqrt{a^2}=|a|$), nb 04
-(telescoping identity, binomial theorem), nb 05 (monic rational-root corollary), nb 01
-(completeness, irrationality of $\sqrt2$) and nb 07 (difference quotient, domain discipline).
-The dependency chain is now five notebooks deep and completely unverified.
+Everything below "Known Weak Spots" is still **guesswork**. No exercise answer has ever
+arrived. Notebook 10 leans on nb 01 (zero-product Thm B, sign rules, $\sqrt2$ irrational),
+nb 02 (the $-3^2$ trap), nb 04 (perfect squares, at-most-$n$-roots, identity theorem), nb 05
+(factoring, completing the square, **rational root theorem**), nb 07 (LCD, forbidden points),
+nb 08 (principal root, rationalising a numerator) and nb 09 (all four move theorems). Seven
+notebooks deep, all unverified.
 
-**The cheapest test is still a Python exercise.** Best single ask: **Ex 14–16 of notebook 08**
-(bisection root, Newton vs bisection, catastrophic cancellation). Code either runs or does not,
-so marking is fast and faking is impossible. Ex 16(c) also needs a *sentence of reasoning*, so it
-tests understanding, not typing.
+**The cheapest tests, in order of cheapness:** Ex 16 of notebook 10 (break the formula with
+floats — code either runs or does not, and part (d) needs two sentences), then Ex 13 of
+notebook 10 (find the mistakes in two written solutions — no calculation at all, and the
+first one is nasty because its *check passes*), then Ex 16 or 13 of notebook 09.
 
-**Next session: ask for answers before opening anything new.** If he insists on continuing, run
-the six oral questions at the end of notebook 08 (§ 10) first — especially question 2 (why bars
-appear only for even indices, argued from the definition) and question 4 (what "well defined"
-means, and why Theorem 10 had to be proved). Question 5 is the sharpest: it asks him to tell
-apart "the theorem is wrong" from "the theorem does not apply here", which is a distinction he
-has never been tested on.
+**Next session: ask for answers before opening anything new.** If he insists on continuing,
+run the seven oral questions of notebook 10 § 8 first — especially Q3 (why $\sqrt{25}=5$ and
+not $\pm5$, and where the $\pm$ really comes from), Q5 ("the quadratic formula is a new
+method" — argue against it) and Q7, the sharpest: *the computer said "one double root" for an
+equation that provably has two — was Theorem 5 wrong?*
 
-Next topic when we move on: **Equations and Inequalities § 1 — Linear Functions**
-(→ `notebooks/09-linear-functions.ipynb`). Two doors from notebook 08 open into that chapter:
-Trap 7 (extraneous solutions after squaring) is the whole of § 4 *Radical Equations*, and the
-repeated line "no real number squares to $-1$" is answered in § 3 *Complex Numbers*.
+Next topic when we move on: **Equations and Inequalities § 3 — Complex Numbers; Quadratic
+Equations in the Complex Number System** (→ `notebooks/11-complex-numbers.ipynb`, the name he
+has already chosen). Notebook 10 was built to open that door in three places: Theorem 5 case 3
+stops at "no real solution" and says *not yet*; Theorem 6 and Theorem 7 are stated only for
+$D\ge0$ and become unconditional over $\mathbb{C}$; and § 6.1 already printed the complex
+answer once, clearly labelled as a preview that nothing else depends on. The framing to reuse
+is the **sixth "we needed a bigger number system"** table — the running thread since nb 01.
 
 ## Known Weak Spots
 
@@ -466,7 +554,258 @@ From notebook 08:
 - General: does he state the assumption on the letters ("assume $x>0$") before simplifying, or
   does he simplify first and hope? Notebook 07 asked for the same discipline about domains.
 
+From notebook 09:
+- Ex 1: does he call $(x+1)^2=x^2+2x+5$ **linear**? Definition 7 says "can be *written* as
+  $ax+b=0$", so it is — after cancelling $x^2$. And (e) $5=0\cdot x+5$ is the trap in the other
+  direction: it is an identity, not a linear equation, because $a=0$.
+- Ex 2(b): does he answer "yes, $x=-1$ works" without noticing that $x=-1$ is **not in the
+  domain**? This is Trap 2 in its smallest form, and it is the single most likely slip.
+- Ex 3–4: routine. Watch only for the sign of the term moved across, and for 4(c), where the
+  answer is $S=\mathbb{R}$ and the temptation is to write "$x=0$" or to think he made an error.
+- Ex 5(a),(b): does the LCD multiply the term that had **no** fraction (Trap 6)? And the minus
+  in front of a fraction (Trap 5, nb 07's oldest trap)?
+- Ex 6(b): can he say what the equation *means* (money at two interest rates, or a mixture)?
+  If he only computes, the translation skill of § 7 is not there yet.
+- Ex 7: does he name the **case of Theorem 5** or just give the answer? Naming the case is the
+  test; the answers are easy.
+- Ex 8: the whole point. Does he (i) write the domain first, (ii) call his answer a *candidate*,
+  (iii) check in the **original** equation, and (iv) name Theorem 6? Missing (i) or (iii) means
+  the lesson did not land, even if the final set $\varnothing$ is right.
+- Ex 9: the reverse test — the candidate is genuine, and checking is *still* compulsory. If he
+  says "checking is only needed when the answer looks suspicious", that is exactly the wrong
+  model and needs fixing on the spot.
+- Ex 10: can he name the **moment** the equation stopped being quadratic (when the $x^2$ terms
+  cancelled)? This is the "linear is a property after simplification" idea.
+- Ex 11(b),(c): (b) needs a common denominator and then a *factoring* step; (c) is the first
+  time he must collect the unknown out of a fraction and factor it out — the same move as
+  Theorem 5's proof. Watch whether he states $u\neq f$, $x\neq3$, $y\neq2$.
+- Ex 12(b): does he actually run the **triangle inequality** check (nb 03), or does he stop at
+  the three numbers? The check is the part that connects two chapters.
+- Ex 13: two errors, one of method (dividing by $x-3$, Theorem 7) and one of arithmetic
+  ($x+2=5$ gives $x=3$, which is also the lost root — a deliberately confusing coincidence).
+  Watch whether he finds **both**, and whether he can say *what was lost*, not just "you can't
+  divide by zero".
+- Ex 14: does his function follow **Theorem 5** (branch on $p=r$, then on $q=s$) or does he
+  cheat by calling `sp.solve` and reading the list? The exercise forbids it for a reason.
+- Ex 15: the detector. Does every extraneous answer he finds turn out to be a zero of the
+  multiplier — and does he *say* that this is Theorem 6 confirmed, rather than a coincidence?
+- Ex 16(c): the sentences matter more than the code. He must connect "16 correct digits" with
+  "a coefficient that should be 0 came out $5.5\times10^{-17}$" and with "the true answer is
+  $S=\varnothing$". First time he has been asked to explain *why* a computer answer is
+  meaningless rather than merely inaccurate.
+- Ex 17–18: real proofs by double inclusion. Watch whether he writes **both** directions, and
+  whether he can point at the *single line* that needs $c\neq0$ / $a\neq0$. Notebook 08 Ex 18(b)
+  asked for the same self-reading skill and there is still no evidence about it.
+- Ex 19: the $E(x)=x^2+1$ question at the end is the sharpest part — the answer is "none, because
+  $x^2+1>0$ has no real zero", and it tests whether he *uses* his own theorem instead of
+  re-deriving.
+- Ex 20(b): the linear identity theorem. Does he use two different points to get two equations
+  and subtract, or does he wave at "two points determine a line"? The waving version is not a
+  proof, and this is the notebook's main proof-rigour test.
+- General: does he **write the domain before the algebra**, every single time? That one habit is
+  what this whole notebook is trying to install, and it is the thing to check first in every
+  answer he sends.
+
+
+From notebook 10:
+- Ex 1(c),(d),(f): does he see that $(x-1)^2=x^2+4$ is **not** quadratic (the $x^2$ cancels, so
+  $a=0$), that $x(x+2)=7$ **is**, and that (f) depends on whether $m=0$? Same shape as nb 09
+  Ex 1, and the same lesson: "quadratic" is a property *after* simplification.
+- Ex 2: does he compute $D$ **before** hunting for factors, as the section asks? If he factors
+  first and never mentions $D$, Theorem 8 has not landed.
+- Ex 3: the whole point of the exercise is that (a) and (b) disagree. Watch whether he can name
+  nb 09 **Theorem 7** and say the lost root is $0$ — not just "you can't divide by zero".
+- Ex 4(c): $x^2=-16$. Does he write $S=\varnothing$, or does he write $x=\pm4i$ (jumping ahead)
+  or "$x=\pm\sqrt{-16}$" (meaningless in $\mathbb{R}$)? The correct answer today is
+  $\varnothing$, by Theorem 2, case 3.
+- Ex 4(b),(d): does the $\pm$ survive? Trap 3 is the single most common slip in this topic.
+- Ex 5(b): a leading coefficient of $3$. Does he divide by $3$ first, or try to complete the
+  square with the $3$ still there? Both work, but the second needs care he may not have.
+- Ex 6: does he state $D$ and the case of Theorem 5 *before* solving, every time?
+- Ex 7(d): the trap. $x^2+2\sqrt3x+3=0$ has $D=0$, but Theorem 8 does **not** apply because the
+  coefficients are not integers. If he says "rational roots because $D=0$ is a perfect square",
+  he has used a theorem outside its hypotheses — the exact failure mode nb 08 Ex 12 was built to
+  test, and still the thing I have no evidence about.
+- Ex 8: the sign of the product. Does he see that $c/a<0$ forces the two roots to have opposite
+  signs? That is reading a theorem *for information*, not for computation.
+- Ex 9(c): why do the irrational parts cancel? The answer is the **sum** formula (they are
+  conjugates); the product formula gives $9-2=7$. Watch whether he can say which formula does
+  which job.
+- Ex 10: two candidates, one of them $x=2$ which is forbidden. Does he check **both**? Does he
+  name nb 09 Theorem 6? The answer is $S=\{3\}$.
+- Ex 11: the forgotten $k=0$ case (Example 12 warned about it explicitly). If he still misses it
+  after being shown, that is a real weak spot: *reading the hypotheses of a definition*.
+- Ex 12(b): the frame adds $2$ cm on **each** side, so $4$ cm to each dimension. The classic slip
+  is adding $2$. The answer is a $6\times9$ photo.
+- Ex 12(c): two times, $t=1$ and $t=3$. Does he explain them physically (going up, coming down)?
+  This is the first time a *second* root has had a meaning instead of being rejected.
+- Ex 13: the first fake solution **passes its own check**. Watch whether he can explain why a
+  passing check does not save it — checking finds fake solutions, it can never find *missing*
+  ones. This is the sharpest conceptual question in the notebook.
+- Ex 13, second one: $\frac{4\pm\sqrt{20}}{2}=4\pm2\sqrt5$ is Trap 5 (dividing only part of
+  the numerator). The correct answer is $2\pm\sqrt5$.
+- Ex 14: does his solver branch on the sign of $D$ (Theorem 5), or does he cheat and call
+  `sp.solveset`? And does he handle $a=0$?
+- Ex 15: does he read the changeover value of $c$ off the **discriminant** ($D=4-4c=0$, so $c=1$)
+  rather than off the picture? The exercise says so explicitly.
+- Ex 16(c),(d): the derivation on paper matters more than the code. He must connect this to nb 08
+  lesson 6 by name.
+- Ex 17–19: proofs. Watch for: proving the two roots are **different** in Ex 17 (most people
+  forget that half), naming where $a\neq0$ is used **twice** in Ex 18, and in Ex 19(c) actually
+  using the identity theorem instead of hand-waving.
+- Ex 20(a): two proofs of the same fact — one quoting nb 04 Thm 8, one from Theorem 4 directly.
+  Can he produce *two different* arguments for one statement? Notebook 03 Ex 20 asked the same
+  kind of thing and there is still no evidence.
+- Ex 20(c): deliberately hard (odd coefficients $\Rightarrow$ no rational root), in the tradition
+  of nb 06 Ex 20 and nb 08 Ex 20(b). **The instruction to say exactly where he is stuck is the
+  real test**, and it is the one skill I have asked for four times now with no answer.
+- General: does he keep answers **exact** to the last line (Trap 10), and does he write the
+  solution as a **set**?
+
+
 ## Session Log
+
+### Session 10 — 2026-08-24 — Quadratic Equations
+
+- **Topic taught:** *Equations and Inequalities* § 2, **Quadratic Equations**. Second session of
+  the day; he wrote "continue next topic" again, with no exercise answers. Tenth time; noted in
+  one line and taught.
+- **Notebook created:** `notebooks/10-quadratic-equations.ipynb` — 76 cells, 36 code cells, 9
+  matplotlib figures, no ASCII art, every cell carries an `id`, `nbformat.validate` passes.
+  Verified: executes top to bottom with no errors. No new dependency (numpy, sympy, matplotlib,
+  plus `math` from the standard library).
+- **Naming:** taken from his own `README.md`, which already listed the filename before the
+  session started. Same for topics 3–7 of this chapter — see Current Focus.
+- **What is inside:**
+  - **§0 recall table**: fifteen earlier results this notebook stands on (nb 01, 02, 04, 05, 07,
+    08, 09), plus three warm-up questions. Spaced repetition, since none is confirmed.
+  - Intuition: *one bend changes everything* — the three shapes (two / one / none) set directly
+    against nb 09's (one / none / all); the zero-product property drawn as a product touching
+    zero exactly where a factor does; **completing the square drawn as a literal square with a
+    missing corner**; the $\pm$ explained as coming from Theorem 2 and *not* from the radical
+    sign; and the discriminant introduced as the parabola sliding up and down.
+  - Definitions 1–5, with **double root / multiplicity** given a real definition rather than a
+    slogan.
+  - Ten theorems, all fully proved: Thm 1 (factoring, both directions), Thm 2 (square-root
+    property, all three cases), Thm 3 (the completing-the-square identity), **Thm 4 (the
+    quadratic formula, derived by multiplying by $4a$** so that no fractions appear until the
+    last line — a trick worth stealing), **Thm 5 (the discriminant theorem)**, Thm 6 (Vieta),
+    Thm 7 (factorisation), **Thm 8 (rational roots iff $D$ is a perfect square**, via the nb 05
+    rational root theorem applied to $t^2-D$), Thm 9 (the vertex identity + the sign of a
+    quadratic with $D<0$) and Thm 10 (vertex and axis of symmetry, flagged as a preview of a
+    later chapter but proved in full).
+  - The main structural point made out loud: the four methods are not four tricks. Factoring is
+    what always happens when $D\ge0$ (Thm 7); the formula is completing the square done once
+    with letters. *A formula is a proof done once so it never has to be done again.*
+  - Traps (10), several of them recurrences: the $-3^2$ vs $(-3)^2$ family (seventh appearance),
+    cancel-factors-not-terms (nb 07), dividing by $x$ (nb 09 Thm 7), and "no real solution is an
+    answer, not an error".
+  - Worked examples 1–14, ending with two word problems: a garden (reject the negative width)
+    and a **ladder against a wall** that needs the Pythagorean theorem from nb 03 and lands on a
+    $15$-$20$-$25$ triangle. Example 12 (parameter $k$) is built around the forgotten $k=0$ case.
+  - The distinction drawn explicitly for the first time: a **fake** solution (invented by a
+    dangerous move — nb 09 Thm 6) versus a **real** solution the *problem* rejects (a negative
+    length). Two different reasons to discard an answer, and he should be able to name which.
+  - Python: `sp.discriminant`; `sp.factor` over $\mathbb{Q}$ against `extension=sqrt(5)` to show
+    Theorem 8 in action; Vieta and Thm 7 re-proved symbolically with letters; his own
+    `solve_quadratic` branching on the sign of $D$ and raced against `solveset`; and **one
+    clearly-labelled line of preview** showing the complex answer, with a sentence saying that
+    nothing in the notebook depends on it.
+  - **Numerical-analysis lesson 8, in two halves.** (a) The famous one: with $a=c=1$ the naive
+    small root is wrong in the third digit at $b=10^7$, 25% wrong at $b=10^8$, and exactly $0.0$
+    from $b=10^9$ on; the cure is *rationalising the numerator* from nb 08 lesson 6, giving
+    $2c/(-b-\sqrt D)$, which stays correct everywhere. (b) The sharper one: the **test** $D>0$
+    versus $D=0$ itself breaks — for roots $1$ and $1+\varepsilon$, once $\varepsilon\le
+    10^{-8}$ the computer reports a double root although Theorem 5 proves there are two distinct
+    ones. Stated as: a proof and a computation are not the same thing.
+  - 9 figures: the three shapes with solution sets on number lines; the zero-product property
+    drawn; completing the square as three area panels; the parabola family sliding through
+    $D>0$, $D=0$, $D<0$; the square-root property as a horizontal line cutting $y=t^2$; the roots
+    symmetric about the axis of symmetry with the two equal gaps arrowed; Example 4 as a shifted
+    $y=x^2$; and the two numerical figures (error of naive vs stable on log-log, and the true
+    root gap against the gap the computer sees).
+- **What went well:** nothing to judge — still no answers from him, in any notebook.
+- **Mistakes to revisit:** none recorded (see "Known Weak Spots" for what to look for).
+- **Homework given:** the 20 exercises of notebook 10. 14–16 are Python (his own Theorem-5
+  solver; drawing the discriminant family; breaking the formula on purpose). 17–20 are proofs,
+  ending with "if $a,b,c$ are odd integers then there is no rational root — or say exactly where
+  you are stuck".
+- **Next session plan:** (1) **ask for answers first** — cheapest is Ex 16 of this notebook, then
+  Ex 13 (whose first fake solution *passes its own check*); (2) if he insists on continuing, run
+  the seven oral questions of § 8, especially Q3, Q5 and Q7; (3) then open **§ 3 — Complex
+  Numbers** (→ `notebooks/11-complex-numbers.ipynb`), where Theorem 5's "not yet" is finally
+  answered and Theorems 6–7 lose their $D\ge0$ hypothesis. Reuse the running
+  "bigger number system" table — this is its sixth row.
+
+### Session 9 — 2026-08-24 — Linear Equations (new chapter)
+
+- **Topic taught:** *Equations and Inequalities* § 1, **Linear Equations** — the first topic of
+  the second chapter. He wrote "continue next topic", with no exercise answers again. Ninth
+  time; noted in one line and taught.
+- **Naming:** the syllabus line reads "Linear Functions", but inside the *Equations and
+  Inequalities* chapter the subject is equations, so the notebook is
+  `notebooks/09-linear-equations.ipynb` and its first cell explains the choice. The function
+  view is deferred to the later chapter that owns it.
+- **Notebook created:** `notebooks/09-linear-equations.ipynb` — 76 cells, 36 code cells, 9
+  matplotlib figures, no ASCII art, every cell carries an `id`, `nbformat.validate` passes.
+  Verified: executes top to bottom with no errors
+  (`jupyter nbconvert --to notebook --execute`). No new dependency (numpy, sympy, matplotlib).
+- **What is inside:**
+  - **§0 recall table** (the pattern kept from nb 07 and 08): eleven earlier results this
+    notebook stands on, plus three warm-up questions. Spaced repetition, since none is confirmed.
+  - Intuition: the *change of kind* — 01–08 rewrote objects, today we answer a question;
+    expression = recipe, equation = question, **answer = a set**; the **balance scale**; the
+    **two-machines / two-lines** picture that makes "how many solutions" visible; the three
+    shapes; and solving as a **chain of equivalent equations** rather than as computing.
+  - Definitions 1–8, with the domain of the equation ($D_L\cap D_R$) given its own definition
+    so that "not in the domain" is a *defined* status, not an excuse.
+  - Theorems, all fully proved by double inclusion from the nb 01 axioms: **Thm 1** (addition,
+    with the hypothesis "defined on all of $D$" and a counterexample when it is dropped),
+    **Thm 2** (multiplication by $c\neq0$, with the exact line that needs $c\neq0$),
+    **Thm 3** (existence + uniqueness for $a\neq0$, uniqueness by the nb 08 three-line pattern
+    + zero-product), **Thm 4** ($a=0$), **Thm 5** (the trichotomy — the proof of Figure 3),
+    **Thm 6** ($S'=S\cup Z$, the extraneous-solution theorem) with **Cor 6a** (checking is the
+    second half of the proof) and **Cor 6b** (squaring merges $L=R$ with $L=-R$ — the nb 08
+    Trap 7 debt paid), and **Thm 7** (dividing deletes solutions), closed by a five-row table
+    of which moves are safe and what each dangerous one does.
+  - The mnemonic stated once, plainly: multiplying makes the equation bigger, so the answer set
+    grows (fakes); dividing makes it smaller, so the answer set shrinks (losses).
+  - Traps (9), including the two that are really *habits*: write the domain **before** the
+    algebra, and check in the **original** equation, never in the cleared one.
+  - Worked examples 1–13: named-step basics; both sides; brackets; numeric LCD; decimals;
+    an identity; a contradiction; a rational equation whose only candidate is fake (with the
+    "the curves are always exactly 1 apart" reason); a rational equation with a genuine answer
+    (cross-multiplication named as Theorem 6, not as a separate rule); one that only *looks*
+    quadratic; two **literal** equations; a **parameter** equation whose three cases are exactly
+    Theorem 5; and a first word problem, answered in a sentence and checked against the words.
+  - Python: `sp.Eq` vs `==`; **`solveset` vs `solve`** shown side by side so that `[]` meaning
+    both "none" and "all" is visible; an exact checker using `.subs` + `simplify` + `sp.zoo`;
+    clearing denominators by hand with `sp.cancel` and watching the fake root appear, then
+    confirming $S'=S\cup Z$ *as an equality of SymPy sets*; and his own `solve_linear` written
+    straight from Theorems 3–4 and raced against SymPy.
+  - **Numerical-analysis lesson 7:** `(0.1+0.2)-0.3` as the coefficient $a$ turns "no solution"
+    into $x\approx1.8\times10^{16}$; the fix (compare with a tolerance, never `== 0`); then
+    **ill-conditioning** introduced by name with nearly parallel lines, and pointed forward to
+    systems of equations and to training networks.
+  - 9 figures: the balance scale before/after a legal move; two lines crossing at $x=4$; the
+    three shapes with their solution sets drawn on number lines underneath; the chain of
+    equivalent equations, four panels, crossing pinned at $x=4$; multiplying by zero collapsing
+    two lines into one; the fake solution being born at the zero of $E$; cancelling $(x-1)$
+    deleting a real root; the parameter example as a curve with a wall at $k=-2$ and a green
+    band at $k=2$; and the ill-conditioning pair.
+- **What went well:** nothing to judge — still no answers from him, in any notebook.
+- **Mistakes to revisit:** none recorded (see "Known Weak Spots" for what to look for).
+- **Homework given:** the 20 exercises of notebook 09. 14–16 are Python (his own Theorem-5
+  solver; an extraneous-solution detector; breaking Theorem 5 with floats on purpose). 17–20 are
+  proofs, ending with the linear identity theorem — the statement behind "two different lines
+  cannot cross twice".
+- **Next session plan:** (1) **ask for answers first** — the cheapest asks in the whole course
+  are now Ex 16 (three lines of code + two sentences) and Ex 13 (find two mistakes, no
+  calculation at all); (2) if he insists on continuing, run the seven oral questions of § 8,
+  especially Q5, Q6 and Q7; (3) then open **Equations and Inequalities § 2 — Quadratic
+  Equations** (→ `notebooks/10-quadratic-equations.ipynb`), where the zero-product property is
+  already the engine, Theorem 5 has already made "how many solutions?" a real question, and
+  $S=\varnothing$ over $\mathbb{R}$ becomes the door into § 3 *Complex Numbers*.
 
 ### Session 8 — 2026-08-22 — nth Roots; Rational Exponents
 
