@@ -27,6 +27,7 @@
 25. [Customizing Figures and Saving Plots (`plt.savefig`)](./numpy/25_Customizing_Figures_and_Saving_Plots_plt_savefig.ipynb)
 26. [3D Plotting with Matplotlib (`mplot3d`)](./numpy/26_3D_Plotting_with_Matplotlib_mplot3d.ipynb)
 27. [Integrating Pandas with Matplotlib](./numpy/27_Integrating_Pandas_with_Matplotlib.ipynb)
+28. [Advanced Annotations and Legends](./numpy/28_Advanced_Annotations_and_Legends.ipynb)
 
 
 ## Review
