@@ -28,6 +28,7 @@
 26. [3D Plotting with Matplotlib (`mplot3d`)](./numpy/26_3D_Plotting_with_Matplotlib_mplot3d.ipynb)
 27. [Integrating Pandas with Matplotlib](./numpy/27_Integrating_Pandas_with_Matplotlib.ipynb)
 28. [Advanced Annotations and Legends](./numpy/28_Advanced_Annotations_and_Legends.ipynb)
+29. [Logarithmic Scales and Twin Axes](numpy/29_Logarithmic_Scales_and_Twin_Axes.ipynb)
 
 
 ## Review
