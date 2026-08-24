@@ -33,6 +33,7 @@
 31. [Sorting, Filtering, and Counting Categories](./numpy/31_Sorting_Filtering_and_Counting_Categories.ipynb)
 32. [Multi-Variable Visualization (Scatter Plots, Histograms, and Legends)](./numpy/32_Multi_Variable_Visualization_Scatter_Plots_Histograms_and_Legends.ipynb)
 33. [Designing a Multi-Step Data Pipeline](./numpy/33_Designing_a_Multi_Step_Data_Pipeline.ipynb)
+34. [Introduction to Pandas & The Series Object](./numpy/34_Introduction_to_Pandas_and_The_Series_Object.ipynb)
 
 
 ## Review
