@@ -38,6 +38,7 @@
 36. [Loading and Saving Data (CSV, Excel, & Formats)](./numpy/36_Loading_and_Saving_Data_CSV_Excel_Formats.ipynb)
 37. [Selection with `.loc` and `.iloc` (Data Selection)](./numpy/37_Selection_with_loc_and_iloc_Data_Selection.ipynb)
 38. [Filtering Data with Conditions (Filtering Data with Conditions)](./numpy/38_Filtering_Data_with_Conditions_Filtering_Data_with_Conditions.ipynb)
+39. [Advanced Filtering: .isin(), String Methods, and resetting index](./numpy/39_Advanced_Filtering_isin_String_Methods_and_resetting_index.ipynb)
 
 
 ## Review
