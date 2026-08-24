@@ -20,6 +20,9 @@
 18. [Bar Charts (Comparing Categories)](./numpy/18_Bar_Charts_Comparing_Categories.ipynb)
 19. [Pie Charts (Visualizing Parts of a Whole)](./numpy/19_Pie_Charts_Visualizing_Parts_of_a_Whole.ipynb)
 20. [Scatter Plots (Finding Correlations)](./numpy/20_Scatter_Plots_Finding_Correlations.ipynb)
+21. [Histograms (Visualizing Distributions)](./numpy/21_Histograms_Visualizing_Distributions.ipynb)
+22. [Subplots (Multiple Charts in One Figure)](./numpy/22_Subplots_Multiple_Charts_in_One_Figure.ipynb)
+23. [Real-world Dataset Visualization with NumPy & Matplotlib](./numpy/23_Real_world_Dataset_Visualization_with_NumPy_Matplotlib.ipynb)
 
 
 ## Review
