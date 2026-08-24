@@ -23,6 +23,9 @@
 21. [Histograms (Visualizing Distributions)](./numpy/21_Histograms_Visualizing_Distributions.ipynb)
 22. [Subplots (Multiple Charts in One Figure)](./numpy/22_Subplots_Multiple_Charts_in_One_Figure.ipynb)
 23. [Real-world Dataset Visualization with NumPy & Matplotlib](./numpy/23_Real_world_Dataset_Visualization_with_NumPy_Matplotlib.ipynb)
+24. [Chart Styling and Themes (`plt.style`)](./numpy/24_Chart_Styling_and_Themes_plt_style.ipynb)
+25. [Customizing Figures and Saving Plots (`plt.savefig`)](./numpy/25_Customizing_Figures_and_Saving_Plots_plt_savefig.ipynb)
+26. [3D Plotting with Matplotlib (`mplot3d`)](./numpy/26_3D_Plotting_with_Matplotlib_mplot3d.ipynb)
 
 
 ## Review
