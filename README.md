@@ -32,6 +32,7 @@
 30. [Loading and Cleaning Real-World Data](./numpy/30_Loading_and_Cleaning_Real_World_Data.ipynb)
 31. [Sorting, Filtering, and Counting Categories](./numpy/31_Sorting_Filtering_and_Counting_Categories.ipynb)
 32. [Multi-Variable Visualization (Scatter Plots, Histograms, and Legends)](./numpy/32_Multi_Variable_Visualization_Scatter_Plots_Histograms_and_Legends.ipynb)
+33. [Designing a Multi-Step Data Pipeline](./numpy/33_Designing_a_Multi_Step_Data_Pipeline.ipynb)
 
 
 ## Review
