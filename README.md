@@ -26,6 +26,7 @@
 24. [Chart Styling and Themes (`plt.style`)](./numpy/24_Chart_Styling_and_Themes_plt_style.ipynb)
 25. [Customizing Figures and Saving Plots (`plt.savefig`)](./numpy/25_Customizing_Figures_and_Saving_Plots_plt_savefig.ipynb)
 26. [3D Plotting with Matplotlib (`mplot3d`)](./numpy/26_3D_Plotting_with_Matplotlib_mplot3d.ipynb)
+27. [Integrating Pandas with Matplotlib](./numpy/27_Integrating_Pandas_with_Matplotlib.ipynb)
 
 
 ## Review
