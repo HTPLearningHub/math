@@ -17,6 +17,7 @@
 15. [Matplotlib](numpy/15_Introduction_to_Matplotlib_Your_First_Line_Plot.ipynb)
 16. [Customizing Lines and Markers](./numpy/16_Customizing_Lines_and_Markers.ipynb)
 17. [Titles, Labels, Ticks, and Gridlines](./numpy/17_Titles_Labels_Ticks_and_Gridlines.ipynb)
+18. [Bar Charts (Comparing Categories)](./numpy/18_Bar_Charts_Comparing_Categories.ipynb)
 
 
 ## Review
