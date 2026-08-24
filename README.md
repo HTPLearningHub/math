@@ -6,6 +6,7 @@
 4. [Indexing and Slicing (Getting Data from Arrays)](./numpy/4_Indexing_and_Slicing_Getting_Data_from_Arrays.ipynb)
 5. [Basic Arithmetic and Vectorized Operations (Doing Math Without Loops)](./numpy/5_Basic_Arithmetic_and_Vectorized_Operations_Doing_Math_Without_Loops.ipynb)
 6. [Broadcasting (The Magic of Stretching Arrays)](./numpy/6_Broadcasting_The_Magic_of_Stretching_Arrays.ipynb)
+7. [Aggregate Functions and Axis-Based Math (Summarizing Data)](./numpy/7_Aggregate_Functions_and_Axis_Based_Math_Summarizing_Data.ipynb)
 
 ## Review
 
