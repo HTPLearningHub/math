@@ -14,6 +14,10 @@
 12. [Fancy Indexing (Selecting Custom Elements)](./numpy/12_Fancy_Indexing_Selecting_Custom_Elements.ipynb)
 13. [Linear Algebra with NumPy](./numpy/13_Linear_Algebra_with_NumPy.ipynb)
 14. [Image Manipulation and Data Processing](./numpy/14_Image_Manipulation_and_Data_Processing.ipynb)
+15. [Matplotlib](numpy/15_Introduction_to_Matplotlib_Your_First_Line_Plot.ipynb)
+16. [Customizing Lines and Markers](./numpy/16_Customizing_Lines_and_Markers.ipynb)
+17. [Titles, Labels, Ticks, and Gridlines](./numpy/17_Titles_Labels_Ticks_and_Gridlines.ipynb)
+
 
 ## Review
 
