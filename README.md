@@ -3,6 +3,8 @@
 1. [Numpy Basics](./numpy/1_numpy-basics.ipynb)
 2. [Creating NumPy Arrays](./numpy/2_Creating_NumPy_Arrays.ipynb)
 3. [Dimensions, Shapes, and Array Attributes](./numpy/3_Dimensions_Shapes_and_Array_Attributes.ipynb)
+4. [Indexing and Slicing (Getting Data from Arrays)](./numpy/4_Indexing_and_Slicing_Getting_Data_from_Arrays.ipynb)
+5. [Basic Arithmetic and Vectorized Operations (Doing Math Without Loops)](./numpy/5_Basic_Arithmetic_and_Vectorized_Operations_Doing_Math_Without_Loops.ipynb)
 
 ## Review
 
