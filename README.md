@@ -12,6 +12,7 @@
 10. [Joining and Splitting Arrays (Combining and Breaking Data)](./numpy/10_Joining_and_Splitting_Arrays_Combining_and_Breaking_Data.ipynb)
 11. [Saving and Loading Data (Keeping Your Work Safe)](./numpy/11_Saving_and_Loading_Data_Keeping_Your_Work_Safe.ipynb)
 12. [Fancy Indexing (Selecting Custom Elements)](./numpy/12_Fancy_Indexing_Selecting_Custom_Elements.ipynb)
+13. [Linear Algebra with NumPy](./numpy/13_Linear_Algebra_with_NumPy.ipynb)
 
 ## Review
 
