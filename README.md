@@ -36,6 +36,8 @@
 34. [Introduction to Pandas & The Series Object](./numpy/34_Introduction_to_Pandas_and_The_Series_Object.ipynb)
 35. [The DataFrame Object (Tabular Data)](./numpy/35_The_DataFrame_Object_Tabular_Data.ipynb)
 36. [Loading and Saving Data (CSV, Excel, & Formats)](./numpy/36_Loading_and_Saving_Data_CSV_Excel_Formats.ipynb)
+37. [Selection with `.loc` and `.iloc` (Data Selection)](./numpy/37_Selection_with_loc_and_iloc_Data_Selection.ipynb)
+38. [Filtering Data with Conditions (Filtering Data with Conditions)](./numpy/38_Filtering_Data_with_Conditions_Filtering_Data_with_Conditions.ipynb)
 
 
 ## Review
