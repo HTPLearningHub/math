@@ -1,7 +1,6 @@
+## numpy
+
 1. [numpy](./numpy/numpy.md)
-
-
-
 
 ## Review
 

@@ -51,3 +51,8 @@
 38. [Filtering Data with Conditions (Filtering Data with Conditions)](./part4/38_Filtering_Data_with_Conditions_Filtering_Data_with_Conditions.ipynb)
 39. [Advanced Filtering: .isin(), String Methods, and resetting index](./part4/39_Advanced_Filtering_isin_String_Methods_and_resetting_index.ipynb)
 40. [Handling Missing Data (`NaN` values)](./part4/40_Handling_Missing_Data_NaN_values.ipynb)
+
+### PART5
+
+41. [Finding and Removing Duplicates](./part5/41_Findingand_Removing_Duplicates.ipynb)
+42. [Cleaning Text and Standardizing Strings](./part5/42_Cleaning_Text_and_Standardizing_Strings.ipynb)
