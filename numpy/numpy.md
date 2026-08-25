@@ -68,3 +68,4 @@
 ### PART6
 
 51. [Stacking and Unstacking (.stack() and .unstack())](./part6/51_Stacking_and_Unstacking.ipynb)
+52. [Element-wise Series Mapping with `.map()`](./part6/52_Element_wise_Series_Mapping_with_map.ipynb)
