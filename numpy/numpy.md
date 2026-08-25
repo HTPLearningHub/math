@@ -59,3 +59,6 @@
 43. [Basic Aggregations](part5/43_Basic_Aggregations.ipynb)
 44. [Grouping Data](./part5/44_Grouping_Data.ipynb)
 45. [ Advanced Aggregations with `.agg()`](./part5/45_Advanced_Aggregations_with_agg.ipynb)
+46. [Concatenation with `pd.concat()`](./part5/46_Concatenation_with_pd_concat().ipynb)
+47. [Merging with `pd.merge()` (Inner, Outer, Left, Right Joins)](./part5/47_Merging_with_pd_merge.ipynb)
+48. [Advanced Merging & Joins](./part5/48_Advanced_Merging_and_Joins.ipynb)
