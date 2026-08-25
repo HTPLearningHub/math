@@ -62,3 +62,9 @@
 46. [Concatenation with `pd.concat()`](./part5/46_Concatenation_with_pd_concat().ipynb)
 47. [Merging with `pd.merge()` (Inner, Outer, Left, Right Joins)](./part5/47_Merging_with_pd_merge.ipynb)
 48. [Advanced Merging & Joins](./part5/48_Advanced_Merging_and_Joins.ipynb)
+49. [Pivoting Data (df.pivot() vs. df.pivot_table())](./part5/49_Pivoting%20Data_df_pivot_vs_df_pivot_table.ipynb)
+50. [Melting Data (pd.melt())](./part5/50_Melting_Data_pd_melt.ipynb)
+
+### PART6
+
+51. [Stacking and Unstacking (.stack() and .unstack())](./part6/51_Stacking_and_Unstacking.ipynb)
