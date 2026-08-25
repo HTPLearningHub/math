@@ -83,3 +83,5 @@
 61. [Group-wise Transformations with `.transform()`](./part7/61_Group_wise_Transformations_with_transform.ipynb)
 62. [Filtering Groups with `.filter()`](./part7/62_Filtering_Groups_with_filter.ipynb)
 63. [Time Shifting and Rolling Windows](./part7/63_Time_Shifting_and_Rolling_Windows.ipynb)
+64. [Creating MultiIndexes & Hierarchical DataFrames](./part7/64_Creating_MultiIndexes_and_Hierarchical_DataFrames.ipynb)
+65. [Sorting and Navigating MultiIndexed DataFrames](./part7/65_Sorting_and_Navigating_MultiIndexed_DataFrames.ipynb)
