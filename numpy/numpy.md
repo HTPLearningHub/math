@@ -69,3 +69,5 @@
 
 51. [Stacking and Unstacking (.stack() and .unstack())](./part6/51_Stacking_and_Unstacking.ipynb)
 52. [Element-wise Series Mapping with `.map()`](./part6/52_Element_wise_Series_Mapping_with_map.ipynb)
+53. [Applying Custom Functions with .apply()](./part6/53_Applying_Custom_Functions_with_apply.ipynb)
+54. [DataFrame-wide Mapping with .map()](./part6/54_DataFrame_wide_Mapping_with_map.ipynb)
