@@ -297,49 +297,110 @@
   computer reports a double root once $\varepsilon\le10^{-8}$, although Theorem 5 proves there
   are two. A proof and a computation are not the same thing
 
+**Pending confirmation — taught in session 11, waiting for the 20 exercises of
+`notebooks/11-complex-numbers.ipynb`:**
+
+- The pattern behind every number system: $\mathbb{N}\to\mathbb{Z}\to\mathbb{Q}\to\mathbb{R}\to\mathbb{C}$,
+  each step invented to solve one equation the old set could not solve — and the historical point
+  that *negative*, *irrational* and *imaginary* were all originally insults
+- **$\mathbb{C}$ built honestly**, as ordered pairs of reals with
+  $(a,b)(c,d)=(ac-bd,\ ad+bc)$ — so $i^2=-1$ is a **computed theorem** (Thm 2), never an
+  assumption, and nb 01 Thm C ($t^2\ge0$ for *real* $t$) is never contradicted
+- Why the multiplication rule must be that one: $i$ = the quarter turn, and a quarter turn done
+  twice is the half turn, which is multiplying by $-1$; also why the naive rule $(ac,bd)$ would
+  kill the zero-product property
+- Definitions: standard form $a+bi$ with $a,b$ **real**, $\operatorname{Re}$, $\operatorname{Im}$
+  (a real number!), pure imaginary, conjugate, modulus, $\sqrt{-N}:=i\sqrt N$ as a *choice*
+- **Theorem 1**: all field axioms in $\mathbb{C}$, including the full associativity-of-product
+  computation — and the point that *every identity proved from the axioms (perfect squares,
+  difference of squares, completing the square, the whole of nb 04) is therefore free in
+  $\mathbb{C}$*
+- Thm 3 (standard form is unique) used as a **working tool**: one complex equation = two real
+  equations
+- Thm 5 (conjugate rules, including $z\bar z=|z|^2$ and $z\in\mathbb{R}\iff z=\bar z$) and
+  Thm 6 (division by the conjugate — the same trick as nb 08 rationalising), so $\mathbb{C}$ is
+  a field and the zero-product property survives
+- Thm 7: $|zw|=|z||w|$ and the **triangle inequality**, both proved by comparing squares
+- Thm 8: powers of $i$ have period 4, proved with the division algorithm (nb 06)
+- **Thm 9: $\mathbb{C}$ cannot be ordered** — proved by contradiction. So $z<w$ is meaningless,
+  there is no "positive" square root of $-1$, and inequalities stay in $\mathbb{R}$ forever
+- Thm 10 + 10b: the two square roots of a negative real, and the disproof of
+  $\sqrt{ab}=\sqrt a\sqrt b$ for negatives by **one counterexample** — with the lesson that a
+  theorem used outside its hypotheses is not a theorem at all
+- **Thm 11**: the quadratic formula over $\mathbb{C}$; case $D<0$ gives a conjugate pair, and
+  notebook 10 was not wrong, it was answering a question about $\mathbb{R}$
+- **Thm 12: notebook 10 repaired** — Vieta and the factorisation theorem lose the "$D\ge0$"
+  condition completely; every real quadratic has exactly two roots in $\mathbb{C}$
+- **Thm 13 (conjugate root theorem)** for real polynomials of any degree, with the hypothesis
+  located in exactly one line of the proof, and a counterexample when it is dropped
+- **Thm 14**: every complex number has a square root, proved **constructively** ($r=|w|$,
+  $x^2=(r+p)/2$, $y^2=(r-p)/2$, sign rule from $2xy=q$) — so quadratics with *complex*
+  coefficients are solvable too (Thm 14b)
+- **Thm 15 (Fundamental Theorem of Algebra): stated, NOT proved**, with an explicit reason
+  (needs limits/continuity), an explicit list of what depends on it, and a promise to return.
+  First deliberate unproved statement in the whole course
+- Eleven traps, including the $\sqrt{-4}\sqrt{-9}$ family, "$i$ is not the positive root",
+  $\operatorname{Im}$ is real, no comparing, $i$ never left in a denominator, and **"no solution"
+  now depends on the set the question asks about**
+- 16 worked examples: arithmetic, powers of $i$, division, $(1+i)^8$ by squaring, real quadratics
+  with $D<0$, building a real quadratic from one complex root, factoring $x^2+4$, $x^4-1$ and
+  $x^4+4$ over $\mathbb{C}$, the three cube roots of 1, $\sqrt{3+4i}$ by hand, and a full
+  quadratic with complex coefficients
+- Python: the **built-in `complex` type of core Python** (first topic needing no library),
+  `math` vs `cmath`, a solver that branches exactly where Thm 11 branches, the Thm 14
+  construction coded and checked against `cmath`, multiplying a whole shape by $i$ and $1+i$
+  (rotation and stretch = similarity from nb 03), and `np.roots` showing conjugate symmetry
+- **Numerical-analysis lesson 9:** near a double root the *type* of the answer (real or complex)
+  depends on digits the computer does not have. Two opposite failures shown side by side —
+  `1.0 + 1e-16 == 1.0` **hides** a real effect, while rounding noise **invents** an imaginary
+  part of the same size. "Is this root real?" is not decidable in floating point
+- 12 matplotlib figures, no ASCII art
+
 ## Current Focus
 
-**Equations and Inequalities § 2 — Quadratic Equations.** Notebook
-`notebooks/10-quadratic-equations.ipynb` is built and verified: it runs top to bottom with no
-errors (76 cells, 36 code cells, 9 matplotlib figures, no ASCII art, every cell has an `id`,
-`nbformat.validate` passes). No new dependency. Waiting for its 20 exercises.
+**Equations and Inequalities § 3 — Complex Numbers.** Notebook
+`notebooks/11-complex-numbers.ipynb` is built and verified: it runs top to bottom with no
+errors (88 cells, 38 code cells, 12 matplotlib figures, no ASCII art, every cell has an `id`,
+`nbformat.validate` passes). No new dependency — and note that the *core* of this topic needs
+no library at all, because Python has a built-in `complex` type.
 
-**TEN sets of homework are now outstanding (notebooks 01–10).** He said "continue next topic"
-with no answers attached, for the tenth time. I taught, as he asked.
+**ELEVEN sets of homework are now outstanding (notebooks 01–11).** He wrote "please continue
+next topic" with no answers attached, for the eleventh time. I said so in one line and taught.
 
-**He maintains `README.md` himself** and had already written the filename
-`notebooks/10-quadratic-equations.ipynb` into it before this session, together with the names
-for topics 3–7 of this chapter. So the file naming for the rest of the chapter is *his*
-decision, already made, and I should follow it: `11-complex-numbers`,
-`12-radical-and-quadratic-form-equations`, `13-solving-inequalities`,
-`14-absolute-value-equations-inequalities`, `15-problem-solving-applications`. That also
-retroactively confirms the `09-linear-equations` naming choice from session 9.
+The three doors notebook 10 left open are now all closed: Thm 5 case 3 ("no real solution")
+became Thm 11 case $D<0$; Thm 6 and Thm 7 lost the "$D\ge0$" condition (Thm 12); and the
+$\mathbb{C}$ preview of § 6.1 became the whole notebook. The number-tower framing was reused as
+promised, but **counted correctly this time as the fourth extension** ($\mathbb{N}\to\mathbb{Z}\to
+\mathbb{Q}\to\mathbb{R}\to\mathbb{C}$ is three past steps plus today) — the old note in this file
+called it "the sixth", which was wrong.
+
+One deliberate first: **the Fundamental Theorem of Algebra is stated without proof**, flagged
+loudly, with the reason and the list of what depends on it. Until now every statement in the
+course has been proved. If he ever asks "why should I believe that one?", the answer is
+"you shouldn't yet — that is why it is marked".
 
 Everything below "Known Weak Spots" is still **guesswork**. No exercise answer has ever
-arrived. Notebook 10 leans on nb 01 (zero-product Thm B, sign rules, $\sqrt2$ irrational),
-nb 02 (the $-3^2$ trap), nb 04 (perfect squares, at-most-$n$-roots, identity theorem), nb 05
-(factoring, completing the square, **rational root theorem**), nb 07 (LCD, forbidden points),
-nb 08 (principal root, rationalising a numerator) and nb 09 (all four move theorems). Seven
-notebooks deep, all unverified.
+arrived. Notebook 11 leans on nb 01 (axioms, order axioms, $t^2\ge0$, absolute value), nb 02
+(the $\sqrt{ab}$ hypothesis, $\sqrt{t^2}=|t|$, induction), nb 03 (Pythagoras, similarity),
+nb 04 (difference of squares, at-most-$n$-roots, identity theorem), nb 05/06 (factor theorem,
+division algorithm), nb 08 (principal roots, rationalising by the conjugate) and nb 10 (all of
+it). Eight notebooks deep, all unverified.
 
-**The cheapest tests, in order of cheapness:** Ex 16 of notebook 10 (break the formula with
-floats — code either runs or does not, and part (d) needs two sentences), then Ex 13 of
-notebook 10 (find the mistakes in two written solutions — no calculation at all, and the
-first one is nasty because its *check passes*), then Ex 16 or 13 of notebook 09.
+**The cheapest tests, in order of cheapness:** notebook 11 Ex 14 (four written solutions, find
+the mistakes — no calculation at all), then notebook 10 Ex 13, then notebook 11 Ex 2 (powers of
+$i$ — six one-line answers that reveal instantly whether he divides by 4 or multiplies).
 
-**Next session: ask for answers before opening anything new.** If he insists on continuing,
-run the seven oral questions of notebook 10 § 8 first — especially Q3 (why $\sqrt{25}=5$ and
-not $\pm5$, and where the $\pm$ really comes from), Q5 ("the quadratic formula is a new
-method" — argue against it) and Q7, the sharpest: *the computer said "one double root" for an
-equation that provably has two — was Theorem 5 wrong?*
+**Next session: ask for answers before opening anything new.** If he insists on continuing, run
+the seven oral questions of notebook 11 § 8 first — especially Q1 (does $i$ contradict nb 01
+Thm C?), Q4 (is $i$ bigger than 1? — the trap), and Q7, the sharpest: *the program printed
+$1.0000000037 \pm 0.0000000041i$ — are the true roots real or complex?*
 
-Next topic when we move on: **Equations and Inequalities § 3 — Complex Numbers; Quadratic
-Equations in the Complex Number System** (→ `notebooks/11-complex-numbers.ipynb`, the name he
-has already chosen). Notebook 10 was built to open that door in three places: Theorem 5 case 3
-stops at "no real solution" and says *not yet*; Theorem 6 and Theorem 7 are stated only for
-$D\ge0$ and become unconditional over $\mathbb{C}$; and § 6.1 already printed the complex
-answer once, clearly labelled as a preview that nothing else depends on. The framing to reuse
-is the **sixth "we needed a bigger number system"** table — the running thread since nb 01.
+Next topic when we move on: **Equations and Inequalities § 4 — Radical Equations; Equations
+Quadratic in Form; Factorable Equations** (→ `notebooks/12-radical-and-quadratic-form-equations.ipynb`,
+the name he chose in `README.md`). It needs the nb 09 domain-first habit and the nb 09 Thm 6
+fake-solution machinery, plus today's lesson that the **solution set depends on the set you
+solve in**. Squaring both sides is the first *irreversible* move he will meet in force, so
+checking stops being optional there.
 
 ## Known Weak Spots
 
@@ -663,7 +724,104 @@ From notebook 10:
   solution as a **set**?
 
 
+From notebook 11:
+- Ex 1(d),(f): $(1-i)^2$ and $-4i(2-7i)$ — the two places a sign dies. Does $-15i^2$ become
+  $+15$ every time, or only when he is concentrating?
+- Ex 2(f): the sum $i+i^2+\dots+i^{100}$. The answer is $0$ (25 complete cycles). If he computes
+  100 terms instead of seeing the cycle, Theorem 8 has not landed.
+- Ex 3(d),(e): does he use Theorem 7(3) and the triangle inequality **as information**, instead
+  of computing both sides and comparing? Same skill as nb 10 Ex 8.
+- Ex 5(c): the sharpest of the three. $\sqrt{-4}\cdot\sqrt{25}=\sqrt{-100}$ is **true** — one
+  factor is non-negative, so the hypothesis does not fail the same way. If he answers "false,
+  because negatives", he has learned a superstition, not the theorem.
+- Ex 6: does he give **both** answers ($\mathbb{R}$ and $\mathbb{C}$) every time, or does he
+  now think $\varnothing$ is always the wrong answer? Trap 9 cuts both ways.
+- Ex 7: the $\frac{4\pm6i}{2}$ family — nb 10 Trap 5, third appearance. Watch for $4\pm3i$.
+- Ex 9(c): builds an equation whose roots are $3-i$ and $5$ and asks whether it contradicts
+  Theorem 13. It does not (the coefficients are not real). This tests whether he reads
+  hypotheses — the single most repeated failure mode I am watching for (nb 08 Ex 12, nb 10
+  Ex 7(d), Trap 7 here).
+- Ex 10(d): $x^4+64$ needs the add-and-subtract trick from Example 12(c). Does he try, or does
+  he stop? **If he stops, I want the sentence saying where.**
+- Ex 11(c): roots $1+i$ and $2+3i$ — $b$ and $c$ cannot both be real. Does he *prove* it with
+  Theorem 13, or just compute and shrug?
+- Ex 12: the Theorem 14 method. Does he remember the **sign rule** $2xy=q$, or does he produce
+  four sign combinations and keep them all?
+- Ex 14: four wrong solutions. A is the missing second root, B is the $1/i$ sign (the answer is
+  $-\frac23 i$, not $+\frac23 i$), C is dividing only part of the numerator, D is comparing
+  complex numbers at all. D is the conceptual one — Theorem 9.
+- Ex 15: build a `Cx` class in core Python. This is the whole notebook as code; if it works, he
+  has built $\mathbb{C}$. Watch whether `__mul__` uses $ac-bd$ or the naive rule.
+- Ex 16(b): predict inward/outward spiral **before running**, from $|z|$ and Theorem 7(3).
+  A prediction made before the code runs is worth ten made after.
+- Ex 17(c),(d): the numerical lesson. Does he trust the theorem over the printout?
+- Ex 18(c), 19(a): induction, second and third outing since nb 02. Does he write a real base
+  case and a real inductive step, or does he write "and so on"?
+- Ex 20(a): the cubic case of Theorem 13, then "at least one real root" **using Theorem 15** —
+  does he notice that he is allowed to use it because the exercise says so, and say where?
+- Ex 20(b): re-prove Theorem 9 without looking. This is the one exercise designed to test
+  *memory of a proof's shape* rather than recall of a result.
+- Ex 20(c): $z+1/z$ real $\Rightarrow$ $z$ real or $|z|=1$. Deliberately hard, in the tradition
+  of nb 06 Ex 20, nb 08 Ex 20(b) and nb 10 Ex 20(c). **The instruction to say exactly where he
+  is stuck is the real test — it is now the fifth time I have asked, with no answer.**
+- General: does he state the **set he is solving in** every single time? That is the habit this
+  notebook exists to install, the way nb 09 installed "write the domain first".
+
+
 ## Session Log
+
+### Session 11 — 2026-08-25 — Complex Numbers; Quadratic Equations in $\mathbb{C}$
+
+- **Topic taught:** *Equations and Inequalities* § 3, **Complex Numbers; Quadratic Equations in
+  the Complex Number System**. He wrote "please continue next topic", with no exercise answers,
+  for the eleventh time. Noted in one line at the top of the session, then taught.
+- **Notebook created:** `notebooks/11-complex-numbers.ipynb` — 88 cells, 38 code cells, 12
+  matplotlib figures, no ASCII art, every cell carries an `id`, `nbformat.validate` passes.
+  Verified: executes top to bottom with zero errors. No new dependency.
+- **Naming:** from his own `README.md`, which already contained the filename.
+- **What is inside:**
+  - §0 recall table: fifteen earlier results this notebook stands on (nb 01, 02, 03, 04, 05/06,
+    08, 10) plus four warm-up questions.
+  - Intuition built in one line: **$i$ is the quarter turn**, and a quarter turn done twice is
+    the half turn, which is multiplication by $-1$. From that, the multiplication rule
+    $(a,b)(c,d)=(ac-bd,ad+bc)$ is *derived*, not announced — and the naive rule $(ac,bd)$ is
+    shown to destroy the zero-product property.
+  - **$\mathbb{C}$ constructed as ordered pairs**, so $i^2=-1$ is Theorem 2, a computation. The
+    "does $i$ exist?" question is replaced by "can we build a field containing $\mathbb{R}$ with
+    an element whose square is $-1$?" — and nb 01 Thm C is never contradicted, because it quantifies
+    over *real* $t$. This was the single most important paragraph in the notebook.
+  - Fifteen theorems. Thm 1 (field axioms, with the full associativity grind, paid for by the
+    remark that every earlier algebraic identity is now free in $\mathbb{C}$), Thms 2–6
+    (standard form, conjugates, division), Thm 7 ($|zw|=|z||w|$, triangle inequality), Thm 8
+    (period 4), **Thm 9 ($\mathbb{C}$ cannot be ordered)**, Thm 10/10b (roots of negatives, and
+    the $\sqrt{ab}$ counterexample), **Thm 11–12 (the quadratic formula over $\mathbb{C}$, and
+    notebook 10 repaired: Vieta and factorisation lose the $D\ge0$ condition)**, Thm 13
+    (conjugate root theorem), **Thm 14 (every complex number has a square root — constructive)**
+    and Thm 15 (FTA, stated without proof).
+  - **First deliberate unproved statement of the course** (Thm 15), with the reason, the list of
+    what depends on it, and a promise to come back after limits. Everything else proved in full.
+  - Theorem 9 given real weight: it is *why* there is no positive square root of $-1$, *why*
+    Definition 8 is a choice, and *why* inequalities will stay real forever.
+  - 11 traps, 16 worked examples, 12 figures. Figure 8 is the one I care about: the parabola
+    that misses the axis on the left, and the two roots sitting symmetrically in the plane on
+    the right, with the common real part $-b/(2a)$ = the vertex.
+  - **Numerical lesson 9**: `1.0 + 1e-16 == 1.0` hides a real effect while rounding noise invents
+    an imaginary one — two opposite failures, same size. Figure 12 (the cross) shows the roots
+    sliding along the real axis, colliding, and leaving *perpendicular* — which is
+    $\sqrt{\text{negative}}$, which is a quarter turn. The notebook's first idea, returning as
+    its last.
+- **What went well:** the notebook did what it was built for — it closed all three doors nb 10
+  left open, and it removed hypotheses instead of adding them (Thm 12). The construction-first
+  approach means he never has to take $i$ on faith.
+- **Mistakes to revisit:** none of his (nothing has been submitted). One of **mine**, corrected
+  here: this file previously called the $\mathbb{C}$ step "the sixth" time we needed a bigger
+  number system. It is the fourth. The notebook says fourth.
+- **Homework given:** the 20 exercises of notebook 11. Ex 14 (find the mistakes in four written
+  solutions) needs no calculation and is the cheapest possible answer to send.
+- **Next session plan:** ask for answers first — Ex 14 of nb 11, or Ex 13 of nb 10. If he says
+  continue anyway, run the seven oral questions of § 8 (especially Q1, Q4, Q7) and then teach
+  *Equations and Inequalities* § 4, **Radical Equations; Equations Quadratic in Form; Factorable
+  Equations** → `notebooks/12-radical-and-quadratic-form-equations.ipynb`.
 
 ### Session 10 — 2026-08-24 — Quadratic Equations
 
