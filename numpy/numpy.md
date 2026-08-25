@@ -56,3 +56,6 @@
 
 41. [Finding and Removing Duplicates](./part5/41_Findingand_Removing_Duplicates.ipynb)
 42. [Cleaning Text and Standardizing Strings](./part5/42_Cleaning_Text_and_Standardizing_Strings.ipynb)
+43. [Basic Aggregations](part5/43_Basic_Aggregations.ipynb)
+44. [Grouping Data](./part5/44_Grouping_Data.ipynb)
+45. [ Advanced Aggregations with `.agg()`](./part5/45_Advanced_Aggregations_with_agg.ipynb)
