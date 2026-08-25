@@ -77,3 +77,9 @@
 58. [The String Accessor (`.dt` vs `.str`) & Pattern Matching](./part6/58_The_String_Accessor_dt_vs_str_and_Pattern_Matching.ipynb)
 59. [Regular Expressions (RegEx) for Advanced Filtering](./part6/59_Regular_Expressions_RegEx_for_Advanced_Filtering.ipynb)
 60. [String Extraction & Replacement with RegEx](./part6/60_String_Extraction_and_Replacement_with_RegEx.ipynb)
+
+### PART7
+
+61. [Group-wise Transformations with `.transform()`](./part7/61_Group_wise_Transformations_with_transform.ipynb)
+62. [Filtering Groups with `.filter()`](./part7/62_Filtering_Groups_with_filter.ipynb)
+63. [Time Shifting and Rolling Windows](./part7/63_Time_Shifting_and_Rolling_Windows.ipynb)
