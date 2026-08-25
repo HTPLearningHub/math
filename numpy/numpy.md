@@ -71,3 +71,6 @@
 52. [Element-wise Series Mapping with `.map()`](./part6/52_Element_wise_Series_Mapping_with_map.ipynb)
 53. [Applying Custom Functions with .apply()](./part6/53_Applying_Custom_Functions_with_apply.ipynb)
 54. [DataFrame-wide Mapping with .map()](./part6/54_DataFrame_wide_Mapping_with_map.ipynb)
+55. [Datetime Conversions & Formatting (`pd.to_datetime`)](./part6/55_Datetime_Conversions_and_Formatting_pd_to_datetime.ipynb)
+56. [The Datetime Accessor (`.dt`) & Resampling](./part6/56_The_Datetime_Accessor_dt_and_Resampling.ipynb)
+57. [](./part6/)
