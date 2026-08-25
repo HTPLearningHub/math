@@ -74,3 +74,6 @@
 55. [Datetime Conversions & Formatting (`pd.to_datetime`)](./part6/55_Datetime_Conversions_and_Formatting_pd_to_datetime.ipynb)
 56. [The Datetime Accessor (`.dt`) & Resampling](./part6/56_The_Datetime_Accessor_dt_and_Resampling.ipynb)
 57. [Time Shifting & Rolling Windows](./part6/57_Time_Shifting_and_Rolling_Windows.ipynb)
+58. [The String Accessor (`.dt` vs `.str`) & Pattern Matching](./part6/58_The_String_Accessor_dt_vs_str_and_Pattern_Matching.ipynb)
+59. [Regular Expressions (RegEx) for Advanced Filtering](./part6/59_Regular_Expressions_RegEx_for_Advanced_Filtering.ipynb)
+60. [String Extraction & Replacement with RegEx](./part6/60_String_Extraction_and_Replacement_with_RegEx.ipynb)
