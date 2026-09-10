@@ -89,13 +89,13 @@ come out even.
 
 Cut one pizza into $8$ equal slices. Now take $2$ of them.
 
-<p align="center">
+<!-- <p align="center">
     <img 
       src="./assets/fig_01_pizza_eighths.png" 
       width="500" 
       alt = "A pizza cut into eight equal slices with two slices coloured blue, and labels pointing to the two slices taken and to the whole pizza"
       />
-</p>
+</p> -->
 
 
 ![A pizza cut into eight equal slices with two slices coloured blue, and labels pointing to the two slices taken and to the whole pizza](./assets/fig_01_pizza_eighths.png)
