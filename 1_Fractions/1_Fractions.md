@@ -351,7 +351,14 @@ pizza. Now let us break that limit.
 Cut pizzas into $3$ equal slices each. Collect $4$ slices. Every slice is $\frac{1}{3}$ of a
 pizza, so you hold $\frac{4}{3}$ of a pizza.
 
-![On the left a pizza cut into three slices with all three coloured blue, on the right a pizza cut into three slices with one coloured orange](./assets/fig_04_four_thirds.png)
+
+<p align="center">
+    <img 
+      src="./assets/fig_04_four_thirds.png" 
+      width="400" 
+      alt = "On the left a pizza cut into three slices with all three coloured blue, on the right a pizza cut into three slices with one coloured orange"
+      />
+</p>
 
 *Figure 4 — Three of the four slices build one complete pizza. The fourth slice is left over.
 So $\frac{4}{3}$ is one whole pizza and one third more.*
@@ -379,7 +386,14 @@ fraction are **added**: $1\frac{1}{3}$ means $1 + \frac{1}{3}$.
 
 A fraction is a number, so it has its own place on the number line, exactly like $1$ or $2$.
 
-![A number line from 0 to 2 with small ticks at every third, a blue point at two thirds between 0 and 1, and an orange point at four thirds between 1 and 2](./assets/fig_05_number_line.png)
+
+<p align="center">
+    <img 
+      src="./assets/fig_05_number_line.png" 
+      width="400" 
+      alt = "A number line from 0 to 2 with small ticks at every third, a blue point at two thirds between 0 and 1, and an orange point at four thirds between 1 and 2"
+      />
+</p>
 
 *Figure 5 — Each step between two ticks is $\frac{1}{3}$. The proper fraction $\frac{2}{3}$
 sits before $1$. The improper fraction $\frac{4}{3}$ sits after $1$, one third past it.*
@@ -532,7 +546,13 @@ $$
 \frac{30}{8} = 3\frac{3}{4}
 $$
 
-![Four pizzas in a row: the first three are completely coloured blue, the fourth has six of its eight slices coloured orange](./assets/fig_06_pizza_party.png)
+<p align="center">
+    <img 
+      src="./assets/fig_06_pizza_party.png" 
+      width="400" 
+      alt = "Four pizzas in a row: the first three are completely coloured blue, the fourth has six of its eight slices coloured orange"
+      />
+</p>
 
 *Figure 6 — The $30$ slices fill three pizzas completely and leave $6$ slices on the fourth
 one. Six slices out of eight are $\frac{3}{4}$ of a pizza.*
