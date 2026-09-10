@@ -1,7 +1,7 @@
 """Figure 1 - one pizza cut into 8 equal slices, with 2 slices taken.
 
 Shows where the two numbers of a fraction come from:
-the top number counts the slices we take, the bottom number counts all slices.
+the top number counts the slices we take, the bottom number counts all the slices.
 Run with:  python figures/fig_01_pizza_eighths.py
 """
 
@@ -47,21 +47,21 @@ for i in range(8):                                        # write 1..8 inside th
             color="white" if i < 2 else "#607D8B")        # white on blue, grey-blue on grey
 
 first_mid = np.radians(90.0 + 0.5 * step)                 # middle of slice number 1
-ax.annotate("we take 2 slices\n" + r"top number $= 2$",   # label for the numerator
+ax.annotate("we take 2 slices,\nso the top number is 2",  # label for the numerator
             xy=(0.85 * R * np.cos(first_mid), 0.35 + 0.85 * R * np.sin(first_mid)),
             xytext=(-3.2, 1.9), ha="left", va="center", fontsize=13, color=TAKEN,
             fontweight="bold",
             arrowprops=dict(arrowstyle="->", color=TAKEN, linewidth=2.0))
 
 edge_angle = np.radians(-40.0)                            # a point on the rim, lower right
-ax.annotate("the whole pizza is 8 equal slices\n" + r"bottom number $= 8$",
+ax.annotate("the whole pizza is 8 equal slices,\nso the bottom number is 8",
             xy=(1.02 * R * np.cos(edge_angle), 0.35 + 1.02 * R * np.sin(edge_angle)),
             xytext=(3.2, -1.1), ha="right", va="center", fontsize=13, color="#455A64",
             fontweight="bold",
             arrowprops=dict(arrowstyle="->", color="#455A64", linewidth=2.0))
 
-ax.text(0.0, -2.15, r"$\frac{2}{8}$ of the pizza",        # the fraction itself, big
-        ha="center", va="center", fontsize=24, fontweight="bold", color="#212121")
+ax.text(0.0, -2.15, r"$\mathbf{\frac{2}{8}}$ of the pizza",  # the fraction itself, big
+        ha="center", va="center", fontsize=30, fontweight="bold", color="#212121")
 ax.set_title("One pizza, 8 equal slices, 2 slices taken",
              fontsize=17, fontweight="bold", pad=12)
 
