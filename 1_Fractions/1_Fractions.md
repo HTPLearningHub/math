@@ -390,7 +390,7 @@ A fraction is a number, so it has its own place on the number line, exactly like
 <p align="center">
     <img 
       src="./assets/fig_05_number_line.png" 
-      width="400" 
+      width="500" 
       alt = "A number line from 0 to 2 with small ticks at every third, a blue point at two thirds between 0 and 1, and an orange point at four thirds between 1 and 2"
       />
 </p>
@@ -549,7 +549,7 @@ $$
 <p align="center">
     <img 
       src="./assets/fig_06_pizza_party.png" 
-      width="400" 
+      width="500" 
       alt = "Four pizzas in a row: the first three are completely coloured blue, the fourth has six of its eight slices coloured orange"
       />
 </p>
