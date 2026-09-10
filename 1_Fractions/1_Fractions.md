@@ -89,16 +89,14 @@ come out even.
 
 Cut one pizza into $8$ equal slices. Now take $2$ of them.
 
-<!-- <p align="center">
+<p align="center">
     <img 
       src="./assets/fig_01_pizza_eighths.png" 
-      width="500" 
+      width="400" 
       alt = "A pizza cut into eight equal slices with two slices coloured blue, and labels pointing to the two slices taken and to the whole pizza"
       />
-</p> -->
+</p>
 
-
-![A pizza cut into eight equal slices with two slices coloured blue, and labels pointing to the two slices taken and to the whole pizza](./assets/fig_01_pizza_eighths.png)
 
 **Figure 1 — The whole pizza is cut into $8$ equal slices, so $8$ is the bottom number. We
 took $2$ slices, so $2$ is the top number. Together they say $\frac{2}{8}$.**
@@ -193,7 +191,13 @@ fewer parts than the whole has, so you do not have the whole.
 Take two pizzas of the same size. Cut the first one into $8$ slices and take $2$ slices.
 Cut the second one into $4$ slices and take $1$ slice.
 
-![Two pizzas of equal size: the left one has eight slices with two coloured blue, the right one has four slices with one coloured orange, and the two coloured areas are the same size](./assets/fig_02_equivalent_fractions.png)
+<p align="center">
+    <img 
+      src="./assets/fig_02_equivalent_fractions.png" 
+      width="400" 
+      alt = "Two pizzas of equal size: the left one has eight slices with two coloured blue, the right one has four slices with one coloured orange, and the two coloured areas are the same size"
+      />
+</p>
 
 *Figure 2 — The blue area and the orange area cover the same part of the pizza. Two small
 slices are exactly as much food as one big slice.*
