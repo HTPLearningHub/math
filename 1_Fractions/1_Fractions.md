@@ -305,7 +305,15 @@ open side always points to the bigger number.
 This case surprises many people. Compare $\frac{3}{8}$ and $\frac{3}{10}$. Both plates hold
 $3$ slices. But the slices are not the same size.
 
-![Two pizzas of equal size: the left one is cut into eight slices with three coloured blue, the right one is cut into ten slices with three coloured orange, and the blue area is clearly bigger](./assets/fig_03_comparing_fractions.png)
+
+<p align="center">
+    <img 
+      src="./assets/fig_03_comparing_fractions.png" 
+      width="400" 
+      alt = "Two pizzas of equal size: the left one is cut into eight slices with three coloured blue, the right one is cut into ten slices with three coloured orange, and the blue area is clearly bigger"
+      />
+</p>
+
 
 *Figure 3 — Both plates hold $3$ slices. The left pizza was cut into $8$ slices, so its
 slices are big. The right pizza was cut into $10$ slices, so its slices are small. Three big
