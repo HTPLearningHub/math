@@ -73,6 +73,5 @@ changing the coordinates.
 * Turning a decimal back into a fraction, and simplifying the result.
 * Decimals that do not stop, and repeating decimals.
 * Rounding a decimal to a given number of places.
-* Percentages, and the link between decimals, fractions and percentages.
 * Negative decimals.
 * Place values above hundreds (thousands and further).

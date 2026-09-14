@@ -28,3 +28,4 @@ advanced topics.
 
 [1 Fractions](./1_Fractions/1_Fractions.md)\
 [2 Decimals](./2_Decimals/2_Decimals.md)\
+[3 Percentages](./3_Percentages/3_Percentages.md)\

@@ -41,8 +41,27 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Adding decimals, aligning points | Ch. 2 § 6.1 | fig_07; only same-size pieces can be added |
 | Column addition of decimals | Ch. 2 § 6.3 - 6.4 | 2.3 + 1.4, then 5.2 + 3.14 with padding |
 | Carrying (regrouping) | Ch. 2 § 6.5 | 4.85 + 2.67; ten hundredths make one tenth |
+| Why percentages exist | Ch. 3 § 1.2 | Three quizzes with totals 10, 20 and 500 cannot be compared |
+| Percent (definition), per centum | Ch. 3 § 2.1 | Out of a hundred; fig_01, 25 squares of 100 |
+| Why the total is 100 | Ch. 3 § 2.2 | Easy to picture, and fine enough steps to be useful |
+| Ratio | Ch. 3 § 2.3 | 9 : 10 is the same thing as the fraction 9/10 |
+| Equivalent ratios | Ch. 3 § 2.3 | One line only; the idea itself is Ch. 1 § 3.1 |
+| P% = P/100 | Ch. 3 § 2.3 | The sentence the whole chapter is built on |
+| 100% and 0% | Ch. 3 § 2.4 | Whole and none; rests on Ch. 1 § 2.3 |
+| Fraction to percent | Ch. 3 § 3 | Scale the bottom to 100; fig_02; table of bottoms in § 3.3 |
+| Percent to fraction | Ch. 3 § 4.1 | Write over 100, then simplify with Ch. 1 § 3.3 |
+| Greatest common factor (GCF) | Ch. 3 § 4.2 | Simplifies in one step; a short cut, not a new rule |
+| Percent to decimal | Ch. 3 § 4.3 | Two places left; built on Ch. 2 § 3.2 and § 2.2 |
+| Decimal to percent | Ch. 3 § 4.4 | Two places right, then write the % sign |
+| Conversion map of the three forms | Ch. 3 § 4.6 | fig_03 (50%, 80%, 3% on grids) and fig_04 (six arrows) |
+| Part and whole | Ch. 3 § 5.1 | The two names used in both percentage formulas |
+| Percentage formula | Ch. 3 § 5.3 | (part / whole) x 100; shown to be the same as scaling |
+| Finding a percentage of an amount | Ch. 3 § 6 | Method 1 simplify first, Method 2 find 1% first |
+| Tip and discount | Ch. 3 § 6.2, § 7 | A tip is added, a discount is taken off; fig_05 |
+| 30% off equals pay 70% | Ch. 3 § 7 | The two-door short cut, and the two answer checks |
 
 ## Chapter notes
 
 * [Chapter 1 - Fractions](./01_fractions.md)
 * [Chapter 2 - Decimals](./02_decimals.md)
+* [Chapter 3 - Percentages](./03_percentages.md)

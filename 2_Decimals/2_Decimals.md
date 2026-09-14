@@ -793,4 +793,4 @@ be written as decimals.
 
 - [Back to the book](./../README.md)
 - Previous: [1 Fractions](./../1_Fractions/1_Fractions.md)
-- Next: not written yet.
+- Next: [3 Percentages](./../3_Percentages/3_Percentages.md)
