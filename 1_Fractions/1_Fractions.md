@@ -763,4 +763,4 @@ that comes after it: fractions come back in every later part of mathematics.
 
 - [Back to the book](./../README.md)
 - Previous: this is the first chapter.
-- Next: not written yet.
+- Next: [2 Decimals](./../2_Decimals/2_Decimals.md)

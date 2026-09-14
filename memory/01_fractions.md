@@ -58,7 +58,9 @@ Keep it if the chapter grows.
 
 * Adding and subtracting fractions (common denominators, least common denominator).
 * Multiplying and dividing fractions.
-* Fractions written as decimals, and percentages.
+* Percentages, and the link between fractions and percentages.
+  (Fractions with 10, 100 or 1000 underneath are now written as decimals in Ch. 2;
+  turning any other fraction into a decimal is still not covered.)
 * Negative fractions.
 * Ordering fractions when both the numerator and the denominator differ (cross-multiplying).
 * Greatest common divisor as a method for simplifying in one step.
