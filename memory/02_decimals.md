@@ -74,4 +74,8 @@ changing the coordinates.
 * Decimals that do not stop, and repeating decimals.
 * Rounding a decimal to a given number of places.
 * Negative decimals.
-* Place values above hundreds (thousands and further).
+* ~~Place values above hundreds (thousands and further).~~ Done: Ch. 5 § 2.2 adds the
+  thousands place. Anything above thousands is still open.
+
+Note: Ch. 5 § 6.3 now teaches **borrowing** for whole numbers. Whichever transcript covers
+decimal subtraction should link back to it rather than teach it again.

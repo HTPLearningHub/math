@@ -74,6 +74,20 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Sales tax | Ch. 4 § 6.2 | fig_06; added on top, like a tip |
 | Rounding to the nearest cent | Ch. 4 § 6.3 | The 5-or-more rule; round only at the end |
 | Discount given as a fraction | Ch. 4 § 6.4 | 3/8 off 120; checked twice |
+| Algorithm | Ch. 5 § 1.3 | A fixed list of steps; why columns beat counting |
+| Thousands separator (comma or space) | Ch. 5 § 1.2 | Note only; it is not a decimal point. Book writes 1 293 |
+| Digit | Ch. 5 § 2.1 | The ten symbols 0-9 |
+| Thousands place | Ch. 5 § 2.2 | fig_01; extends Ch. 2 § 2.2 one step further left |
+| The trade: ten of one make one of the next | Ch. 5 § 2.4 | fig_02; the engine of both carrying and borrowing |
+| Lining up whole numbers on the right | Ch. 5 § 3.1 | fig_03; the point sits at the right-hand end, so this is Ch. 2 § 6.1 |
+| Why you work right to left | Ch. 5 § 3.2 | Leftovers always travel left |
+| Addition, sum | Ch. 5 § 4.1 | The two words |
+| Column addition of whole numbers | Ch. 5 § 4.2 - 4.4 | 524+315, then 1293+2614 with fig_04, then 1584+2739 |
+| Adding many numbers in one pass | Ch. 5 § 5 | Carry can be 2 or more; 13 may be written in the leftmost column |
+| Subtraction, difference | Ch. 5 § 6.1 | Order cannot be swapped; larger number on top |
+| Borrowing (regrouping) | Ch. 5 § 6.3 | fig_05; 473 = 400+70+3 = 400+60+13 |
+| Checking a subtraction by adding back | Ch. 5 § 6.3 | Same idea as Ch. 1 § 1.1 |
+| Borrowing across a zero | Ch. 5 § 7 | fig_06; 5042 - 2678, the two-step trade |
 
 ## Chapter notes
 
@@ -81,3 +95,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 2 - Decimals](./02_decimals.md)
 * [Chapter 3 - Percentages](./03_percentages.md)
 * [Chapter 4 - One number, three names](./04_converting_between_forms.md)
+* [Chapter 5 - Adding and subtracting large numbers](./05_adding_and_subtracting_large_numbers.md)
