@@ -59,9 +59,25 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Finding a percentage of an amount | Ch. 3 § 6 | Method 1 simplify first, Method 2 find 1% first |
 | Tip and discount | Ch. 3 § 6.2, § 7 | A tip is added, a discount is taken off; fig_05 |
 | 30% off equals pay 70% | Ch. 3 § 7 | The two-door short cut, and the two answer checks |
+| Equivalent (same place on the line) | Ch. 4 § 1.1 | fig_01, three rulers through one point; the word itself is defined here |
+| Which form suits which job | Ch. 4 § 1.2 | Fractions exact, decimals for money, percents for comparing |
+| Fraction to decimal by dividing | Ch. 4 § 2 | The two missing routes of the map; Ch. 3 could not do this |
+| Unit fraction | Ch. 4 § 2.2 | fig_02; table of 1/2, 1/4, 1/5, 1/8, 1/10, 1/20 |
+| Division that carries on past the point | Ch. 4 § 2.3 | Share, then cut every leftover into ten; table layout, no long-division bracket |
+| Terminating decimal | Ch. 4 § 2.3 | A decimal that stops, such as 0.375 |
+| Repeating decimal, and the bar notation | Ch. 4 § 2.4 | fig_03; why 1/3 loops for ever |
+| Decimal to fraction | Ch. 4 § 3 | Last place names the bottom number; count the zeros too |
+| The complete six-route map | Ch. 4 § 4.1 | fig_04; replaces the partial map in Ch. 3 § 4.6 |
+| Benchmark table of common conversions | Ch. 4 § 4.2 | Thirteen rows, fraction / decimal / percent |
+| Ordering values in mixed forms | Ch. 4 § 5 | fig_05; convert everything to percent first, answer in the original forms |
+| Multiplying a decimal by a whole number | Ch. 4 § 6.1 | Counting pieces, then the decimal-places rule |
+| Sales tax | Ch. 4 § 6.2 | fig_06; added on top, like a tip |
+| Rounding to the nearest cent | Ch. 4 § 6.3 | The 5-or-more rule; round only at the end |
+| Discount given as a fraction | Ch. 4 § 6.4 | 3/8 off 120; checked twice |
 
 ## Chapter notes
 
 * [Chapter 1 - Fractions](./01_fractions.md)
 * [Chapter 2 - Decimals](./02_decimals.md)
 * [Chapter 3 - Percentages](./03_percentages.md)
+* [Chapter 4 - One number, three names](./04_converting_between_forms.md)

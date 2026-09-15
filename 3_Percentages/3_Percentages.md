@@ -517,6 +517,12 @@ Finally, here is every route on one page.
 **Figure 4 — Start in any box and follow an arrow. The label on the arrow tells you exactly
 what to do. All three boxes hold the same amount: $80\%$, $\frac{4}{5}$ and $0.80$.**
 
+**Note.** The two arrows between the fraction box and the decimal box only work while the
+bottom number is $100$. A fraction such as $\frac{3}{8}$ cannot be scaled to a bottom of
+$100$ by any whole number, so it does not fit on this map yet.
+[Chapter 4, section 2](./../4_Converting_Between_Forms/4_Converting_Between_Forms.md#2-from-a-fraction-to-a-decimal)
+replaces those two arrows with rules that work for every fraction.
+
 ### Summary of section 4
 
 * $P\%$ becomes a fraction by writing $P$ over $100$ and then simplifying.
@@ -1049,4 +1055,4 @@ from now on, you can move it into whichever of the three forms makes the arithme
 
 - [Back to the book](./../README.md)
 - Previous: [2 Decimals](./../2_Decimals/2_Decimals.md)
-- Next: not written yet.
+- Next: [4 One number, three names](./../4_Converting_Between_Forms/4_Converting_Between_Forms.md)

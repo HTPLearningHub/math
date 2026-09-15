@@ -9,7 +9,7 @@ File: [3_Percentages/3_Percentages.md](./../3_Percentages/3_Percentages.md)
 | 1. Why we need percentages | 1.1 where you meet them (discount, tip, rain, grade); 1.2 the real problem - three quizzes with totals 10, 20, 500 cannot be compared, so rewrite everything out of one shared total |
 | 2. What a percentage is | 2.1 *per centum*, the definition, fig_01; 2.2 why the total is 100 (easy to picture, fine enough steps); 2.3 ratio, equivalent ratios, and $P\% = \frac{P}{100}$; 2.4 $100\%$ is the whole, $0\%$ is none |
 | 3. Turning any score into a percentage | 3.1 reuses the rule of equivalence from Ch. 1 § 3.2; 3.2 the three quizzes worked (9/10 up, 18/20 up, 450/500 **down**), fig_02, the "same ruler" explanation; 3.3 table of bottoms that reach 100 (2, 4, 5, 10, 20, 25, 50, 100, 500), plus 3/5 and 1/2 |
-| 4. Percent, fraction and decimal | 4.1 percent to fraction (over 100, then simplify): 50%, 80%, 3%; 4.2 GCF as the one-step short cut, 80/100 by 20; 4.3 percent to decimal, two places left, built on Ch. 2 § 3.2 and § 2.2; 4.4 decimal to percent, two places right; 4.5 fraction to percent (points back to § 3); 4.6 the three-form table, then fig_03, then the whole map as fig_04 |
+| 4. Percent, fraction and decimal | 4.1 percent to fraction (over 100, then simplify): 50%, 80%, 3%; 4.2 GCF as the one-step short cut, 80/100 by 20; 4.3 percent to decimal, two places left, built on Ch. 2 § 3.2 and § 2.2; 4.4 decimal to percent, two places right; 4.5 fraction to percent (points back to § 3); 4.6 the three-form table, then fig_03, then the whole map as fig_04, then a Note saying the two fraction-decimal arrows only work with 100 underneath and pointing to Ch. 4 § 2 |
 | 5. The percentage formula | 5.1 part and whole defined; 5.2 18/20 worked first; 5.3 the formula, symbol list, and the proof that it *is* the scaling method of § 3 |
 | 6. Finding a percentage of an amount | 6.1 the question turned around, $\text{part} = \frac{P}{100} \times \text{whole}$; 6.2 Method 1 (simplify the percent first) with the 20% tip on 45; 6.3 Method 2 (find 1% first) with 15% off 500; 6.4 a table saying which method to pick |
 | 7. A full example: the shoes in the sale | 120 with 30% off, discount 36, pay 84, fig_05, two checks, and the "30% off = pay 70%" short cut |
@@ -80,10 +80,16 @@ that one column is one tenth. That difference is deliberate.
 * The source's grid column was only a written description ("50 squares filled out of 100"). It
   was drawn for real as fig_03.
 
-## Not covered yet - waiting for a source
+## Closed since this chapter was written
 
 * Percentages of a fraction whose bottom does not reach 100 by a whole-number step
-  (for example $\frac{1}{3}$ or $\frac{2}{7}$) - this needs division into decimals.
+  (for example $\frac{1}{3}$ or $\frac{3}{8}$) - now taught in Ch. 4 § 2 by dividing.
+* Multiplying a decimal by a whole number, which this chapter worked around with its two
+  whole-number methods - now taught in Ch. 4 § 6.1. The two methods here are still the
+  quicker way for round percentages, so § 6 stays as it is.
+
+## Not covered yet - waiting for a source
+
 * Percentage increase and percentage decrease as a *change* ("the price rose by 20%"), and
   finding the original amount back from a percentage.
 * Percentages above 100%.
