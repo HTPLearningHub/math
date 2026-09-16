@@ -1522,11 +1522,11 @@ called the powers of ten, and being able to write $10^{3}$ instead of $1000$ is 
 and very small numbers get handled. Second, the expressions here have grown long enough that
 the order of the steps has started to matter: in section 9.4 the bracket had to be opened
 before anything else could be done. So far the brackets have always said which part comes
-first. There is a general rule for when there are no brackets to tell you, and this book has
-not reached it yet.
+first. There is a general rule for when there are no brackets to tell you, and it is
+[Chapter 11](./../11_The_Order_Of_Operations/11_The_Order_Of_Operations.md).
 
 ---
 
 - [Back to the book](./../README.md)
 - Previous: [9 Negative numbers](./../9_Negative_Numbers/9_Negative_Numbers.md)
-- Next: not written yet.
+- Next: [11 The order of operations](./../11_The_Order_Of_Operations/11_The_Order_Of_Operations.md)

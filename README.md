@@ -36,3 +36,4 @@ advanced topics.
 [8 Dividing large numbers](./8_Dividing_Large_Numbers/8_Dividing_Large_Numbers.md)\
 [9 Negative numbers](./9_Negative_Numbers/9_Negative_Numbers.md)\
 [10 Exponents](./10_Exponents/10_Exponents.md)\
+[11 The order of operations](./11_The_Order_Of_Operations/11_The_Order_Of_Operations.md)\

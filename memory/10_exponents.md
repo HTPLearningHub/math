@@ -200,9 +200,10 @@ Layout lessons worth keeping, on top of the Chapter 9 list:
 
 ## Not covered yet - waiting for a source
 
-* **The order of operations** (PEMDAS / BODMAS). Still open from Chapters 6, 7, 8 and 9, and now
-  more visible than ever: § 9.4 has to open a bracket before anything else, and the chapter says
-  so in § 12 without giving the general rule. This is the most obvious hole in the book.
+* ~~**The order of operations** (PEMDAS).~~ **Closed by Chapter 11.** It was open from Chapters 6,
+  7, 8 and 9 and most visible here, because § 9.4 has to open a bracket before anything else.
+  § 12's closing paragraph now links forward to Chapter 11 instead of saying the rule is missing.
+  BODMAS, the other acronym, is still open - see the Chapter 11 note.
 * **Fractional exponents and roots**, including square roots. Nothing in the book mentions them,
   and the source does not either.
 * **A negative base**, such as $(-2)^{3}$ or $(-2)^{4}$, and the odd/even pattern. Every base in

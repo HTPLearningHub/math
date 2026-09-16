@@ -177,6 +177,28 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Choosing a rule by the shape | Ch. 10 § 9.1 | fig_10 and the six-row table |
 | $x^{a} + x^{b}$ has no rule | Ch. 10 § 9.2 | $2^{3} + 2^{2} = 12$, not $32$; the commonest invented rule |
 | Finding a missing exponent | Ch. 10 § 9.5 | $2^{n} \times 2^{3} = 32$; same base on both sides, so the exponents match |
+| Why an order is needed at all | Ch. 11 § 1.2 | fig_01; $5 \times 3 + 4 - 2 \times 6$ gives $102$ from the left and $-25$ from the right |
+| Convention | Ch. 11 § 1.3 | A rule people agreed on, not a fact; the driving-side analogy |
+| Expression | Ch. 11 § 1.3 | A line of maths with no equals sign; an equation is not one |
+| The four levels | Ch. 11 § 2.1 | fig_02; brackets, exponents, multiply-divide, add-subtract |
+| PEMDAS, parentheses | Ch. 11 § 2.2 | Six letters, four levels; the Warning that causes most errors |
+| The priority table | Ch. 11 § 2.3 | Level, letters, operation, signs, how to work inside it |
+| Equal priority, left-to-right rule | Ch. 11 § 2.4 | Position on the page is the only thing that decides |
+| Each operation packs the one below it | Ch. 11 § 3.1 | The reason the tower has that shape; built on Ch. 10 § 1.2 |
+| Why multiply comes before add | Ch. 11 § 3.2 | $2 + 3 \times 4 = 2+4+4+4 = 14$; the wrong $20$ is five fours |
+| Why each pair shares a level | Ch. 11 § 3.3 | fig_03; a subtraction is an addition (Ch. 9 § 4.3), a division is a multiplication (Ch. 10 § 7.1) |
+| What left-to-right is really for | Ch. 11 § 3.4 | Reordering is safe; regrouping is the mistake. Corrects the source |
+| A bracket outranks everything | Ch. 11 § 4.1 | $2 + 3 \times 4 = 14$ but $(2+3) \times 4 = 20$; Ch. 6 § 1.2 linked |
+| Square brackets, curly brackets, grouping symbols | Ch. 11 § 4.2 | Same meaning as round; they keep nested pairs readable |
+| Innermost bracket first | Ch. 11 § 4.3 | fig_04; one wrapper per step |
+| The order restarts inside a bracket | Ch. 11 § 4.4 | Why nested brackets need no extra rule; the order is a loop |
+| How far an exponent reaches | Ch. 11 § 5.1 | fig_05; $3 \times 2^{3} = 24$, not $216$ |
+| A bracket widens an exponent's reach | Ch. 11 § 5.2 | $(3 \times 2)^{3} = 216$; $(3+2)^{2} = 25$ is Level 1 then Level 2 |
+| Multiply and divide, left to right | Ch. 11 § 6.1 | $12 \div 3 \times 2 = 8$; M does not beat D |
+| The invented bracket | Ch. 11 § 6.2 | fig_06; every shared-level error is this one mistake. Reused in § 7.1, Q7, Q8 |
+| Add and subtract, left to right | Ch. 11 § 7.1 | $10 - 4 + 2 = 8$; A does not beat S |
+| A running total may go below zero | Ch. 11 § 7.2 | $15 + 25 - 54 + 8 = -6$; links Ch. 9 § 4.1 |
+| Rewrite the whole line after each step | Ch. 11 § 8.1 | fig_07 the loop, fig_08 the staircase; the habit that stops most errors |
 
 ## Chapter notes
 
@@ -190,3 +212,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 8 - Dividing large numbers](./08_dividing_large_numbers.md)
 * [Chapter 9 - Negative numbers](./09_negative_numbers.md)
 * [Chapter 10 - Exponents](./10_exponents.md)
+* [Chapter 11 - The order of operations](./11_the_order_of_operations.md)
