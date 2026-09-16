@@ -105,6 +105,21 @@ One row per topic. Says where the book explains it first. Read this before writi
 | The four forms in one table | Ch. 6 § 4.4 | One rule, four shapes |
 | Mental multiplication by splitting | Ch. 6 § 5 | Invent the bracket yourself; 5 x 17, 6 x 345 (fig_06), 7 x 98 |
 | Choosing a split | Ch. 6 § 5.5 | Just below a round number, just above, or place value |
+| Multiplying by 10, moving the digits | Ch. 7 § 2.1 | fig_01; derived from the rule of ten, Ch. 2 § 2.2. Ch. 6 § 5.3 only stated it |
+| Zero written on the end as a short cut | Ch. 7 § 2.1 | Whole numbers only; the warning about $2.5 \times 10$ is in § 2.2 |
+| Multiplying by 100 and 1000 | Ch. 7 § 2.2 | Count the zeros; the note on the words *powers of ten* |
+| Multiplying by a round number (20, 300) | Ch. 7 § 2.3 | Digit first, then move left; justified by Ch. 6 § 1.4 |
+| Column multiplication by one digit | Ch. 7 § 3 | $321 \times 3$ with no carry, then $425 \times 2$ with one, fig_02 |
+| Multiply first, then add the carry | Ch. 7 § 3.4 | The wrong version $(2+1) \times 2$ gives $860$ instead of $850$ |
+| Partial product | Ch. 7 § 4.1 | One row of the written method; a piece of the answer, not the answer |
+| Place holder in multiplication | Ch. 7 § 4.2 | The word itself is Ch. 2 § 3.3; here it is the $0$ that pushes a row left |
+| The standard method (long multiplication) | Ch. 7 § 4.2 | The five steps; worked in § 4.3-4.5 |
+| Why the algorithm works | Ch. 7 § 5.1 | fig_04; the rows are the two pieces of the Ch. 6 § 3 rectangle |
+| What a missing place holder costs | Ch. 7 § 5.2 | fig_05; $425 \times 12$ silently becomes $425 \times 3 = 1275$ |
+| How many rows, how many zeros | Ch. 7 § 5.3 | fig_06; table of ones / tens / hundreds / thousands, $213 \times 124$ |
+| Multiplying two large numbers in your head | Ch. 7 § 6 | Ch. 6 § 5 applied to a two-digit factor; splitting again to reach a round number |
+| Choosing between the two methods | Ch. 7 § 7.1 | Five-row comparison table |
+| Checking by taking the other road | Ch. 7 § 7.2 | Ch. 6 § 2.3 plus the warning that repeating one route repeats its mistake |
 
 ## Chapter notes
 
@@ -114,3 +129,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 4 - One number, three names](./04_converting_between_forms.md)
 * [Chapter 5 - Adding and subtracting large numbers](./05_adding_and_subtracting_large_numbers.md)
 * [Chapter 6 - The distributive property](./06_the_distributive_property.md)
+* [Chapter 7 - Multiplying large numbers](./07_multiplying_large_numbers.md)

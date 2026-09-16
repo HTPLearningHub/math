@@ -140,9 +140,10 @@ Two layout lessons that cost a re-render and are worth keeping:
 
 ## Not covered yet - waiting for a source
 
-* Multiplication and division of large numbers (long multiplication, long division as a
-  standard algorithm). Ch. 4 § 2.3 teaches division into decimal places as a share-and-trade
-  table, but there is still no whole-number long-division algorithm in the book.
+* ~~Multiplication of large numbers~~ **is now Chapter 7** (long multiplication in columns).
+  **Division of large numbers is still open**: Ch. 4 § 2.3 teaches division into decimal
+  places as a share-and-trade table, but there is no whole-number long-division algorithm in
+  the book.
 * Estimation and rounding whole numbers, so that an answer can be checked for size
   ("about $1300 + 2600$, so about $3900$"). Rounding a *decimal* is Ch. 4 § 6.3.
 * Place values above thousands: ten thousands, hundred thousands, millions. § 2.2 says the list

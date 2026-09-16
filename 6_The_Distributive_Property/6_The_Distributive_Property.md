@@ -1154,4 +1154,4 @@ which ones they do not.
 
 - [Back to the book](./../README.md)
 - Previous: [5 Adding and subtracting large numbers](./../5_Adding_And_Subtracting_Large_Numbers/5_Adding_And_Subtracting_Large_Numbers.md)
-- Next: not written yet.
+- Next: [7 Multiplying large numbers](./../7_Multiplying_Large_Numbers/7_Multiplying_Large_Numbers.md)

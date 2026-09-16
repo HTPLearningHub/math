@@ -150,8 +150,9 @@ Three layout lessons worth keeping:
 * **The full order of operations** (PEMDAS / BODMAS). The source teaches only "brackets
   first", so § 1.2 teaches only that. Until a transcript covers it, every rule in Chapter 6
   keeps its brackets.
-* **Long multiplication in columns.** This chapter multiplies by splitting; the standard
-  column algorithm for two multi-digit numbers is still missing from the book.
+* ~~**Long multiplication in columns.**~~ **Now covered - Chapter 7.** Ch. 7 § 4 teaches the
+  standard column method, and Ch. 7 § 5 shows that its rows are this chapter's rule with the
+  place values written down.
 * **Two brackets multiplied together**, $(a + b) \times (c + d)$, and therefore FOIL. The
   source never mentions it.
 * **Factoring - using the rule backwards to pull a common factor out**, as in
