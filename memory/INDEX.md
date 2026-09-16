@@ -120,6 +120,23 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Multiplying two large numbers in your head | Ch. 7 § 6 | Ch. 6 § 5 applied to a two-digit factor; splitting again to reach a round number |
 | Choosing between the two methods | Ch. 7 § 7.1 | Five-row comparison table |
 | Checking by taking the other road | Ch. 7 § 7.2 | Ch. 6 § 2.3 plus the warning that repeating one route repeats its mistake |
+| Inverse operations | Ch. 8 § 1.1 | $a \times b = c \Rightarrow c \div b = a$; names the check from Ch. 1 § 1.1 |
+| A leftover travels to the right | Ch. 8 § 1.3 | fig_01; Ch. 5 § 2.4's trade walked backwards |
+| Why division runs left to right | Ch. 8 § 1.4 | fig_02; the source only stated it, this gives the reason |
+| Long division (the name) | Ch. 8 § 2.1 | *Long* means written out in full, not difficult |
+| Division bracket (tableau) | Ch. 8 § 2.2 | fig_03; quotient digit sits above the dividend digit it came from |
+| The four steps: divide, multiply, subtract, bring down | Ch. 8 § 3 | fig_04; a loop, not a list. Dad / Mum / Sister / Brother |
+| Working number | Ch. 8 § 3 | The leftover with the next dividend digit written after it |
+| A whole division worked through | Ch. 8 § 4 | $624 \div 3 = 208$, fig_05, one subsection per turn |
+| Zero in the quotient | Ch. 8 § 4.2, § 5.4 | fig_06; skipping it turns $208$ into $28$. Place holder is Ch. 2 § 3.3 |
+| Remainder must be smaller than the divisor | Ch. 8 § 5.2 | $0 \leq R < D$; a too-big remainder means the digit was too small |
+| The division equation | Ch. 8 § 5.3 | dividend $=$ (divisor $\times$ quotient) $+$ remainder; same as Ch. 1 § 5.3 |
+| Two-digit divisor | Ch. 8 § 6.1 | Take two digits; the quotient digit goes above the last one taken |
+| Leading zero versus interior zero | Ch. 8 § 6.1 | $36$, never $036$ - unlike the $0$ inside $208$ |
+| Counting up in the divisor | Ch. 8 § 6.2 | fig_07; how to find a digit without knowing the times table |
+| Long division past the decimal point | Ch. 8 § 7.2 | The bracket version of Ch. 4 § 2.3; point above point |
+| When a decimal stops or repeats | Ch. 8 § 7.4 | fig_08; leftover $0$ stops, a repeated leftover repeats |
+| Three ways to write one answer | Ch. 8 § 8 | Remainder, mixed number, decimal, and which suits which job |
 
 ## Chapter notes
 
@@ -130,3 +147,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 5 - Adding and subtracting large numbers](./05_adding_and_subtracting_large_numbers.md)
 * [Chapter 6 - The distributive property](./06_the_distributive_property.md)
 * [Chapter 7 - Multiplying large numbers](./07_multiplying_large_numbers.md)
+* [Chapter 8 - Dividing large numbers](./08_dividing_large_numbers.md)

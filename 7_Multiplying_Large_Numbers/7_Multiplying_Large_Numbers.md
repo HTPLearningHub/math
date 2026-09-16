@@ -1065,4 +1065,4 @@ usually old ideas, arranged so that the hard part becomes a list of easy parts.
 
 - [Back to the book](./../README.md)
 - Previous: [6 The distributive property](./../6_The_Distributive_Property/6_The_Distributive_Property.md)
-- Next: not written yet.
+- Next: [8 Dividing large numbers](./../8_Dividing_Large_Numbers/8_Dividing_Large_Numbers.md)
