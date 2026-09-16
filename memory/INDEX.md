@@ -88,6 +88,23 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Borrowing (regrouping) | Ch. 5 § 6.3 | fig_05; 473 = 400+70+3 = 400+60+13 |
 | Checking a subtraction by adding back | Ch. 5 § 6.3 | Same idea as Ch. 1 § 1.1 |
 | Borrowing across a zero | Ch. 5 § 7 | fig_06; 5042 - 2678, the two-step trade |
+| Multiplication as repeated addition | Ch. 6 § 1.1 | 5 x 3 means 3+3+3+3+3; first definition of multiplication in the book |
+| Factor, product | Ch. 6 § 1.1 | Links back to GCF, Ch. 3 § 4.2; also the note that a dot means times |
+| Brackets mean do this part first | Ch. 6 § 1.2 | Ch. 3 § 5.3 said it in one line; Ch. 6 explains it |
+| Commutative property | Ch. 6 § 1.3 | fig_01, one dot grid read two ways; names the fact stated in Ch. 5 § 6.1 |
+| Associative property | Ch. 6 § 1.4 | Order vs grouping; the note on telling the two apart |
+| Subtraction and division obey neither | Ch. 6 § 1.5 | Four counter-examples with numbers |
+| Term | Ch. 6 § 2.1 | One of the parts added or subtracted |
+| Distribute | Ch. 6 § 2.1 | Hand the outside factor to every term |
+| Distributive property | Ch. 6 § 2.2 - 2.4 | Apple piles fig_02, the two-roads table, then the symbols |
+| Area, area of a rectangle | Ch. 6 § 3.1 | Counting equal squares; height x width comes from § 1.1 |
+| Area model of the rule | Ch. 6 § 3.2 - 3.3 | fig_03; the cut cannot create or destroy squares, so it is a proof |
+| Distributing over a subtraction | Ch. 6 § 4.1 | fig_05; the strip that leaves is a x c, not c |
+| Three or more terms inside | Ch. 6 § 4.2 | Same rule, one product per term |
+| Multiplier on the right | Ch. 6 § 4.3 | Not a new rule; it is § 1.3 plus a swap |
+| The four forms in one table | Ch. 6 § 4.4 | One rule, four shapes |
+| Mental multiplication by splitting | Ch. 6 § 5 | Invent the bracket yourself; 5 x 17, 6 x 345 (fig_06), 7 x 98 |
+| Choosing a split | Ch. 6 § 5.5 | Just below a round number, just above, or place value |
 
 ## Chapter notes
 
@@ -96,3 +113,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 3 - Percentages](./03_percentages.md)
 * [Chapter 4 - One number, three names](./04_converting_between_forms.md)
 * [Chapter 5 - Adding and subtracting large numbers](./05_adding_and_subtracting_large_numbers.md)
+* [Chapter 6 - The distributive property](./06_the_distributive_property.md)

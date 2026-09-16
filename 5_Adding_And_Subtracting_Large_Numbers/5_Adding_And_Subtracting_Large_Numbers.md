@@ -979,4 +979,4 @@ them once they are written down.
 
 - [Back to the book](./../README.md)
 - Previous: [4 One number, three names](./../4_Converting_Between_Forms/4_Converting_Between_Forms.md)
-- Next: not written yet.
+- Next: [6 The distributive property](./../6_The_Distributive_Property/6_The_Distributive_Property.md)

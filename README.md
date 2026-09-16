@@ -31,3 +31,4 @@ advanced topics.
 [3 Percentages](./3_Percentages/3_Percentages.md)\
 [4 One number, three names](./4_Converting_Between_Forms/4_Converting_Between_Forms.md)\
 [5 Adding and subtracting large numbers](./5_Adding_And_Subtracting_Large_Numbers/5_Adding_And_Subtracting_Large_Numbers.md)\
+[6 The distributive property](./6_The_Distributive_Property/6_The_Distributive_Property.md)\
