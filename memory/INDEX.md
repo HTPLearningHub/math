@@ -137,6 +137,24 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Long division past the decimal point | Ch. 8 § 7.2 | The bracket version of Ch. 4 § 2.3; point above point |
 | When a decimal stops or repeats | Ch. 8 § 7.4 | fig_08; leftover $0$ stops, a repeated leftover repeats |
 | Three ways to write one answer | Ch. 8 § 8 | Remainder, mixed number, decimal, and which suits which job |
+| Taking away more than you have | Ch. 9 § 1.2 | $10 - 15 = -5$; lifts the Ch. 5 § 6.1 warning |
+| Positive number, negative number | Ch. 9 § 1.3 | fig_01 (temperature, bank balance, depth); zero is neither |
+| Sign of a number | Ch. 9 § 1.3 | Minus in front = negative; nothing or plus = positive |
+| The number line left of zero | Ch. 9 § 2.1 | fig_02; extends Ch. 1 § 5.2 and Ch. 2 § 4.2; equal steps both sides |
+| Opposite of a number | Ch. 9 § 2.2 | fig_03; a minus sign means "the opposite of" — the key sentence of the chapter |
+| Absolute value | Ch. 9 § 2.3 | Distance from zero, written with two bars; the Ch. 2 § 2.4 magnitude, with direction removed |
+| Comparing negative numbers | Ch. 9 § 3 | fig_04; further right is greater; the digit trap in § 3.3 |
+| Addition as a walk along the line | Ch. 9 § 4.1 | fig_05; plus = right, minus = left, the number = how far |
+| The two jobs of the minus sign | Ch. 9 § 4.2 | Operation vs sign; why $5 + (-2)$ needs brackets |
+| Adding a negative | Ch. 9 § 4.3 | $a + (-b) = a - b$; and the warning that $-3 + (-4) = -7$ |
+| Subtracting a negative | Ch. 9 § 4.4 | $a - (-b) = a + b$; fig_06, three separate reasons |
+| Clearing signs before arithmetic | Ch. 9 § 4.5 | $-8 - (-5) + (-3) = -6$, one step per line |
+| Positive times negative | Ch. 9 § 5.1 | fig_07; Ch. 6 § 1.1 repeated addition, jumps turned round |
+| Negative times negative | Ch. 9 § 5.2 | fig_08 pattern, plus the distributive-property proof |
+| Size first, sign last | Ch. 9 § 5.3 | Multiply the absolute values, then count the minus signs |
+| Sign rules for division | Ch. 9 § 6.1 | Forced by inverse operations, Ch. 8 § 1.1; fraction forms |
+| A fraction bar groups | Ch. 9 § 6.2 | Top, then bottom, then divide; same idea as Ch. 6 § 1.2 |
+| The sign grid | Ch. 9 § 7 | fig_09 and two tables; the warning that it is not for $+$ and $-$ |
 
 ## Chapter notes
 
@@ -148,3 +166,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 6 - The distributive property](./06_the_distributive_property.md)
 * [Chapter 7 - Multiplying large numbers](./07_multiplying_large_numbers.md)
 * [Chapter 8 - Dividing large numbers](./08_dividing_large_numbers.md)
+* [Chapter 9 - Negative numbers](./09_negative_numbers.md)

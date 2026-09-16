@@ -34,3 +34,4 @@ advanced topics.
 [6 The distributive property](./6_The_Distributive_Property/6_The_Distributive_Property.md)\
 [7 Multiplying large numbers](./7_Multiplying_Large_Numbers/7_Multiplying_Large_Numbers.md)\
 [8 Dividing large numbers](./8_Dividing_Large_Numbers/8_Dividing_Large_Numbers.md)\
+[9 Negative numbers](./9_Negative_Numbers/9_Negative_Numbers.md)\
