@@ -199,6 +199,27 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Add and subtract, left to right | Ch. 11 § 7.1 | $10 - 4 + 2 = 8$; A does not beat S |
 | A running total may go below zero | Ch. 11 § 7.2 | $15 + 25 - 54 + 8 = -6$; links Ch. 9 § 4.1 |
 | Rewrite the whole line after each step | Ch. 11 § 8.1 | fig_07 the loop, fig_08 the staircase; the habit that stops most errors |
+| Divisible, and the remainder zero | Ch. 12 § 1.1 | Ch. 8 § 5.3's equation used on $10 \div 2$ and $10 \div 3$ |
+| Whole numbers, positive integers | Ch. 12 § 1.2 | Named at last; Ch. 9's negatives are set aside for the chapter |
+| Multiple | Ch. 12 § 1.3 | fig_01; factor / divisible / multiple are one fact, three sentences |
+| Even and odd | Ch. 12 § 1.4 | Even means divisible by $2$; nothing more |
+| Factor pair | Ch. 12 § 2.3 | fig_02; every factor found brings its partner |
+| The halfway rule, with its proof | Ch. 12 § 2.4 | $f > \frac{N}{2} \Rightarrow \frac{N}{f} < 2$, and $1$ is the only whole number below $2$ |
+| The crossing rule | Ch. 12 § 2.4 | Stop when the test number and its partner meet; replaces the source's square root |
+| Digit tests for 2, 3, 5, 10 | Ch. 12 § 2.5 | Each one explained, not just listed; $148 = 140 + 8$ and $372 = 360 + 12$ |
+| Prime number, composite number | Ch. 12 § 3.1 | fig_03; the colour follows the factor count and nothing else |
+| Why 1 is neither | Ch. 12 § 3.2 | Its two candidate factors are the same number; the reason is finished in § 5.2 |
+| 2 is the only even prime | Ch. 12 § 3.3 | Every larger even number already has $1$, $2$ and itself |
+| Odd does not mean prime | Ch. 12 § 3.4 | $9$, $15$, $21$, $25$; the trap again in Q3 with $51$ |
+| The primes never run out | Ch. 12 § 3.6 | Euclid, stated only; no proof in the source |
+| Prime factorization | Ch. 12 § 4.2 | Written with Ch. 10's exponents, smallest prime first |
+| Factor tree | Ch. 12 § 4.3 | fig_04; blue splits again, green is finished |
+| Ladder method | Ch. 12 § 4.4 | fig_05; divide by the smallest prime that fits, until $1$ |
+| Fundamental Theorem of Arithmetic | Ch. 12 § 5.2 | fig_06; and the Note showing why $1$ must be left out |
+| A prime factorization is a fingerprint | Ch. 12 § 5.2 | The chapter's own framing; reused in § 5.3, § 6.1 and § 9 |
+| Divisibility read off the primes | Ch. 12 § 5.3 | Every prime of the divisor must be there, often enough; $600$ and $15$, then $600$ and $9$ |
+| Standard form of a number | Ch. 12 § 6.2 | $N = p_{1}^{e_{1}} \times \dots \times p_{k}^{e_{k}}$ |
+| Counting the factors, $d(N)$ | Ch. 12 § 6.1 - 6.2 | fig_07; the $+1$ is "take none of this prime" |
 
 ## Chapter notes
 
@@ -213,3 +234,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 9 - Negative numbers](./09_negative_numbers.md)
 * [Chapter 10 - Exponents](./10_exponents.md)
 * [Chapter 11 - The order of operations](./11_the_order_of_operations.md)
+* [Chapter 12 - Divisibility and prime numbers](./12_divisibility_and_prime_numbers.md)

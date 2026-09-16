@@ -37,3 +37,4 @@ advanced topics.
 [9 Negative numbers](./9_Negative_Numbers/9_Negative_Numbers.md)\
 [10 Exponents](./10_Exponents/10_Exponents.md)\
 [11 The order of operations](./11_The_Order_Of_Operations/11_The_Order_Of_Operations.md)\
+[12 Divisibility and prime numbers](./12_Divisibility_And_Prime_Numbers/12_Divisibility_And_Prime_Numbers.md)\

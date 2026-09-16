@@ -1397,4 +1397,4 @@ From here on, every expression in this book has exactly one meaning, and you can
 
 - [Back to the book](./../README.md)
 - Previous: [10 Exponents](./../10_Exponents/10_Exponents.md)
-- Next: not written yet.
+- Next: [12 Divisibility and prime numbers](./../12_Divisibility_And_Prime_Numbers/12_Divisibility_And_Prime_Numbers.md)
