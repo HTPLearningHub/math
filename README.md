@@ -35,3 +35,4 @@ advanced topics.
 [7 Multiplying large numbers](./7_Multiplying_Large_Numbers/7_Multiplying_Large_Numbers.md)\
 [8 Dividing large numbers](./8_Dividing_Large_Numbers/8_Dividing_Large_Numbers.md)\
 [9 Negative numbers](./9_Negative_Numbers/9_Negative_Numbers.md)\
+[10 Exponents](./10_Exponents/10_Exponents.md)\

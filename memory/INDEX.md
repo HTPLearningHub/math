@@ -155,6 +155,28 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Sign rules for division | Ch. 9 § 6.1 | Forced by inverse operations, Ch. 8 § 1.1; fraction forms |
 | A fraction bar groups | Ch. 9 § 6.2 | Top, then bottom, then divide; same idea as Ch. 6 § 1.2 |
 | The sign grid | Ch. 9 § 7 | fig_09 and two tables; the warning that it is not for $+$ and $-$ |
+| Exponentiation as repeated multiplication | Ch. 10 § 1.2 | fig_01; the fifth operation, built on Ch. 6 § 1.1 |
+| The count moves to the corner | Ch. 10 § 1.3 | Why $2^{3} \neq 2 \times 3$; first in a multiplication, last in a power |
+| Base, exponent, power | Ch. 10 § 2.1 | fig_02; *power* is the whole expression, *exponent* only the small number |
+| Squaring, cubing, caret notation | Ch. 10 § 2.2 | The three ways of saying it; the caret is for typing only |
+| Working a power out by hand | Ch. 10 § 2.3 | $3^{4}$ and $6^{5}$; the big steps use Ch. 7 § 3's columns |
+| $x^{1} = x$ | Ch. 10 § 2.4 | Every plain number is already a power |
+| A letter stands for any number | Ch. 10 § 2.5 | Ch. 6 § 8 raised it in one line; this is the proper statement |
+| Exponential growth | Ch. 10 § 3.2 | fig_03 and the three-column table; slow at first, then not |
+| Powers of ten, written down | Ch. 10 § 3.2 | Note only; finishes the loose end left by Ch. 7 § 2.2 |
+| The chessboard and the rice | Ch. 10 § 3.3 | fig_04; square $n$ carries $2^{n-1}$, and $2^{63}$ has nineteen digits |
+| Product rule, $x^{a} \times x^{b} = x^{a+b}$ | Ch. 10 § 4 | fig_05; counting two boxes of x's together |
+| Quotient rule, $\frac{x^{a}}{x^{b}} = x^{a-b}$ | Ch. 10 § 5 | fig_06; cancelling, which is Ch. 1 § 3.3. Needs $x \neq 0$ |
+| Why the base must not be zero | Ch. 10 § 5.2 | Note only; nothing can be divided by zero. Covers Rules 2, 3 and 4 |
+| Zero exponent, $x^{0} = 1$ | Ch. 10 § 6 | fig_07 ladder as the picture, the two-ways proof as the reason |
+| Reciprocal | Ch. 10 § 7.1 | A number turned upside down; the reciprocal of $4$ is $\frac{1}{4}$ |
+| Negative exponent, $x^{-a} = \frac{1}{x^{a}}$ | Ch. 10 § 7 | fig_08; the minus sign's third job, after Ch. 9 § 4.2's two |
+| Power of a power, $(x^{a})^{b} = x^{ab}$ | Ch. 10 § 8 | fig_09; the Ch. 6 § 3 rectangle. Multiply, never add |
+| An exponent on a bracket reaches every factor | Ch. 10 § 8.4 | $(2x^{3}y^{2})^{3} = 8x^{9}y^{6}$; the source uses this rule without stating it |
+| Implied multiplication, $2x^{3}$ | Ch. 10 § 8.4 | Note only; the spaces mean $\times$ |
+| Choosing a rule by the shape | Ch. 10 § 9.1 | fig_10 and the six-row table |
+| $x^{a} + x^{b}$ has no rule | Ch. 10 § 9.2 | $2^{3} + 2^{2} = 12$, not $32$; the commonest invented rule |
+| Finding a missing exponent | Ch. 10 § 9.5 | $2^{n} \times 2^{3} = 32$; same base on both sides, so the exponents match |
 
 ## Chapter notes
 
@@ -167,3 +189,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 7 - Multiplying large numbers](./07_multiplying_large_numbers.md)
 * [Chapter 8 - Dividing large numbers](./08_dividing_large_numbers.md)
 * [Chapter 9 - Negative numbers](./09_negative_numbers.md)
+* [Chapter 10 - Exponents](./10_exponents.md)
