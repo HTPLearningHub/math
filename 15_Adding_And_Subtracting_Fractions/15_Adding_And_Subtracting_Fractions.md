@@ -1104,4 +1104,4 @@ distributing a factor; here it is what makes an addition of fractions possible a
 
 - [Back to the book](./../README.md)
 - Previous: [14 The greatest common factor](./../14_The_Greatest_Common_Factor/14_The_Greatest_Common_Factor.md)
-- Next: not written yet.
+- Next: [16 Multiplying and dividing fractions](./../16_Multiplying_And_Dividing_Fractions/16_Multiplying_And_Dividing_Fractions.md)

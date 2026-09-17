@@ -236,7 +236,9 @@ Layout lessons worth keeping, on top of the Chapter 9 to 14 lists:
   written; flagged to the reader.
 * **Adding and subtracting mixed numbers.** Ch. 1 § 5.4 can turn them into improper fractions,
   so the reader is one short section away, but the source does not mention mixed numbers at all.
-* **Multiplying and dividing fractions.** Not in this source. This is why § 2.2 avoids writing
-  $\frac{a}{c} = a \times \frac{1}{c}$ and uses $u$ instead - the book cannot justify that
-  multiplication yet.
+* ~~**Multiplying and dividing fractions.**~~ **Now Chapter 16.** It was not in this source, and
+  that is why § 2.2 avoids writing $\frac{a}{c} = a \times \frac{1}{c}$ and uses $u$ instead - at the
+  time the chapter was written the book could not justify that multiplication. The derivation
+  in § 2.2 still stands and should not be rewritten; Ch. 16 § 2.2 reaches the same place
+  from the other side.
 * **Adding fractions with letters in them** (algebraic fractions). Not in this source.

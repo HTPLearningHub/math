@@ -266,6 +266,23 @@ One row per topic. Says where the book explains it first. Read this before writi
 | A negative fraction answer | Ch. 15 § 5 | fig_04; Ch. 9's walk with a smaller step. Compare the tops first |
 | The whole method as one flow | Ch. 15 § 6.1 | fig_05; the orange boxes are extra work, not a different method |
 | What the word *least* buys you | Ch. 15 § 6.2 | $\frac{3}{10} + \frac{7}{15}$ over $30$ and over $150$; same answer, more work |
+| Why multiplying needs no common denominator | Ch. 16 § 1.1 | The second fraction is an instruction, not an amount; the sentence the chapter is built on |
+| A whole number written over 1 | Ch. 16 § 1.2 | $n = \frac{n}{1}$, with its reason. Ch. 10 § 7.1 only used it in passing |
+| Multiplying a fraction by a whole number | Ch. 16 § 2 | fig_01; the top only. Derived from repeated addition, not from § 3 |
+| "Of" means "times" | Ch. 16 § 3.1 | fig_02; half of two thirds is one third |
+| Why two fractions multiply straight across | Ch. 16 § 3.2 | fig_03, the crossing cuts. The centre of the chapter; built on Ch. 6 § 3 |
+| $\frac{a}{b} \times \frac{c}{d} = \frac{a \times c}{b \times d}$ | Ch. 16 § 3.3 | With the Note that § 2 is this rule with a bottom of $1$ |
+| Multiplying by $\frac{c}{d}$ is $\times c$ then $\div d$ | Ch. 16 § 3.5 | The size table: below $1$ shrinks, above $1$ grows |
+| A common denominator is wasted, not wrong | Ch. 16 § 3.6 | $\frac{4}{6} \times \frac{3}{6} = \frac{1}{3}$. Corrects the source |
+| Why $\frac{a}{b} \times \frac{b}{a} = 1$ | Ch. 16 § 4.2 | fig_04; and where the name *multiplicative inverse* comes from |
+| Division as "how many fit?" | Ch. 16 § 5.1 | fig_05; $3 \div \frac{1}{4} = 12$, and why the answer grew |
+| Keep, change, flip | Ch. 16 § 5.3 | The four steps |
+| Why flipping works | Ch. 16 § 5.4 | The tall fraction, multiplied top and bottom by $\frac{d}{c}$. A proof, not a trick |
+| $\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c}$ | Ch. 16 § 5.5 | With $b, c, d \neq 0$, and why $c \neq 0$ is the new one |
+| Only the second fraction flips | Ch. 16 § 5.7 | Because only the bottom was in the way; caught by a size check |
+| Undefined | Ch. 16 § 6.2 | An expression with no answer; the term is new to the book here |
+| Why dividing by zero has no answer | Ch. 16 § 6.2 | $q \times 0 = \frac{3}{4}$ is impossible. Finishes Ch. 10 § 5.2's loose end |
+| The whole method as one flow | Ch. 16 § 7.1 | fig_06; a division costs one box, and only one |
 
 ## Chapter notes
 
@@ -284,3 +301,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 13 - The least common multiple](./13_the_least_common_multiple.md)
 * [Chapter 14 - The greatest common factor](./14_the_greatest_common_factor.md)
 * [Chapter 15 - Adding and subtracting fractions](./15_adding_and_subtracting_fractions.md)
+* [Chapter 16 - Multiplying and dividing fractions](./16_multiplying_and_dividing_fractions.md)
