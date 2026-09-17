@@ -38,3 +38,5 @@ advanced topics.
 [10 Exponents](./10_Exponents/10_Exponents.md)\
 [11 The order of operations](./11_The_Order_Of_Operations/11_The_Order_Of_Operations.md)\
 [12 Divisibility and prime numbers](./12_Divisibility_And_Prime_Numbers/12_Divisibility_And_Prime_Numbers.md)\
+[13 The least common multiple](./13_The_Least_Common_Multiple/13_The_Least_Common_Multiple.md)\
+[14 The greatest common factor](./14_The_Greatest_Common_Factor/14_The_Greatest_Common_Factor.md)\

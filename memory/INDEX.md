@@ -220,6 +220,37 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Divisibility read off the primes | Ch. 12 § 5.3 | Every prime of the divisor must be there, often enough; $600$ and $15$, then $600$ and $9$ |
 | Standard form of a number | Ch. 12 § 6.2 | $N = p_{1}^{e_{1}} \times \dots \times p_{k}^{e_{k}}$ |
 | Counting the factors, $d(N)$ | Ch. 12 § 6.1 - 6.2 | fig_07; the $+1$ is "take none of this prime" |
+| Two things that repeat, lining up | Ch. 13 § 1.1 | fig_01, the two buses; the shape of every LCM question |
+| Common multiple | Ch. 13 § 1.3 | *Common* is the same word as in Ch. 3 § 4.2's GCF |
+| Least common multiple, $\mathrm{LCM}(a, b)$ | Ch. 13 § 1.4 | The notation too; *lowest* means the same as *least* |
+| Listing multiples to find the LCM | Ch. 13 § 2 | fig_02; the check by two divisions starts here and is used all chapter |
+| $a \times b$ is always a common multiple | Ch. 13 § 2.4 | With its reason; and the Warning that it is usually not the least |
+| The bracket the answer lies in | Ch. 13 § 2.5 | $\mathrm{LCM} \geq$ the bigger number, $\mathrm{LCM} \leq a \times b$; also where $\geq$ and $\leq$ are named |
+| Why the LCM takes the largest power | Ch. 13 § 3.1 | fig_03; Ch. 12 § 5.3 read forwards. The centre of the chapter |
+| Finding the LCM from prime factorizations | Ch. 13 § 3.2 - 3.4 | The five steps; $6,9$ then $12,80$; the count table |
+| Building the LCM by adding what is still needed | Ch. 13 § 3.3 | fig_04; the chapter's own framing, reused in § 4.1 and § 8 |
+| The $\max$ formula for the LCM | Ch. 13 § 3.5 | $p^{\max(e, f)}$; $\max$ is defined here |
+| LCM of three or more numbers | Ch. 13 § 3.6 | $\mathrm{LCM}(12, 18, 30) = 180$; no change to the method |
+| Coprime (relatively prime) | Ch. 13 § 4.1 | $\mathrm{LCM} = a \times b$ exactly then; $4$ and $9$ are coprime though neither is prime |
+| $\mathrm{LCM} \times \mathrm{GCF} = a \times b$ | Ch. 13 § 4.2 | fig_05; used as a check, not a method - the book cannot find a GCF from primes yet |
+| Least common denominator (LCD) | Ch. 13 § 5.2 | The LCM of the bottom numbers |
+| Comparing any two fractions | Ch. 13 § 5.3 - 5.4 | fig_06; closes the gap Ch. 1 § 4.1 and § 4.2 left open |
+| Two amounts split into equal groups | Ch. 14 § 1.1 | fig_01, the pens; the shape of every GCF question, and Ch. 13 § 1.1 turned round |
+| Common factor | Ch. 14 § 1.3 | With the Note that $1$ is always one, so there is always an answer |
+| $\mathrm{GCF}(a, b)$, and the name GCD | Ch. 14 § 1.4 | The term itself is Ch. 3 § 4.2; only the notation and the second name are new |
+| Listing factors to find the GCF | Ch. 14 § 2 | fig_02; the factor-pair habit, and the check by two divisions |
+| The bracket the answer lies in | Ch. 14 § 2.4 | $1 \leq \mathrm{GCF} \leq$ the smaller number, both halves with reasons |
+| Why the GCF takes the smallest power | Ch. 14 § 3.1 | fig_03; Ch. 12 § 5.3 read backwards, as limits. The centre of the chapter |
+| Finding the GCF from prime factorizations | Ch. 14 § 3.2 - 3.4 | The five steps; $18,24$ then $24,108$; the count table |
+| The shared bricks, and what is left over | Ch. 14 § 3.3 | fig_04; the chapter's own framing, reused in § 4.2, § 5 and § 8 |
+| The $\min$ formula for the GCF | Ch. 14 § 3.5 | $p^{\min(e, f)}$; $\min$ is defined here, and $p^{0} = 1$ removes the missing-prime case |
+| GCF of three or more numbers | Ch. 14 § 3.6 | $\mathrm{GCF}(48, 72, 120) = 24$; a prime missing from one number is dropped |
+| GCF against LCM, side by side | Ch. 14 § 4.1 | fig_05, the comparison table, and the size chain $1 \leq 12 \leq 24 \leq 108 \leq 216$ |
+| Coprime means $\mathrm{GCF} = 1$ | Ch. 14 § 4.2 | Proved both ways; the word itself is Ch. 13 § 4.1 |
+| Why $\mathrm{LCM} \times \mathrm{GCF} = a \times b$ | Ch. 14 § 4.3 | $\min(e,f) + \max(e,f) = e + f$; the proof Ch. 13 § 4.2 could not give |
+| Finding an LCM from the GCF | Ch. 14 § 4.3 | $\mathrm{LCM} = \frac{a \times b}{\mathrm{GCF}}$; lifts Ch. 13 § 4.2's limitation |
+| Simplifying a fraction in one step | Ch. 14 § 5.2 | Closes Ch. 3 § 4.2; a fraction is finished exactly when top and bottom are coprime |
+| Taking a common factor outside a bracket | Ch. 14 § 5.3 | fig_06; $12x + 18 = 6(2x + 3)$, the Ch. 6 § 3 rectangle read backwards |
 
 ## Chapter notes
 
@@ -235,3 +266,5 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 10 - Exponents](./10_exponents.md)
 * [Chapter 11 - The order of operations](./11_the_order_of_operations.md)
 * [Chapter 12 - Divisibility and prime numbers](./12_divisibility_and_prime_numbers.md)
+* [Chapter 13 - The least common multiple](./13_the_least_common_multiple.md)
+* [Chapter 14 - The greatest common factor](./14_the_greatest_common_factor.md)
