@@ -216,10 +216,11 @@ Layout lessons worth keeping, on top of the Chapter 9 to 12 lists:
   find a GCF, so CLAUDE.md § 5.1 keeps the min rule out. `old/14` is a GCF tutorial, so this is
   the next chapter; when it is written, § 4.2 here should be linked forward and the two rules
   (max for LCM, min for GCF) shown as one picture.
-* **Adding and subtracting fractions with different bottom numbers.** The source names it in its
-  introduction as a use of the LCM and never demonstrates it. § 5.3 gives it one sentence and no
-  method. This is the biggest genuine gap left by this chapter - the reader now has the LCD and
-  cannot yet use it for its main purpose.
+* ~~**Adding and subtracting fractions with different bottom numbers.**~~ **Closed by
+  Chapter 15.** The source named it in its introduction as a use of the LCM and never
+  demonstrated it, and § 5.3 here gave it one sentence and no method. Ch. 15 § 3 is that method;
+  it reuses § 5.2's LCD and § 5.3's rewriting unchanged and adds only the combining step. If
+  § 5.2 or § 5.3 is ever edited, Ch. 15 § 3.2 breaks.
 * **Euclid's algorithm** for the GCF, which would also give the LCM through § 4.2's rule.
   Nowhere in the source.
 * **Why $\mathrm{LCM} \times \mathrm{GCF} = a \times b$ is true.** § 4.2 states it, checks it

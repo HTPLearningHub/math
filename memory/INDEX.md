@@ -251,6 +251,21 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Finding an LCM from the GCF | Ch. 14 § 4.3 | $\mathrm{LCM} = \frac{a \times b}{\mathrm{GCF}}$; lifts Ch. 13 § 4.2's limitation |
 | Simplifying a fraction in one step | Ch. 14 § 5.2 | Closes Ch. 3 § 4.2; a fraction is finished exactly when top and bottom are coprime |
 | Taking a common factor outside a bracket | Ch. 14 § 5.3 | fig_06; $12x + 18 = 6(2x + 3)$, the Ch. 6 § 3 rectangle read backwards |
+| Whole numbers share a hidden unit | Ch. 15 § 1.1 | Every whole number is counted in ones; why only fractions need the extra rule |
+| A bottom number is a unit, not a quantity | Ch. 15 § 1.2 | The sentence the whole chapter is built on; reused in § 2.2, § 3.1 and § 9 |
+| Like fractions, unlike fractions | Ch. 15 § 1.3 | Same bottom number, or different ones |
+| Adding and subtracting like fractions | Ch. 15 § 2 | fig_01; add the tops, copy the bottom down |
+| Why the bottom number never moves | Ch. 15 § 2.2 | $1 \times u + 3 \times u = (1+3) \times u$; Ch. 6 § 4.3, not fraction multiplication |
+| $\frac{a}{c} \pm \frac{b}{c} = \frac{a \pm b}{c}$ | Ch. 15 § 2.3 | With $c \neq 0$, and the reason for it |
+| Why adding the bottoms is wrong | Ch. 15 § 3.1 | fig_02; $\frac{2}{7}$ is smaller than $\frac{1}{3}$, so it is impossible |
+| Adding and subtracting unlike fractions | Ch. 15 § 3.3 - 3.5 | fig_03; the three steps. Step 3 is § 2 again, unchanged |
+| The general formula with the LCD | Ch. 15 § 3.6 | $\frac{a \times (L \div b) \pm c \times (L \div d)}{L}$ |
+| Coprime bottoms, so the LCD is the product | Ch. 15 § 3.7 | The Warning that it is coprimality, not primality. Corrects the source |
+| Three or more fractions at once | Ch. 15 § 3.8 | One LCD for all of them; left to right via Ch. 11 § 7.1 |
+| When a fraction answer is finished | Ch. 15 § 4.2 | Top and bottom coprime; the table, and "prime" is not the test |
+| A negative fraction answer | Ch. 15 § 5 | fig_04; Ch. 9's walk with a smaller step. Compare the tops first |
+| The whole method as one flow | Ch. 15 § 6.1 | fig_05; the orange boxes are extra work, not a different method |
+| What the word *least* buys you | Ch. 15 § 6.2 | $\frac{3}{10} + \frac{7}{15}$ over $30$ and over $150$; same answer, more work |
 
 ## Chapter notes
 
@@ -268,3 +283,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 12 - Divisibility and prime numbers](./12_divisibility_and_prime_numbers.md)
 * [Chapter 13 - The least common multiple](./13_the_least_common_multiple.md)
 * [Chapter 14 - The greatest common factor](./14_the_greatest_common_factor.md)
+* [Chapter 15 - Adding and subtracting fractions](./15_adding_and_subtracting_fractions.md)

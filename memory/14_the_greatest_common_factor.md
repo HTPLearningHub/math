@@ -252,9 +252,10 @@ chapter.
 * **Euclid's algorithm** for the GCF - repeated division with remainders. It is by far the
   fastest method and it needs no prime factorization at all. Nowhere in this source. Carried
   over from Chapter 13's list.
-* **Adding and subtracting fractions with different bottom numbers.** Still the biggest genuine
-  gap in the book: the reader now has the LCD (Ch. 13 § 5.2) and the GCF and still cannot add
-  $\frac{1}{3} + \frac{1}{4}$. Neither source demonstrates it.
+* ~~**Adding and subtracting fractions with different bottom numbers.**~~ **Closed by
+  Chapter 15.** It was the biggest genuine gap in the book. Ch. 15 § 4 leans directly on § 5.2
+  here for the one-step finish and for the test "finished exactly when top and bottom are
+  coprime", so § 5.2 must survive any later edit of this chapter.
 * **When one number is a factor of the other**, so that the GCF is simply the smaller one (and
   the LCM the bigger). A direct consequence of § 3.5 and a useful short cut; neither source
   states it. Worth adding the moment a source touches it. Carried over from Chapter 13.
