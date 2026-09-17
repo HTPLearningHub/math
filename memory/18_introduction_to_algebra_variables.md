@@ -223,10 +223,11 @@ Layout lessons worth keeping, on top of the Chapter 9 to 17 lists:
 * **Solving equations properly** - equations with the variable on both sides, brackets to open
   first, or more than two steps. § 7 handles one shape only ($mx + b$ with a known output) and
   says so in a Note. `old/20/algebraic-equations-tutorial.md` is about exactly this.
-* **The number properties written in letters** - commutative, associative, identity, inverse.
-  `old/19/basic-number-properties-algebra.md` covers them.
-* **Like terms and collecting them** ($3x + 5x = 8x$). The obvious next thing after § 3, and not
-  in this source.
+* ~~**The number properties written in letters** - commutative, associative, identity,
+  inverse.~~ **Now covered - Chapter 19.** All five are Ch. 19, and Ch. 19 § 7.4 gives the reason
+  behind § 7.3's rule of both sides that this chapter could not give.
+* ~~**Like terms and collecting them** ($3x + 5x = 8x$).~~ **Now covered - Chapter 19 § 4**,
+  derived from the distributive property rather than asserted.
 * **Negative or fractional values of a variable.** Every value substituted in this chapter is a
   small positive whole number, although Chs. 1, 9 and 15 supply everything needed.
 * **A variable raised to a power in a real rule.** Ch. 10 § 8.4 wrote $2x^{3}y^{2}$ as a

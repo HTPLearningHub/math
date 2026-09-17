@@ -1265,4 +1265,4 @@ what to call things, and reading a sentence closely enough to turn it into symbo
 
 - [Back to the book](./../README.md)
 - Previous: [17 Averages and range](./../17_Averages_And_Range/17_Averages_And_Range.md)
-- Next: not written yet.
+- Next: [19 The number properties of algebra](./../19_The_Number_Properties_Of_Algebra/19_The_Number_Properties_Of_Algebra.md)

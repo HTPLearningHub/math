@@ -331,6 +331,35 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Undo the last step first | Ch. 18 § 7.2 | fig_07, the machine reversed; Ch. 8 § 1.1's inverse operations. Not in the source |
 | The rule of both sides | Ch. 18 § 7.3 | fig_08; $9 = 2x + 1 \to 8 = 2x \to x = 4$. The source does it without a reason |
 | Checking a backwards answer forwards | Ch. 18 § 7.4 | $2(4) + 1 = 9$; Ch. 8 § 1.1's habit, and free |
+| Arithmetic finishes, algebra does not | Ch. 19 § 1.1 | $2 + 3 = 5$ closes; $2x + 3$ has no value until $x$ is chosen |
+| Simplifying, in algebra | Ch. 19 § 1.2 | Rewrite more tidily; the value never changes, only the writing |
+| Equivalent expressions | Ch. 19 § 1.3 | fig_01; agree for *every* value. The spine of the chapter |
+| The substitution test | Ch. 19 § 1.3, § 8.3 | Not in the source. One disagreement settles it; one agreement proves nothing. Avoid $0$ and $1$ |
+| Number property | Ch. 19 § 1.4 | A permitted rewrite; the five-row map table |
+| Commutative and associative, in letters | Ch. 19 § 2.1 - 2.2 | Ch. 6 § 1.3 and § 1.4 linked, not re-taught; what each buys you once a letter is present |
+| Moving the parts of a subtraction safely | Ch. 19 § 2.4 | fig_02; $4x - 7 = 4x + (-7) = -7 + 4x$ via Ch. 9 § 4.3. The sign travels with its number |
+| Why distributing stops being optional | Ch. 19 § 3.1 | fig_03; the hinge of the chapter. In arithmetic two roads, in algebra one |
+| Distributing over a term with a letter | Ch. 19 § 3.2 | $4(2x+3) = 8x+12$; the rule itself is Ch. 6 § 2.4 |
+| Count the arrows | Ch. 19 § 3.3 | fig_04; $4(x+3) \neq 4x+3$, caught at $x = 1$ |
+| A multiplier that carries a letter | Ch. 19 § 3.4 | $-2x(4x-5)$; needs Ch. 9 § 5.3's sign rule and Ch. 10 § 4's $x \cdot x = x^{2}$ |
+| A negative multiplier keeps its sign | Ch. 19 § 3.5 | $-3(x-4) = -3x+12$, never $-3x-12$ |
+| Like terms | Ch. 19 § 4.1 | fig_05; same letters, same powers. The source uses the phrase and never defines it |
+| Why like terms may be joined | Ch. 19 § 4.2 | $6x - 4x = (6-4)x$; Ch. 6 § 4.3 read backwards, so $x$ need not be known |
+| Collecting like terms | Ch. 19 § 4.2 - 4.3 | Add the coefficients, copy the letter down. $3x+5x \neq 8x^{2}$; $x^{2}$ and $x$ are unlike |
+| Factoring (the term) | Ch. 19 § 5.1 | The distributive property backwards; Ch. 14 § 5.3 did the numbers-only case |
+| The GCF of two terms | Ch. 19 § 5.2 | fig_06; each letter taken as often as the term that has it least. Ch. 14 § 3.1 with a letter for a prime |
+| Factoring with letters, worked | Ch. 19 § 5.3 - 5.4 | $3x^{2}+6x = 3x(x+2)$; $4y^{3}+12y^{2}-8y = 4y(y^{2}+3y-2)$. Always check by distributing back |
+| A factoring that is unfinished | Ch. 19 § 5.5 | $3(x^{2}+2x)$ is true but not greatest; finished when what is left is coprime |
+| Additive identity, $a + 0 = a$ | Ch. 19 § 6.1 | Ch. 9 § 4.1's walk of no steps; subtracting $0$ is the same fact |
+| Multiplicative identity, $a \times 1 = a$ | Ch. 19 § 6.2 | Ch. 6 § 1.1's one copy; dividing by $1$ is the same fact |
+| Identity element | Ch. 19 § 6.2 | $0$ for addition, $1$ for multiplication |
+| $x$ means $1x$ | Ch. 19 § 6.2 | The invisible coefficient; it is what makes $x + 3x = 4x$ |
+| Additive inverse | Ch. 19 § 7.1 | fig_07; $a + (-a) = 0$. Ch. 9 § 2.2's *opposite* gets its second name |
+| Multiplicative inverse | Ch. 19 § 7.2 | $a \times \frac{1}{a} = 1$, $a \neq 0$. Ch. 16 § 4.2 gave the proof and the name |
+| The two inverses, side by side | Ch. 19 § 7.3 | $-5x$ lands on $0$; $\frac{1}{5x}$ lands on $1$. Ask where you want to land |
+| Why an equation is solved the way it is | Ch. 19 § 7.4 | An inverse makes an identity element, and the identity element disappears. The reason Ch. 18 § 7.3 could not give |
+| The five properties in one table | Ch. 19 § 8.1 | Addition column, multiplication column, and whether subtraction and division obey |
+| Several properties in one line | Ch. 19 § 8.2 | fig_08; $3(2x+5)-4(x-1)+0 = 2x+19$, one property named per step |
 
 ## Chapter notes
 
@@ -352,3 +381,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 16 - Multiplying and dividing fractions](./16_multiplying_and_dividing_fractions.md)
 * [Chapter 17 - Averages and range](./17_averages_and_range.md)
 * [Chapter 18 - Introduction to algebra: using variables](./18_introduction_to_algebra_variables.md)
+* [Chapter 19 - The number properties of algebra](./19_the_number_properties_of_algebra.md)
