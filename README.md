@@ -43,3 +43,4 @@ advanced topics.
 [15 Adding and subtracting fractions](./15_Adding_And_Subtracting_Fractions/15_Adding_And_Subtracting_Fractions.md)\
 [16 Multiplying and dividing fractions](./16_Multiplying_And_Dividing_Fractions/16_Multiplying_And_Dividing_Fractions.md)\
 [17 Averages and range](./17_Averages_And_Range/17_Averages_And_Range.md)\
+[18 Introduction to algebra: using variables](./18_Introduction_To_Algebra_Variables/18_Introduction_To_Algebra_Variables.md)\

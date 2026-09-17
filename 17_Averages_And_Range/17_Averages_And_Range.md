@@ -1561,4 +1561,4 @@ in the book so far; the thinking is new.
 
 - [Back to the book](./../README.md)
 - Previous: [16 Multiplying and dividing fractions](./../16_Multiplying_And_Dividing_Fractions/16_Multiplying_And_Dividing_Fractions.md)
-- Next: not written yet.
+- Next: [18 Introduction to algebra: using variables](./../18_Introduction_To_Algebra_Variables/18_Introduction_To_Algebra_Variables.md)

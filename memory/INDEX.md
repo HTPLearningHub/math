@@ -290,11 +290,11 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Range | Ch. 17 § 2.3 | fig_01; max minus min, always a subtraction. The source's weak $7+0$ example is replaced |
 | Spread, and what the range cannot see | Ch. 17 § 2.4 | Two data sets with range $7$ and nothing alike in the middle |
 | Mean, as an equal share | Ch. 17 § 3.1 | fig_02; Ch. 1 § 1.1's sharing. The chapter's own framing, and why there are two steps |
-| The mean formula, $ar{x}$ | Ch. 17 § 3.4 | Subscripts, the $\cdots$, the bar. Subscripts first appeared in Ch. 12 § 6.2 |
+| The mean formula, $\bar{x}$ | Ch. 17 § 3.4 | Subscripts, the $\cdots$, the bar. Subscripts first appeared in Ch. 12 § 6.2 |
 | A mean need not be a value in the set | Ch. 17 § 3.5 | $2.8$ hits; the Warning against rounding it to one |
-| $	ext{min} \leq ar{x} \leq 	ext{max}$ | Ch. 17 § 3.6 | The free check; catches both of the source's mean mistakes. Not in the source |
+| $\text{min} \leq \bar{x} \leq \text{max}$ | Ch. 17 § 3.6 | The free check; catches both of the source's mean mistakes. Not in the source |
 | Median | Ch. 17 § 4 | fig_03; odd = one middle, even = the mean of two |
-| Which position is the middle | Ch. 17 § 4.3 | $rac{n+1}{2}$, or $rac{n}{2}$ and $rac{n}{2}+1$; a position is not a value |
+| Which position is the middle | Ch. 17 § 4.3 | $\frac{n+1}{2}$, or $\frac{n}{2}$ and $\frac{n}{2}+1$; a position is not a value |
 | Order the data first | Ch. 17 § 4.4 | fig_04; the Warning built on the source's own broken Solution 7 |
 | Frequency | Ch. 17 § 5.1 | How often a value appears; frequencies must add up to $n$ |
 | Mode | Ch. 17 § 5.1 | fig_05; the tallest stack. Counted, never calculated |
@@ -303,8 +303,34 @@ One row per topic. Says where the book explains it first. Read this before writi
 | The four measures side by side | Ch. 17 § 6 | fig_06; all four true at once, and the three middles agree when nothing is unusual |
 | Outlier | Ch. 17 § 7.5 | fig_07; unusual, not wrong - and never to be deleted |
 | Why an outlier moves only the mean | Ch. 17 § 7.4 | fig_08; sizes vs order vs counts. The centre of the chapter |
-| The $pprox$ symbol | Ch. 17 § 7.2 | Note only; used in Chs. 15 and 16 without ever being named |
+| The $\approx$ symbol | Ch. 17 § 7.2 | Note only; used in Chs. 15 and 16 without ever being named |
 | Choosing between the four measures | Ch. 17 § 8 | The "weak when" table; reporting two often says more than one |
+| Arithmetic, and the name algebra | Ch. 18 § 1.1 | Calculating with known numbers, against letters standing in for them |
+| One rule instead of a list | Ch. 18 § 1.2 | fig_01; the burger shop, $y = 3x$. The reason algebra exists |
+| Letters are not new in this book | Ch. 18 § 1.3 | Ch. 6 § 2.4, Ch. 10 § 2.5, Ch. 14 § 5.3 named; the two things that *are* new |
+| What algebra lets you do | Ch. 18 § 1.4 | Describe a situation, find an unknown, say how quantities change together |
+| Variable | Ch. 18 § 2.1 | A quantity that changes or is unknown; the table of rain, petrol, speed, TV hours |
+| Constant | Ch. 18 § 2.2 | fig_02; every plain number, and constants hidden inside names |
+| One letter keeps one value | Ch. 18 § 2.3 | A reminder of Ch. 10 § 2.5, plus the Note on choosing a letter that names the quantity |
+| Why $\times$ is avoided in algebra | Ch. 18 § 3.1 | It looks like the letter $x$; $3 \cdot x$, $3(x)$, $3x$, and $a \cdot b = ab$ |
+| $3x$ means $x + x + x$ | Ch. 18 § 3.2 | fig_03; derived from Ch. 6 § 1.1. The two Warnings: not $3 + x$, not $34$ |
+| Coefficient | Ch. 18 § 3.3 | The number multiplying a variable; $7y + 5$ taken apart. The source never defines it |
+| Only multiplication may be invisible | Ch. 18 § 3.4 | $3 + x$ and $x - 7$ always keep their signs |
+| Algebraic expression | Ch. 18 § 4.1 | An expression (Ch. 11 § 1.3) with a variable in it; a phrase, not a claim |
+| Equation | Ch. 18 § 4.2 | Two expressions and an equals sign; Ch. 11 § 1.3 only mentioned it in passing |
+| The equals sign is a balance | Ch. 18 § 4.3 | fig_04; built three sections early so § 7.3 is a consequence. Not in the source |
+| Naming the letters before the rule | Ch. 18 § 5.1 | The four steps on the burger shop; the step people skip |
+| Input and output, independent and dependent | Ch. 18 § 5.2 | Who chooses which; the source uses the words without explaining them |
+| A rule is a machine | Ch. 18 § 5.3 | fig_05; the order of the boxes is Ch. 11's order of operations |
+| Words to symbols, phrase by phrase | Ch. 18 § 5.4 | Bobo's television; the translation table, then $y = 2x + 1$ |
+| $y = mx + b$ | Ch. 18 § 5.5 | $m$ = change per one step of $x$, $b$ = the output when $x = 0$; **linear relationship** named |
+| Evaluating, and substituting | Ch. 18 § 6.1 | fig_06, the slot; the three steps |
+| A variable is a slot | Ch. 18 § 6 | fig_06; $3x + 2$ at $x = 1 \ldots 5$, and the value rising by $3$ each time |
+| Always write the brackets when substituting | Ch. 18 § 6.4 | $3(4)$, never $34$; and substituting invents no bracket (Ch. 11 § 6.2) |
+| Two variables at once | Ch. 18 § 6.5 | $2a + 3b$; each letter takes its own value |
+| Undo the last step first | Ch. 18 § 7.2 | fig_07, the machine reversed; Ch. 8 § 1.1's inverse operations. Not in the source |
+| The rule of both sides | Ch. 18 § 7.3 | fig_08; $9 = 2x + 1 \to 8 = 2x \to x = 4$. The source does it without a reason |
+| Checking a backwards answer forwards | Ch. 18 § 7.4 | $2(4) + 1 = 9$; Ch. 8 § 1.1's habit, and free |
 
 ## Chapter notes
 
@@ -325,3 +351,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 15 - Adding and subtracting fractions](./15_adding_and_subtracting_fractions.md)
 * [Chapter 16 - Multiplying and dividing fractions](./16_multiplying_and_dividing_fractions.md)
 * [Chapter 17 - Averages and range](./17_averages_and_range.md)
+* [Chapter 18 - Introduction to algebra: using variables](./18_introduction_to_algebra_variables.md)
