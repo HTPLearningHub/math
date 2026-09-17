@@ -1173,4 +1173,4 @@ flip and nothing else. Difficulty and the number of steps are not the same thing
 
 - [Back to the book](./../README.md)
 - Previous: [15 Adding and subtracting fractions](./../15_Adding_And_Subtracting_Fractions/15_Adding_And_Subtracting_Fractions.md)
-- Next: not written yet.
+- Next: [17 Averages and range](./../17_Averages_And_Range/17_Averages_And_Range.md)

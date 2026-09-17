@@ -283,6 +283,28 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Undefined | Ch. 16 § 6.2 | An expression with no answer; the term is new to the book here |
 | Why dividing by zero has no answer | Ch. 16 § 6.2 | $q \times 0 = \frac{3}{4}$ is impossible. Finishes Ch. 10 § 5.2's loose end |
 | The whole method as one flow | Ch. 16 § 7.1 | fig_06; a division costs one box, and only one |
+| Data set, value | Ch. 17 § 1.2 | Values that measure the same thing; the same number may appear several times |
+| Average, the two meanings | Ch. 17 § 1.3 | Everyday English = the mean; mathematics = any of the three middles |
+| Measure of central tendency | Ch. 17 § 1.3 | Mean, median, mode. The range is deliberately excluded |
+| Maximum, minimum | Ch. 17 § 2.1 | The two ends of the data |
+| Range | Ch. 17 § 2.3 | fig_01; max minus min, always a subtraction. The source's weak $7+0$ example is replaced |
+| Spread, and what the range cannot see | Ch. 17 § 2.4 | Two data sets with range $7$ and nothing alike in the middle |
+| Mean, as an equal share | Ch. 17 § 3.1 | fig_02; Ch. 1 § 1.1's sharing. The chapter's own framing, and why there are two steps |
+| The mean formula, $ar{x}$ | Ch. 17 § 3.4 | Subscripts, the $\cdots$, the bar. Subscripts first appeared in Ch. 12 § 6.2 |
+| A mean need not be a value in the set | Ch. 17 § 3.5 | $2.8$ hits; the Warning against rounding it to one |
+| $	ext{min} \leq ar{x} \leq 	ext{max}$ | Ch. 17 § 3.6 | The free check; catches both of the source's mean mistakes. Not in the source |
+| Median | Ch. 17 § 4 | fig_03; odd = one middle, even = the mean of two |
+| Which position is the middle | Ch. 17 § 4.3 | $rac{n+1}{2}$, or $rac{n}{2}$ and $rac{n}{2}+1$; a position is not a value |
+| Order the data first | Ch. 17 § 4.4 | fig_04; the Warning built on the source's own broken Solution 7 |
+| Frequency | Ch. 17 § 5.1 | How often a value appears; frequencies must add up to $n$ |
+| Mode | Ch. 17 § 5.1 | fig_05; the tallest stack. Counted, never calculated |
+| No mode | Ch. 17 § 5.3 | Every value once; and "no mode" is not "mode $= 0$" |
+| The mode works on words | Ch. 17 § 5.4 | Favourite colours; the only average that does |
+| The four measures side by side | Ch. 17 § 6 | fig_06; all four true at once, and the three middles agree when nothing is unusual |
+| Outlier | Ch. 17 § 7.5 | fig_07; unusual, not wrong - and never to be deleted |
+| Why an outlier moves only the mean | Ch. 17 § 7.4 | fig_08; sizes vs order vs counts. The centre of the chapter |
+| The $pprox$ symbol | Ch. 17 § 7.2 | Note only; used in Chs. 15 and 16 without ever being named |
+| Choosing between the four measures | Ch. 17 § 8 | The "weak when" table; reporting two often says more than one |
 
 ## Chapter notes
 
@@ -302,3 +324,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 14 - The greatest common factor](./14_the_greatest_common_factor.md)
 * [Chapter 15 - Adding and subtracting fractions](./15_adding_and_subtracting_fractions.md)
 * [Chapter 16 - Multiplying and dividing fractions](./16_multiplying_and_dividing_fractions.md)
+* [Chapter 17 - Averages and range](./17_averages_and_range.md)
