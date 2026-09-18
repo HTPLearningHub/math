@@ -1147,4 +1147,4 @@ into an equation — so far, the equation has always been handed to you already 
 
 - [Back to the book](./../README.md)
 - Previous: [20 Solving equations](./../20_Solving_Equations/20_Solving_Equations.md)
-- Next: not written yet.
+- Next: [22 Word problems: turning a story into an equation](./../22_Word_Problems/22_Word_Problems.md)

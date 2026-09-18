@@ -392,6 +392,24 @@ One row per topic. Says where the book explains it first. Read this before writi
 | The five steps | Ch. 21 § 5.1 | fig_04; open brackets, clear fractions, gather letters, gather numbers, divide. Only the first two are new |
 | A solution that is a fraction | Ch. 21 § 5.2 | $x = -\frac{1}{3}$ from $\frac{3 - 3x}{4} = 3(2x + 1)$; simplified with Ch. 14 § 5.2 and checked in fractions |
 | Two roads, one answer | Ch. 21 § 5.3 | fig_05; gathering either side of $3 - 3x = 24x + 12$ gives $-\frac{1}{3}$. Ch. 20 § 1.2's idea, demonstrated |
+| Word problem | Ch. 22 § 1.1 | fig_01; a question in words, with no equation given. Chs. 20 and 21 always started at the equation |
+| Evaluating against solving | Ch. 22 § 1.2 | The four-row table. Ch. 18 § 5 gave the input and asked for the output; here the unknown is inside the sentence |
+| The four steps of a word problem | Ch. 22 § 1.3, § 7.3 | Name, translate, solve, answer and check. Only 1, 2 and 4 are new |
+| A letter measures a quantity with a unit | Ch. 22 § 2.2 | "$g$ - Gabby's age, in years", never "$g$ is Gabby". Built on Ch. 18 § 2.1 |
+| Which quantity gets the letter | Ch. 22 § 2.3 | Give it to the one the others are described from. Work, not right and wrong |
+| The words-to-symbols table | Ch. 22 § 3.2 | Eight rows. Extends Ch. 18 § 5.4's four; "is" is the word that becomes $=$ |
+| "$A$ less than $B$" is $B - A$ | Ch. 22 § 3.3 | **The chapter's most-repeated fact.** fig_02, plus the five-second number test ($3$ less than $10$ is $7$) |
+| Why "more than" seems not to reverse | Ch. 22 § 3.4 | It does reverse; addition is commutative (Ch. 19 § 2.1) so nobody notices. Subtraction is not (Ch. 19 § 2.3) |
+| One equation, two jobs | Ch. 22 § 4.3 | fig_03; $s = 2g - 3$ run forwards ($g = 12$) and backwards ($s = 21$). Turning the source's easy example round |
+| Consecutive multiples | Ch. 22 § 5.2 | fig_04; multiples of $n$ step by $n$: $x$, $x+n$, $x+2n$. Built on Ch. 12 § 1.3's *multiple* |
+| $x, x+1, x+2$ is a different thing | Ch. 22 § 5.2 | Consecutive whole numbers. The Warning, and the whole of Q7 |
+| Several unknowns, one letter | Ch. 22 § 5 | The three brothers; $3x + 9 = 36$ gives $9, 12, 15$ |
+| Finding $x$ is not finishing | Ch. 22 § 5.4 | Put $x$ back into each expression and answer what was asked. Tested by Q9 |
+| Two unknowns need two facts | Ch. 22 § 6.1 | fig_05; $j = r + 6$ alone allows an endless list of pairs. Not in the source |
+| Substitution (a letter for an expression) | Ch. 22 § 6.2 | Different from Ch. 18 § 6.1's substituting a *number*. Legal because a letter is one number (Ch. 18 § 2.3, Ch. 21 § 2.1) |
+| Substitute into the *other* equation | Ch. 22 § 6.4 | $r + 6 = r + 6$ is true, useless and the first thing people write |
+| The arithmetic check | Ch. 22 § 7.2 | Ch. 20 § 4.5's check, given a name so it can be set against the new one |
+| The sense check | Ch. 22 § 7.2 | fig_06; can the story hold this number? The only check that catches a wrongly written equation |
 
 ## Chapter notes
 
@@ -416,3 +434,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 19 - The number properties of algebra](./19_the_number_properties_of_algebra.md)
 * [Chapter 20 - Solving equations](./20_solving_equations.md)
 * [Chapter 21 - Equations with the letter on both sides](./21_equations_with_the_letter_on_both_sides.md)
+* [Chapter 22 - Word problems: turning a story into an equation](./22_word_problems.md)

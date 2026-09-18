@@ -238,8 +238,9 @@ Layout lessons worth keeping, on top of the Chapter 9 to 20 lists:
   ever divides *by* a plain number.
 * **More than one fraction in one equation**, needing the least common multiple (Ch. 13) to clear
   them in one move. The source's examples all have a single denominator.
-* **Word problems that have to be turned into an equation before being solved.** Still open from
-  Chapter 20; § 8 names it.
+* ~~**Word problems that have to be turned into an equation before being solved.**~~
+  **Now covered - Chapter 22**, which uses this chapter's solving unchanged and adds the
+  translating either side of it.
 * **Inequalities** ($<$, $>$), still open from Chapters 18, 19 and 20.
 * Still open from Chapter 18: **drawing a rule as a graph**, and **formulas from science and
   geometry**. Still open from Chapter 17: **more than one mode**, **weighted means**, **quartiles

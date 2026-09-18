@@ -235,8 +235,10 @@ Layout lessons worth keeping, on top of the Chapter 9 to 19 lists:
 * **Fractional solutions.** Every answer in this chapter is a whole number, positive or negative,
   although Ch. 15 and Ch. 16 supply everything needed. § 5.3's Note is the only place a fraction
   appears at all.
-* **Word problems that have to be turned into an equation before being solved.** Ch. 18 § 5 turns
-  a situation into a rule; nothing yet turns a situation into an equation to solve.
+* ~~**Word problems that have to be turned into an equation before being solved.**~~
+  **Now covered - Chapter 22.** Ch. 22 § 1.2 draws the line this entry was asking for:
+  Ch. 18 § 5 turns a situation into a rule and works forwards; Ch. 22 turns one into an
+  equation and solves it.
 * **Inequalities** ($<$, $>$), still open from Chapters 18 and 19.
 * Still open from Chapter 19: **multiplying two brackets together** and FOIL, **a minus sign
   standing alone in front of a bracket**, **factoring anything other than a common factor**,
