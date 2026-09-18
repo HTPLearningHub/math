@@ -1010,4 +1010,4 @@ all.
 
 - [Back to the book](./../README.md)
 - Previous: [22 Word problems: turning a story into an equation](./../22_Word_Problems/22_Word_Problems.md)
-- Next: not written yet.
+- Next: [24 Square roots, cube roots and other roots](./../24_Roots/24_Roots.md)

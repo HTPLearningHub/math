@@ -426,6 +426,40 @@ One row per topic. Says where the book explains it first. Read this before writi
 | The flipping rule | Ch. 23 § 4.3 | Multiply or divide by a negative, turn the symbol round. $-x > 6$ gives $x < -6$ |
 | A minus sign is not a reason to flip | Ch. 23 § 5.2 | The flip belongs to the operation, not to the signs on the page. $-5x + 3 \leq 18$ flips once, at the divide |
 | Checking an inequality | Ch. 23 § 5.3 | fig_05; two numbers, one from each side of the boundary. Ch. 20 § 4.5's check, changed in shape |
+| Root (definition) | Ch. 24 § 1.2 | fig_01; the operation that undoes a power. The empty fifth row of Ch. 20 § 3.1's toolbox |
+| Two numbers share a square | Ch. 24 § 2.1 | fig_02; straight off Ch. 9 § 5.2. The source of every $\pm$ in the chapter |
+| The $\pm$ symbol | Ch. 24 § 2.1 | "Plus or minus"; a real problem usually rejects one of the two |
+| Radical sign, radicand, index | Ch. 24 § 2.2 | fig_03; a missing index means $2$ |
+| Square root | Ch. 24 § 2.2 | Index $2$, never written |
+| Principal square root | Ch. 24 § 2.3 | **The chapter's correction.** A symbol must name one number; $\sqrt{16} + \sqrt{9} = 7$ is the argument |
+| Symbol against equation | Ch. 24 § 2.3 | $\sqrt{9} = 3$, but $x^{2} = 9$ has two answers. The distinction the $\pm$ belongs to |
+| Perfect square | Ch. 24 § 2.4 | fig_04, dot squares; the table of the first ten, used all through § 4 |
+| A negative number has no square root | Ch. 24 § 2.5 | Both signs tested; $\sqrt{-16}$ set against $-\sqrt{16}$, which is an ordinary $-4$ |
+| Trapping a root between two numbers | Ch. 24 § 3.1 | fig_05; three zooms on $\sqrt{2}$, every square checked with Python |
+| Multiplying two decimals | Ch. 24 § 3.1 | Note only; extends Ch. 4 § 6.1 from a whole number, using Ch. 16 § 3.3 |
+| Irrational number | Ch. 24 § 3.2 | Never stops **and** never repeats; set against Ch. 4 § 2.4's repeating decimal |
+| The symbol is the exact answer | Ch. 24 § 3.3 | fig_06; $1.414$ is a rounded copy. This is why simplifying a root matters |
+| Product property of roots | Ch. 24 § 4.1 | $\sqrt{ab} = \sqrt{a}\sqrt{b}$, proved by squaring it and re-pairing with Ch. 19 § 2 |
+| Simplifying a root | Ch. 24 § 4.2 | Pull out the largest perfect square. $\sqrt{8} = 2\sqrt{2}$, checked in decimals |
+| Largest, or you have not finished | Ch. 24 § 4.4 | fig_07; $2\sqrt{18}$ is true and unfinished. **Simplified root** defined here |
+| Pairs of prime factors escape a root | Ch. 24 § 4.4 | Note; Ch. 12 § 4 applied to $72 = 2^{3} \times 3^{2}$. Not in the source |
+| Quotient property of roots | Ch. 24 § 4.5 | $\sqrt{\frac{9}{25}} = \frac{3}{5}$, checked against $0.6^{2} = 0.36$ |
+| Cube root | Ch. 24 § 5.1 | fig_08, the $3 \times 3 \times 3$ box; index $3$ |
+| A cube root has one answer | Ch. 24 § 5.2 | $(-3)^{3} = -27$, so $-3$ does not compete. No $\pm$ anywhere |
+| Cube root of a negative number | Ch. 24 § 5.3 | $\sqrt[3]{-125} = -5$; the Warning that the ban belongs to even indexes only |
+| Perfect cube | Ch. 24 § 5.4 | Table to $216$; they grow far faster than the squares |
+| Even root, odd root | Ch. 24 § 6.1 | $\sqrt[4]{16} = 2$, $\sqrt[5]{32} = 2$ |
+| Why even and odd roots differ | Ch. 24 § 6.2 | **fig_09, the chapter's key figure.** Minus signs cancel in pairs, and everything follows |
+| The four cases of a root | Ch. 24 § 6.3 | fig_10 and the table; exactly one red cell |
+| Fractional exponent, $x^{\frac{1}{2}}$ | Ch. 24 § 7.1 | Forced by Ch. 10 § 4.2, using Ch. 10 § 6.1's move: ask what the rules require |
+| $\sqrt[n]{x} = x^{\frac{1}{n}}$ | Ch. 24 § 7.2 | The index becomes the bottom. Checked on $\sqrt[3]{8} = 2$ |
+| $\sqrt[n]{x^{m}} = x^{\frac{m}{n}}$ | Ch. 24 § 7.3 | fig_11; power on top, index underneath. Derived through Ch. 10 § 8.2 |
+| A letter under a root is not negative | Ch. 24 § 7.3 | The assumption stated openly; § 11 gives the reason |
+| Roots obey Chapter 10's five rules | Ch. 24 § 7.5 | $\sqrt{x} \times \sqrt[3]{x} = x^{\frac{5}{6}}$, using Ch. 15 § 3. The payoff of § 7 |
+| Solving $x^{2} = k$ | Ch. 24 § 8.1 | $x = \pm\sqrt{k}$, both answers checked. Closes the gap Ch. 21 § 12 named |
+| Solving $x^{3} = k$ | Ch. 24 § 8.2 | One answer whatever the sign of $k$; $y^{3} = -216$ gives $-6$ |
+| An equation with no solution | Ch. 24 § 8.3 | $x^{2} = -4$. The book's first one; the other half of Ch. 21's pair is still open |
+| $\sqrt{x^{2}} = \lvert x \rvert$ | Ch. 24 § 11 | Important notes only, with $x = -3$; corrects the source's key-points list |
 
 ## Chapter notes
 
@@ -452,3 +486,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 21 - Equations with the letter on both sides](./21_equations_with_the_letter_on_both_sides.md)
 * [Chapter 22 - Word problems: turning a story into an equation](./22_word_problems.md)
 * [Chapter 23 - Solving inequalities](./23_solving_inequalities.md)
+* [Chapter 24 - Square roots, cube roots and other roots](./24_roots.md)
