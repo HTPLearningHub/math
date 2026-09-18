@@ -410,6 +410,22 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Substitute into the *other* equation | Ch. 22 § 6.4 | $r + 6 = r + 6$ is true, useless and the first thing people write |
 | The arithmetic check | Ch. 22 § 7.2 | Ch. 20 § 4.5's check, given a name so it can be set against the new one |
 | The sense check | Ch. 22 § 7.2 | fig_06; can the story hold this number? The only check that catches a wrongly written equation |
+| Inequality (definition) | Ch. 23 § 1.1 | A sentence comparing two things not stated to be equal; $>$, $<$, $\geq$, $\leq$ |
+| The four inequality symbols | Ch. 23 § 1.2 | The table; the open end faces the bigger number |
+| Why $3 \geq 3$ is true | Ch. 23 § 1.2 | "Or equal to" is satisfied by *either* half. Not in the source; the misreading behind half of all wrong circles |
+| Solution set | Ch. 23 § 1.3 | fig_01; endlessly many answers, described at once. $x < 3$ **is** the answer, not an unfinished one |
+| Boundary number | Ch. 23 § 2.1 | The number the inequality turns at. The only one whose membership is in doubt |
+| Which way the arrow points | Ch. 23 § 2.2 | Straight off Ch. 9 § 3.1; nothing new needed |
+| The boundary test | Ch. 23 § 2.3 | fig_02; put the boundary number in. Replaces the circle rule with one line of arithmetic |
+| Strict, non-strict inequality | Ch. 23 § 2.3 | $>$ and $<$ give a hollow circle; $\geq$ and $\leq$ give a filled one |
+| No first solution of $x > 3$ | Ch. 23 § 2.3 | $3.1$, $3.01$, $3.001$ - which is what a hollow circle says |
+| The properties of inequality | Ch. 23 § 3.1 | Ch. 20 § 2.2's four, with "when $c$ is positive" on the last two |
+| Multiplying an inequality by $0$ | Ch. 23 § 3.1 | $7 > 4$ becomes $0 > 0$, which is **false** - worse than Ch. 20 § 2.2's merely useless |
+| An inequality does not reverse freely | Ch. 23 § 3.4 | $x < -6$ is $-6 > x$, not $-6 < x$. Ch. 21 § 2.4's symmetric property does **not** carry over |
+| Why multiplying by a negative flips | Ch. 23 § 4.2 | **fig_04, the chapter's key figure.** Adding gives parallel arrows; $\times(-1)$ gives crossing arrows. Built on Ch. 9 § 2.2 |
+| The flipping rule | Ch. 23 § 4.3 | Multiply or divide by a negative, turn the symbol round. $-x > 6$ gives $x < -6$ |
+| A minus sign is not a reason to flip | Ch. 23 § 5.2 | The flip belongs to the operation, not to the signs on the page. $-5x + 3 \leq 18$ flips once, at the divide |
+| Checking an inequality | Ch. 23 § 5.3 | fig_05; two numbers, one from each side of the boundary. Ch. 20 § 4.5's check, changed in shape |
 
 ## Chapter notes
 
@@ -435,3 +451,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 20 - Solving equations](./20_solving_equations.md)
 * [Chapter 21 - Equations with the letter on both sides](./21_equations_with_the_letter_on_both_sides.md)
 * [Chapter 22 - Word problems: turning a story into an equation](./22_word_problems.md)
+* [Chapter 23 - Solving inequalities](./23_solving_inequalities.md)

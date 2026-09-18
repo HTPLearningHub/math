@@ -1217,4 +1217,4 @@ already tell in words, and none of them fits into the four steps as they stand.
 
 - [Back to the book](./../README.md)
 - Previous: [21 Equations with the letter on both sides](./../21_Equations_With_The_Letter_On_Both_Sides/21_Equations_With_The_Letter_On_Both_Sides.md)
-- Next: not written yet.
+- Next: [23 Solving inequalities](./../23_Solving_Inequalities/23_Solving_Inequalities.md)

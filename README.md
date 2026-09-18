@@ -48,3 +48,4 @@ advanced topics.
 [20 Solving equations](./20_Solving_Equations/20_Solving_Equations.md)\
 [21 Equations with the letter on both sides](./21_Equations_With_The_Letter_On_Both_Sides/21_Equations_With_The_Letter_On_Both_Sides.md)\
 [22 Word problems: turning a story into an equation](./22_Word_Problems/22_Word_Problems.md)\
+[23 Solving inequalities](./23_Solving_Inequalities/23_Solving_Inequalities.md)\
