@@ -360,6 +360,24 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Why an equation is solved the way it is | Ch. 19 § 7.4 | An inverse makes an identity element, and the identity element disappears. The reason Ch. 18 § 7.3 could not give |
 | The five properties in one table | Ch. 19 § 8.1 | Addition column, multiplication column, and whether subtraction and division obey |
 | Several properties in one line | Ch. 19 § 8.2 | fig_08; $3(2x+5)-4(x-1)+0 = 2x+19$, one property named per step |
+| An equation is a question | Ch. 20 § 1.1 | fig_01; $x = 1,2,3,4$ tried in $x+2=5$. An expression cannot be true or false |
+| Solution, solving an equation | Ch. 20 § 1.2 | The value that makes both sides equal. Ch. 18 § 7 solved one without ever naming this |
+| The solution is already there | Ch. 20 § 1.2 | The steps do not create the number, only undress it. The chapter's spine; why the check works |
+| Why guessing is not a method | Ch. 20 § 1.3 | $7x-43 = 1000$ gives $149$. Practise the method where you can already see the answer |
+| The properties of equality | Ch. 20 § 2.2 | The four named forms of Ch. 18 § 7.3's rule of both sides, with $A$, $B$, $c$ |
+| Never multiply both sides by $0$ | Ch. 20 § 2.2 | Legal, gives $0 = 0$, useless. Corrects the source's "any real number $c$" |
+| Permission against purpose | Ch. 20 § 2.3 | A property says a move is legal; an inverse (Ch. 19 § 7.4) says it is useful. Not in the source |
+| Addition and subtraction as inverses | Ch. 20 § 3.1 | The second pair; Ch. 8 § 1.1 named only multiplication and division. The four-row toolbox |
+| Isolating the variable | Ch. 20 § 3.2 | fig_02; the letter alone, one number opposite. The goal, named |
+| One-step equation | Ch. 20 § 4 | Exactly one thing done to the letter, so one move solves it |
+| The four one-step shapes | Ch. 20 § 4.1 - 4.6 | $x+2=5$, $n-4=17$, $4d=20$, $\frac{y}{8}=3$; the summary table in § 4.6 |
+| Why undoing a division grows the answer | Ch. 20 § 4.4 | fig_03; eight equal parts of $3$. The shape readers find hardest |
+| Checking a solution | Ch. 20 § 4.5 | Ch. 18 § 7.4's habit, plus: use the **original** equation, work each side separately |
+| Two-step equation, and the order | Ch. 20 § 5 | fig_04; Ch. 11's order read bottom-up. Shoes before socks. $5x-3=12 \to x=3$ |
+| Dividing only part of a side | Ch. 20 § 5.3 | The real mistake ($\frac{27}{5}$), and the Note that dividing first is legal but harder. Corrects the source |
+| The letter left negative | Ch. 20 § 6 | fig_05; $-b = 3$ says where the *opposite* of $b$ is. $4-b=7 \to b=-3$ |
+| $-x = c$ gives $x = -c$ | Ch. 20 § 6.3 | Derived from $-b = -1 \times b$ (Ch. 19 § 6.2) and Ch. 9 § 6.1, not asserted |
+| The solving method, with its loop | Ch. 20 § 7.1 | fig_06; step 3 is a loop, not a step. One-step goes round once, two-step twice |
 
 ## Chapter notes
 
@@ -382,3 +400,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 17 - Averages and range](./17_averages_and_range.md)
 * [Chapter 18 - Introduction to algebra: using variables](./18_introduction_to_algebra_variables.md)
 * [Chapter 19 - The number properties of algebra](./19_the_number_properties_of_algebra.md)
+* [Chapter 20 - Solving equations](./20_solving_equations.md)

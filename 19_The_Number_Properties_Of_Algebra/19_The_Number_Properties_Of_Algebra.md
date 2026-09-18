@@ -1515,4 +1515,4 @@ be tidied first.
 
 - [Back to the book](./../README.md)
 - Previous: [18 Introduction to algebra: using variables](./../18_Introduction_To_Algebra_Variables/18_Introduction_To_Algebra_Variables.md)
-- Next: not written yet.
+- Next: [20 Solving equations](./../20_Solving_Equations/20_Solving_Equations.md)

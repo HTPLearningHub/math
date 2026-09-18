@@ -45,3 +45,4 @@ advanced topics.
 [17 Averages and range](./17_Averages_And_Range/17_Averages_And_Range.md)\
 [18 Introduction to algebra: using variables](./18_Introduction_To_Algebra_Variables/18_Introduction_To_Algebra_Variables.md)\
 [19 The number properties of algebra](./19_The_Number_Properties_Of_Algebra/19_The_Number_Properties_Of_Algebra.md)\
+[20 Solving equations](./20_Solving_Equations/20_Solving_Equations.md)\
