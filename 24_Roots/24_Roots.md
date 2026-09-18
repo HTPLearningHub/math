@@ -170,7 +170,7 @@ The operation has its own sign, and the sign has three parts worth naming.
 **Figure 3 — Three parts, three names. The small number in the corner is the one that decides
 which root you are taking. When it is not written, it is a $2$.**
 
-* **Definition — radical sign.** The symbol $\sqrt{\phantom{x}}$ is the **radical sign**. It
+* **Definition — radical sign.** The symbol $\sqrt{\quad}$ is the **radical sign**. It
   says: take a root of whatever is written under it.
 * **Definition — radicand.** The **radicand** is the number sitting under the bar. In
   $\sqrt{9}$ the radicand is $9$.
@@ -182,7 +182,7 @@ $\sqrt{9}$ and $\sqrt[2]{9}$ are the same thing. If you see a radical sign with 
 read a $2$ into it.
 
 **Definition — square root.** The **square root** of a number is the number which, multiplied by
-itself, gives it. It is written $\sqrt{\phantom{x}}$, with the index $2$ left out.
+itself, gives it. It is written $\sqrt{\quad}$, with the index $2$ left out.
 
 ### 2.3 The symbol names one number, not two
 
@@ -208,7 +208,7 @@ which one you meant. So the symbol was given one job: **out of the two numbers t
 $9$, it always hands you the one that is not negative.**
 
 **Definition — principal square root.** The **principal square root** of a number is the one that
-is not negative. The symbol $\sqrt{\phantom{x}}$ always means the principal square root.
+is not negative. The symbol $\sqrt{\quad}$ always means the principal square root.
 
 So the two facts live side by side, and they do not contradict each other:
 
@@ -606,7 +606,7 @@ multiplied by itself **three times** — and the picture moves from a flat squar
 $3^{3}$ is read "three cubed".**
 
 **Definition — cube root.** The **cube root** of a number is the number which, multiplied by
-itself three times, gives it. It is written with an index of $3$: $\sqrt[3]{\phantom{x}}$.
+itself three times, gives it. It is written with an index of $3$: $\sqrt[3]{\quad}$.
 
 $$
 3 \times 3 \times 3 = 27 \qquad \text{so} \qquad \sqrt[3]{27} = 3
@@ -1111,14 +1111,14 @@ so undoing it returns exactly one number.
 
 * **Root** — the operation that undoes a power. It asks which number, multiplied by itself a
   given number of times, produces the number you have.
-* **Radical sign** — the symbol $\sqrt{\phantom{x}}$, which says "take a root of what is written
+* **Radical sign** — the symbol $\sqrt{\quad}$, which says "take a root of what is written
   under me".
 * **Radicand** — the number or expression under the radical sign. In $\sqrt{9}$ it is $9$.
 * **Index** — the small number in the corner of the radical sign, saying which root to take. When
   none is written, it is $2$.
 * **Square root** — the number which, multiplied by itself, gives the radicand. Index $2$.
 * **Principal square root** — the one of the two square roots that is not negative. This is what
-  the symbol $\sqrt{\phantom{x}}$ always means.
+  the symbol $\sqrt{\quad}$ always means.
 * **Perfect square** — a whole number whose square root is a whole number: $1, 4, 9, 16, 25,
   \ldots$
 * **Irrational number** — a number that cannot be written as a fraction of two whole numbers. Its

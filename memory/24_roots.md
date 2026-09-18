@@ -205,7 +205,7 @@ Layout lessons worth keeping, on top of the Chapter 10 and 23 lists:
 
 ## Corrections and simplifications made to the source
 
-* **The source contradicts itself about what $\sqrt{\phantom{x}}$ means, and the book follows the
+* **The source contradicts itself about what $\sqrt{\quad}$ means, and the book follows the
   correct half.** Its definitions list says "Principal Square Root: the non-negative square root,
   symbolized $\sqrt{x}$", and then its Concept 1 writes $\sqrt{9} = \pm 3$. The radical symbol
   denotes the principal root only. Six of the source's own statements were corrected as a result:
