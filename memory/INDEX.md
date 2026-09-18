@@ -378,6 +378,20 @@ One row per topic. Says where the book explains it first. Read this before writi
 | The letter left negative | Ch. 20 § 6 | fig_05; $-b = 3$ says where the *opposite* of $b$ is. $4-b=7 \to b=-3$ |
 | $-x = c$ gives $x = -c$ | Ch. 20 § 6.3 | Derived from $-b = -1 \times b$ (Ch. 19 § 6.2) and Ch. 9 § 6.1, not asserted |
 | The solving method, with its loop | Ch. 20 § 7.1 | fig_06; step 3 is a loop, not a step. One-step goes round once, two-step twice |
+| The letter on both sides | Ch. 21 § 1.1 | fig_01; $4x + 3 = x - 6$. Ch. 20 § 7.1's opening question gets two answers at once, so the method cannot start |
+| Term | Ch. 21 § 1.2 | One added or subtracted piece of an expression. Ch. 19 §§ 3.3 and 4.1 use the word without ever defining it |
+| Variable term, constant term | Ch. 21 § 1.2 | Carries a letter / is only a number. The sign in front belongs to the term |
+| Subtracting a whole term from both sides | Ch. 21 § 2.1 | **The chapter's spine.** Ch. 20 § 2.2's $c$ may carry a letter, because a letter is one number and the same one on both sides (Ch. 18 §§ 2.1, 2.3). Sealed boxes on a balance |
+| Which variable term to move | Ch. 21 § 2.2 | Move the smaller coefficient, so the letter keeps a positive one. Convenience, never correctness |
+| $4x - x = 3x$ | Ch. 21 § 2.3 | The letter survives the subtraction. Ch. 19 § 6.2's invisible coefficient; tested by Q8 |
+| The symmetric property of equality | Ch. 21 § 2.4 | If $A = B$ then $B = A$. Names what Ch. 20 § 3.2 had noticed without naming |
+| Opening a bracket inside an equation | Ch. 21 § 3 | Ch. 19 § 3's rule, now as step 1. $2(x + 4) = 5x - 1$ gives $x = 3$. An $x$ still inside a bracket cannot be moved |
+| The fraction bar as invisible brackets | Ch. 21 § 4.1 | It divides everything above it. Ch. 1 § 2.2 read with a whole expression on top |
+| Clearing a fraction from an equation | Ch. 21 § 4.2 | fig_03; multiply both sides by the bottom number and bracket the other side. $\frac{2x - 6}{4} = x - 4$ gives $x = 5$ |
+| $\frac{A}{B} = C \Rightarrow A = B \times C$ | Ch. 21 § 4.3 | The short form, with $B \neq 0$. Not a new rule - the multiplication property with the middle line left out |
+| The five steps | Ch. 21 § 5.1 | fig_04; open brackets, clear fractions, gather letters, gather numbers, divide. Only the first two are new |
+| A solution that is a fraction | Ch. 21 § 5.2 | $x = -\frac{1}{3}$ from $\frac{3 - 3x}{4} = 3(2x + 1)$; simplified with Ch. 14 § 5.2 and checked in fractions |
+| Two roads, one answer | Ch. 21 § 5.3 | fig_05; gathering either side of $3 - 3x = 24x + 12$ gives $-\frac{1}{3}$. Ch. 20 § 1.2's idea, demonstrated |
 
 ## Chapter notes
 
@@ -401,3 +415,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 18 - Introduction to algebra: using variables](./18_introduction_to_algebra_variables.md)
 * [Chapter 19 - The number properties of algebra](./19_the_number_properties_of_algebra.md)
 * [Chapter 20 - Solving equations](./20_solving_equations.md)
+* [Chapter 21 - Equations with the letter on both sides](./21_equations_with_the_letter_on_both_sides.md)

@@ -46,3 +46,4 @@ advanced topics.
 [18 Introduction to algebra: using variables](./18_Introduction_To_Algebra_Variables/18_Introduction_To_Algebra_Variables.md)\
 [19 The number properties of algebra](./19_The_Number_Properties_Of_Algebra/19_The_Number_Properties_Of_Algebra.md)\
 [20 Solving equations](./20_Solving_Equations/20_Solving_Equations.md)\
+[21 Equations with the letter on both sides](./21_Equations_With_The_Letter_On_Both_Sides/21_Equations_With_The_Letter_On_Both_Sides.md)\

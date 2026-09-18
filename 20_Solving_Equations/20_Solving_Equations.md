@@ -1116,4 +1116,4 @@ distribute, and it can collect like terms. They are waiting.
 
 - [Back to the book](./../README.md)
 - Previous: [19 The number properties of algebra](./../19_The_Number_Properties_Of_Algebra/19_The_Number_Properties_Of_Algebra.md)
-- Next: not written yet.
+- Next: [21 Equations with the letter on both sides](./../21_Equations_With_The_Letter_On_Both_Sides/21_Equations_With_The_Letter_On_Both_Sides.md)
