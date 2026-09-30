@@ -35,10 +35,10 @@ underneath is written with two decimal places.
 
 Percentages are probably the piece of mathematics you see most often.
 
-* A shop sign says $30\%$ off.
-* You leave a $20\%$ tip in a restaurant.
-* The weather app says there is a $50\%$ chance of rain.
-* Your test result says $90\%$.
+* A shop sign says $30\\%$ off.
+* You leave a $20\\%$ tip in a restaurant.
+* The weather app says there is a $50\\%$ chance of rain.
+* Your test result says $90\\%$.
 
 In every one of these, a percentage answers the same kind of question: **how big is this part,
 compared with the whole thing?**
@@ -85,7 +85,7 @@ hundred". So *per centum* means **for each hundred**, or simply **out of a hundr
 
 That is the whole definition. There is nothing hidden in it.
 
-**Definition.** A **percent** ($\%$) is a part measured out of $100$. Writing $25\%$ means
+**Definition.** A **percent** ($\\%$) is a part measured out of $100$. Writing $25\\%$ means
 $25$ out of every $100$.
 
 Take one whole thing and cut it into $100$ equal pieces. Then a percentage just counts pieces.
@@ -99,7 +99,7 @@ Take one whole thing and cut it into $100$ equal pieces. Then a percentage just 
 </p>
 
 **Figure 1 — Count the orange squares: there are $25$ of them, out of $100$. Every line on the
-right says that same thing in a different way. The whole square is always $100\%$.**
+right says that same thing in a different way. The whole square is always $100\\%$.**
 
 **Note.** The words *percent* and *percentage* are used slightly differently. You say
 "twenty percent" when a number comes first, and you call the amount itself "a percentage".
@@ -112,7 +112,7 @@ Nothing in mathematics forces us to use $100$. We chose it, for two practical re
 1. **A hundred is easy to picture.** Most people can imagine $100$ small squares, as in Figure
    1. Nobody can picture $7431$ of anything.
 2. **A hundred gives enough detail.** Between $0$ and $100$ there are $100$ steps. That is
-   enough to see a real difference between $61\%$ and $64\%$. If we had chosen $10$, the only
+   enough to see a real difference between $61\\%$ and $64\\%$. If we had chosen $10$, the only
    possible answers would be $0$, $1$, $2$, and so on up to $10$ — far too rough for a bank or
    a laboratory.
 
@@ -131,11 +131,11 @@ $$P\\% = \frac{P}{100}$$
 
 The symbols:
 
-* $P$ — the percentage number, the number written in front of the $\%$ sign.
+* $P$ — the percentage number, the number written in front of the $\\%$ sign.
 * $100$ — the total, which never changes.
 * $\\%$ — the sign that tells you the total underneath is $100$.
 
-**Example.** $25\% = \frac{25}{100}$, and $3\% = \frac{3}{100}$, and $90\% = \frac{90}{100}$.
+**Example.** $25\\% = \frac{25}{100}$, and $3\\% = \frac{3}{100}$, and $90\\% = \frac{90}{100}$.
 
 **Note.** Two ratios that describe the same comparison are called **equivalent ratios**. This
 is exactly the idea of equivalent fractions from
@@ -146,12 +146,12 @@ the name is different.
 
 Two percentages are worth knowing by heart.
 
-* $100\% = \frac{100}{100} = 1$. That is the **whole** thing. All $100$ squares in Figure 1.
-* $0\% = \frac{0}{100} = 0$. That is **none** of it.
+* $100\\% = \frac{100}{100} = 1$. That is the **whole** thing. All $100$ squares in Figure 1.
+* $0\\% = \frac{0}{100} = 0$. That is **none** of it.
 
 Chapter 1 showed that any number divided by itself is $1$ — see
 [Chapter 1, section 2.3](./../1_Fractions/1_Fractions.md#23-when-the-parts-build-the-whole-back).
-So $100\%$ being the whole thing is not a new rule. It is the same rule as before.
+So $100\\%$ being the whole thing is not a new rule. It is the same rule as before.
 
 ### Summary of section 2
 
@@ -159,7 +159,7 @@ So $100\%$ being the whole thing is not a new rule. It is the same rule as befor
 * $P\\%$ is the fraction $\frac{P}{100}$.
 * We use $100$ because it is easy to imagine and detailed enough to be useful.
 * A percentage is a ratio whose second number is always $100$.
-* $100\%$ is the whole thing, and $0\%$ is none of it.
+* $100\\%$ is the whole thing, and $0\\%$ is none of it.
 
 ---
 
@@ -196,7 +196,7 @@ $$
 So multiply the top by $10$ as well:
 
 $$
-\frac{9}{10} = \frac{9 \times 10}{10 \times 10} = \frac{90}{100} = 90\%
+\frac{9}{10} = \frac{9 \times 10}{10 \times 10} = \frac{90}{100} = 90\\%
 $$
 
 **Quiz B: $18$ out of $20$.**
@@ -210,7 +210,7 @@ $$
 So multiply the top by $5$ as well:
 
 $$
-\frac{18}{20} = \frac{18 \times 5}{20 \times 5} = \frac{90}{100} = 90\%
+\frac{18}{20} = \frac{18 \times 5}{20 \times 5} = \frac{90}{100} = 90\\%
 $$
 
 **Quiz C: $450$ out of $500$.**
@@ -225,10 +225,10 @@ $$
 So divide the top by $5$ as well:
 
 $$
-\frac{450}{500} = \frac{450 \div 5}{500 \div 5} = \frac{90}{100} = 90\%
+\frac{450}{500} = \frac{450 \div 5}{500 \div 5} = \frac{90}{100} = 90\\%
 $$
 
-All three quizzes give the same answer: $90\%$.
+All three quizzes give the same answer: $90\\%$.
 
 <p align="center">
     <img
@@ -240,7 +240,7 @@ All three quizzes give the same answer: $90\%$.
 
 **Figure 2 — Every bar is one whole quiz, so every bar is the same length. Only the number of
 pieces changes. Look at where the orange stops: it is the same place in all four bars. That
-place is $\frac{90}{100}$, which is $90\%$.**
+place is $\frac{90}{100}$, which is $90\\%$.**
 
 **Explanation.** Why does this work at all? Because none of the three students changed their
 result. We only changed the *size of the piece we count in*. Quiz A counts in tenths, quiz B
@@ -270,7 +270,7 @@ where that works nicely:
 The bottom is $5$. From the table, multiply by $20$:
 
 $$
-\frac{3}{5} = \frac{3 \times 20}{5 \times 20} = \frac{60}{100} = 60\%
+\frac{3}{5} = \frac{3 \times 20}{5 \times 20} = \frac{60}{100} = 60\\%
 $$
 
 **Example.** Turn $\frac{1}{2}$ into a percentage.
@@ -278,14 +278,14 @@ $$
 The bottom is $2$. Multiply by $50$:
 
 $$
-\frac{1}{2} = \frac{1 \times 50}{2 \times 50} = \frac{50}{100} = 50\%
+\frac{1}{2} = \frac{1 \times 50}{2 \times 50} = \frac{50}{100} = 50\\%
 $$
 
-Half of something is $50\%$ of it. That agrees with what everybody already knows, which is a
+Half of something is $50\\%$ of it. That agrees with what everybody already knows, which is a
 good sign that the method is right.
 
 **Warning.** The number you multiply by must go on **both** lines. If you multiply only the
-top of $\frac{18}{20}$ by $5$, you get $\frac{90}{20}$, which is not $90\%$ and is not even a
+top of $\frac{18}{20}$ by $5$, you get $\frac{90}{20}$, which is not $90\\%$ and is not even a
 sensible score. See section 10 for more about this mistake.
 
 ### Summary of section 3
@@ -293,7 +293,7 @@ sensible score. See section 10 for more about this mistake.
 * To make a percentage, turn the bottom number into $100$.
 * Do exactly the same operation to the top number.
 * The new top number is the percentage.
-* $\frac{9}{10}$, $\frac{18}{20}$ and $\frac{450}{500}$ are all $90\%$.
+* $\frac{9}{10}$, $\frac{18}{20}$ and $\frac{450}{500}$ are all $90\\%$.
 * Changing the bottom to $100$ does not change the amount, only the size of the pieces you
   count in.
 
@@ -307,7 +307,7 @@ direction.
 
 ### 4.1 From a percent to a fraction
 
-This is the easiest direction, because the definition already does the work: $P\%$ *is*
+This is the easiest direction, because the definition already does the work: $P\\%$ *is*
 $\frac{P}{100}$.
 
 Two steps:
@@ -316,12 +316,12 @@ Two steps:
 2. Simplify the fraction, using the method from
    [Chapter 1, section 3.3](./../1_Fractions/1_Fractions.md#33-simplifying-a-fraction).
 
-**Example.** Write $50\%$ as a fraction.
+**Example.** Write $50\\%$ as a fraction.
 
 Step 1 — put it over $100$:
 
 $$
-50\% = \frac{50}{100}
+50\\% = \frac{50}{100}
 $$
 
 Step 2 — simplify. Both $50$ and $100$ can be divided by $50$:
@@ -330,12 +330,12 @@ $$
 \frac{50}{100} = \frac{50 \div 50}{100 \div 50} = \frac{1}{2}
 $$
 
-Only $1$ divides both $1$ and $2$, so we are finished. $50\% = \frac{1}{2}$.
+Only $1$ divides both $1$ and $2$, so we are finished. $50\\% = \frac{1}{2}$.
 
-**Example.** Write $80\%$ as a fraction.
+**Example.** Write $80\\%$ as a fraction.
 
 $$
-80\% = \frac{80}{100}
+80\\% = \frac{80}{100}
 $$
 
 Both numbers end in $0$, so both can be divided by $10$:
@@ -350,12 +350,12 @@ $$
 \frac{8}{10} = \frac{8 \div 2}{10 \div 2} = \frac{4}{5}
 $$
 
-Only $1$ divides both $4$ and $5$. So $80\% = \frac{4}{5}$.
+Only $1$ divides both $4$ and $5$. So $80\\% = \frac{4}{5}$.
 
-**Example.** Write $3\%$ as a fraction.
+**Example.** Write $3\\%$ as a fraction.
 
 $$
-3\% = \frac{3}{100}
+3\\% = \frac{3}{100}
 $$
 
 Can this be made smaller? The only whole numbers that divide $3$ are $1$ and $3$. And $3$ does
@@ -364,7 +364,7 @@ that divides both, and $\frac{3}{100}$ is already as simple as it gets.
 
 ### 4.2 Doing it in one step: the greatest common factor
 
-In the $80\%$ example we divided twice: first by $10$, then by $2$. There is a way to finish
+In the $80\\%$ example we divided twice: first by $10$, then by $2$. There is a way to finish
 in a single step.
 
 **Definition.** The **greatest common factor** (GCF) of two numbers is the biggest whole
@@ -397,15 +397,15 @@ bottom of $100$ means the digits land in the hundredths place, which is two plac
 point.
 
 $$
-80\% = \frac{80}{100} = 0.80
+80\\% = \frac{80}{100} = 0.80
 $$
 
 $$
-3\% = \frac{3}{100} = 0.03
+3\\% = \frac{3}{100} = 0.03
 $$
 
 $$
-25\% = \frac{25}{100} = 0.25
+25\\% = \frac{25}{100} = 0.25
 $$
 
 There is a quicker way to see it. Dividing by $100$ moves every digit two places to the right,
@@ -425,7 +425,7 @@ $$
 3. \quad \to \quad 0.3 \quad \to \quad 0.03
 $$
 
-**Warning.** The second line is where people slip. $3\%$ has only one digit, so after one step
+**Warning.** The second line is where people slip. $3\\%$ has only one digit, so after one step
 you reach $0.3$, and it is tempting to stop there. You must take the second step and write
 $0.03$. The zero after the point is a place holder, exactly as in
 [Chapter 2, section 3.3](./../2_Decimals/2_Decimals.md#33-zero-holds-an-empty-place). Section
@@ -437,22 +437,22 @@ This is the same journey, walked backwards. Read the decimal as hundredths, and 
 is the percentage.
 
 $$
-0.03 = \frac{3}{100} = 3\%
+0.03 = \frac{3}{100} = 3\\%
 $$
 
 $$
-0.50 = \frac{50}{100} = 50\%
+0.50 = \frac{50}{100} = 50\\%
 $$
 
 $$
-0.25 = \frac{25}{100} = 25\%
+0.25 = \frac{25}{100} = 25\\%
 $$
 
 **The rule:** to change a decimal into a percent, move the decimal point **two places to the
-right**, then write the $\%$ sign.
+right**, then write the $\\%$ sign.
 
 $$
-0.03 \quad \to \quad 0.3 \quad \to \quad 3. \quad = \quad 3\%
+0.03 \quad \to \quad 0.3 \quad \to \quad 3. \quad = \quad 3\\%
 $$
 
 **Note.** A decimal with only one place still works. Write the trailing zero first, which
@@ -460,7 +460,7 @@ changes nothing — see
 [Chapter 2, section 3.4](./../2_Decimals/2_Decimals.md#34-zeros-at-the-end-change-nothing):
 
 $$
-0.5 = 0.50 = \frac{50}{100} = 50\%
+0.5 = 0.50 = \frac{50}{100} = 50\\%
 $$
 
 ### 4.5 From a fraction to a percent
@@ -469,11 +469,11 @@ You already know this one. It is section 3: make the bottom $100$, and the new t
 percentage.
 
 $$
-\frac{1}{2} = \frac{50}{100} = 50\%
+\frac{1}{2} = \frac{50}{100} = 50\\%
 \qquad
-\frac{3}{5} = \frac{60}{100} = 60\%
+\frac{3}{5} = \frac{60}{100} = 60\\%
 \qquad
-\frac{4}{5} = \frac{80}{100} = 80\%
+\frac{4}{5} = \frac{80}{100} = 80\\%
 $$
 
 ### 4.6 The whole map in one picture
@@ -483,9 +483,9 @@ form:
 
 | Percent | Fraction over $100$ | Simplified fraction | Decimal | Shaded squares out of $100$ |
 | :---: | :---: | :---: | :---: | :---: |
-| $50\%$ | $\frac{50}{100}$ | $\frac{1}{2}$ | $0.50$ | $50$ |
-| $80\%$ | $\frac{80}{100}$ | $\frac{4}{5}$ | $0.80$ | $80$ |
-| $3\%$ | $\frac{3}{100}$ | $\frac{3}{100}$ | $0.03$ | $3$ |
+| $50\\%$ | $\frac{50}{100}$ | $\frac{1}{2}$ | $0.50$ | $50$ |
+| $80\\%$ | $\frac{80}{100}$ | $\frac{4}{5}$ | $0.80$ | $80$ |
+| $3\\%$ | $\frac{3}{100}$ | $\frac{3}{100}$ | $0.03$ | $3$ |
 
 And here is that last column drawn.
 
@@ -498,7 +498,7 @@ And here is that last column drawn.
 </p>
 
 **Figure 3 — The three grids are exactly the same size, so you can compare them by eye.
-$80\%$ is almost the whole square. $50\%$ is half of it. $3\%$ is three little squares in the
+$80\\%$ is almost the whole square. $50\\%$ is half of it. $3\\%$ is three little squares in the
 top corner — much less than you might expect.**
 
 Finally, here is every route on one page.
@@ -512,7 +512,7 @@ Finally, here is every route on one page.
 </p>
 
 **Figure 4 — Start in any box and follow an arrow. The label on the arrow tells you exactly
-what to do. All three boxes hold the same amount: $80\%$, $\frac{4}{5}$ and $0.80$.**
+what to do. All three boxes hold the same amount: $80\\%$, $\frac{4}{5}$ and $0.80$.**
 
 **Note.** The two arrows between the fraction box and the decimal box only work while the
 bottom number is $100$. A fraction such as $\frac{3}{8}$ cannot be scaled to a bottom of
@@ -522,12 +522,12 @@ replaces those two arrows with rules that work for every fraction.
 
 ### Summary of section 4
 
-* $P\%$ becomes a fraction by writing $P$ over $100$ and then simplifying.
+* $P\\%$ becomes a fraction by writing $P$ over $100$ and then simplifying.
 * The GCF is the biggest number that divides both lines; using it simplifies in one step.
-* $P\%$ becomes a decimal by moving the point two places to the left.
+* $P\\%$ becomes a decimal by moving the point two places to the left.
 * A decimal becomes a percent by moving the point two places to the right.
 * A fraction becomes a percent by making the bottom $100$.
-* $50\% = \frac{1}{2} = 0.50$, $80\% = \frac{4}{5} = 0.80$, $3\% = \frac{3}{100} = 0.03$.
+* $50\\% = \frac{1}{2} = 0.50$, $80\\% = \frac{4}{5} = 0.80$, $3\\% = \frac{3}{100} = 0.03$.
 
 ---
 
@@ -567,7 +567,7 @@ $$
 Read the top number:
 
 $$
-90\%
+90\\%
 $$
 
 ### 5.3 The formula
@@ -592,7 +592,7 @@ $100 \div 20 = 5$, so this is $18 \times 5 = 90$. That is exactly the scaling fr
 written in a different order. The formula and the scaling method are one method, not two.
 
 **Note.** The whole always goes underneath. If you turn the fraction upside down you are
-answering a different question. "$18$ out of $20$" is $90\%$, but $\frac{20}{18}$ is more than
+answering a different question. "$18$ out of $20$" is $90\\%$, but $\frac{20}{18}$ is more than
 $1$, which would say you scored more points than the quiz contained.
 
 ### Summary of section 5
@@ -612,10 +612,10 @@ Section 5 asked: *I have a part and a whole — what is the percentage?*
 
 Now we ask the opposite: *I know the percentage and the whole — how big is the part?*
 
-This is the question behind every tip and every discount. "A $20\%$ tip on a bill of $45$" is
+This is the question behind every tip and every discount. "A $20\\%$ tip on a bill of $45$" is
 exactly "what is the part, if the whole is $45$ and the percentage is $20$?"
 
-Start from what $20\%$ means: $\frac{20}{100}$ of the bill. So take the bill and keep
+Start from what $20\\%$ means: $\frac{20}{100}$ of the bill. So take the bill and keep
 $\frac{20}{100}$ of it.
 
 $$
@@ -626,7 +626,7 @@ $$
 
 The symbols:
 
-* $P$ — the percentage number, the number in front of the $\%$ sign.
+* $P$ — the percentage number, the number in front of the $\\%$ sign.
 * **whole** — the full amount you start from, such as the bill or the price.
 * **part** — the answer: the amount the percentage is worth.
 
@@ -638,12 +638,12 @@ whichever fits the numbers.
 Simplify $\frac{P}{100}$ as far as it goes (section 4.1). A simple fraction is often easy to
 take.
 
-**Example.** A meal costs $45$ dollars and you want to leave a $20\%$ tip.
+**Example.** A meal costs $45$ dollars and you want to leave a $20\\%$ tip.
 
 Step 1 — write the percentage as a fraction and simplify it:
 
 $$
-20\% = \frac{20}{100} = \frac{20 \div 20}{100 \div 20} = \frac{1}{5}
+20\\% = \frac{20}{100} = \frac{20 \div 20}{100 \div 20} = \frac{1}{5}
 $$
 
 Step 2 — take one fifth of the bill. Chapter 1 showed that a fraction is a division, so
@@ -664,23 +664,23 @@ $$
 
 You pay $54$ dollars.
 
-**Check it makes sense.** $20\%$ is one fifth, so the tip should be a fifth of the bill, which
+**Check it makes sense.** $20\\%$ is one fifth, so the tip should be a fifth of the bill, which
 is clearly less than a quarter of it. And $9$ is indeed a small piece of $45$. Good.
 
-### 6.3 Method 2 — find $1\%$ first, then multiply
+### 6.3 Method 2 — find $1\\%$ first, then multiply
 
 One percent is one hundredth. So dividing the whole by $100$ gives you what a single percent
 is worth. After that, multiply by how many percent you need.
 
-**Example.** A phone costs $500$ dollars, with $15\%$ off. How big is the discount?
+**Example.** A phone costs $500$ dollars, with $15\\%$ off. How big is the discount?
 
-Step 1 — find $1\%$ of $500$ by dividing by $100$:
+Step 1 — find $1\\%$ of $500$ by dividing by $100$:
 
 $$
 500 \div 100 = 5
 $$
 
-So $1\%$ of the price is $5$ dollars.
+So $1\\%$ of the price is $5$ dollars.
 
 Step 2 — you need $15$ of those:
 
@@ -705,23 +705,23 @@ moving the point two places (section 4.3), and most shop percentages are whole n
 
 | The percentage | Easiest method | Why |
 | :---: | --- | --- |
-| $50\%$, $25\%$, $20\%$, $10\%$ | Method 1 | They simplify to $\frac{1}{2}$, $\frac{1}{4}$, $\frac{1}{5}$, $\frac{1}{10}$ |
-| $15\%$, $30\%$, $45\%$ | Method 2 | Find $1\%$, then multiply |
+| $50\\%$, $25\\%$, $20\\%$, $10\\%$ | Method 1 | They simplify to $\frac{1}{2}$, $\frac{1}{4}$, $\frac{1}{5}$, $\frac{1}{10}$ |
+| $15\\%$, $30\\%$, $45\\%$ | Method 2 | Find $1\\%$, then multiply |
 | A whole that ends in $00$ | Method 2 | Dividing by $100$ is instant |
 
 ### Summary of section 6
 
 * $\text{part} = \left( \frac{P}{100} \right) \times \text{whole}$.
 * Method 1: simplify the percentage to a small fraction, then take that much of the whole.
-* Method 2: divide the whole by $100$ to find $1\%$, then multiply by $P$.
+* Method 2: divide the whole by $100$ to find $1\\%$, then multiply by $P$.
 * A tip is **added** to the bill; a discount is **taken off** the price.
-* $20\%$ of $45$ is $9$. $15\%$ of $500$ is $75$.
+* $20\\%$ of $45$ is $9$. $15\\%$ of $500$ is $75$.
 
 ---
 
 ## 7. A full example: the shoes in the sale
 
-A pair of shoes costs $120$ dollars. Today the shop takes $30\%$ off. What do you pay?
+A pair of shoes costs $120$ dollars. Today the shop takes $30\\%$ off. What do you pay?
 
 **Step 1 — name the three numbers.**
 
@@ -732,7 +732,7 @@ A pair of shoes costs $120$ dollars. Today the shop takes $30\%$ off. What do yo
 **Step 2 — write the percentage as a fraction and simplify it.**
 
 $$
-30\% = \frac{30}{100}
+30\\% = \frac{30}{100}
 $$
 
 Both numbers can be divided by $10$:
@@ -771,9 +771,9 @@ You pay $84$ dollars.
       />
 </p>
 
-**Figure 5 — The whole bar is the full price, $120$, which is $100\%$. The orange piece on the
-right is the $30\%$ the shop gives away, worth $36$. The blue piece on the left is what is
-left for you to pay: $70\%$, worth $84$. Read the scale underneath to see where $30\%$ falls.**
+**Figure 5 — The whole bar is the full price, $120$, which is $100\\%$. The orange piece on the
+right is the $30\\%$ the shop gives away, worth $36$. The blue piece on the left is what is
+left for you to pay: $70\\%$, worth $84$. Read the scale underneath to see where $30\\%$ falls.**
 
 **Step 5 — check the answer two ways.**
 
@@ -783,17 +783,17 @@ $$
 36 + 84 = 120
 $$
 
-Second check: the percentages must build $100\%$ back.
+Second check: the percentages must build $100\\%$ back.
 
 $$
-30\% + 70\% = 100\%
+30\\% + 70\\% = 100\\%
 $$
 
-If the shop keeps $70\%$, then the price you pay should be $70\%$ of $120$. Test that with
+If the shop keeps $70\\%$, then the price you pay should be $70\\%$ of $120$. Test that with
 Method 1 from section 6.2. First simplify:
 
 $$
-70\% = \frac{70}{100} = \frac{70 \div 10}{100 \div 10} = \frac{7}{10}
+70\\% = \frac{70}{100} = \frac{70 \div 10}{100 \div 10} = \frac{7}{10}
 $$
 
 Then take seven tenths of $120$:
@@ -810,7 +810,7 @@ The same $84$. The answer is right.
 
 **Explanation.** That second check is worth remembering as a short cut. A discount question
 always has two doors. You can find what is taken off and subtract it, or you can find what is
-left and take that directly. $100\% - 30\% = 70\%$, so "$30\%$ off" and "pay $70\%$" are the
+left and take that directly. $100\\% - 30\\% = 70\\%$, so "$30\\%$ off" and "pay $70\\%$" are the
 same instruction.
 
 ### Summary of section 7
@@ -819,14 +819,14 @@ same instruction.
 * Simplify the percentage, then take that much of the whole.
 * A discount is subtracted from the full price.
 * The discount and the price you pay must add back up to the full price.
-* "$30\%$ off" is the same as "pay $70\%$", because $100\% - 30\% = 70\%$.
+* "$30\\%$ off" is the same as "pay $70\\%$", because $100\\% - 30\\% = 70\\%$.
 
 ---
 
 ## 8. Glossary
 
-* **Percent ($\%$)** — a part measured out of $100$; $P\%$ means $\frac{P}{100}$.
-* **Percentage** — the amount that a percent describes, such as $90\%$.
+* **Percent ($\\%$)** — a part measured out of $100$; $P\\%$ means $\frac{P}{100}$.
+* **Percentage** — the amount that a percent describes, such as $90\\%$.
 * **Ratio** — a comparison of two numbers by division, written $9 : 10$ or $\frac{9}{10}$.
 * **Equivalent ratios** — two ratios that describe the same comparison, like $9 : 10$ and
   $90 : 100$; the same idea as equivalent fractions.
@@ -840,7 +840,7 @@ same instruction.
 
 Try each question before you open the answer.
 
-**Question 1.** Write $25\%$ as a simplified fraction and as a decimal.
+**Question 1.** Write $25\\%$ as a simplified fraction and as a decimal.
 
 <details>
 <summary>Answer</summary>
@@ -848,7 +848,7 @@ Try each question before you open the answer.
 Put it over $100$:
 
 $$
-25\% = \frac{25}{100}
+25\\% = \frac{25}{100}
 $$
 
 The biggest number that divides both $25$ and $100$ is $25$:
@@ -867,13 +867,13 @@ Fraction $\frac{1}{4}$, decimal $0.25$.
 
 </details>
 
-**Question 2.** Write $7\%$ as a fraction and as a decimal.
+**Question 2.** Write $7\\%$ as a fraction and as a decimal.
 
 <details>
 <summary>Answer</summary>
 
 $$
-7\% = \frac{7}{100}
+7\\% = \frac{7}{100}
 $$
 
 The only numbers that divide $7$ are $1$ and $7$, and $7$ does not divide $100$ evenly. So
@@ -883,7 +883,7 @@ For the decimal, move the point two places to the left. One place gives $0.7$ �
 finished. The second place gives:
 
 $$
-7\% = 0.07
+7\\% = 0.07
 $$
 
 </details>
@@ -903,12 +903,12 @@ $$
 The bottom $20$ becomes $100$ when multiplied by $5$, so multiply the top by $5$ too:
 
 $$
-\frac{16 \times 5}{20 \times 5} = \frac{80}{100} = 80\%
+\frac{16 \times 5}{20 \times 5} = \frac{80}{100} = 80\\%
 $$
 
 </details>
 
-**Question 4.** What is $30\%$ of $80$ dollars?
+**Question 4.** What is $30\\%$ of $80$ dollars?
 
 <details>
 <summary>Answer</summary>
@@ -916,7 +916,7 @@ $$
 Simplify the percentage first:
 
 $$
-30\% = \frac{30}{100} = \frac{3}{10}
+30\\% = \frac{30}{100} = \frac{3}{10}
 $$
 
 Take one tenth of $80$:
@@ -943,18 +943,18 @@ The answer is $24$ dollars.
 The bottom is $5$, and $5 \times 20 = 100$. So multiply both lines by $20$:
 
 $$
-\frac{3 \times 20}{5 \times 20} = \frac{60}{100} = 60\%
+\frac{3 \times 20}{5 \times 20} = \frac{60}{100} = 60\\%
 $$
 
 </details>
 
-**Question 6.** A smartphone costs $500$ dollars. It is on sale with $15\%$ off. How big is the
+**Question 6.** A smartphone costs $500$ dollars. It is on sale with $15\\%$ off. How big is the
 discount, and what is the sale price?
 
 <details>
 <summary>Answer</summary>
 
-Find $1\%$ by dividing by $100$:
+Find $1\\%$ by dividing by $100$:
 
 $$
 500 \div 100 = 5
@@ -989,16 +989,16 @@ Turn both into percentages.
 First test — the bottom $20$ needs $\times 5$:
 
 $$
-\frac{18 \times 5}{20 \times 5} = \frac{90}{100} = 90\%
+\frac{18 \times 5}{20 \times 5} = \frac{90}{100} = 90\\%
 $$
 
 Second test — the bottom $500$ needs $\div 5$:
 
 $$
-\frac{450 \div 5}{500 \div 5} = \frac{90}{100} = 90\%
+\frac{450 \div 5}{500 \div 5} = \frac{90}{100} = 90\\%
 $$
 
-Neither test went better. Both are $90\%$ — exactly the same proportion. The second test only
+Neither test went better. Both are $90\\%$ — exactly the same proportion. The second test only
 *looks* bigger because it had more points in it.
 
 </details>
@@ -1009,9 +1009,9 @@ Neither test went better. Both are $90\%$ — exactly the same proportion. The s
 
 **The three mistakes that cost the most marks.**
 
-* **Writing a small percent with one decimal place.** $3\%$ is not $0.3$. The rule says
-  **two** places to the left, and $3\%$ has only one digit, so a zero must fill the tenths
-  place: $3\% = 0.03$. The picture below shows how large that slip is.
+* **Writing a small percent with one decimal place.** $3\\%$ is not $0.3$. The rule says
+  **two** places to the left, and $3\\%$ has only one digit, so a zero must fill the tenths
+  place: $3\\% = 0.03$. The picture below shows how large that slip is.
 
 <p align="center">
     <img
@@ -1021,15 +1021,15 @@ Neither test went better. Both are $90\%$ — exactly the same proportion. The s
       />
 </p>
 
-**Figure 6 — Both grids hold $100$ squares. Writing $3\%$ as $0.3$ claims the red area: $30$
-squares. The true $3\%$ is the small green corner: $3$ squares. The mistake makes the amount
+**Figure 6 — Both grids hold $100$ squares. Writing $3\\%$ as $0.3$ claims the red area: $30$
+squares. The true $3\\%$ is the small green corner: $3$ squares. The mistake makes the amount
 ten times too big.**
 
 * **Changing only one line of the fraction.** To turn $\frac{18}{20}$ into a percentage you
   multiply the top **and** the bottom by $5$. Multiplying only the top gives $\frac{90}{20}$,
   which is not a percentage at all. The bottom must actually arrive at $100$, or the top
   number means nothing.
-* **Stopping before the fraction is finished.** $80\% = \frac{8}{10}$ is true, but it is not
+* **Stopping before the fraction is finished.** $80\\% = \frac{8}{10}$ is true, but it is not
   the answer, because $8$ and $10$ can both still be divided by $2$. Keep going until only
   $1$ divides both numbers: $\frac{4}{5}$.
 
