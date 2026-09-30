@@ -639,9 +639,9 @@ Try each question before you open the answer.
 <details>
 <summary>Answer</summary>
 
-$
+$$
 \frac{4}{10} = 0.4
-$
+$$
 
 The denominator is $10$, so the $4$ goes in the tenths place. There are no wholes, so a $0$
 goes before the point.
