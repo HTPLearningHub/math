@@ -612,8 +612,8 @@ Section 5 asked: *I have a part and a whole — what is the percentage?*
 
 Now we ask the opposite: *I know the percentage and the whole — how big is the part?*
 
-This is the question behind every tip and every discount. "A $20\\%$ tip on a bill of $45$" is
-exactly "what is the part, if the whole is $45$ and the percentage is $20$?"
+This is the question behind every tip and every discount. A $20\\%$ tip on a bill of $45$ is
+exactly what is the part, if the whole is $45$ and the percentage is $20$?
 
 Start from what $20\\%$ means: $\frac{20}{100}$ of the bill. So take the bill and keep
 $\frac{20}{100}$ of it.
