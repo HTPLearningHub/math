@@ -142,7 +142,7 @@ is exactly the idea of equivalent fractions from
 [Chapter 1, section 3.1](./../1_Fractions/1_Fractions.md#31-two-fractions-one-amount) — only
 the name is different.
 
-### 2.4 What $100\%$ and $0\%$ mean
+### 2.4 What $100\\%$ and $0\\%$ mean
 
 Two percentages are worth knowing by heart.
 
