@@ -639,11 +639,8 @@ Try each question before you open the answer.
 <details>
 <summary>Answer</summary>
 
-<div>
-$$
-\frac{4}{10} = 0.4
-$$
-</div>
+
+$$\frac{4}{10} = 0.4$$
 
 The denominator is $10$, so the $4$ goes in the tenths place. There are no wholes, so a $0$
 goes before the point.
@@ -652,9 +649,7 @@ $$3\frac{7}{10} = 3.7$$
 
 Three wholes in the ones place, seven tenths in the tenths place.
 
-$$
-\frac{9}{100} = 0.09
-$$
+$$\frac{9}{100} = 0.09$$
 
 The denominator is $100$, so the $9$ must stand in the **second** place. There are no tenths,
 so a $0$ holds the first place.
@@ -692,9 +687,7 @@ Both numbers have one decimal place, so nothing needs padding.
 
 Tenths: $5 + 2 = 7$. Ones: $4 + 3 = 7$.
 
-$$
-4.5 + 3.2 = 7.7
-$$
+$$4.5 + 3.2 = 7.7$$
 
 </details>
 
@@ -714,9 +707,7 @@ $12.4$ has one decimal place and $3.18$ has two, so write $12.4$ as $12.40$.
 Hundredths: $0 + 8 = 8$. Tenths: $4 + 1 = 5$. Ones: $2 + 3 = 5$. Tens: the $1$ has nothing to
 add to it, so it stays $1$.
 
-$$
-12.4 + 3.18 = 15.58
-$$
+$$12.4 + 3.18 = 15.58$$
 
 </details>
 
