@@ -546,7 +546,7 @@ That sentence is the formula. Here it is with names.
 **Definition.** The **part** is the amount you are looking at. The **whole** is the total that
 the part is measured against.
 
-In "$18$ points out of $20$", the part is $18$ and the whole is $20$.
+In $18$ points out of $20$, the part is $18$ and the whole is $20$.
 
 ### 5.2 A small example first
 
