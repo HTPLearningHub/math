@@ -721,9 +721,7 @@ $0.35$ has more digits, but that means nothing (section 5).
 Pad the shorter number: $0.40$ against $0.35$. Now both are counted in hundredths: $40$
 hundredths against $35$ hundredths.
 
-$$
-0.4 > 0.35
-$$
+$$0.4 > 0.35$$
 
 You can also compare from the left: $4$ tenths against $3$ tenths. The tenths place already
 decides it.
@@ -736,13 +734,9 @@ times bigger the first one is.
 <details>
 <summary>Answer</summary>
 
-$$
-\text{three tenths} = \frac{3}{10} = 0.3
-$$
+$$\text{three tenths} = \frac{3}{10} = 0.3$$
 
-$$
-\text{three hundredths} = \frac{3}{100} = 0.03
-$$
+$$\text{three hundredths} = \frac{3}{100} = 0.03$$
 
 The second number needs a $0$ in the tenths place, to push the $3$ into the hundredths place.
 
