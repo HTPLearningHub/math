@@ -640,6 +640,7 @@ Try each question before you open the answer.
 <summary>Answer</summary>
 
 $$
+
 \frac{4}{10} = 0.4
 
 $$
