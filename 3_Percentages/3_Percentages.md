@@ -133,7 +133,7 @@ The symbols:
 
 * $P$ — the percentage number, the number written in front of the $\%$ sign.
 * $100$ — the total, which never changes.
-* $\%$ — the sign that tells you the total underneath is $100$.
+* $\\%$ — the sign that tells you the total underneath is $100$.
 
 **Example.** $25\% = \frac{25}{100}$, and $3\% = \frac{3}{100}$, and $90\% = \frac{90}{100}$.
 
@@ -156,7 +156,7 @@ So $100\%$ being the whole thing is not a new rule. It is the same rule as befor
 ### Summary of section 2
 
 * *Percent* comes from Latin and means "out of one hundred".
-* $P\%$ is the fraction $\frac{P}{100}$.
+* $P\\%$ is the fraction $\frac{P}{100}$.
 * We use $100$ because it is easy to imagine and detailed enough to be useful.
 * A percentage is a ratio whose second number is always $100$.
 * $100\%$ is the whole thing, and $0\%$ is none of it.
