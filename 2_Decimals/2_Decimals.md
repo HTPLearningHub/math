@@ -641,6 +641,7 @@ Try each question before you open the answer.
 
 $$
 \frac{4}{10} = 0.4
+
 $$
 
 The denominator is $10$, so the $4$ goes in the tenths place. There are no wholes, so a $0$
@@ -648,6 +649,7 @@ goes before the point.
 
 $$
 3\frac{7}{10} = 3.7
+
 $$
 
 Three wholes in the ones place, seven tenths in the tenths place.
