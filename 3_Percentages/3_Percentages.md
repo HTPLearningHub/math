@@ -810,7 +810,7 @@ The same $84$. The answer is right.
 
 **Explanation.** That second check is worth remembering as a short cut. A discount question
 always has two doors. You can find what is taken off and subtract it, or you can find what is
-left and take that directly. $100\\% - 30\\% = 70\\%$, so "$30\\%$ off" and "pay $70\\%$" are the
+left and take that directly. $100\\% - 30\\% = 70\\%$, so $30\\%$ off and pay $70\\%$ are the
 same instruction.
 
 ### Summary of section 7
