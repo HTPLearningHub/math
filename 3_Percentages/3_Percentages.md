@@ -847,21 +847,15 @@ Try each question before you open the answer.
 
 Put it over $100$:
 
-$$
-25\\% = \frac{25}{100}
-$$
+$$25\\% = \frac{25}{100}$$
 
 The biggest number that divides both $25$ and $100$ is $25$:
 
-$$
-\frac{25 \div 25}{100 \div 25} = \frac{1}{4}
-$$
+$$\frac{25 \div 25}{100 \div 25} = \frac{1}{4}$$
 
 For the decimal, a bottom of $100$ means two decimal places:
 
-$$
-\frac{25}{100} = 0.25
-$$
+$$\frac{25}{100} = 0.25$$
 
 Fraction $\frac{1}{4}$, decimal $0.25$.
 
@@ -872,9 +866,7 @@ Fraction $\frac{1}{4}$, decimal $0.25$.
 <details>
 <summary>Answer</summary>
 
-$$
-7\\% = \frac{7}{100}
-$$
+$$7\\% = \frac{7}{100}$$
 
 The only numbers that divide $7$ are $1$ and $7$, and $7$ does not divide $100$ evenly. So
 $\frac{7}{100}$ is already simple.
@@ -882,9 +874,7 @@ $\frac{7}{100}$ is already simple.
 For the decimal, move the point two places to the left. One place gives $0.7$ — that is not
 finished. The second place gives:
 
-$$
-7\\% = 0.07
-$$
+$$7\\% = 0.07$$
 
 </details>
 
@@ -896,15 +886,11 @@ percentage?
 
 Part over whole:
 
-$$
-\frac{16}{20}
-$$
+$$\frac{16}{20}$$
 
 The bottom $20$ becomes $100$ when multiplied by $5$, so multiply the top by $5$ too:
 
-$$
-\frac{16 \times 5}{20 \times 5} = \frac{80}{100} = 80\\%
-$$
+$$\frac{16 \times 5}{20 \times 5} = \frac{80}{100} = 80\\%$$
 
 </details>
 
@@ -915,21 +901,15 @@ $$
 
 Simplify the percentage first:
 
-$$
-30\\% = \frac{30}{100} = \frac{3}{10}
-$$
+$$30\\% = \frac{30}{100} = \frac{3}{10}$$
 
 Take one tenth of $80$:
 
-$$
-80 \div 10 = 8
-$$
+$$80 \div 10 = 8$$
 
 Take three of them:
 
-$$
-8 \times 3 = 24
-$$
+$$8 \times 3 = 24$$
 
 The answer is $24$ dollars.
 
@@ -942,9 +922,7 @@ The answer is $24$ dollars.
 
 The bottom is $5$, and $5 \times 20 = 100$. So multiply both lines by $20$:
 
-$$
-\frac{3 \times 20}{5 \times 20} = \frac{60}{100} = 60\\%
-$$
+$$\frac{3 \times 20}{5 \times 20} = \frac{60}{100} = 60\\%$$
 
 </details>
 
@@ -956,21 +934,15 @@ discount, and what is the sale price?
 
 Find $1\\%$ by dividing by $100$:
 
-$$
-500 \div 100 = 5
-$$
+$$500 \div 100 = 5$$
 
 You need $15$ of those:
 
-$$
-15 \times 5 = 75
-$$
+$$15 \times 5 = 75$$
 
 The discount is $75$ dollars. Take it off the price:
 
-$$
-500 - 75 = 425
-$$
+$$500 - 75 = 425$$
 
 The sale price is $425$ dollars.
 
@@ -988,15 +960,11 @@ Turn both into percentages.
 
 First test — the bottom $20$ needs $\times 5$:
 
-$$
-\frac{18 \times 5}{20 \times 5} = \frac{90}{100} = 90\\%
-$$
+$$\frac{18 \times 5}{20 \times 5} = \frac{90}{100} = 90\\%$$
 
 Second test — the bottom $500$ needs $\div 5$:
 
-$$
-\frac{450 \div 5}{500 \div 5} = \frac{90}{100} = 90\\%
-$$
+$$\frac{450 \div 5}{500 \div 5} = \frac{90}{100} = 90\\%$$
 
 Neither test went better. Both are $90\\%$ — exactly the same proportion. The second test only
 *looks* bigger because it had more points in it.
