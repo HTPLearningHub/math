@@ -592,7 +592,7 @@ $100 \div 20 = 5$, so this is $18 \times 5 = 90$. That is exactly the scaling fr
 written in a different order. The formula and the scaling method are one method, not two.
 
 **Note.** The whole always goes underneath. If you turn the fraction upside down you are
-answering a different question. "$18$ out of $20$" is $90\\%$, but $\frac{20}{18}$ is more than
+answering a different question. $18$ out of $20$ is $90\\%$, but $\frac{20}{18}$ is more than
 $1$, which would say you scored more points than the quiz contained.
 
 ### Summary of section 5
