@@ -125,7 +125,7 @@ points is written $9 : 10$, and it is the same thing as the fraction $\frac{9}{1
 
 A percentage is one special ratio: the second number is always $100$.
 
-$$P\% = \frac{P}{100}$$
+$$P\text{\%} = \frac{P}{100}$$
 
 **In words:** $P$ percent means $P$ out of one hundred, which means $P$ divided by $100$.
 
