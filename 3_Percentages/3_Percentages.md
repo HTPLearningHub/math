@@ -127,7 +127,7 @@ A percentage is one special ratio: the second number is always $100$.
 
 $$P\% = \frac{P}{100}$$
 
-**In words:** "$P$ percent" means "$P$ out of one hundred", which means "$P$ divided by $100$".
+**In words:** $P$ percent means $P$ out of one hundred, which means $P$ divided by $100$.
 
 The symbols:
 
