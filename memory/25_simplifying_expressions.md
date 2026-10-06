@@ -20,7 +20,7 @@ bracket?** Times or divide - hand the exponent out. Plus or minus - never.
 | --- | --- |
 | 1. What "simplified" means here | 1.1 the seven-row table of rules already owned, with their usual names (product rule, quotient rule, ...) and links, plus the **Note: every letter in the chapter is positive**; 1.2 the five-point **finished form** (no bracket, each base once, numbers worked out, no negative/zero exponent, fraction in lowest terms), and the Note that $9x^{-1}y^{5}$ and $\frac{9y^{5}}{x}$ are equal but only the second is finished; 1.3 $6x^{3}y^{2}$ against $(6x^{3}y)^{2}$, **quantity** defined, linked to Ch. 11 § 5.1 |
 | 2. A power of a fraction | 2.1 $\left(\frac{2}{3}\right)^{2} = \frac{4}{9}$ via Ch. 16 § 3.3; 2.2 fig_01 and the tops-with-tops explanation; 2.3 $\left(\frac{a}{b}\right)^{n} = \frac{a^{n}}{b^{n}}$, **power of a quotient** named; 2.4 $\left(\frac{3xy^{2}}{2x^{3}}\right)^{2} = \frac{9x^{2}y^{4}}{4x^{6}}$ and the Warning that plain numbers are powered too |
-| 3. An exponent cannot pass a plus sign | 3.1 $(3+2)^{2} = 25$ vs $13$, and $(5-2)^{2} = 9$ vs $21$; 3.2 fig_02, the four pieces, and the explanation (regrouping a product vs distributing a sum); 3.3 $(a+b)^{2} = a^{2} + 2ab + b^{2}$ derived in four steps via Ch. 6 § 4.3, Ch. 19 § 3 and § 4, checked at $3, 2$; **expand** defined; the Note naming FOIL as not yet covered; 3.4 fig_03 and the three-row test table |
+| 3. An exponent cannot pass a plus sign | 3.1 $(3+2)^{2} = 25$ vs $13$, and $(5-2)^{2} = 9$ vs $21$; 3.2 fig_02, the four pieces, and the explanation (regrouping a product vs distributing a sum); 3.3 $(a+b)^{2} = a^{2} + 2ab + b^{2}$ derived in four steps via Ch. 6 § 4.3, Ch. 19 § 3 and § 4, checked at $3, 2$; **expand** defined; the Note naming FOIL, linked to Ch. 29 § 3; 3.4 fig_03 and the three-row test table |
 | 4. A negative exponent on a fraction | 4.1 $\left(\frac{2}{3}\right)^{-2} = \frac{9}{4}$ by Rule 4 and keep-change-flip; 4.2 the four-line proof with letters, fig_04; 4.3 $\left(\frac{a}{b}\right)^{-n} = \left(\frac{b}{a}\right)^{n}$ and two Warnings (not negative; flip **and** drop the minus) |
 | 5. A fractional exponent: take the root first | 5.1 $x^{\frac{m}{n}} = \left(\sqrt[n]{x}\right)^{m}$ derived from Rule 5 read backwards; 5.2 $64^{\frac{2}{3}} = 16$ by both roads, fig_05; 5.3 why root first, and $27^{\frac{4}{3}} = 81$ |
 | 6. Putting the rules together | 6.1 the six-step order of attack; 6.2 $(6x^{3}y)^{2} = 36x^{6}y^{2}$; 6.3 $4x^{3}y \times \left(\frac{3xy^{2}}{2x^{3}}\right)^{2} = \frac{9y^{5}}{x}$, by the source's road and then tidying first; 6.4 $\left(\frac{x^{6}}{64}\right)^{-\frac{2}{3}} = \frac{16}{x^{4}}$ |
@@ -132,8 +132,7 @@ through them.
 
 ## Not covered yet - waiting for a source
 
-* **Multiplying two different brackets**, $(a+b)(c+d)$, and FOIL - open since Ch. 6 and Ch. 19,
-  named again in § 3.3's Note and § 9.
+* (Multiplying two different brackets and FOIL: now Ch. 29; § 3.3's Note links there.)
 * **$(a - b)^{2}$ expanded**, and **$(a + b)^{3}$** - the source only says they cannot be handed
   out.
 * **Adding and subtracting roots**, rationalising a denominator - still open from Ch. 24.

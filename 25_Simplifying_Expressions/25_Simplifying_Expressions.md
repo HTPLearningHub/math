@@ -355,8 +355,8 @@ And $(3 + 2)^{2} = 25$. They agree.
 as in steps 1 to 4 above. $a^{2} + 2ab + b^{2}$ is the **expanded** form of $(a + b)^{2}$.
 
 > **Note.** This section shows only one bracket multiplied by itself. Many books teach a general
-> method for multiplying two different brackets, often under the name **FOIL**. This book has not
-> covered that method yet.
+> method for multiplying two different brackets, often under the name **FOIL**. That method is in
+> [Chapter 29, section 3](./../29_Multiplying_Polynomials/29_Multiplying_Polynomials.md#3-the-foil-method).
 
 ### 3.4 The test: what joins the pieces?
 

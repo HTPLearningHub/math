@@ -465,7 +465,7 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Quantity | Ch. 25 § 1.3 | A bracketed group; "the quantity $6x^{3}y$, squared". Reach of an exponent itself is Ch. 11 § 5.1 |
 | Power of a quotient, $\left(\frac{a}{b}\right)^{n} = \frac{a^{n}}{b^{n}}$ | Ch. 25 § 2 | fig_01, a $\frac{2}{3}$ square inside a whole; built on Ch. 16 § 3.2. Closes Ch. 10's gap |
 | An exponent cannot pass $+$ or $-$ | Ch. 25 § 3.1, § 3.4 | $(3+2)^{2} = 25$ vs $13$; fig_03, "what joins the pieces?" - the chapter's spine |
-| $(a + b)^{2} = a^{2} + 2ab + b^{2}$ | Ch. 25 § 3.2 - 3.3 | fig_02, the four pieces; derived from Ch. 6 § 4.3 and Ch. 19 §§ 3-4. FOIL named only |
+| $(a + b)^{2} = a^{2} + 2ab + b^{2}$ | Ch. 25 § 3.2 - 3.3 | fig_02, the four pieces; derived from Ch. 6 § 4.3 and Ch. 19 §§ 3-4. FOIL itself is Ch. 29 |
 | Expand | Ch. 25 § 3.3 | Multiply a bracket out until none is left |
 | Negative exponent on a fraction | Ch. 25 § 4 | $\left(\frac{a}{b}\right)^{-n} = \left(\frac{b}{a}\right)^{n}$; fig_04. The flip uses up the minus sign |
 | $x^{\frac{m}{n}} = \left(\sqrt[n]{x}\right)^{m}$, root first | Ch. 25 § 5 | fig_05, $64^{\frac{2}{3}} = 16$ by two roads. The other form is Ch. 24 § 7.3 |
@@ -502,6 +502,24 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Opposite of a polynomial, $A - B = A + (-B)$ | Ch. 28 § 4.3 | Every sign changed; columns subtract by adding the opposite (§ 4.5) |
 | "Subtract $B$ from $A$" is $A - B$ | Ch. 28 § 4.1 | Order matters; same backwards reading as Ch. 22 § 3.3 |
 | Choosing the check value | Ch. 28 § 6.2 | $x = 0$ sees constants only, $x = 1$ misses wrong exponents; use $x = 2$ |
+| Monomial times monomial | Ch. 29 § 1.1 - 1.2 | Numbers with numbers, letters with letters (Ch. 6 § 1.3-1.4 + Ch. 10 § 4); Warning $x \cdot x \neq 2x$ |
+| Two brackets = distributing twice | Ch. 29 § 2 | fig_01: $13 \times 12$ rectangle cut both ways, $100+20+30+6$; $(x+3)(x-2) = x^{2}+x-6$ |
+| Number of products = terms times terms | Ch. 29 § 2.3, § 5.1 | $2 \times 2 = 4$, $2 \times 3 = 6$, $3 \times 3 = 9$; a short list means a missing product |
+| FOIL method | Ch. 29 § 3 | fig_02 arcs; $(a+b)(c+d) = ac+ad+bc+bd$; only an order, only for two binomials |
+| Each term carries its sign (in a product) | Ch. 29 § 4 | $(x^{2}+4)(-2x-1) = -2x^{3}-x^{2}-8x-4$, nothing to collect |
+| Every term meets every term | Ch. 29 § 5 | fig_03; binomial times trinomial with $x$, $y$; $yx = xy$, alphabetical order |
+| Grid method | Ch. 29 § 5.3 | 3 by 3 Markdown grid, $(x^{2}+2x-1)(x^{2}-x+3) = x^{4}+x^{3}+7x-3$, $0x^{2}$ drops |
+| Check value must not zero a bracket | Ch. 29 § 2.2, § 6.2 | $(x+3)(x-2)$ at $x=2$ gives $0$; $x^{2}-4$ would pass too |
+| Quadratic equation | Ch. 30 § 1.1 - 1.2 | Polynomial equation of degree $2$; $ax^{2} + bx + c = 0$, $a \neq 0$ (why), signs belong to $b$, $c$ |
+| Root / zero of an equation | Ch. 30 § 1.3 | Other names for a solution; Note on *root*'s two meanings (Ch. 24 § 1.2) |
+| Why $x^{2}$ and $x$ block the old methods | Ch. 30 § 1.4 | Letter twice, unlike terms; links Ch. 24 § 8.1, Ch. 26 § 4, Ch. 21 |
+| Zero product property | Ch. 30 § 2 | $12$ tells nothing, $0$ tells something; proof by dividing by $A$; value table for $(x+5)(x+2)$ |
+| Only a product of zero splits | Ch. 30 § 2.5, § 6.2 | $x(x+7) = -10$, $x = -10$ gives $30$; Q7 $(x-1)(x+2) = 4$ |
+| Factored form; factoring a trinomial | Ch. 30 § 3.1 - 3.3 | FOIL backwards; fig_01 grid filled backwards; $(x+m)(x+n) = x^{2} + (m+n)x + mn$ |
+| Multiply to $c$, add to $b$ | Ch. 30 § 3.3 - 3.4 | Start from the product; sign table of four rows, "further from $0$" carries $b$'s sign |
+| Solving $x^{2} + bx + c = 0$ by factoring | Ch. 30 § 4 | $x^{2}+7x+10 \to -5, -2$; $x^{2}-8x-20 \to 10, -2$; pair tables with sums |
+| Factoring when $a \neq 1$ (trial of places) | Ch. 30 § 5 | fig_02; $3x^{2}+5x-2 = (3x-1)(x+2)$, all four tries tabled; $p r = a$, $q s = c$, $ps + qr = b$ |
+| Method for solving by factoring | Ch. 30 § 6 | fig_03 flow; traps: right side not $0$, sign of answer, stopping at brackets |
 
 ## Chapter notes
 
@@ -533,3 +551,5 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 26 - Solving equations with roots and exponents](./26_equations_with_roots_and_exponents.md)
 * [Chapter 27 - Introduction to polynomials](./27_introduction_to_polynomials.md)
 * [Chapter 28 - Adding and subtracting polynomials](./28_adding_and_subtracting_polynomials.md)
+* [Chapter 29 - Multiplying polynomials: the FOIL method](./29_multiplying_polynomials.md)
+* [Chapter 30 - Solving quadratic equations by factoring](./30_solving_quadratics_by_factoring.md)

@@ -831,4 +831,4 @@ standard form. The new skill is keeping many terms in order at once.
 
 - [Back to the book](./../README.md)
 - Previous: [27 Introduction to polynomials](./../27_Introduction_To_Polynomials/27_Introduction_To_Polynomials.md)
-- Next: not written yet.
+- Next: [29 Multiplying polynomials: the FOIL method](./../29_Multiplying_Polynomials/29_Multiplying_Polynomials.md)

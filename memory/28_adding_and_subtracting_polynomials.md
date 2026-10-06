@@ -84,7 +84,7 @@ gold $x$, orange constant; green answer; grey labels / vanished term; magenta th
 
 ## Not covered yet - waiting for a source
 
-* Multiplying and dividing polynomials; FOIL; factoring polynomials; solving polynomial
+* (Multiplying and FOIL: now Ch. 29.) Dividing polynomials; factoring polynomials; solving polynomial
   equations; graphing.
 * Polynomials in more than one letter (adding $3xy + 2xy$).
 * Function notation $P(x)$.
