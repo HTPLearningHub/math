@@ -914,4 +914,4 @@ expands $(x + 3)^{2}$ into the quadratic trinomial $x^{2} + 6x + 9$.
 
 - [Back to the book](./../README.md)
 - Previous: [26 Solving equations with roots and exponents](./../26_Equations_With_Roots_And_Exponents/26_Equations_With_Roots_And_Exponents.md)
-- Next: not written yet.
+- Next: [28 Adding and subtracting polynomials](./../28_Adding_And_Subtracting_Polynomials/28_Adding_And_Subtracting_Polynomials.md)

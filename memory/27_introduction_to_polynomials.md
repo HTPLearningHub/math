@@ -93,7 +93,7 @@ green allowed or agreeing, red not allowed, grey labels.
 
 ## Not covered yet - waiting for a source
 
-* Adding, subtracting, multiplying, dividing polynomials; FOIL for binomials; factoring
+* (Adding and subtracting: now Ch. 28.) Multiplying, dividing polynomials; FOIL for binomials; factoring
   polynomials; solving quadratic and higher equations; graphing polynomial functions - all
   named by the source as "next lessons".
 * Polynomials in more than one letter (degree of $x^{2}y^{3}$) - not in the source.

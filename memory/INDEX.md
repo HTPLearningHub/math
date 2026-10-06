@@ -494,6 +494,14 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Standard form | Ch. 27 § 6.1 | fig_04; largest exponent first, sign travels (Ch. 19 § 2.4), checked with a number |
 | Leading term, leading coefficient | Ch. 27 § 6.2 | Term with the largest exponent, first in standard form; not "the first written" |
 | Reading a whole polynomial | Ch. 27 § 7 | Seven steps; standard form first |
+| Adding polynomials is collecting like terms | Ch. 28 § 1 | Like = same exponent; $Ax^{k} + Bx^{k} = (A+B)x^{k}$; $9x^{6}$ caught at $x = 2$ |
+| Horizontal method | Ch. 28 § 2 | fig_01; plus before a bracket is $\times 1$; four steps; $0x$ disappears |
+| Vertical (column) method | Ch. 28 § 3 | fig_02; one column per exponent, place holder $0x^{k}$ |
+| No carrying between polynomial columns | Ch. 28 § 3.4 | $10x^{2} \neq x^{3}$ because $x \neq 10$; corrects "exactly like $123 + 456$" |
+| Minus sign in front of a bracket | Ch. 28 § 4.2 | fig_03; $-(a+b-c) = -a-b+c$, via $\times(-1)$ and Ch. 19 § 3.5 |
+| Opposite of a polynomial, $A - B = A + (-B)$ | Ch. 28 § 4.3 | Every sign changed; columns subtract by adding the opposite (§ 4.5) |
+| "Subtract $B$ from $A$" is $A - B$ | Ch. 28 § 4.1 | Order matters; same backwards reading as Ch. 22 § 3.3 |
+| Choosing the check value | Ch. 28 § 6.2 | $x = 0$ sees constants only, $x = 1$ misses wrong exponents; use $x = 2$ |
 
 ## Chapter notes
 
@@ -524,3 +532,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 25 - Simplifying expressions with exponents and roots](./25_simplifying_expressions.md)
 * [Chapter 26 - Solving equations with roots and exponents](./26_equations_with_roots_and_exponents.md)
 * [Chapter 27 - Introduction to polynomials](./27_introduction_to_polynomials.md)
+* [Chapter 28 - Adding and subtracting polynomials](./28_adding_and_subtracting_polynomials.md)
