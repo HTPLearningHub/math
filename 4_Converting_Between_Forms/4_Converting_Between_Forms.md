@@ -286,7 +286,7 @@ The bar over the $3$ means "this digit goes on for ever". The three dots mean th
 
 **Warning.** $0.\overline{3}$ is not the same as $0.333$. The first one never ends; the second
 one stops after three digits and is very slightly smaller. When you need a short answer, say
-how you shortened it: "$\frac{1}{3}$ is about $0.33$."
+how you shortened it: $\frac{1}{3}$ is about $0.33$.
 
 ### 2.5 And then straight on to a percent
 
