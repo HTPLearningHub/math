@@ -470,6 +470,17 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Negative exponent on a fraction | Ch. 25 § 4 | $\left(\frac{a}{b}\right)^{-n} = \left(\frac{b}{a}\right)^{n}$; fig_04. The flip uses up the minus sign |
 | $x^{\frac{m}{n}} = \left(\sqrt[n]{x}\right)^{m}$, root first | Ch. 25 § 5 | fig_05, $64^{\frac{2}{3}} = 16$ by two roads. The other form is Ch. 24 § 7.3 |
 | Order of attack for a long expression | Ch. 25 § 6.1 | Six steps; worked on $(6x^{3}y)^{2}$, $4x^{3}y(\ldots)^{2} = \frac{9y^{5}}{x}$, $\left(\frac{x^{6}}{64}\right)^{-\frac{2}{3}} = \frac{16}{x^{4}}$ |
+| Root sign as an invisible bracket | Ch. 26 § 1.2 | $\sqrt{x+9} \neq \sqrt{x} + 9$, tested at $x = 16$; like Ch. 21 § 4.1's fraction bar |
+| Squaring both sides to undo a square root | Ch. 26 § 2.1 - 2.2 | $(\sqrt{A})^{2} = A$ from the meaning of the root; $\sqrt{x+9} = 5 \to 16$. Get the root alone first (§ 2.3) |
+| Raising to the index to undo any root | Ch. 26 § 2.4 - 2.5 | $\sqrt[3]{x-2} = 3 \to 29$; $(\sqrt[n]{A})^{n} = A$ |
+| Reciprocal power | Ch. 26 § 3 | fig_02; $\frac{m}{n}$ undone by $\frac{n}{m}$. $(x+2)^{\frac{3}{2}} = 8 \to 2$. An exponent is not a multiplier (§ 3.5) |
+| Fractional exponent with an even top hides a $\pm$ | Ch. 26 § 3.6 | Note only; $(x-1)^{\frac{2}{3}} = 9$ gives $28$, and $-26$ if the bracket may be negative |
+| Isolate $x^{2}$ before the root | Ch. 26 § 4 | $x^{2} + 5 = 41 \to \pm 6$; $x^{2} = k$ itself is Ch. 24 § 8.1 |
+| $(c\sqrt{A})^{2} = c^{2}A$ | Ch. 26 § 5.1 | Ch. 10 § 8.4 applied; $9(x-1)$, not $3(x-1)$ |
+| Roots on both sides | Ch. 26 § 5.2 | $3\sqrt{x-1} = \sqrt{x+1} \to \frac{5}{4}$; after squaring it is Ch. 21 |
+| Squaring is one-way | Ch. 26 § 6.1 | fig_03; $3 = -3$ false, $9 = 9$ true. If $A = B$ then $A^{2} = B^{2}$, not the converse |
+| Extraneous solution | Ch. 26 § 6.2 | $\sqrt{2x+1} = -3 \to 4$, check fails. After squaring the check is compulsory; cubing is safe |
+| The method for root and power equations | Ch. 26 § 7 | fig_04; isolate, undo, solve, check. Only step 2 is new |
 
 ## Chapter notes
 
@@ -498,3 +509,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 23 - Solving inequalities](./23_solving_inequalities.md)
 * [Chapter 24 - Square roots, cube roots and other roots](./24_roots.md)
 * [Chapter 25 - Simplifying expressions with exponents and roots](./25_simplifying_expressions.md)
+* [Chapter 26 - Solving equations with roots and exponents](./26_equations_with_roots_and_exponents.md)

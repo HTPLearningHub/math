@@ -51,3 +51,4 @@ advanced topics.
 [23 Solving inequalities](./23_Solving_Inequalities/23_Solving_Inequalities.md)\
 [24 Square roots, cube roots and other roots](./24_Roots/24_Roots.md)\
 [25 Simplifying expressions with exponents and roots](./25_Simplifying_Expressions/25_Simplifying_Expressions.md)\
+[26 Solving equations with roots and exponents](./26_Equations_With_Roots_And_Exponents/26_Equations_With_Roots_And_Exponents.md)\
