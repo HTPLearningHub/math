@@ -234,8 +234,8 @@ shared out. Correct.
 | $90$ tenths | $4$ tenths | $10$ tenths |
 | $100$ hundredths | $5$ hundredths | nothing |
 
-Row 2: $20 \times 4 = 80$, and $90 - 80 = 10$. Row 3: $20 \times 5 = 100$, and
-$100 - 100 = 0$.
+* **Row 2:** $20 \times 4 = 80$, and $90 - 80 = 10$. 
+* **Row 3:** $20 \times 5 = 100$, and $100 - 100 = 0$.
 
 $$
 \frac{9}{20} = 0.45
