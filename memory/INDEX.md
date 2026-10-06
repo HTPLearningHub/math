@@ -520,6 +520,13 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Solving $x^{2} + bx + c = 0$ by factoring | Ch. 30 § 4 | $x^{2}+7x+10 \to -5, -2$; $x^{2}-8x-20 \to 10, -2$; pair tables with sums |
 | Factoring when $a \neq 1$ (trial of places) | Ch. 30 § 5 | fig_02; $3x^{2}+5x-2 = (3x-1)(x+2)$, all four tries tabled; $p r = a$, $q s = c$, $ps + qr = b$ |
 | Method for solving by factoring | Ch. 30 § 6 | fig_03 flow; traps: right side not $0$, sign of answer, stopping at brackets |
+| A bracket squared equals a number | Ch. 31 § 1.2 | $(x+3)^{2} = 16 \to 1, -7$; bracket as one number, then Ch. 24 § 8.1 |
+| $(x + d)^{2} = x^{2} + 2dx + d^{2}$ | Ch. 31 § 2.1, § 2.3 | Ch. 25 § 3.3 with $a = x$; $(x-2)^{2} = x^{2}-4x+4$ |
+| Perfect square trinomial | Ch. 31 § 2.2 | Test: half of middle number, squared = last number |
+| Completing the square, $\left(\frac{b}{2}\right)^{2}$ | Ch. 31 § 2.4, § 3 | fig_01 missing corner; needs exactly $x^{2}$ in front |
+| Solving by completing the square | Ch. 31 §§ 4-5, § 7 | $x^{2}+2x-6 \to -1 \pm \sqrt{7}$; odd $b$ gives fractions; divide by $a$ first; fig_03 seven steps |
+| Completing the square can end in no solution | Ch. 31 § 7.4 | $(x+1)^{2} = -4$; corrects "solves any quadratic" |
+| Graph, parabola, vertex, axis of symmetry | Ch. 31 § 6 | fig_02; minimal: solutions = crossings of zero line, lowest point from $(x+1)^{2} - 7$ |
 
 ## Chapter notes
 
@@ -553,3 +560,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 28 - Adding and subtracting polynomials](./28_adding_and_subtracting_polynomials.md)
 * [Chapter 29 - Multiplying polynomials: the FOIL method](./29_multiplying_polynomials.md)
 * [Chapter 30 - Solving quadratic equations by factoring](./30_solving_quadratics_by_factoring.md)
+* [Chapter 31 - Solving quadratic equations by completing the square](./31_solving_quadratics_by_completing_the_square.md)

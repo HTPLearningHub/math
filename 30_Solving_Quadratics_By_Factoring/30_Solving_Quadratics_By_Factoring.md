@@ -192,7 +192,7 @@ $$
 B = 0
 $$
 
-On the left, $A$ divided by $A$ is $1$, so only $B$ is left. On the right, $rac{0}{A}$ asks "what
+On the left, $A$ divided by $A$ is $1$, so only $B$ is left. On the right, $\frac{0}{A}$ asks "what
 times $A$ gives $0$?", and the answer is $0$
 ([inverse operations, Chapter 8, section 1.1](./../8_Dividing_Large_Numbers/8_Dividing_Large_Numbers.md#11-small-divisions-are-times-tables-read-backwards)).
 So if $A$ is not $0$, then $B$ must be $0$. One of the two is always $0$.
@@ -993,4 +993,4 @@ equation with $x^{2}$ can have two answers started in
 
 - [Back to the book](./../README.md)
 - Previous: [29 Multiplying polynomials: the FOIL method](./../29_Multiplying_Polynomials/29_Multiplying_Polynomials.md)
-- Next: not written yet.
+- Next: [31 Solving quadratic equations by completing the square](./../31_Solving_Quadratics_By_Completing_The_Square/31_Solving_Quadratics_By_Completing_The_Square.md)
