@@ -512,7 +512,7 @@ $45\\%$ is already a percent. Leave it.
 $\frac{21}{50}$: the bottom is $50$, and $50 \times 2 = 100$, so multiply both lines by $2$:
 
 $$
-\frac{21}{50} = \frac{21 \times 2}{50 \times 2} = \frac{42}{100} = 42\%
+\frac{21}{50} = \frac{21 \times 2}{50 \times 2} = \frac{42}{100} = 42\\%
 $$
 
 $0.43$: move the point two places to the right:
