@@ -460,6 +460,16 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Solving $x^{3} = k$ | Ch. 24 § 8.2 | One answer whatever the sign of $k$; $y^{3} = -216$ gives $-6$ |
 | An equation with no solution | Ch. 24 § 8.3 | $x^{2} = -4$. The book's first one; the other half of Ch. 21's pair is still open |
 | $\sqrt{x^{2}} = \lvert x \rvert$ | Ch. 24 § 11 | Important notes only, with $x = -3$; corrects the source's key-points list |
+| The rules already owned, with their usual names | Ch. 25 § 1.1 | Seven-row link table; product rule, quotient rule, ... are names only, the ideas are Ch. 10 and Ch. 24 |
+| Simplified (finished form) for exponents | Ch. 25 § 1.2 | Five points; $9x^{-1}y^{5}$ equals $\frac{9y^{5}}{x}$ but only the second is finished |
+| Quantity | Ch. 25 § 1.3 | A bracketed group; "the quantity $6x^{3}y$, squared". Reach of an exponent itself is Ch. 11 § 5.1 |
+| Power of a quotient, $\left(\frac{a}{b}\right)^{n} = \frac{a^{n}}{b^{n}}$ | Ch. 25 § 2 | fig_01, a $\frac{2}{3}$ square inside a whole; built on Ch. 16 § 3.2. Closes Ch. 10's gap |
+| An exponent cannot pass $+$ or $-$ | Ch. 25 § 3.1, § 3.4 | $(3+2)^{2} = 25$ vs $13$; fig_03, "what joins the pieces?" - the chapter's spine |
+| $(a + b)^{2} = a^{2} + 2ab + b^{2}$ | Ch. 25 § 3.2 - 3.3 | fig_02, the four pieces; derived from Ch. 6 § 4.3 and Ch. 19 §§ 3-4. FOIL named only |
+| Expand | Ch. 25 § 3.3 | Multiply a bracket out until none is left |
+| Negative exponent on a fraction | Ch. 25 § 4 | $\left(\frac{a}{b}\right)^{-n} = \left(\frac{b}{a}\right)^{n}$; fig_04. The flip uses up the minus sign |
+| $x^{\frac{m}{n}} = \left(\sqrt[n]{x}\right)^{m}$, root first | Ch. 25 § 5 | fig_05, $64^{\frac{2}{3}} = 16$ by two roads. The other form is Ch. 24 § 7.3 |
+| Order of attack for a long expression | Ch. 25 § 6.1 | Six steps; worked on $(6x^{3}y)^{2}$, $4x^{3}y(\ldots)^{2} = \frac{9y^{5}}{x}$, $\left(\frac{x^{6}}{64}\right)^{-\frac{2}{3}} = \frac{16}{x^{4}}$ |
 
 ## Chapter notes
 
@@ -487,3 +497,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 22 - Word problems: turning a story into an equation](./22_word_problems.md)
 * [Chapter 23 - Solving inequalities](./23_solving_inequalities.md)
 * [Chapter 24 - Square roots, cube roots and other roots](./24_roots.md)
+* [Chapter 25 - Simplifying expressions with exponents and roots](./25_simplifying_expressions.md)

@@ -1455,4 +1455,4 @@ exponent.
 
 - [Back to the book](./../README.md)
 - Previous: [23 Solving inequalities](./../23_Solving_Inequalities/23_Solving_Inequalities.md)
-- Next: not written yet.
+- Next: [25 Simplifying expressions with exponents and roots](./../25_Simplifying_Expressions/25_Simplifying_Expressions.md)

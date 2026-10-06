@@ -50,3 +50,4 @@ advanced topics.
 [22 Word problems: turning a story into an equation](./22_Word_Problems/22_Word_Problems.md)\
 [23 Solving inequalities](./23_Solving_Inequalities/23_Solving_Inequalities.md)\
 [24 Square roots, cube roots and other roots](./24_Roots/24_Roots.md)\
+[25 Simplifying expressions with exponents and roots](./25_Simplifying_Expressions/25_Simplifying_Expressions.md)\

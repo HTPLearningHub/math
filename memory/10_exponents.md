@@ -204,16 +204,16 @@ Layout lessons worth keeping, on top of the Chapter 9 list:
   7, 8 and 9 and most visible here, because § 9.4 has to open a bracket before anything else.
   § 12's closing paragraph now links forward to Chapter 11 instead of saying the rule is missing.
   BODMAS, the other acronym, is still open - see the Chapter 11 note.
-* **Fractional exponents and roots**, including square roots. Nothing in the book mentions them,
-  and the source does not either.
+* ~~**Fractional exponents and roots**.~~ **Closed by Chapter 24**, and Chapter 25 § 5 adds the
+  root-first road.
 * **A negative base**, such as $(-2)^{3}$ or $(-2)^{4}$, and the odd/even pattern. Every base in
   this chapter is positive; only the *exponent* is ever negative.
 * **$0^{0}$**, and what happens to $0$ raised to anything. § 5.2's Note only says the base must
   not be zero.
 * **Scientific notation**, deliberately avoided in § 3.3. It is the obvious next use of powers
   of ten and the book has now laid every piece of groundwork for it.
-* **The power of a quotient**, $\left(\frac{x}{y}\right)^{a}$. § 8.4 covers a product inside a
-  bracket only.
+* ~~**The power of a quotient**, $\left(\frac{x}{y}\right)^{a}$.~~ **Closed by Chapter 25 § 2**,
+  together with a negative exponent on a fraction (§ 4).
 * **Powers of a decimal or a fraction**, such as $(0.5)^{3}$ or $\left(\frac{2}{3}\right)^{2}$.
   Every base worked out here is a whole number.
 * **Why $a^{m} = a^{n}$ forces $m = n$** in general. § 9.5 argues it for a base of $2$, in

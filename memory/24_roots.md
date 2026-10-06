@@ -265,4 +265,5 @@ Layout lessons worth keeping, on top of the Chapter 10 and 23 lists:
 * **An equation where every number is a solution** - Ch. 21's memory pairs this with "no solution",
   and § 8.3 has now closed only the second half.
 * **Roots of fractions and decimals** other than § 4.5's single example; **$0^{0}$** and powers of
-  zero; **scientific notation**; **the power of a quotient** - all still open from Chapter 10.
+  zero; **scientific notation** - still open from Chapter 10. (**The power of a quotient** is
+  closed by Chapter 25 § 2.)
