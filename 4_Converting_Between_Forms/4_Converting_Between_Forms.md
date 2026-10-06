@@ -488,7 +488,7 @@ bottom. Every other bottom number here divides a power of ten exactly, so the di
 
 Which is biggest?
 
-$$45\%, \qquad \frac{21}{50}, \qquad 0.43$$
+$45\%, \qquad \frac{21}{50}, \qquad 0.43$
 
 Looking at them tells you nothing useful. $45$ is the biggest number on the page, but it is a
 percent. $50$ is bigger still, but it is a bottom number, and a bigger bottom number means
