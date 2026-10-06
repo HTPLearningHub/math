@@ -481,6 +481,19 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Squaring is one-way | Ch. 26 § 6.1 | fig_03; $3 = -3$ false, $9 = 9$ true. If $A = B$ then $A^{2} = B^{2}$, not the converse |
 | Extraneous solution | Ch. 26 § 6.2 | $\sqrt{2x+1} = -3 \to 4$, check fails. After squaring the check is compulsory; cubing is safe |
 | The method for root and power equations | Ch. 26 § 7 | fig_04; isolate, undo, solve, check. Only step 2 is new |
+| Polynomial, monomial | Ch. 27 § 1.2 | Sum of terms, each a number times $x$ to a whole number; *mono*/*poly* word parts |
+| Non-negative integers (name) | Ch. 27 § 1.2 | Same list as Ch. 12 § 1.2's whole numbers |
+| A plain number has exponent $0$ | Ch. 27 § 1.3 | $7 = 7x^{0}$, $-2x = -2x^{1}$; Note: $x^{0}$ read as $1$ even at $x = 0$ inside a polynomial |
+| General form $a_{n}x^{n} + \cdots + a_{0}$ | Ch. 27 § 1.4 | Subscripts are labels, matched to $2x^{2} - 7x + 4$ |
+| Polynomial equation | Ch. 27 § 1.5 | Name only; expression vs equation is Ch. 18 § 4 |
+| Polynomial or not (the test) | Ch. 27 § 2 | fig_02; negative exponent = $x$ under a bar, fraction exponent = root. $\frac{x}{4}$ IS one |
+| Degree | Ch. 27 § 4 | Largest exponent, after collecting like terms (§ 4.4). Not the biggest number, not the first term. $8$ has degree $0$, $0$ has none |
+| Monomial, binomial, trinomial | Ch. 27 § 5.1 | By number of terms; four or more has no name |
+| Constant, linear, quadratic, cubic, quartic, quintic | Ch. 27 § 5.2 | Names by degree $0$-$5$ |
+| Two names together | Ch. 27 § 5.3 | fig_03 grid; quadratic trinomial. Degree $\neq$ number of terms |
+| Standard form | Ch. 27 § 6.1 | fig_04; largest exponent first, sign travels (Ch. 19 § 2.4), checked with a number |
+| Leading term, leading coefficient | Ch. 27 § 6.2 | Term with the largest exponent, first in standard form; not "the first written" |
+| Reading a whole polynomial | Ch. 27 § 7 | Seven steps; standard form first |
 
 ## Chapter notes
 
@@ -510,3 +523,4 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 24 - Square roots, cube roots and other roots](./24_roots.md)
 * [Chapter 25 - Simplifying expressions with exponents and roots](./25_simplifying_expressions.md)
 * [Chapter 26 - Solving equations with roots and exponents](./26_equations_with_roots_and_exponents.md)
+* [Chapter 27 - Introduction to polynomials](./27_introduction_to_polynomials.md)

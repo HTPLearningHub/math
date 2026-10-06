@@ -1098,4 +1098,4 @@ $\sqrt{x + 3} = x - 3$.
 
 - [Back to the book](./../README.md)
 - Previous: [25 Simplifying expressions with exponents and roots](./../25_Simplifying_Expressions/25_Simplifying_Expressions.md)
-- Next: not written yet.
+- Next: [27 Introduction to polynomials](./../27_Introduction_To_Polynomials/27_Introduction_To_Polynomials.md)
