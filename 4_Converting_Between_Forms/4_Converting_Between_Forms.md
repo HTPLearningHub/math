@@ -518,7 +518,7 @@ $$
 $0.43$: move the point two places to the right:
 
 $$
-0.43 \quad \to \quad 43\%
+0.43 \quad \to \quad 43\\%
 $$
 
 **Step 2 — compare.** Now every number is out of $100$, so the top numbers decide:
