@@ -893,4 +893,4 @@ and the four pieces of Chapter 25's Figure 2, with one piece missing.
 
 - [Back to the book](./../README.md)
 - Previous: [30 Solving quadratic equations by factoring](./../30_Solving_Quadratics_By_Factoring/30_Solving_Quadratics_By_Factoring.md)
-- Next: not written yet.
+- Next: [32 Solving higher-degree equations](./../32_Solving_Higher_Degree_Equations/32_Solving_Higher_Degree_Equations.md)

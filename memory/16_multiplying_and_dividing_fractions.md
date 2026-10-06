@@ -225,7 +225,7 @@ Layout lessons worth keeping, on top of the Chapter 9 to 15 lists:
 
 ## Topics the transcripts have not covered yet
 
-* **Cancelling before you multiply** (cross-cancelling). The source explicitly teaches
+* **Cancelling before you multiply** (cross-cancelling). **Now Ch. 33 § 4.1** (with $rac{4}{9} 	imes rac{3}{8}$). The source explicitly teaches
   "simplify last" and never mentions simplifying the factors first, so the chapter does not
   either. It would have shortened § 7.2 considerably - $\frac{7}{12} \times \frac{15}{14}$ cancels
   to $\frac{1}{4} \times \frac{5}{2}$ before any multiplication - and it is the obvious next
@@ -235,6 +235,6 @@ Layout lessons worth keeping, on top of the Chapter 9 to 15 lists:
 * **Multiplying or dividing negative fractions.** Not in this source. Ch. 9 § 7's sign grid would
   cover it in a paragraph.
 * **Multiplying three or more fractions in one line.** The source only ever multiplies two.
-* **Fractions with letters in them** (algebraic fractions). Not in this source.
+* ~~**Fractions with letters in them** (algebraic fractions).~~ **Now Chapter 33** (rational expressions).
 * Still open from Chapter 15: **an addition whose answer comes out bigger than $1$**, and
   **adding and subtracting mixed numbers**.

@@ -135,6 +135,6 @@ through them.
 * (Multiplying two different brackets and FOIL: now Ch. 29; § 3.3's Note links there.)
 * **$(a - b)^{2}$ expanded**, and **$(a + b)^{3}$** - the source only says they cannot be handed
   out.
-* **Adding and subtracting roots**, rationalising a denominator - still open from Ch. 24.
+* **Adding and subtracting roots** - still open from Ch. 24. (Rationalising a denominator: now Ch. 33 § 8.)
 * **A negative base with a fractional exponent**, e.g. $(-8)^{\frac{2}{3}}$ - deliberately excluded
   by the positive-letter assumption.

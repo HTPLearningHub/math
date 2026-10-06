@@ -56,4 +56,6 @@ advanced topics.
 [28 Adding and subtracting polynomials](./28_Adding_And_Subtracting_Polynomials/28_Adding_And_Subtracting_Polynomials.md)\
 [29 Multiplying polynomials: the FOIL method](./29_Multiplying_Polynomials/29_Multiplying_Polynomials.md)\
 [30 Solving quadratic equations by factoring](./30_Solving_Quadratics_By_Factoring/30_Solving_Quadratics_By_Factoring.md)\
-[31 Solving quadratic equations by completing the square](./31_Solving_Quadratics_By_Completing_The_Square/31_Solving_Quadratics_By_Completing_The_Square.md)
+[31 Solving quadratic equations by completing the square](./31_Solving_Quadratics_By_Completing_The_Square/31_Solving_Quadratics_By_Completing_The_Square.md)\
+[32 Solving higher-degree equations: synthetic division and the rational roots test](./32_Solving_Higher_Degree_Equations/32_Solving_Higher_Degree_Equations.md)\
+[33 Rational expressions: simplifying, the four operations and rationalizing](./33_Rational_Expressions/33_Rational_Expressions.md)

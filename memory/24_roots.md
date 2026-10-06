@@ -249,7 +249,7 @@ Layout lessons worth keeping, on top of the Chapter 10 and 23 lists:
 
 * **Adding and subtracting roots**, such as $\sqrt{2} + \sqrt{8}$ or $3\sqrt{5} - \sqrt{5}$. The
   source never does it. This is the obvious next step after § 4 and is named in § 11.
-* **Clearing a root out of the bottom of a fraction** (rationalising a denominator). The source's
+* ~~**Clearing a root out of the bottom of a fraction** (rationalising a denominator).~~ **Now Ch. 33 § 8.** The source's
   quotient property points straight at it and stops.
 * **Quadratic equations** - anything of the shape $x^{2} + 5x = 6$, where the letter appears both
   squared and plain. § 8 solves only $x^{2} = k$. Named in § 11.

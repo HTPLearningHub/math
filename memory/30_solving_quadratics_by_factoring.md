@@ -92,7 +92,7 @@ unknown or wrong, grey labels. fig_03: blue = new steps, slate = older steps, gr
 
 * Quadratics with $b = 0$ or $c = 0$ as their own cases (only Q10 touches $c = 0$); difference of
   two squares; perfect-square trinomials; taking out a common factor before factoring a trinomial;
-  the AC (grouping) method.
+  the AC (grouping) method. (Difference of two squares: now Ch. 33 § 2, as a factoring pattern only.)
 * ~~Quadratics that cannot be factored with whole numbers; completing the square~~ - now Ch. 31.
   The quadratic
   formula; graphs of quadratics (the source's "path of a ball" is one sentence only).

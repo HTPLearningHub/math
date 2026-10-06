@@ -527,6 +527,33 @@ One row per topic. Says where the book explains it first. Read this before writi
 | Solving by completing the square | Ch. 31 §§ 4-5, § 7 | $x^{2}+2x-6 \to -1 \pm \sqrt{7}$; odd $b$ gives fractions; divide by $a$ first; fig_03 seven steps |
 | Completing the square can end in no solution | Ch. 31 § 7.4 | $(x+1)^{2} = -4$; corrects "solves any quadratic" |
 | Graph, parabola, vertex, axis of symmetry | Ch. 31 § 6 | fig_02; minimal: solutions = crossings of zero line, lowest point from $(x+1)^{2} - 7$ |
+| Cubic / quartic equation; higher-degree equation | Ch. 32 § 1.1 | Names from Ch. 27 § 5.2; "higher-degree" = degree above $2$ |
+| $P(x)$ notation (minimal) | Ch. 32 § 1.3 | A name for a polynomial and $P(c)$ = its value at $c$; functions in general still open |
+| Factor theorem | Ch. 32 § 2.2, § 4.3 | $P(c) = 0 \Leftrightarrow (x - c)$ is a factor; bracket-to-root by zero product, root-to-bracket by remainder theorem |
+| Root sign vs bracket sign | Ch. 32 § 2.1, § 3.6 | $(x + 3) \to -3$; corner of the board holds $c$, not $-c$ |
+| Depressed polynomial | Ch. 32 § 2.3 | What is left after taking out $(x - c)$; degree one lower |
+| Division of polynomials, $P(x) = (x-c)Q(x) + r$ | Ch. 32 § 3.1 | Ch. 8 § 5.3's division equation with polynomials; quotient, remainder |
+| Why synthetic division works | Ch. 32 § 3.2 | Coefficient matching in $(x-2)(Ax^{2}+Bx+C)+r$: multiply by $c$, add next |
+| Synthetic division (the board) | Ch. 32 § 3.3 - 3.4 | fig_01; four moves; boards written as Markdown tables |
+| Missing power needs a $0$ on the board | Ch. 32 § 3.5 | $x^{3} - 7x + 6$ by $(x-2)$: with $0$ remainder $0$, without it $-4$ |
+| Remainder theorem | Ch. 32 § 4.1 - 4.2 | Remainder $= P(c)$; $c = 1$ on the quartic gives $16$ both ways |
+| Integer; rational number | Ch. 32 § 6.1 | First full definition of integers (with negatives); rational = $\frac{p}{q}$ of integers |
+| Rational roots test | Ch. 32 § 6.2 - 6.5 | Why: $r(\dots) = 15$; fraction case via Ch. 12 fingerprint; candidates are only possible roots; never finds irrational roots |
+| Solving a higher-degree equation | Ch. 32 §§ 5, 7, 8.1 | Quartic $\to 2, -3, \pm\sqrt{5}$ (fig_02); cubic $\to 1, -\frac{1}{2}, -2$ (fig_03); fig_04 flow |
+| Degree $n$: at most $n$ solutions | Ch. 32 § 8.2 | Proof by $k(x - c_{1})\cdots(x - c_{n})$; fewer is possible |
+| Rational expression | Ch. 33 § 1.1 | Polynomial over polynomial; name from rational number (Ch. 32 § 6.1); usually not a polynomial (Ch. 27 § 2.2) |
+| Excluded value (domain restriction), $x \neq c$ | Ch. 33 § 1.2 | Set the bottom $= 0$ and solve; stays with the answer for life |
+| Difference of two squares, $a^{2} - b^{2} = (a-b)(a+b)$ | Ch. 33 § 2 | $7^{2} - 3^{2} = 4 \times 10$; FOIL proof (middle terms cancel); fig_02 area rearrangement; also via Ch. 30's "multiply to $-1$, add to $0$" |
+| Simplifying a rational expression; cancelling | Ch. 33 § 3 | $\frac{AC}{BC} = \frac{A}{B}$ via $\frac{C}{C} = 1$; four steps; $\frac{x^{3}+x^{2}}{x+1} = x^{2}$ with fig_03 hole at $-1$ |
+| Cancel factors, never terms | Ch. 33 § 3.5 | fig_01; $\frac{x+5}{x+2} \neq \frac{5}{2}$, test $x = 3$ gives $\frac{8}{5}$ |
+| Cancelling before multiplying | Ch. 33 § 4.1 | Closes Ch. 16's open loop; $\frac{4}{9} \times \frac{3}{8}$ both roads $= \frac{1}{6}$ |
+| Multiplying / dividing rational expressions | Ch. 33 §§ 4-5 | Factor, cancel across, multiply; keep-change-flip is Ch. 16 § 5 |
+| Division adds excluded values (flipped top) | Ch. 33 § 5.3 | $x = -3$ gives $0 \div 0$ though the answer gives $\frac{2}{5}$. Corrects the source |
+| LCD of polynomials | Ch. 33 § 6.2 | Each different factor, as many times as the most in one bottom; Ch. 13 § 3 with brackets for primes. Corrects the source's "every unique factor" |
+| Adding / subtracting rational expressions | Ch. 33 § 6 | Bracket the second top; finished-check via factor theorem (§ 6.4) |
+| Complex rational expression (complex fraction) | Ch. 33 § 7 | Ch. 16 § 5.4's tall fraction; top to one fraction, bottom to one fraction, divide |
+| Rationalizing the denominator | Ch. 33 § 8 | Multiply by a chosen $1$; $\frac{1}{\sqrt{a}} = \frac{\sqrt{a}}{a}$; a finished-form agreement, value unchanged. Closes Ch. 24/25 loop |
+| Conjugate | Ch. 33 § 8.3 | $a - \sqrt{b} \leftrightarrow a + \sqrt{b}$; product $a^{2} - b$ by § 2; same sign leaves $11 - 6\sqrt{2}$ (§ 8.4) |
 
 ## Chapter notes
 
@@ -561,3 +588,5 @@ One row per topic. Says where the book explains it first. Read this before writi
 * [Chapter 29 - Multiplying polynomials: the FOIL method](./29_multiplying_polynomials.md)
 * [Chapter 30 - Solving quadratic equations by factoring](./30_solving_quadratics_by_factoring.md)
 * [Chapter 31 - Solving quadratic equations by completing the square](./31_solving_quadratics_by_completing_the_square.md)
+* [Chapter 32 - Solving higher-degree equations: synthetic division and the rational roots test](./32_solving_higher_degree_equations.md)
+* [Chapter 33 - Rational expressions: simplifying, the four operations and rationalizing](./33_rational_expressions.md)

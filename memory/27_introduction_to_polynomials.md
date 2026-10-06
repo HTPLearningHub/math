@@ -94,8 +94,9 @@ green allowed or agreeing, red not allowed, grey labels.
 ## Not covered yet - waiting for a source
 
 * (Adding and subtracting: now Ch. 28. Multiplying and FOIL: now Ch. 29. Factoring trinomials and
-  solving quadratics by factoring: now Ch. 30.) Dividing polynomials; other factoring methods;
-  solving higher-degree equations; graphing polynomial functions - all
-  named by the source as "next lessons".
+  solving quadratics by factoring: now Ch. 30.) Dividing by $(x - c)$ and solving higher-degree
+  equations: now Ch. 32.) Long division of polynomials; other factoring methods; graphing
+  polynomial functions - all named by the source as "next lessons".
 * Polynomials in more than one letter (degree of $x^{2}y^{3}$) - not in the source.
-* Function notation $P(x)$ - still open.
+* Function notation $P(x)$ - Ch. 32 § 1.3 gives the minimal use (name, value at a number);
+  functions in general still open.
