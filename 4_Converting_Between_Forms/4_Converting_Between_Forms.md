@@ -507,7 +507,7 @@ $100$.
 
 **Step 1 — move everything to percent.**
 
-$45\%$ is already a percent. Leave it.
+$45\\%$ is already a percent. Leave it.
 
 $\frac{21}{50}$: the bottom is $50$, and $50 \times 2 = 100$, so multiply both lines by $2$:
 
