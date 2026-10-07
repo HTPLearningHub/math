@@ -524,14 +524,14 @@ $$
 **Step 2 — compare.** Now every number is out of $100$, so the top numbers decide:
 
 $$
-42\% < 43\% < 45\%
+42\\% < 43\\% < 45\\%
 $$
 
 **Step 3 — answer in the forms you were given.** The question asked about the original numbers,
 so put their own names back:
 
 $$
-\frac{21}{50} \; < \; 0.43 \; < \; 45\%
+\frac{21}{50} \; < \; 0.43 \; < \; 45\\%
 $$
 
 **Warning.** Do the comparing in the converted form, but write the answer in the original form.
