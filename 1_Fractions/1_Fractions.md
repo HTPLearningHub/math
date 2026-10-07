@@ -394,8 +394,7 @@ A fraction is a number, so it has its own place on the number line, exactly like
       />
 </p>
 
-*Figure 5 — Each step between two ticks is $\frac{1}{3}$. The proper fraction $\frac{2}{3}$
-sits before $1$. The improper fraction $\frac{4}{3}$ sits after $1$, one third past it.*
+**Figure 5 — Each step between two ticks is $\frac{1}{3}$. The proper fraction $\frac{2}{3}$ sits before $1$. The improper fraction $\frac{4}{3}$ sits after $1$, one third past it.**
 
 The picture makes the difference easy to see:
 
