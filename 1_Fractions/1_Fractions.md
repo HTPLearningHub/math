@@ -552,8 +552,7 @@ $$
       />
 </p>
 
-*Figure 6 — The $30$ slices fill three pizzas completely and leave $6$ slices on the fourth
-one. Six slices out of eight are $\frac{3}{4}$ of a pizza.*
+**Figure 6 — The $30$ slices fill three pizzas completely and leave $6$ slices on the fourth one. Six slices out of eight are $\frac{3}{4}$ of a pizza.**
 
 **Step 4 — decide what to order.**
 
