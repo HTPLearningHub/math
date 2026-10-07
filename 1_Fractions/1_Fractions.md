@@ -638,19 +638,15 @@ number: $\frac{7}{10}$, $\frac{11}{4}$, $2\frac{3}{5}$.
 
 For $\frac{4}{12}$, both numbers divide by $4$:
 
-
-<div>
-$$
+```math
 \frac{4}{12} = \frac{4 \div 4}{12 \div 4} = \frac{1}{3}
-$$
-</div>
-
+```
 
 For $\frac{10}{15}$, both numbers divide by $5$:
 
-$$
+```math
 \frac{10}{15} = \frac{10 \div 5}{15 \div 5} = \frac{2}{3}
-$$
+```
 
 </details>
 
@@ -660,16 +656,16 @@ $\frac{5}{12}$ and $\frac{7}{12}$.
 <details>
 <summary>Answer</summary>
 
-$$
+```math
 \frac{4}{9} < \frac{4}{7}
-$$
+```
 
 Both fractions take $4$ parts. The pizza cut into $7$ parts has bigger parts than the pizza
 cut into $9$ parts, so $\frac{4}{7}$ is more (section 4.2).
 
-$$
+```math
 \frac{5}{12} < \frac{7}{12}
-$$
+```
 
 Here the parts have the same size, so $7$ parts are more than $5$ parts (section 4.1).
 
@@ -683,9 +679,9 @@ Here the parts have the same size, so $7$ parts are more than $5$ parts (section
 For $\frac{14}{5}$: five goes into fourteen $2$ times, because $2 \times 5 = 10$. The
 remainder is $14 - 10 = 4$. So:
 
-$$
+```math
 \frac{14}{5} = 2\frac{4}{5}
-$$
+```
 
 Nothing but $1$ divides both $4$ and $5$, so this is finished.
 
@@ -693,13 +689,13 @@ For $\frac{18}{4}$: four goes into eighteen $4$ times, because $4 \times 4 = 16$
 remainder is $18 - 16 = 2$. So we get $4\frac{2}{4}$. Now simplify the fraction part, because
 both $2$ and $4$ divide by $2$:
 
-$$
+```math
 \frac{2}{4} = \frac{2 \div 2}{4 \div 2} = \frac{1}{2}
-$$
+```
 
-$$
+```math
 \frac{18}{4} = 4\frac{1}{2}
-$$
+```
 
 </details>
 
@@ -711,15 +707,15 @@ $$
 For $3\frac{2}{7}$: multiply first, $3 \times 7 = 21$. Then add the numerator,
 $21 + 2 = 23$. Keep the denominator:
 
-$$
+```math
 3\frac{2}{7} = \frac{23}{7}
-$$
+```
 
 For $5\frac{1}{2}$: multiply first, $5 \times 2 = 10$. Then add, $10 + 1 = 11$:
 
-$$
+```math
 5\frac{1}{2} = \frac{11}{2}
-$$
+```
 
 </details>
 
