@@ -315,9 +315,9 @@ $3$ slices. But the slices are not the same size.
 </p>
 
 
-*Figure 3 — Both plates hold $3$ slices. The left pizza was cut into $8$ slices, so its
+**Figure 3 — Both plates hold $3$ slices. The left pizza was cut into $8$ slices, so its
 slices are big. The right pizza was cut into $10$ slices, so its slices are small. Three big
-slices are more food than three small slices.*
+slices are more food than three small slices.**
 
 The pizza on the left was cut into fewer parts, so each part is bigger:
 
