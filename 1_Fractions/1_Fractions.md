@@ -360,8 +360,7 @@ pizza, so you hold $\frac{4}{3}$ of a pizza.
       />
 </p>
 
-*Figure 4 — Three of the four slices build one complete pizza. The fourth slice is left over.
-So $\frac{4}{3}$ is one whole pizza and one third more.*
+**Figure 4 — Three of the four slices build one complete pizza. The fourth slice is left over. So $\frac{4}{3}$ is one whole pizza and one third more.**
 
 We know from section 2.3 that $\frac{3}{3} = 1$. Three of your four slices make one whole
 pizza. One slice is still in your hand. So you have more than one pizza and less than two.
