@@ -639,7 +639,7 @@ number: $\frac{7}{10}$, $\frac{11}{4}$, $2\frac{3}{5}$.
 For $\frac{4}{12}$, both numbers divide by $4$:
 
 ```math
-\frac{4}{12} = \frac{4 \div 4}{12 \div 4} = \frac{1}{3}
+$\frac{4}{12} = \frac{4 \div 4}{12 \div 4} = \frac{1}{3}$
 ```
 
 For $\frac{10}{15}$, both numbers divide by $5$:
