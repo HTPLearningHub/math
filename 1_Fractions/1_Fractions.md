@@ -329,7 +329,7 @@ $$
 more parts and every part becomes smaller. So a **bigger denominator makes smaller slices**.
 When the number of slices is the same, the fraction with the smaller denominator wins.
 
-**Warning.** Do not think " $10$ is bigger than $8$, so $\frac{3}{10}$ is bigger". The
+**Warning.** Do not think $10$ is bigger than $8$, so $\frac{3}{10}$ is bigger. The
 denominator counts pieces, not food. More pieces means each piece is smaller.
 
 ### Summary of section 4
